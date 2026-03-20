@@ -1,0 +1,703 @@
+// ==========================================================
+// CISA DOMAIN 2: Tata Kelola dan Manajemen TI (1-100)
+// ==========================================================
+
+Q1 Tanggung jawab utama untuk menetapkan tata kelola TI dalam suatu organisasi berada pada: {
+    =Dewan Direksi (Board of Directors).
+    ~Chief Information Officer (CIO).
+    ~Manajer Audit Internal.
+    ~Komite Pengarah TI (IT Steering Committee).
+}
+
+Q2 Tujuan utama dari keselarasan strategis TI (IT Strategic Alignment) adalah untuk: {
+    =Memastikan investasi TI mendukung tujuan bisnis organisasi.
+    ~Memastikan semua staf menggunakan perangkat lunak versi terbaru.
+    ~Mengurangi ketergantungan organisasi pada vendor pihak ketiga.
+    ~Memusatkan semua pengambilan keputusan TI pada departemen TI.
+}
+
+Q3 Manakah dari berikut ini yang paling baik membantu auditor menentukan apakah TI mendukung tujuan organisasi? {
+    =Tinjauan terhadap Balanced Scorecard TI.
+    ~Pemeriksaan terhadap bagan organisasi terbaru.
+    ~Wawancara dengan staf help desk TI.
+    ~Tinjauan terhadap daftar inventaris perangkat keras.
+}
+
+Q4 Fungsi utama dari Komite Pengarah TI (IT Steering Committee) adalah: {
+    =Memprioritaskan proyek TI dan menyelaraskan TI dengan kebutuhan bisnis.
+    ~Menulis kode program untuk aplikasi bisnis utama.
+    ~Melakukan audit keamanan tahunan terhadap pusat data.
+    ~Memperbaiki masalah teknis yang tidak bisa diselesaikan help desk.
+}
+
+Q5 Apa risiko utama dari penggunaan "Key Performance Indicators" (KPI) yang tidak selaras dengan tujuan bisnis? {
+    =TI mungkin mencapai target teknis tetapi gagal memberikan nilai bisnis.
+    ~Biaya pemeliharaan infrastruktur TI akan meningkat drastis.
+    ~Sistem keamanan akan lebih mudah ditembus oleh peretas.
+    ~Staf TI akan memerlukan pelatihan teknis tambahan.
+}
+
+Q6 Kebijakan keamanan informasi harus disetujui oleh: {
+    =Manajemen senior atau Dewan Direksi.
+    ~Administrator jaringan.
+    ~Auditor sistem informasi eksternal.
+    ~Seluruh karyawan melalui pemungutan suara.
+}
+
+Q7 Dalam tata kelola TI, "Value Delivery" berfokus pada: {
+    =Memastikan TI memberikan manfaat yang dijanjikan sesuai strategi.
+    ~Menghapus semua risiko yang terkait dengan penggunaan teknologi.
+    ~Mengurangi jumlah karyawan di departemen operasional.
+    ~Membeli teknologi termurah yang tersedia di pasar.
+}
+
+Q8 Manakah dari berikut ini yang merupakan indikator terbaik bahwa organisasi memiliki tata kelola TI yang efektif? {
+    =Proyek TI diselesaikan tepat waktu, sesuai anggaran, dan memberikan manfaat yang diharapkan.
+    ~Organisasi menggunakan kerangka kerja COBIT versi terbaru.
+    ~Departemen TI memiliki anggaran terbesar di organisasi.
+    ~CIO melapor langsung kepada manajer operasional IT.
+}
+
+Q9 Peran utama dari "Risk Management" dalam tata kelola TI adalah: {
+    =Mengidentifikasi, menilai, dan memitigasi risiko agar sesuai dengan selera risiko organisasi.
+    ~Menjamin bahwa tidak akan pernah terjadi kegagalan sistem.
+    ~Memindahkan semua tanggung jawab risiko kepada asuransi.
+    ~Menghentikan semua proyek TI yang memiliki risiko di atas nol.
+}
+
+Q10 Auditor SI menemukan bahwa rencana strategis TI tidak diperbarui selama lima tahun. Langkah pertama yang harus dilakukan adalah: {
+    =Mengevaluasi dampaknya terhadap keselarasan dengan strategi bisnis saat ini.
+    ~Segera menulis laporan temuan kepada regulator pemerintah.
+    ~Meminta departemen TI untuk meniru rencana strategis perusahaan pesaing.
+    ~Menyarankan agar CIO segera mengundurkan diri.
+}
+
+Q11 Apa perbedaan utama antara "Governance" (Tata Kelola) dan "Management" (Manajemen)? {
+    =Tata kelola menetapkan arah dan tujuan, sedangkan manajemen merencanakan dan mengeksekusi.
+    ~Tata kelola dilakukan oleh staf teknis, manajemen dilakukan oleh direksi.
+    ~Tata kelola berfokus pada biaya, manajemen berfokus pada keamanan.
+    ~Tidak ada perbedaan; kedua istilah tersebut dapat dipertukarkan.
+}
+
+Q12 Manakah dari berikut ini yang paling penting dalam kontrak dengan vendor pihak ketiga (Outsourcing)? {
+    =Hak untuk mengaudit (Right-to-audit) dan SLA yang jelas.
+    ~Lokasi geografis kantor pusat vendor.
+    ~Jumlah pengikut vendor di media sosial.
+    ~Warna logo dan branding vendor.
+}
+
+Q13 "Enterprise Architecture" (EA) membantu organisasi dalam: {
+    =Menyediakan kerangka kerja untuk menyelaraskan proses bisnis, data, dan teknologi.
+    ~Menghitung depresiasi aset tetap secara otomatis.
+    ~Mengelola gaji karyawan di departemen sumber daya manusia.
+    ~Mendeteksi serangan malware pada email masuk.
+}
+
+Q14 Dalam hal pemisahan tugas (Segregation of Duties), seorang pengembang sistem (Developer) tidak boleh memiliki akses ke: {
+    =Lingkungan produksi (Production environment).
+    ~Dokumentasi persyaratan sistem.
+    ~Perangkat lunak pengolah kata (Word processor).
+    ~Lingkungan pengujian (Testing environment).
+}
+
+Q15 Tujuan utama dari "Quality Management System" (QMS) dalam TI adalah: {
+    =Memastikan proses dan hasil kerja memenuhi standar kualitas yang ditetapkan.
+    ~Menghapus kebutuhan akan pengujian pengguna (UAT).
+    ~Mengurangi jumlah lisensi perangkat lunak yang dibeli.
+    ~Memastikan semua server berjalan pada suhu di bawah 20 derajat Celcius.
+}
+
+Q16 Apa risiko terbesar jika manajemen senior tidak terlibat dalam pengambilan keputusan TI? {
+    =Investasi TI mungkin tidak mendukung prioritas bisnis utama.
+    ~Kecepatan internet di kantor akan menjadi tidak stabil.
+    ~Karyawan akan menghabiskan lebih banyak waktu di media sosial.
+    ~Perangkat keras server akan lebih cepat mengalami kerusakan fisik.
+}
+
+Q17 "Resource Management" dalam tata kelola TI mencakup optimalisasi terhadap: {
+    =Aset data, infrastruktur, aplikasi, dan sumber daya manusia.
+    ~Hanya anggaran uang tunai di bank.
+    ~Jumlah printer dan mesin fotokopi di kantor.
+    ~Daftar kontak telepon vendor perangkat lunak.
+}
+
+Q18 Manakah yang merupakan contoh "Compensation Control" jika pemisahan tugas tidak dapat dilakukan karena keterbatasan staf? {
+    =Tinjauan log transaksi secara independen oleh manajer.
+    ~Pemberian bonus gaji kepada staf yang bekerja lembur.
+    ~Menghapus semua kata sandi sistem agar mudah diakses.
+    ~Membiarkan staf melakukan semua tugas tanpa pengawasan.
+}
+
+Q19 Apa kegunaan dari "IT Portfolio Management"? {
+    =Mengelola koleksi proyek dan investasi TI secara kolektif untuk hasil maksimal.
+    ~Menyimpan foto-foto kegiatan departemen TI tahunan.
+    ~Melacak lokasi fisik semua laptop yang dibawa pulang karyawan.
+    ~Menentukan jadwal cuti tahunan bagi staf IT.
+}
+
+Q20 Auditor SI sedang meninjau bagan organisasi. Hal yang paling mencemarkan independensi adalah jika: {
+    =Auditor SI melapor kepada Chief Information Officer (CIO).
+    ~Auditor SI melapor kepada Komite Audit.
+    ~CIO melapor langsung kepada CEO.
+    ~Manajer keamanan informasi melapor kepada CIO.
+}
+
+Q21 "Risk Appetite" adalah: {
+    =Jumlah risiko yang bersedia diterima organisasi untuk mencapai tujuannya.
+    ~Total kerugian finansial yang pernah dialami organisasi.
+    ~Keinginan karyawan untuk bekerja di lingkungan yang berisiko tinggi.
+    ~Risiko yang sudah dihilangkan sepenuhnya oleh kontrol internal.
+}
+
+Q22 Manakah dari berikut ini yang merupakan indikator kinerja utama (KPI) untuk manajemen masalah (Problem Management)? {
+    =Penurunan jumlah insiden berulang (recurring incidents).
+    ~Jumlah komputer baru yang dibeli dalam satu bulan.
+    ~Kecepatan mengetik staf di departemen help desk.
+    ~Jumlah email yang dikirim oleh tim keamanan informasi.
+}
+
+Q23 Dalam "RACI Chart", huruf 'A' (Accountable) menunjukkan: {
+    =Orang yang memiliki wewenang akhir dan tanggung jawab atas tugas tersebut.
+    ~Orang yang melakukan pekerjaan teknis secara langsung.
+    ~Orang yang hanya perlu diberi informasi setelah tugas selesai.
+    ~Orang yang memberikan konsultasi ahli selama pengerjaan.
+}
+
+Q24 Apa fokus utama dari "IT Performance Measurement"? {
+    =Memastikan bahwa strategi TI diimplementasikan sesuai rencana melalui metrik.
+    ~Membandingkan gaji staf TI dengan perusahaan pesaing.
+    ~Menghitung berapa banyak klik mouse yang dilakukan pengguna.
+    ~Mengukur konsumsi daya listrik di ruang server.
+}
+
+Q25 Auditor SI menemukan bahwa tidak ada rencana suksesi untuk posisi kunci di TI. Risiko utamanya adalah: {
+    =Gangguan operasional jika personel kunci meninggalkan organisasi secara mendadak.
+    ~Sistem akan otomatis mati jika manajer TI mengundurkan diri.
+    ~Karyawan lain akan berebut jabatan dengan cara yang tidak sehat.
+    ~Biaya asuransi perusahaan akan meningkat drastis.
+}
+
+Q26 Apa tujuan dari "Balanced Scorecard" dalam TI? {
+    =Mengukur kinerja TI dari perspektif keuangan, pelanggan, proses internal, dan pembelajaran.
+    ~Memastikan berat beban server seimbang di seluruh pusat data.
+    ~Membagi anggaran TI secara rata ke semua departemen.
+    ~Menghitung rasio antara jumlah pria dan wanita di departemen TI.
+}
+
+Q27 Manakah dari berikut ini yang merupakan langkah pertama dalam proses manajemen risiko? {
+    =Identifikasi aset dan ancaman.
+    ~Implementasi kontrol keamanan terbaru.
+    ~Menghitung nilai asuransi yang dibutuhkan.
+    ~Menghapus semua data yang dianggap berisiko.
+}
+
+Q28 Dalam kontrak outsourcing, "Right to Audit" memungkinkan organisasi untuk: {
+    =Memeriksa kepatuhan vendor terhadap persyaratan kontrak dan keamanan.
+    ~Mengambil alih kepemilikan saham perusahaan vendor.
+    ~Menentukan siapa yang boleh bekerja di perusahaan vendor.
+    ~Mengakses data pribadi semua karyawan vendor.
+}
+
+Q29 "Maturity Model" (seperti CMMI) digunakan untuk: {
+    =Menilai sejauh mana proses organisasi telah terdefinisi dan dikelola dengan baik.
+    ~Menentukan usia rata-rata perangkat keras di pusat data.
+    ~Mengukur tingkat kedewasaan emosional staf TI.
+    ~Menentukan kapan sebuah perangkat lunak harus dipensiunkan.
+}
+
+Q30 Manakah yang merupakan peran dari "Chief Risk Officer" (CRO)? {
+    =Mengoordinasikan aktivitas manajemen risiko di seluruh organisasi.
+    ~Menginstal patch keamanan pada server database.
+    ~Menyembunyikan risiko agar investor tidak merasa khawatir.
+    ~Menetapkan siapa yang bersalah saat terjadi pelanggaran data.
+}
+
+Q31 Saat mengaudit kebijakan TI, auditor SI harus memastikan bahwa kebijakan tersebut: {
+    =Dikomunikasikan kepada seluruh karyawan dan ditinjau secara berkala.
+    ~Hanya diketahui oleh staf keamanan senior untuk menjaga kerahasiaan.
+    ~Ditulis dalam bahasa teknis yang sangat kompleks agar terlihat profesional.
+    ~Disimpan di dalam lemari besi yang terkunci rapat.
+}
+
+Q32 Strategi TI harus bersifat: {
+    =Dinamis dan dapat beradaptasi dengan perubahan kebutuhan bisnis.
+    ~Statis dan tidak boleh diubah selama sepuluh tahun ke depan.
+    ~Hanya fokus pada penghematan biaya operasional.
+    ~Ditentukan sepenuhnya oleh vendor perangkat keras utama.
+}
+
+Q33 Apa tujuan utama dari "IT Governance Framework" seperti COBIT? {
+    =Menyediakan struktur tata kelola dan manajemen TI yang komprehensif.
+    ~Menyediakan instruksi langkah-demi-langkah cara menginstal Windows.
+    ~Menggantikan peran Dewan Direksi dalam mengambil keputusan bisnis.
+    ~Menghapus semua ancaman siber dari internet.
+}
+
+Q34 Auditor SI menemukan bahwa manajer IT memiliki wewenang untuk menyetujui perubahan sistem dan sekaligus mengeksekusinya. Apa risiko utamanya? {
+    =Perubahan yang tidak sah atau ralat dapat dimasukkan ke sistem tanpa deteksi.
+    ~Proses perubahan akan menjadi terlalu lambat karena satu orang sibuk.
+    ~Sistem akan menjadi lebih stabil karena hanya satu orang yang tahu kodenya.
+    ~Biaya lisensi sistem akan meningkat karena kontrol yang ketat.
+}
+
+Q35 "Business Impact Analysis" (BIA) membantu manajemen dalam: {
+    =Menentukan prioritas pemulihan proses bisnis berdasarkan dampak kegagalan.
+    ~Menghitung berapa banyak produk yang terjual dalam setahun.
+    ~Mencari lokasi baru untuk kantor cabang luar negeri.
+    ~Menentukan anggaran untuk promosi pemasaran.
+}
+
+Q36 Manakah dari berikut ini yang paling baik mendeteksi pelanggaran kebijakan keamanan oleh karyawan? {
+    =Pemantauan log aktivitas dan audit berkala.
+    ~Menanya secara langsung kepada karyawan setiap pagi.
+    ~Melihat aktivitas karyawan melalui jendela kantor.
+    ~Memasang poster peringatan di seluruh ruang kantor.
+}
+
+Q37 Penggunaan "Standard Operating Procedures" (SOP) bertujuan untuk: {
+    =Memastikan konsistensi dan efisiensi dalam pelaksanaan tugas operasional.
+    ~Memberikan kebebasan bagi setiap staf untuk bekerja sesuai cara masing-masing.
+    ~Menambah beban administrasi agar staf terlihat sibuk.
+    ~Menghindari kebutuhan akan pelatihan bagi karyawan baru.
+}
+
+Q38 Apa yang dimaksud dengan "IT Investment Appraisal"? {
+    =Proses menilai nilai ekonomi dan manfaat dari investasi TI yang diusulkan.
+    ~Proses menjual perangkat keras bekas ke pihak ketiga.
+    ~Menghitung jumlah pajak yang harus dibayar atas pembelian perangkat lunak.
+    ~Memberikan penghargaan kepada karyawan TI terbaik bulan ini.
+}
+
+Q39 Manakah yang merupakan contoh dari "Human Resource Management" yang baik dalam TI? {
+    =Program pelatihan berkelanjutan dan jalur karier yang jelas bagi staf.
+    ~Memaksa staf untuk bekerja 12 jam sehari tanpa istirahat.
+    ~Mengizinkan semua staf mengakses data gaji satu sama lain.
+    ~Menyediakan camilan gratis tetapi melarang staf mengambil cuti.
+}
+
+Q40 Auditor SI menemukan bahwa organisasi tidak memiliki "Ethics Policy". Apa dampaknya terhadap tata kelola? {
+    =Meningkatkan risiko perilaku tidak etis atau kecurangan dalam organisasi.
+    ~Sistem komputer akan lebih sering mengalami kegagalan teknis.
+    ~Organisasi akan otomatis dilarang beroperasi oleh pemerintah.
+    ~Karyawan tidak akan tahu cara menggunakan perangkat lunak kantor.
+}
+
+Q41 Manakah dari berikut ini yang merupakan keuntungan utama dari struktur organisasi TI yang terdesentralisasi? {
+    =Respons yang lebih cepat terhadap kebutuhan unit bisnis lokal.
+    ~Skala ekonomi yang lebih besar dalam pembelian perangkat lunak.
+    ~Standarisasi kontrol keamanan di seluruh organisasi.
+    ~Kemudahan dalam menegakkan kebijakan TI perusahaan.
+}
+
+Q42 "Service Level Agreement" (SLA) paling efektif jika: {
+    =Dapat diukur (measurable) dan disetujui oleh kedua belah pihak.
+    ~Hanya berisi deskripsi layanan secara umum tanpa angka.
+    ~Ditulis oleh pengacara tanpa masukan dari tim teknis.
+    ~Disimpan sebagai rahasia agar pelanggan tidak bisa menuntut.
+}
+
+Q43 Apa peran "IT Steering Committee" dalam pengembangan sistem baru? {
+    =Meninjau kemajuan proyek dan memastikan keselarasan dengan strategi bisnis.
+    ~Melakukan coding dan pengujian unit secara mendalam.
+    ~Memilih bahasa pemrograman yang akan digunakan.
+    ~Menginstal sistem operasi pada server baru.
+}
+
+Q44 "Risk Treatment" yang melibatkan pemindahan dampak finansial risiko ke pihak lain disebut: {
+    =Risk Transfer (Transfer Risiko).
+    ~Risk Avoidance (Penghindaran Risiko).
+    ~Risk Mitigation (Mitigasi Risiko).
+    ~Risk Acceptance (Penerimaan Risiko).
+}
+
+Q45 Auditor SI menemukan bahwa departemen TI sering melampaui anggaran tanpa persetujuan. Masalah utama di sini adalah: {
+    =Kurangnya pengawasan manajemen dan kontrol anggaran.
+    ~Harga perangkat lunak yang terlalu mahal di pasar.
+    ~Kurangnya jumlah staf di bagian akuntansi.
+    ~Sistem ERP yang digunakan sudah terlalu tua.
+}
+
+Q46 Manakah dari berikut ini yang paling penting untuk dipantau dalam kontrak "Cloud Computing"? {
+    =Ketersediaan layanan (uptime) dan integritas data.
+    ~Merek server fisik yang digunakan oleh penyedia cloud.
+    ~Lokasi meja kerja administrator cloud vendor.
+    ~Jumlah postingan blog teknis yang diterbitkan vendor.
+}
+
+Q47 "IT Risk Register" harus berisi: {
+    =Daftar risiko yang teridentifikasi, dampaknya, dan rencana mitigasi.
+    ~Daftar semua nama karyawan di departemen IT.
+    ~Riwayat hidup (CV) dari Chief Information Officer.
+    ~Daftar inventaris semua mouse dan keyboard di kantor.
+}
+
+Q48 Apa fungsi dari "Capacity Management"? {
+    =Memastikan sumber daya TI tersedia untuk memenuhi kebutuhan bisnis saat ini dan masa depan.
+    ~Menentukan berapa banyak orang yang boleh masuk ke ruang server.
+    ~Mengukur kapasitas berat fisik rak server.
+    ~Menghitung total luas gedung kantor pusat.
+}
+
+Q49 Auditor SI mencatat bahwa CIO melapor langsung kepada CFO. Apa potensi risikonya? {
+    =Prioritas TI mungkin terlalu fokus pada penghematan biaya daripada inovasi strategis.
+    ~TI akan mendapatkan anggaran yang tidak terbatas setiap tahun.
+    ~CFO akan dipaksa untuk belajar pemrograman komputer.
+    ~Server akan lebih sering mengalami kerusakan memori.
+}
+
+Q50 Manakah yang merupakan contoh "Key Risk Indicator" (KRI)? {
+    =Jumlah upaya akses ilegal ke firewall yang meningkat drastis.
+    ~Persentase proyek TI yang selesai tepat waktu.
+    ~Tingkat kepuasan rata-rata pengguna aplikasi.
+    ~Jumlah sertifikasi yang dimiliki oleh staf TI.
+}
+
+Q51 Apa tujuan dari "IT Continuity Planning"? {
+    =Memastikan layanan TI dapat dipulihkan dalam jangka waktu yang disepakati setelah gangguan.
+    ~Menjaga agar server tidak pernah mati sama sekali selamanya.
+    ~Mengurangi gaji staf TI untuk menghemat biaya operasional.
+    ~Menjamin bahwa semua data dapat dipulihkan dalam satu detik.
+}
+
+Q52 "Organizational Culture" mempengaruhi tata kelola TI karena: {
+    =Menentukan bagaimana kebijakan dipatuhi dan bagaimana risiko dipersepsikan.
+    ~Menentukan jenis sistem operasi yang akan dibeli.
+    ~Menentukan kecepatan koneksi internet di kantor.
+    ~Menghilangkan kebutuhan akan kontrol internal formal.
+}
+
+Q53 Auditor SI menemukan bahwa tidak ada "Change Management Committee". Hal ini dapat menyebabkan: {
+    =Perubahan yang bertentangan atau tidak teruji masuk ke lingkungan produksi.
+    ~Komputer akan meledak jika terjadi pembaruan perangkat lunak.
+    ~Karyawan tidak akan pernah bisa mengganti kata sandi mereka.
+    ~Vendor akan berhenti memberikan dukungan teknis.
+}
+
+Q54 "Value Delivery" TI diukur melalui: {
+    =Realisasi manfaat bisnis dari investasi TI.
+    ~Jumlah uang yang dihabiskan untuk membeli server terbaru.
+    ~Banyaknya fitur yang ada di dalam sebuah aplikasi.
+    ~Kecepatan CPU pada komputer meja karyawan.
+}
+
+Q55 Manakah yang merupakan tugas dari "Security Officer"? {
+    =Memantau kepatuhan terhadap kebijakan keamanan informasi.
+    ~Menulis konten pemasaran untuk produk baru perusahaan.
+    ~Memperbaiki kebocoran air di fasilitas pusat data.
+    ~Menetapkan harga jual layanan TI kepada pelanggan.
+}
+
+Q56 Dalam manajemen proyek, "Critical Path" adalah: {
+    =Urutan aktivitas terpanjang yang menentukan durasi minimum proyek.
+    ~Jalan tercepat untuk keluar dari gedung saat terjadi kebakaran.
+    ~Daftar tugas yang paling mudah dikerjakan oleh tim.
+    ~Prosedur untuk melaporkan kesalahan kode kepada manajer.
+}
+
+Q57 Apa risiko utama dari "Vendor Lock-in"? {
+    =Kesulitan untuk beralih ke vendor lain karena ketergantungan pada teknologi tertentu.
+    ~Vendor akan mencuri semua data perusahaan secara diam-diam.
+    ~Biaya lisensi akan menjadi gratis setelah lima tahun.
+    ~Karyawan vendor akan bekerja di kantor perusahaan secara permanen.
+}
+
+Q58 "Incident Management" berfokus pada: {
+    =Pemulihan layanan secepat mungkin setelah gangguan.
+    ~Pencarian akar penyebab (root cause) masalah secara permanen.
+    ~Perancangan arsitektur sistem yang tahan banting.
+    ~Pembelian asuransi untuk aset TI yang rusak.
+}
+
+Q59 Auditor SI harus memverifikasi bahwa program "Security Awareness": {
+    =Dilaksanakan secara berkala untuk seluruh tingkatan staf.
+    ~Hanya diberikan kepada staf yang pernah melakukan kesalahan.
+    ~Terdiri dari setidaknya 500 halaman materi teks.
+    ~Dilakukan hanya sekali seumur hidup saat orientasi karyawan baru.
+}
+
+Q60 Apa kegunaan dari "Job Rotation" dalam departemen TI? {
+    =Mengurangi risiko kecurangan dan ketergantungan pada satu orang.
+    ~Membuat staf merasa bingung dengan tugas baru setiap hari.
+    ~Mengurangi total biaya gaji bulanan departemen.
+    ~Menghilangkan kebutuhan akan dokumentasi sistem.
+}
+
+Q61 Auditor SI menemukan bahwa akses administrator diberikan kepada terlalu banyak staf. Prinsip yang dilanggar adalah: {
+    =Least Privilege (Hak Akses Minimum).
+    ~Segregation of Duties (Pemisahan Tugas).
+    ~Data Integrity (Integritas Data).
+    ~High Availability (Ketersediaan Tinggi).
+}
+
+Q62 Manakah yang merupakan contoh "Strategic Risk"? {
+    =Gagal mengadopsi teknologi baru yang mengubah pasar.
+    ~Satu server web mengalami kegagalan hard disk.
+    ~Karyawan salah memasukkan data alamat pelanggan.
+    ~Terjadi pemadaman listrik selama 10 menit.
+}
+
+Q63 "IT Balance Sheet" digunakan untuk: {
+    =Melacak aset dan kewajiban terkait TI di organisasi.
+    ~Menyeimbangkan berat beban antara dua server cadangan.
+    ~Menghitung jumlah cuti yang tersisa bagi staf TI.
+    ~Mengukur tingkat stres manajer TI.
+}
+
+Q64 Apa peran manajemen senior dalam "Business Continuity Planning" (BCP)? {
+    =Memberikan dukungan finansial dan menetapkan prioritas pemulihan.
+    ~Melakukan instalasi ulang sistem operasi pada laptop.
+    ~Membawa hard disk cadangan ke rumah setiap malam.
+    ~Menghafal semua prosedur teknis pemulihan basis data.
+}
+
+Q65 "Post-Implementation Review" harus dilakukan: {
+    =Setelah sistem beroperasi cukup lama untuk mengukur manfaatnya.
+    ~Satu jam setelah sistem baru saja diluncurkan (go-live).
+    ~Hanya jika sistem tersebut mengalami kegagalan total.
+    ~Sebelum proyek pembangunan sistem dimulai.
+}
+
+Q66 Auditor SI menemukan bahwa tidak ada "Log Monitoring" untuk aktivitas admin. Kontrol apa yang lemah? {
+    =Detective Control (Kontrol Detektif).
+    ~Preventive Control (Kontrol Preventif).
+    ~Directive Control (Kontrol Direktif).
+    ~Deterrent Control (Kontrol Pencegah).
+}
+
+Q67 "Data Sovereignty" merujuk pada: {
+    =Data tunduk pada hukum negara di mana data tersebut disimpan secara fisik.
+    ~Kepemilikan mutlak data oleh orang yang membuatnya.
+    ~Kemampuan data untuk berubah secara otomatis setiap tahun.
+    ~Larangan menyimpan data di perangkat portabel seperti USB.
+}
+
+Q68 Dalam outsourcing TI, tanggung jawab AKHIR atas keamanan data tetap berada pada: {
+    =Organisasi pemberi kerja (Client).
+    ~Vendor pihak ketiga (Service Provider).
+    ~Perusahaan asuransi.
+    ~Instansi kepolisian setempat.
+}
+
+Q69 Apa keuntungan menggunakan "Benchmarking"? {
+    =Membandingkan kinerja TI organisasi dengan standar industri atau pesaing.
+    ~Membuktikan bahwa organisasi adalah yang terbaik di dunia tanpa bukti.
+    ~Menghitung total penggunaan listrik oleh setiap komputer.
+    ~Menentukan warna cat yang paling cocok untuk ruang server.
+}
+
+Q70 "IT Policy" memberikan: {
+    =Arahan tingkat tinggi tentang apa yang harus dilakukan.
+    ~Instruksi teknis langkah-demi-langkah (step-by-step).
+    ~Daftar semua merek perangkat keras yang disetujui.
+    ~Prediksi harga saham perusahaan di masa depan.
+}
+
+Q71 Auditor SI menemukan bahwa tidak ada tinjauan kinerja vendor secara formal. Risiko utamanya adalah: {
+    =Layanan vendor mungkin tidak memenuhi standar SLA tanpa disadari.
+    ~Vendor akan otomatis bangkrut dalam waktu enam bulan.
+    ~Karyawan vendor akan berhenti masuk kerja secara tiba-tiba.
+    ~Harga kontrak vendor akan turun secara drastis secara otomatis.
+}
+
+Q72 "Risk Appetite" ditetapkan oleh: {
+    =Dewan Direksi/Manajemen Senior.
+    ~Staf teknis keamanan informasi.
+    ~Auditor eksternal.
+    ~Pelanggan organisasi.
+}
+
+Q73 Apa tujuan dari "Configuration Management Database" (CMDB)? {
+    =Menyimpan informasi tentang semua aset TI dan hubungan antar aset tersebut.
+    ~Menyimpan semua kata sandi pengguna dalam bentuk teks biasa.
+    ~Menghitung total pajak dari pembelian perangkat lunak.
+    ~Melacak lokasi parkir mobil untuk staf departemen TI.
+}
+
+Q74 Manakah yang merupakan contoh "Technical Control"? {
+    =Penggunaan sistem deteksi intrusi (IDS) pada jaringan.
+    ~Menulis kebijakan penggunaan internet yang adil.
+    ~Melakukan wawancara latar belakang pada staf baru.
+    ~Memasang tanda "Dilarang Masuk" di depan ruang server.
+}
+
+Q75 "Total Cost of Ownership" (TCO) mencakup: {
+    =Biaya akuisisi, operasional, pemeliharaan, dan pembuangan aset TI.
+    ~Hanya harga beli perangkat keras pada saat transaksi.
+    ~Jumlah pajak pertambahan nilai (PPN) dari pembelian server.
+    ~Gaji manajer pengadaan yang membeli barang tersebut.
+}
+
+Q76 Auditor SI menemukan bahwa staf IT sering berbagi akun "root". Masalah utamanya adalah: {
+    =Hilangnya akuntabilitas individu (non-repudiation).
+    ~Sistem akan mendeteksi dua orang sebagai satu orang dan menjadi bingung.
+    ~Kecepatan akses sistem akan berkurang setengahnya.
+    ~Sistem operasi akan meminta pembayaran lisensi tambahan.
+}
+
+Q77 "Gap Analysis" digunakan untuk: {
+    =Mengidentifikasi perbedaan antara kondisi saat ini dan kondisi yang diinginkan.
+    ~Menghitung jarak fisik antara dua pusat data cadangan.
+    ~Menentukan berapa banyak staf yang sedang cuti sakit.
+    ~Menganalisis lubang-lubang kecil pada kabel jaringan.
+}
+
+Q78 Apa peran "IT Steering Committee" terkait anggaran? {
+    =Meninjau dan menyetujui alokasi dana untuk inisiatif TI utama.
+    ~Menghitung uang kembalian dari pembelian alat tulis kantor.
+    ~Mengalokasikan dana untuk pesta ulang tahun karyawan TI.
+    ~Menentukan berapa banyak dividen yang dibayar ke pemegang saham.
+}
+
+Q79 Manakah yang merupakan indikator efektivitas "Problem Management"? {
+    =Penurunan jumlah insiden yang berulang.
+    ~Peningkatan jumlah panggilan ke help desk.
+    ~Banyaknya patch yang diinstal setiap hari.
+    ~Jumlah printer yang diperbaiki dalam satu bulan.
+}
+
+Q80 "Governance" TI yang baik harus memastikan bahwa: {
+    =Risiko TI dikelola pada tingkat yang dapat diterima oleh organisasi.
+    ~Semua karyawan merasa senang dengan perangkat komputer mereka.
+    ~Tidak ada risiko sama sekali yang tersisa di dalam organisasi.
+    ~Departemen TI memiliki kekuasaan mutlak atas semua unit bisnis.
+}
+
+Q81 Manakah dari berikut ini yang merupakan keuntungan utama dari pemisahan tugas antara operator TI dan analis sistem? {
+    =Mencegah personil melakukan perubahan yang tidak sah pada program produksi.
+    ~Meningkatkan efisiensi pemrosesan data harian.
+    ~Memastikan bahwa semua perangkat keras tetap dalam kondisi bersih.
+    ~Mengurangi jumlah total staf yang dibutuhkan di pusat data.
+}
+
+Q82 Apa peran utama "IT Steering Committee" dalam manajemen risiko? {
+    =Memastikan bahwa profil risiko TI selaras dengan selera risiko organisasi.
+    ~Melakukan pemindaian kerentanan (vulnerability scanning) secara teknis.
+    ~Menulis prosedur operasional standar untuk pemulihan bencana.
+    ~Mengambil keputusan teknis tentang merk firewall yang akan dibeli.
+}
+
+Q83 Manakah yang merupakan indikator terbaik dari keberhasilan integrasi TI setelah merger perusahaan? {
+    =Proses bisnis yang digabungkan beroperasi dengan lancar menggunakan sistem yang terintegrasi.
+    ~Semua staf dari kedua perusahaan tetap bekerja di departemen masing-masing.
+    ~Jumlah server meningkat dua kali lipat dari sebelumnya.
+    ~Setiap perusahaan tetap menggunakan kebijakan keamanannya sendiri-sendiri.
+}
+
+Q84 Penggunaan "Outsourcing" untuk fungsi TI yang kritis meningkatkan kebutuhan akan: {
+    =Pemantauan kinerja vendor dan kepatuhan terhadap kontrak secara ketat.
+    ~Penghapusan semua fungsi audit internal di dalam organisasi.
+    ~Pemberian akses administratif penuh kepada vendor tanpa batas.
+    ~Pengalihan tanggung jawab hukum sepenuhnya kepada vendor.
+}
+
+Q85 Auditor SI menemukan bahwa organisasi memiliki banyak proyek TI yang tumpang tindih. Hal ini menunjukkan kelemahan dalam: {
+    =Manajemen portofolio investasi TI.
+    ~Keterampilan teknis para pengembang perangkat lunak.
+    ~Kecepatan koneksi jaringan area luas (WAN).
+    ~Prosedur backup data harian.
+}
+
+Q86 "IT Balanced Scorecard" biasanya mencakup perspektif berikut, KECUALI: {
+    =Perspektif Hubungan Masyarakat dan Media Sosial.
+    ~Perspektif Kontribusi Bisnis (Keuangan).
+    ~Perspektif Keunggulan Operasional (Proses Internal).
+    ~Perspektif Orientasi Masa Depan (Pembelajaran dan Pertumbuhan).
+}
+
+Q87 Apa tujuan dari "Termination Policy" bagi staf TI? {
+    =Memastikan akses sistem dicabut segera setelah karyawan berhenti.
+    ~Memberikan bonus besar kepada karyawan yang mengundurkan diri.
+    ~Memaksa karyawan untuk tetap bekerja selamanya di organisasi.
+    ~Menghapus semua hasil kerja karyawan dari server perusahaan.
+}
+
+Q88 Auditor SI menemukan bahwa strategi TI organisasi hanya berfokus pada teknologi saat ini tanpa melihat tren masa depan. Risiko utamanya adalah: {
+    =Organisasi mungkin kehilangan keunggulan kompetitif karena teknologi yang usang.
+    ~Biaya listrik kantor akan meningkat secara tidak terduga.
+    ~Karyawan akan meminta kenaikan gaji setiap bulan.
+    ~Sistem operasi akan otomatis berhenti berfungsi tahun depan.
+}
+
+Q89 "Maturity Level 3" (Defined) dalam model CMMI berarti: {
+    =Proses telah didokumentasikan, distandarisasi, dan diintegrasikan ke tingkat organisasi.
+    ~Proses dilakukan secara ad-hoc dan tidak terorganisir.
+    ~Proses diukur secara statistik dan dikontrol secara ketat.
+    ~Proses terus diperbaiki secara otomatis menggunakan kecerdasan buatan.
+}
+
+Q90 Manakah dari berikut ini yang merupakan bukti terbaik dari komitmen manajemen terhadap keamanan informasi? {
+    =Penyediaan sumber daya dan anggaran yang memadai untuk program keamanan.
+    ~Pemasangan poster "Aman Itu Penting" di setiap lantai gedung.
+    ~Pembelian antivirus versi gratis untuk semua komputer karyawan.
+    ~Adanya ruang server yang catnya berwarna cerah.
+}
+
+Q91 Apa risiko utama dari "End-user Computing" (EUC) yang tidak terkontrol? {
+    =Kurangnya integritas data dan kontrol keamanan pada aplikasi yang dibuat pengguna.
+    ~Pengguna akan menghabiskan terlalu banyak waktu untuk bermain game.
+    ~Biaya langganan internet akan melonjak tinggi.
+    ~Monitor komputer akan lebih cepat panas.
+}
+
+Q92 Tanggung jawab utama untuk menentukan klasifikasi data berada pada: {
+    =Pemilik data (Data Owner).
+    ~Administrator pangkalan data (DBA).
+    ~Manajer keamanan informasi.
+    ~Auditor sistem informasi.
+}
+
+Q93 "IT Governance" yang efektif harus mendorong: {
+    =Transparansi dalam pengambilan keputusan dan akuntabilitas.
+    ~Kerahasiaan total semua proyek TI dari manajemen senior.
+    ~Keputusan yang diambil hanya oleh satu orang manajer TI.
+    ~Penggunaan teknologi terbaru terlepas dari biaya dan manfaatnya.
+}
+
+Q94 Manakah yang merupakan contoh "Detective Control" dalam manajemen operasional? {
+    =Tinjauan laporan aktivitas pengguna secara harian.
+    ~Pewajiban penggunaan dua faktor otentikasi (2FA).
+    ~Pelatihan pencegahan serangan phishing bagi staf.
+    ~Pembuatan cadangan (backup) data secara otomatis.
+}
+
+Q95 Apa kegunaan dari "Escrow Agreement" untuk perangkat lunak pihak ketiga? {
+    =Memastikan akses ke kode sumber (source code) jika vendor bangkrut.
+    ~Mengurangi biaya lisensi perangkat lunak tahunan.
+    ~Mencegah vendor melakukan pembaruan tanpa izin.
+    ~Menjamin bahwa perangkat lunak tersebut tidak mengandung virus.
+}
+
+Q96 Auditor SI menemukan bahwa CIO sering mengesampingkan kebijakan keamanan untuk alasan kenyamanan. Hal ini menunjukkan: {
+    =Budaya kepatuhan yang lemah di tingkat atas (Tone at the top).
+    ~CIO memiliki pengetahuan teknis yang sangat superior.
+    ~Kebijakan keamanan tersebut memang sudah usang.
+    ~CIO tidak memiliki anggaran yang cukup untuk keamanan.
+}
+
+Q97 "Key Risk Indicator" (KRI) yang melampaui ambang batas harus memicu: {
+    =Tindakan mitigasi atau tinjauan manajemen segera.
+    ~Penghapusan data KRI agar laporan terlihat bagus.
+    ~Pemecatan staf yang bertanggung jawab atas data tersebut.
+    ~Penutupan seluruh operasional TI selama satu minggu.
+}
+
+Q98 Manakah dari berikut ini yang paling penting saat melakukan "Risk Assessment" pihak ketiga? {
+    =Mengevaluasi postur keamanan dan kepatuhan vendor.
+    ~Menghitung jumlah pengikut vendor di LinkedIn.
+    ~Mengetahui menu makanan di kantin kantor vendor.
+    ~Mengecek merk kendaraan operasional yang digunakan vendor.
+}
+
+Q99 "IT Steering Committee" harus bertemu secara berkala untuk: {
+    =Meninjau status proyek TI utama dan menyelaraskan dengan strategi bisnis.
+    ~Menginstal patch keamanan pada komputer masing-masing.
+    ~Menulis dokumentasi teknis untuk sistem warisan (legacy systems).
+    ~Memperbaiki kabel jaringan yang putus di ruang server.
+}
+
+Q100 Manakah yang merupakan hasil akhir dari proses manajemen risiko TI yang sukses? {
+    =Risiko diturunkan ke tingkat yang dapat diterima oleh manajemen.
+    ~Semua risiko dihilangkan 100% dari organisasi.
+    ~Semua tanggung jawab risiko dialihkan ke pihak asuransi.
+    ~Tidak ada lagi kebutuhan untuk melakukan audit di masa depan.
+}

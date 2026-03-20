@@ -1,0 +1,703 @@
+// ==========================================================
+// CISA DOMAIN 1: Information System Auditing Process (1-100)
+// ==========================================================
+
+Q1 Manakah dari berikut ini yang merupakan alasan UTAMA dilakukannya perencanaan audit tahunan? {
+    =Untuk memastikan bahwa area dengan risiko tertinggi diprioritaskan.
+    ~Untuk memenuhi persyaratan peraturan perundang-undangan setempat.
+    ~Untuk mengalokasikan anggaran departemen audit secara merata.
+    ~Untuk memastikan semua sistem diperiksa setidaknya sekali setahun.
+}
+
+Q2 Piagam Audit (Audit Charter) harus memberikan kewenangan kepada auditor SI untuk: {
+    =Mengakses catatan, personil, dan aset fisik yang relevan dengan audit.
+    ~Melakukan tindakan disipliner terhadap karyawan yang melanggar prosedur.
+    ~Merancang dan mengimplementasikan kontrol keamanan yang hilang.
+    ~Menetapkan toleransi risiko organisasi secara keseluruhan.
+}
+
+Q3 Selama pengumpulan bukti, auditor menemukan bahwa log sistem tertentu telah dihapus. Apa langkah SELANJUTNYA yang harus dilakukan auditor? {
+    =Mendokumentasikan temuan tersebut dan menyelidiki alasan penghapusan.
+    ~Segera melaporkan kejadian tersebut kepada pihak kepolisian.
+    ~Menghentikan audit karena bukti dianggap tidak memadai.
+    ~Mengasumsikan bahwa telah terjadi kecurangan (fraud) oleh administrator.
+}
+
+Q4 Dalam pendekatan audit berbasis risiko, auditor SI harus fokus pada: {
+    =Kontrol yang memitigasi risiko bisnis yang signifikan.
+    ~Sistem yang memiliki biaya operasional tertinggi.
+    ~Proses yang paling sering dikeluhkan oleh pengguna.
+    ~Semua kontrol yang ada dalam kerangka kerja COBIT.
+}
+
+Q5 Manakah dari berikut ini yang merupakan "Substantive Test"? {
+    =Melakukan penghitungan fisik inventaris perangkat keras.
+    ~Memeriksa apakah ada tanda tangan persetujuan pada formulir permintaan akses.
+    ~Mengamati apakah karyawan menggunakan kartu akses untuk masuk ke pusat data.
+    ~Meninjau kebijakan keamanan informasi organisasi.
+}
+
+Q6 Risiko deteksi (Detection Risk) dapat diminimalisir oleh auditor dengan cara: {
+    =Meningkatkan ukuran sampel dan prosedur pengujian.
+    ~Mengandalkan sepenuhnya pada kontrol internal perusahaan.
+    ~Menurunkan tingkat kepercayaan (confidence level) statistik.
+    ~Memilih staf audit yang memiliki hubungan baik dengan auditee.
+}
+
+Q7 Seorang auditor SI internal diminta untuk mengaudit sistem yang baru saja ia desain setahun yang lalu. Auditor tersebut harus: {
+    =Menginformasikan manajemen tentang potensi konflik independensi sebelum menerima penugasan.
+    ~Menerima penugasan tersebut karena ia sangat memahami sistem tersebut.
+    ~Menolak penugasan tanpa memberikan alasan apapun kepada atasan.
+    ~Melakukan audit tetapi meminta rekan kerja untuk menandatangani laporan akhir.
+}
+
+Q8 Tujuan utama dari rapat penutupan (exit interview) adalah untuk: {
+    =Memastikan bahwa fakta-fakta dalam temuan audit sudah akurat dan dipahami auditee.
+    ~Menentukan hukuman bagi departemen yang gagal dalam audit.
+    ~Memberikan waktu bagi auditee untuk memperbaiki semua masalah sebelum laporan final.
+    ~Menyusun rencana anggaran untuk departemen audit tahun depan.
+}
+
+Q9 Manakah yang merupakan bukti audit yang PALING andal? {
+    =Hasil konfirmasi eksternal yang diterima langsung oleh auditor.
+    ~Representasi lisan yang diberikan oleh manajer IT.
+    ~Dokumen internal yang telah difotokopi oleh auditee.
+    ~Analisis yang dilakukan oleh auditor berdasarkan data yang tidak diverifikasi.
+}
+
+Q10 Teknik "Statistical Sampling" lebih dipilih daripada "Judgmental Sampling" ketika auditor: {
+    =Perlu menarik kesimpulan tentang seluruh populasi secara objektif.
+    ~Memiliki waktu yang sangat terbatas untuk melakukan pengujian.
+    ~Hanya ingin menguji transaksi yang dicurigai mengandung kesalahan.
+    ~Tidak memiliki akses ke data elektronik.
+}
+
+Q11 Risiko inheren (Inherent Risk) adalah: {
+    =Risiko terjadinya kesalahan material tanpa mempertimbangkan kontrol internal terkait.
+    ~Risiko bahwa kontrol internal gagal mencegah atau mendeteksi kesalahan.
+    ~Risiko bahwa auditor akan memberikan pendapat yang salah atas laporan.
+    ~Risiko yang tetap ada setelah kontrol internal diimplementasikan.
+}
+
+Q12 Apa fungsi dari Control Self-Assessment (CSA)? {
+    =Memindahkan tanggung jawab pemantauan kontrol kepada pemilik proses bisnis.
+    ~Menggantikan sepenuhnya peran fungsi audit internal tradisional.
+    ~Mengurangi biaya lisensi perangkat lunak keamanan.
+    ~Menghilangkan kebutuhan akan audit eksternal tahunan.
+}
+
+Q13 Manakah dari berikut ini yang merupakan contoh dari "Compliance Test"? {
+    =Memeriksa log otorisasi untuk memastikan hanya user tertentu yang bisa akses.
+    ~Memverifikasi saldo kas di pangkalan data keuangan.
+    ~Menghitung ulang depresiasi aset tetap secara manual.
+    ~Menganalisis tren penjualan selama lima tahun terakhir.
+}
+
+Q14 Kertas kerja audit (Audit Working Papers) adalah milik dari: {
+    =Organisasi audit/Departemen Audit.
+    ~Auditee (Departemen yang diaudit).
+    ~Dewan Direksi secara pribadi.
+    ~Otoritas hukum atau pemerintah setempat.
+}
+
+Q15 Auditor SI menemukan bahwa rencana pemulihan bencana (DRP) belum diperbarui selama tiga tahun. Tindakan terbaik auditor adalah: {
+    =Mengevaluasi dampak dari tidak diperbaruinya DRP terhadap operasional bisnis saat ini.
+    ~Menulis DRP baru untuk organisasi tersebut sebagai bagian dari jasa audit.
+    ~Mengabaikan temuan tersebut jika tidak ada insiden selama tiga tahun terakhir.
+    ~Segera melaporkan kegagalan fatal ini kepada pemegang saham.
+}
+
+Q16 Apa tujuan utama dari penggunaan alat Continuous Audit? {
+    =Untuk memungkinkan auditor memantau kontrol secara real-time atau mendekati real-time.
+    ~Untuk menggantikan kebutuhan akan auditor manusia di masa depan.
+    ~Untuk memastikan bahwa semua sistem IT beroperasi pada kecepatan maksimal.
+    ~Untuk menghapus semua risiko inheren dalam organisasi.
+}
+
+Q17 Dalam audit berbasis risiko, jika kontrol internal dinilai sangat kuat, maka auditor dapat: {
+    =Mengurangi luas pengujian substantif.
+    ~Menghilangkan semua pengujian kepatuhan.
+    ~Meningkatkan risiko deteksi ke tingkat maksimum.
+    ~Memberikan pendapat audit tanpa melakukan pengujian sampel.
+}
+
+Q18 "Materiality" dalam audit SI ditentukan berdasarkan: {
+    =Dampak dari kesalahan atau kekurangan terhadap keputusan manajemen atau operasional.
+    ~Hanya berdasarkan nilai moneter dari aset yang diaudit.
+    ~Jumlah waktu yang dihabiskan auditor untuk memeriksa satu modul.
+    ~Opini dari kepala bagian IT auditee.
+}
+
+Q19 Penggunaan teknik CAAT (Computer-Assisted Audit Techniques) sangat bermanfaat ketika: {
+    =Data tersedia dalam volume besar dan dalam format elektronik.
+    ~Organisasi tidak memiliki sistem komputer sama sekali.
+    ~Auditor tidak memiliki pengetahuan tentang SQL atau pangkalan data.
+    ~Semua dokumen audit tersedia dalam bentuk fisik (kertas).
+}
+
+Q20 Jika auditee tidak setuju dengan temuan audit karena alasan biaya perbaikan yang tinggi, auditor harus: {
+    =Tetap mencatat temuan dan membiarkan manajemen memutuskan penerimaan risiko.
+    ~Menghapus temuan tersebut dari laporan akhir untuk menjaga hubungan baik.
+    ~Memaksa auditee untuk segera mengalokasikan anggaran perbaikan.
+    ~Mengurangi tingkat risiko temuan agar auditee merasa nyaman.
+}
+
+Q21 Manakah dari berikut ini yang paling mencerminkan independensi auditor SI? {
+    =Auditor melapor langsung ke Komite Audit atau Dewan Direksi.
+    ~Auditor bekerja di bawah departemen IT yang diauditnya.
+    ~Auditor sering makan siang bersama dengan manajer sistem yang diaudit.
+    ~Auditor ikut serta dalam memilih vendor perangkat lunak untuk organisasi.
+}
+
+Q22 Jenis sampling yang memberikan probabilitas yang sama untuk setiap item dalam populasi disebut: {
+    =Random Sampling.
+    ~Variable Sampling.
+    ~Stratified Sampling.
+    ~Quotas Sampling.
+}
+
+Q23 Auditor SI melakukan tinjauan pasca-implementasi (Post-Implementation Review). Apa tujuan utamanya? {
+    =Memastikan sistem memenuhi kebutuhan bisnis dan memberikan nilai yang diharapkan.
+    ~Mencari siapa yang bersalah atas keterlambatan proyek.
+    ~Memastikan pengembang sistem telah dibayar tepat waktu.
+    ~Menghapus kode program yang tidak digunakan lagi.
+}
+
+Q24 Apa yang dimaksud dengan "Professional Skepticism"? {
+    =Sikap yang mencakup pikiran yang selalu mempertanyakan dan waspada terhadap kondisi yang mengindikasikan kemungkinan kesalahan.
+    ~Sikap tidak percaya kepada siapapun di dalam organisasi auditee.
+    ~Keinginan auditor untuk menemukan kesalahan sekecil apapun untuk menjatuhkan auditee.
+    ~Kepatuhan buta terhadap semua dokumen yang diberikan oleh auditee.
+}
+
+Q25 Manakah dari berikut ini yang merupakan kelemahan utama dari "Attribute Sampling"? {
+    =Hanya digunakan untuk menentukan ada atau tidaknya suatu karakteristik, bukan nilai moneter.
+    ~Memerlukan ukuran sampel yang jauh lebih besar daripada pengujian variabel.
+    ~Tidak dapat digunakan dalam audit sistem informasi.
+    ~Sangat bergantung pada keahlian auditor dalam matematika kompleks.
+}
+
+Q26 Sebelum memulai audit lapangan (fieldwork), auditor SI harus memastikan: {
+    =Ruang lingkup audit telah disetujui dan dipahami oleh pihak terkait.
+    ~Semua temuan audit sudah ditulis di draf laporan.
+    ~Auditee telah memperbaiki semua kesalahan sistem.
+    ~Laporan final telah ditandatangani oleh CEO.
+}
+
+Q27 Risiko bahwa auditor mengambil sampel yang tidak mewakili populasi disebut: {
+    =Sampling Risk.
+    ~Business Risk.
+    ~Operational Risk.
+    ~Systemic Risk.
+}
+
+Q28 Saat mengaudit keamanan fisik, tindakan pertama yang harus dilakukan auditor adalah: {
+    =Melakukan observasi langsung terhadap pintu akses dan kamera CCTV.
+    ~Mewawancarai petugas kebersihan tentang jam kerja mereka.
+    ~Membongkar kunci pintu untuk melihat mekanisme internalnya.
+    ~Menonaktifkan alarm kebakaran untuk menguji respon tim keamanan.
+}
+
+Q29 Metodologi audit yang baik harus: {
+    =Dapat diulang (repeatable) dan menghasilkan hasil yang konsisten.
+    ~Dibuat unik untuk setiap auditor agar tidak ada yang meniru.
+    ~Dirahasiakan sepenuhnya dari auditee agar mereka tidak bisa bersiap-siap.
+    ~Hanya terdiri dari daftar periksa sederhana.
+}
+
+Q30 Manakah yang merupakan langkah terakhir dalam proses audit SI? {
+    =Melakukan tindak lanjut (follow-up) untuk memastikan rekomendasi dilaksanakan.
+    ~Menyerahkan draf laporan kepada manajer IT.
+    ~Menandatangani piagam audit tahunan.
+    ~Melakukan pengujian substantif pada basis data.
+}
+
+Q31 Saat merencanakan audit, faktor manakah yang paling menentukan tingkat presisi yang diperlukan dalam pengujian substantif? {
+    =Tingkat materialitas yang ditetapkan oleh auditor.
+    ~Jumlah jam kerja yang dialokasikan untuk staf audit.
+    ~Lokasi fisik dari pusat data yang akan diaudit.
+    ~Merek perangkat lunak akuntansi yang digunakan auditee.
+}
+
+Q32 "Control Risk" (Risiko Kontrol) akan meningkat apabila: {
+    =Kontrol internal tidak dirancang dengan baik atau gagal beroperasi.
+    ~Auditor tidak memiliki keahlian teknis yang memadai.
+    ~Risiko bisnis yang melekat pada industri sangat tinggi.
+    ~Sistem komputer perusahaan tidak terhubung ke internet.
+}
+
+Q33 Manakah dari berikut ini yang merupakan keuntungan utama dari penggunaan kuesioner dalam pengumpulan bukti audit? {
+    =Dapat mengumpulkan informasi dari banyak orang dalam waktu singkat.
+    ~Menjamin kejujuran mutlak dari semua responden.
+    ~Menghilangkan kebutuhan akan pengujian observasi lapangan.
+    ~Memberikan bukti yang lebih andal daripada pengujian sistem langsung.
+}
+
+Q34 Apa yang harus dilakukan auditor SI jika manajemen senior menolak untuk menandatangani surat representasi audit? {
+    =Mengevaluasi dampaknya terhadap opini audit dan mempertimbangkan pembatasan ruang lingkup.
+    ~Mengabaikan penolakan tersebut dan mengeluarkan laporan audit bersih.
+    ~Segera mengundurkan diri dari perusahaan tersebut.
+    ~Menulis surat representasi atas nama manajemen dan menandatangani sendiri.
+}
+
+Q35 Tujuan dari tinjauan "Peer Review" dalam departemen audit adalah untuk: {
+    =Memastikan kepatuhan terhadap standar profesional dan kualitas audit.
+    ~Menentukan siapa auditor yang layak mendapatkan kenaikan gaji.
+    ~Mengurangi beban kerja manajer audit internal.
+    ~Mempersiapkan staf untuk ujian sertifikasi CISA.
+}
+
+Q36 Seorang auditor SI menemukan bahwa beberapa kontrol IT General Controls (ITGC) lemah. Apa dampaknya terhadap pengujian aplikasi? {
+    =Auditor harus meningkatkan luas pengujian substantif pada aplikasi.
+    ~Auditor dapat langsung menyimpulkan bahwa aplikasi tersebut aman.
+    ~Pengujian aplikasi tidak perlu dilakukan karena ITGC sudah gagal.
+    ~Auditor harus mengandalkan sepenuhnya pada integritas data input.
+}
+
+Q37 Manakah dari berikut ini yang merupakan teknik audit untuk mengidentifikasi transaksi yang tidak biasa dalam populasi besar? {
+    =Data Analytics dan penambangan data (Data Mining).
+    ~Wawancara dengan staf entri data.
+    ~Pemeriksaan fisik terhadap server rak.
+    ~Peninjauan kebijakan manajemen risiko.
+}
+
+Q38 "Audit Universe" merujuk pada: {
+    =Daftar semua area atau proses yang mungkin untuk diaudit dalam organisasi.
+    ~Seluruh jaringan komputer yang terhubung ke internet secara global.
+    ~Standar audit internasional yang diterbitkan oleh ISACA.
+    ~Database pusat yang menyimpan semua kertas kerja audit lama.
+}
+
+Q39 Saat menggunakan teknik sampling moneter (Monetary Unit Sampling), item dengan nilai yang lebih besar memiliki: {
+    =Peluang yang lebih tinggi untuk dipilih sebagai sampel.
+    ~Peluang yang lebih rendah karena risiko mereka sudah diketahui.
+    ~Peluang yang sama dengan item bernilai kecil.
+    ~Tidak ada peluang untuk dipilih jika sudah diaudit tahun lalu.
+}
+
+Q40 Auditor SI menggunakan log sistem untuk memverifikasi siapa yang mengakses database sensitif. Ini adalah contoh dari: {
+    =Pengujian jejak audit (Audit Trail).
+    ~Pengujian stres (Stress Testing).
+    ~Analisis biaya-manfaat.
+    ~Rencana kelangsungan bisnis (BCP).
+}
+
+Q41 Standar Profesional ISACA mewajibkan auditor SI untuk menjaga: {
+    =Objektivitas dan kompetensi profesional.
+    ~Hubungan persahabatan yang erat dengan auditee.
+    ~Kerahasiaan data hanya jika diminta oleh manajemen.
+    ~Sertifikat CISA mereka di meja kerja setiap saat.
+}
+
+Q42 Manakah dari berikut ini yang paling baik mendeteksi adanya "Shadow IT"? {
+    =Analisis lalu lintas jaringan dan tinjauan pengadaan perangkat lunak.
+    ~Membaca kebijakan penggunaan IT yang sah.
+    ~Mewawancarai Chief Information Officer (CIO).
+    ~Memeriksa daftar aset inventaris resmi.
+}
+
+Q43 Jika auditor menemukan risiko yang signifikan namun tidak ada kontrol yang tersedia, auditor harus: {
+    =Merekomendasikan implementasi kontrol yang sesuai dengan biaya-manfaat.
+    ~Mengabaikan risiko tersebut karena tidak ada yang bisa dilakukan.
+    ~Menunggu sampai insiden terjadi sebelum melapor.
+    ~Membuat kontrol tersebut sendiri agar audit bisa selesai.
+}
+
+Q44 "Risk-based auditing" sangat bergantung pada: {
+    =Penilaian auditor terhadap efektivitas manajemen risiko organisasi.
+    ~Jumlah komputer yang dimiliki oleh organisasi.
+    ~Opini dari auditor eksternal tahun sebelumnya.
+    ~Lokasi geografis kantor pusat organisasi.
+}
+
+Q45 Apa fungsi dari penandaan transaksi (Transaction Tagging) dalam audit? {
+    =Melacak transaksi tertentu melalui sistem secara real-time.
+    ~Memberikan label harga pada aset fisik perusahaan.
+    ~Mencegah transaksi palsu masuk ke dalam sistem.
+    ~Menghapus transaksi yang dianggap tidak valid secara otomatis.
+}
+
+Q46 Auditor SI menemukan bahwa manajemen belum menindaklanjuti temuan dari audit sebelumnya. Apa langkah terbaik? {
+    =Menilai alasan keterlambatan dan dampak risiko yang tetap ada.
+    ~Segera memberikan opini "Adverse" pada laporan saat ini.
+    ~Menghapus temuan tersebut dari sejarah audit karena sudah basi.
+    ~Melakukan pekerjaan perbaikan untuk manajemen secara sukarela.
+}
+
+Q47 "Variable Sampling" digunakan oleh auditor terutama untuk: {
+    =Mengestimasi nilai numerik atau jumlah moneter dari suatu populasi.
+    ~Menentukan apakah suatu kontrol dipatuhi atau tidak (Ya/Tidak).
+    ~Mengklasifikasikan karyawan berdasarkan tingkat akses mereka.
+    ~Menghitung jumlah serangan siber yang gagal setiap bulan.
+}
+
+Q48 Kapan seorang auditor SI boleh menggunakan bukti yang dikumpulkan oleh auditor internal lain? {
+    =Setelah melakukan evaluasi terhadap kompetensi dan objektivitas mereka.
+    ~Kapan saja untuk mempercepat proses audit.
+    ~Hanya jika auditor tersebut memiliki sertifikasi yang sama.
+    ~Tidak pernah, auditor harus mengumpulkan semua bukti sendiri.
+}
+
+Q49 Manakah yang merupakan contoh "Detective Control"? {
+    =Tinjauan mingguan terhadap laporan pengecualian (exception reports).
+    ~Penggunaan firewall untuk memblokir port yang tidak sah.
+    ~Kebijakan yang melarang berbagi kata sandi.
+    ~Pemasangan kunci biometrik pada pintu ruang server.
+}
+
+Q50 Apa risiko utama dari penggunaan CAAT? {
+    =Integritas data yang dianalisis mungkin terkompromi jika tidak ditangani dengan benar.
+    ~CAAT terlalu murah sehingga tidak memberikan nilai bagi perusahaan.
+    ~CAAT hanya bisa digunakan untuk audit manual saja.
+    ~CAAT selalu menghasilkan temuan yang salah.
+}
+
+Q51 "Audit Evidence" dianggap cukup (sufficient) jika: {
+    =Fakta-faktanya meyakinkan dan mendukung temuan serta rekomendasi.
+    ~Dokumennya memiliki berat lebih dari 5 kilogram.
+    ~Auditee setuju dengan semua yang tertulis di dalamnya.
+    ~Bukti tersebut berasal dari internet.
+}
+
+Q52 Apa tujuan dari "Integrated Test Facility" (ITF)? {
+    =Memungkinkan auditor menguji sistem selama operasi normal dengan data uji terpisah.
+    ~Mematikan sistem produksi untuk melakukan pengujian keamanan.
+    ~Melatih karyawan baru tentang cara menggunakan aplikasi perusahaan.
+    ~Menghubungkan semua printer kantor ke satu server pusat.
+}
+
+Q53 Risiko yang tersisa setelah manajemen merespons risiko disebut: {
+    =Residual Risk.
+    ~Total Risk.
+    ~Inherent Risk.
+    ~Avoided Risk.
+}
+
+Q54 Auditor SI harus independen secara mental, yang berarti: {
+    =Mampu memberikan penilaian yang tidak bias dan jujur.
+    ~Tidak memiliki latar belakang pendidikan di bidang IT.
+    ~Selalu melawan pendapat manajemen apapun kondisinya.
+    ~Tidak memerlukan bantuan dari tim IT manapun.
+}
+
+Q55 Manakah dari berikut ini yang merupakan indikator terbaik dari efektivitas fungsi audit SI? {
+    =Persentase rekomendasi audit yang diimplementasikan oleh manajemen.
+    ~Jumlah laporan audit yang diterbitkan setiap bulan.
+    ~Jumlah auditor yang memiliki gelar master di departemen tersebut.
+    ~Kecepatan auditor dalam menyelesaikan laporan tanpa temuan.
+}
+
+Q56 Dalam statistik, "Confidence Level" 95% berarti: {
+    =Ada peluang 95% bahwa hasil sampel mencerminkan populasi yang sebenarnya.
+    ~95% dari populasi tersebut pasti mengandung kesalahan material.
+    ~Auditor merasa 5% yakin bahwa pekerjaan mereka benar.
+    ~Hanya 5 item dari 100 sampel yang perlu diperiksa.
+}
+
+Q57 Apa langkah pertama dalam metodologi audit berbasis risiko? {
+    =Memahami misi, visi, dan proses bisnis organisasi.
+    ~Memilih sampel transaksi untuk pengujian substantif.
+    ~Menulis laporan audit final.
+    ~Melakukan wawancara dengan administrator database.
+}
+
+Q58 "Preventive Control" dirancang untuk: {
+    =Menghindari terjadinya kesalahan atau penyimpangan sebelum terjadi.
+    ~Mendeteksi kesalahan setelah transaksi diproses.
+    ~Memulihkan data setelah serangan ransomware.
+    ~Menghukum pelaku kejahatan siber.
+}
+
+Q59 Seorang auditor SI menemukan bahwa password sistem tidak pernah diganti. Tindakan auditor adalah: {
+    =Mendokumentasikan temuan dan merekomendasikan kebijakan rotasi password.
+    ~Mengganti password semua user secara paksa saat itu juga.
+    ~Menebak password manajer IT untuk membuktikan kelemahannya.
+    ~Mengabaikan hal tersebut karena password sulit diingat jika sering diganti.
+}
+
+Q60 Laporan audit SI harus ditujukan kepada: {
+    =Dewan Direksi atau Komite Audit.
+    ~Administrator sistem yang diaudit.
+    ~Seluruh staf di departemen pemasaran.
+    ~Vendor luar yang menyediakan perangkat keras.
+}
+
+Q61 Apa keuntungan utama dari pendekatan "Continuous Audit"? {
+    =Memungkinkan deteksi dini terhadap penyimpangan kontrol dan penipuan.
+    ~Menghilangkan kebutuhan akan dokumentasi kertas kerja audit.
+    ~Mengurangi biaya lisensi perangkat lunak audit secara signifikan.
+    ~Memungkinkan auditor untuk bekerja tanpa perlu memahami proses bisnis.
+}
+
+Q62 Dalam audit sistem informasi, "Independence in Appearance" berarti: {
+    =Auditor menghindari situasi yang dapat membuat orang lain meragukan objektivitas mereka.
+    ~Auditor secara mental tidak terpengaruh oleh tekanan dari manajemen.
+    ~Auditor memiliki hubungan keluarga dengan manajer departemen yang diaudit.
+    ~Auditor selalu mengenakan seragam resmi saat melakukan audit lapangan.
+}
+
+Q63 Manakah dari berikut ini yang merupakan contoh dari "Correction Control"? {
+    =Prosedur pemulihan data dari cadangan setelah serangan virus.
+    ~Penggunaan firewall untuk menyaring lalu lintas data yang masuk.
+    ~Sistem alarm yang berbunyi saat terjadi kebocoran air di ruang server.
+    ~Pemeriksaan latar belakang sebelum merekrut staf IT.
+}
+
+Q64 Apa yang harus dilakukan auditor jika rencana audit asli tidak dapat diselesaikan karena kendala waktu? {
+    =Mengevaluasi risiko dan mendokumentasikan alasan modifikasi ruang lingkup audit.
+    ~Meminta staf auditee untuk menulis laporan audit mereka sendiri.
+    ~Menyelesaikan audit dengan mengabaikan semua prosedur pengujian substantif.
+    ~Memalsukan kertas kerja audit agar terlihat seolah-olah audit telah selesai.
+}
+
+Q65 "Risk Ranking" dalam perencanaan audit digunakan untuk: {
+    =Menentukan urutan area yang akan diaudit berdasarkan tingkat risiko.
+    ~Menghitung total bonus yang akan diterima oleh tim audit.
+    ~Memilih vendor perangkat keras terbaik untuk organisasi.
+    ~Menentukan siapa yang harus dipecat di departemen IT.
+}
+
+Q66 Auditor SI menemukan bahwa organisasi tidak memiliki kebijakan manajemen risiko secara formal. Apa tindakan terbaik auditor? {
+    =Melaporkan ketiadaan kebijakan tersebut sebagai temuan signifikan dalam laporan audit.
+    ~Membuat kebijakan manajemen risiko untuk organisasi tersebut secara gratis.
+    ~Menghentikan audit karena organisasi dianggap tidak layak untuk diaudit.
+    ~Mengasumsikan bahwa risiko organisasi dikelola dengan baik secara lisan.
+}
+
+Q67 Penggunaan "Discovery Sampling" paling tepat digunakan ketika auditor: {
+    =Mencari setidaknya satu contoh kecurangan yang dicurigai.
+    ~Ingin mengetahui nilai rata-rata dari saldo piutang perusahaan.
+    ~Melakukan survei kepuasan pengguna terhadap layanan help desk.
+    ~Menguji kepatuhan terhadap kebijakan berpakaian di kantor.
+}
+
+Q68 Dalam pengujian sistem, apa yang dimaksud dengan "False Negative" dalam konteks kontrol deteksi? {
+    =Kontrol gagal mendeteksi adanya pelanggaran atau kesalahan yang sebenarnya terjadi.
+    ~Kontrol melaporkan adanya pelanggaran padahal sebenarnya tidak ada masalah.
+    ~Sistem mati total karena kelebihan beban transaksi.
+    ~Pengguna tidak sengaja menghapus data tanpa adanya peringatan.
+}
+
+Q69 Auditor SI sedang mengaudit manajemen perubahan (change management). Bukti mana yang paling valid untuk memastikan perubahan telah disetujui? {
+    =Log persetujuan digital di dalam sistem manajemen perubahan yang terintegrasi.
+    ~Email dari pengembang yang menyatakan bahwa mereka sudah mendapat izin lisan.
+    ~Catatan di buku harian pribadi administrator database.
+    ~Wawancara dengan staf magang di departemen IT.
+}
+
+Q70 Apa tujuan dari "Parallel Simulation"? {
+    =Memproses data produksi melalui program audit untuk memverifikasi logika program aplikasi.
+    ~Menjalankan dua pusat data secara bersamaan untuk cadangan bencana.
+    ~Menguji apakah karyawan bisa bekerja dari rumah saat terjadi pandemi.
+    ~Membandingkan kecepatan dua merek server yang berbeda.
+}
+
+Q71 Auditor menemukan risiko tinggi pada sistem penggajian, namun kontrol yang ada saat ini sudah memadai. Risiko ini disebut: {
+    =Risiko inheren yang tinggi dengan risiko kontrol yang rendah.
+    ~Risiko residual yang sangat tinggi.
+    ~Kesalahan sampling yang tidak disengaja.
+    ~Risiko deteksi yang tidak dapat diterima.
+}
+
+Q72 "Engagement Letter" (Surat Penugasan) biasanya berisi: {
+    =Tujuan, ruang lingkup, tanggung jawab, dan batasan audit.
+    ~Daftar semua kesalahan yang ditemukan tahun lalu.
+    ~Kata sandi administratif untuk semua server produksi.
+    ~Detail gaji dari semua anggota tim audit.
+}
+
+Q73 Apa yang dimaksud dengan "Audit Evidence" yang relevan? {
+    =Bukti tersebut memiliki hubungan logis dengan tujuan audit yang sedang diuji.
+    ~Bukti tersebut berasal dari sumber luar negeri yang terkenal.
+    ~Bukti tersebut diserahkan dalam bentuk video beresolusi tinggi.
+    ~Bukti tersebut dikumpulkan dalam waktu kurang dari satu jam.
+}
+
+Q74 Jika auditor eksternal ingin menggunakan hasil kerja auditor internal, mereka harus: {
+    =Menilai objektivitas, kompetensi, dan metodologi kerja auditor internal.
+    ~Membayar komisi kepada departemen audit internal tersebut.
+    ~Menyalin seluruh laporan internal dan mengganti logonya.
+    ~Meminta izin kepada pemerintah pusat terlebih dahulu.
+}
+
+Q75 Teknik sampling di mana populasi dibagi menjadi beberapa kelompok berdasarkan karakteristik tertentu disebut: {
+    =Stratified Sampling.
+    ~Cluster Sampling.
+    ~Haphazard Sampling.
+    ~Block Sampling.
+}
+
+Q76 Auditor SI menemukan log akses yang menunjukkan adanya upaya login ilegal berulang kali. Langkah selanjutnya adalah: {
+    =Meninjau efektivitas kontrol manajemen insiden dan respons organisasi.
+    ~Segera mematikan server tersebut agar tidak diserang lagi.
+    ~Menghapus log tersebut agar tidak memenuhi kapasitas penyimpanan.
+    ~Mengirimkan email peringatan kepada seluruh pengguna internet.
+}
+
+Q77 "Standard" dalam kerangka kerja ISACA bersifat: {
+    =Wajib dipatuhi oleh semua profesional audit SI.
+    ~Hanya sekadar saran yang boleh diabaikan.
+    ~Hanya berlaku untuk auditor yang bekerja di instansi pemerintah.
+    ~Berubah setiap minggu tergantung tren teknologi.
+}
+
+Q78 Apa yang menjadi fokus utama saat mengaudit "Cloud Service Provider" (CSP)? {
+    =Hak untuk mengaudit (right-to-audit) dan Service Level Agreement (SLA).
+    ~Warna kabel yang digunakan di pusat data vendor.
+    ~Jumlah karyawan yang dimiliki oleh vendor cloud tersebut.
+    ~Merek minuman yang disediakan di kantin vendor.
+}
+
+Q79 Auditor SI menemukan bahwa tidak ada pemisahan tugas di unit IT kecil. Apa rekomendasi terbaik? {
+    =Implementasi kontrol kompensasi seperti tinjauan log transaksi secara independen.
+    ~Memaksa perusahaan untuk merekrut 10 staf baru segera.
+    ~Menutup unit IT tersebut dan beralih ke proses manual.
+    ~Meminta satu orang staf untuk bekerja 24 jam sehari.
+}
+
+Q80 Apa fungsi utama dari "Audit Planning Memorandum"? {
+    =Mendokumentasikan strategi audit dan memberikan panduan bagi tim audit.
+    ~Memberikan daftar belanja untuk keperluan kantor audit.
+    ~Mengumumkan hasil audit kepada publik melalui media massa.
+    ~Menjelaskan cara menginstal perangkat lunak audit di laptop.
+}
+
+Q81 Risiko bahwa auditor mungkin secara tidak sengaja gagal memodifikasi opini pada laporan audit yang salah secara material disebut: {
+    =Audit Risk.
+    ~Business Risk.
+    ~Inherent Risk.
+    ~Residual Risk.
+}
+
+Q82 "Generalized Audit Software" (GAS) memungkinkan auditor untuk: {
+    =Melakukan pengujian pada data tanpa bergantung pada sistem aplikasi klien.
+    ~Memperbaiki bug di dalam kode program auditee secara otomatis.
+    ~Mengambil alih kendali pusat data dari jarak jauh.
+    ~Menulis kebijakan keamanan informasi yang baru untuk klien.
+}
+
+Q83 Auditor SI melakukan "Walkthrough" bertujuan untuk: {
+    =Memahami alur proses dan mengonfirmasi pemahaman tentang desain kontrol.
+    ~Berolahraga sambil mengelilingi fasilitas fisik perusahaan.
+    ~Mencari barang-barang yang hilang di gudang IT.
+    ~Mengukur jarak antara pintu darurat dan meja kerja staf.
+}
+
+Q84 Manakah yang merupakan contoh "Indirect Evidence"? {
+    =Hasil wawancara dengan manajemen tentang efektivitas kontrol.
+    ~Observasi langsung terhadap proses backup data.
+    ~Pemeriksaan fisik terhadap server yang rusak.
+    ~Hasil kalkulasi ulang yang dilakukan sendiri oleh auditor.
+}
+
+Q85 Mengapa auditor SI harus meninjau "IT Strategic Plan" organisasi? {
+    =Untuk memastikan tujuan IT selaras dengan tujuan bisnis organisasi.
+    ~Untuk mengetahui berapa banyak komputer yang akan dibeli tahun depan.
+    ~Untuk menghafal nama-nama direksi perusahaan.
+    ~Untuk memastikan semua karyawan menggunakan sistem operasi yang sama.
+}
+
+Q86 Apa yang dimaksud dengan "Compliance Audit"? {
+    =Audit yang memverifikasi kepatuhan terhadap kebijakan, prosedur, dan peraturan.
+    ~Audit yang fokus hanya pada nilai moneter dalam laporan keuangan.
+    ~Audit yang dilakukan hanya oleh pihak kepolisian.
+    ~Audit yang menguji kekuatan fisik gedung server terhadap gempa bumi.
+}
+
+Q87 Faktor utama yang mempengaruhi "Detection Risk" adalah: {
+    =Efektivitas prosedur audit dan keahlian auditor SI.
+    ~Kompleksitas sistem akuntansi yang digunakan perusahaan.
+    ~Integritas manajemen puncak organisasi.
+    ~Kondisi ekonomi makro negara tempat perusahaan berada.
+}
+
+Q88 Auditor SI harus mengomunikasikan temuan audit segera jika: {
+    =Ditemukan adanya ancaman keamanan yang mendesak atau indikasi kecurangan material.
+    ~Auditee terlihat sangat sibuk dan tidak punya waktu bicara.
+    ~Auditor merasa bosan dan ingin segera pulang.
+    ~Ditemukan kesalahan pengetikan kecil pada dokumen prosedur.
+}
+
+Q89 "Judgmental Sampling" paling efektif digunakan ketika: {
+    =Auditor memiliki pengetahuan khusus tentang area yang berisiko tinggi.
+    ~Populasi sangat besar dan auditor tidak tahu apa yang harus dicari.
+    ~Auditor ingin memberikan kesempatan yang sama bagi setiap transaksi.
+    ~Peraturan pemerintah mewajibkan penggunaan metode non-statistik.
+}
+
+Q90 Tindak lanjut atas rekomendasi audit adalah tanggung jawab: {
+    =Manajemen auditee.
+    ~Auditor SI secara pribadi.
+    ~Vendor perangkat lunak pihak ketiga.
+    ~Pemegang saham minoritas.
+}
+
+Q91 Manakah dari berikut ini yang merupakan indikator adanya "Scope Creep" dalam audit? {
+    =Audit melebihi anggaran waktu karena penambahan area pengujian yang tidak direncanakan.
+    ~Auditor menemukan terlalu banyak kesalahan di departemen IT.
+    ~Auditee memberikan semua dokumen yang diminta tepat waktu.
+    ~Manajer audit meminta laporan audit ditulis dalam dua bahasa.
+}
+
+Q92 Apa kegunaan dari "Vulnerability Assessment" bagi seorang auditor? {
+    =Mengidentifikasi kelemahan teknis yang dapat dieksploitasi dalam sistem.
+    ~Menghitung total kerugian finansial akibat serangan siber tahun lalu.
+    ~Menentukan siapa yang harus bertanggung jawab atas kegagalan sistem.
+    ~Memperbaiki semua lubang keamanan yang ditemukan di jaringan.
+}
+
+Q93 Seorang auditor SI menemukan bahwa password administratif dibagi di antara beberapa orang. Risiko utamanya adalah: {
+    =Kurangnya akuntabilitas atas tindakan yang dilakukan.
+    ~Sistem akan berjalan lebih lambat karena banyak orang login bersamaan.
+    ~Biaya lisensi sistem akan meningkat secara otomatis.
+    ~Layar monitor akan cepat rusak karena terlalu banyak akses.
+}
+
+Q94 Dalam pengolahan data elektronik, kontrol "Hash Total" digunakan untuk: {
+    =Memastikan integritas data selama pemrosesan atau transmisi.
+    ~Menyandikan data agar tidak bisa dibaca oleh pihak lain.
+    ~Menghapus data yang sudah tidak digunakan lagi secara permanen.
+    ~Menghitung jumlah total karyawan di departemen IT.
+}
+
+Q95 "Quality Assurance" (QA) dalam fungsi audit internal bertujuan untuk: {
+    =Memastikan proses audit dilakukan sesuai dengan standar yang ditetapkan.
+    ~Menjamin bahwa tidak akan ada kesalahan dalam sistem IT auditee.
+    ~Memilih auditor yang paling populer di mata auditee.
+    ~Mengurangi durasi audit menjadi hanya satu hari.
+}
+
+Q96 Manakah yang merupakan contoh "Physical Control"? {
+    =Pagar kawat berduri dan penjaga keamanan di pintu masuk.
+    ~Kebijakan penggunaan kata sandi yang kompleks.
+    ~Enkripsi data pada hard disk laptop.
+    ~Pelatihan kesadaran keamanan bagi staf.
+}
+
+Q97 "Audit Risk" dapat dikurangi dengan cara: {
+    =Melakukan lebih banyak pengujian substantif dan memperbaiki pengujian kontrol.
+    ~Mengurangi jumlah sampel yang diperiksa agar lebih cepat selesai.
+    ~Meminta auditee untuk menandatangani surat pernyataan bahwa tidak ada kesalahan.
+    ~Menyewa konsultan luar untuk melakukan seluruh pekerjaan audit.
+}
+
+Q98 Hasil pengujian atribut (Attribute Sampling) biasanya dinyatakan dalam bentuk: {
+    =Persentase atau tingkat kejadian (occurrence rate).
+    ~Nilai mata uang (rupiah/dolar).
+    ~Jumlah hari keterlambatan proyek.
+    ~Berat fisik dari dokumen yang diperiksa.
+}
+
+Q99 Auditor SI mencurigai adanya "Data Leakage" melalui USB drive. Langkah audit terbaik adalah: {
+    =Meninjau log aktivitas port USB dan kebijakan penggunaan media portabel.
+    ~Melarang semua karyawan membawa tas ke dalam kantor.
+    ~Membongkar semua komputer untuk mencari sisa-sisa data.
+    ~Mewawancarai petugas kebersihan tentang apa yang mereka lihat di meja karyawan.
+}
+
+Q100 Dokumen yang berisi ringkasan temuan audit, risiko, dan rekomendasi disebut: {
+    =Audit Report (Laporan Audit).
+    ~Project Management Plan.
+    ~Security Policy.
+    ~Business Impact Analysis.
+}

@@ -1,0 +1,703 @@
+// ==========================================================
+// CISA DOMAIN 5: Protection of Information Assets (1-100)
+// ==========================================================
+
+Q1 Manakah dari berikut ini yang merupakan tujuan utama dari keamanan informasi? {
+    =Menjaga kerahasiaan (confidentiality), integritas (integrity), dan ketersediaan (availability).
+    ~Memastikan semua karyawan memiliki akses ke semua data perusahaan.
+    ~Menghilangkan kebutuhan akan audit sistem informasi di masa depan.
+    ~Mengurangi biaya pembelian perangkat keras komputer setiap tahun.
+}
+
+Q2 Dalam enkripsi asimetris (Public Key), jika Budi ingin mengirim pesan rahasia kepada Ani, Budi harus mengenkripsi pesan tersebut menggunakan: {
+    =Kunci publik Ani.
+    ~Kunci peribadi Budi.
+    ~Kunci publik Budi.
+    ~Kunci peribadi Ani.
+}
+
+Q3 Apa fungsi utama dari "Digital Signature" (Tanda Tangan Digital)? {
+    =Menjamin integritas pesan dan keaslian pengirim (non-repudiation).
+    ~Menyembunyikan isi pesan agar tidak bisa dibaca oleh orang lain.
+    ~Mempercepat pengiriman email melalui jaringan internet.
+    ~Menghapus virus dari lampiran email secara otomatis.
+}
+
+Q4 Manakah dari berikut ini yang merupakan contoh kontrol akses biometrik yang paling sulit dipalsukan? {
+    =Imbasan iris mata.
+    ~Pengecaman suara.
+    ~Tanda tangan dinamis.
+    ~Geometri telapak tangan.
+}
+
+Q5 Apa risiko utama dari penggunaan "Shared Accounts" (akun yang digunakan bersama)? {
+    =Kehilangan akuntabilitas individu (non-repudiation).
+    ~Sistem akan berjalan lebih lambat karena banyak orang login bersamaan.
+    ~Biaya lisensi perangkat lunak akan menjadi lebih mahal.
+    ~Monitor komputer akan lebih cepat mengalami kerusakan fisik.
+}
+
+Q6 "Two-Factor Authentication" (2FA) yang paling kuat melibatkan kombinasi dari: {
+    =Sesuatu yang Anda ketahui (password) dan sesuatu yang Anda miliki (token).
+    ~Dua password yang berbeda untuk satu akun yang sama.
+    ~Password dan nama ibu kandung sebagai pertanyaan keamanan.
+    ~Alamat email dan nomor telepon kantor.
+}
+
+Q7 Auditor SI menemukan bahwa staf IT sering menggunakan "Default Passwords". Langkah pertama yang harus dilakukan adalah: {
+    =Menilai risiko dan merekomendasikan perubahan password segera pada semua perangkat.
+    ~Membiarkan hal tersebut selama perangkat berada di dalam firewall.
+    ~Menghapus semua akun yang menggunakan password default tanpa pemberitahuan.
+    ~Mengasumsikan vendor telah memberikan password yang paling aman.
+}
+
+Q8 Apa tujuan dari "Intrusion Detection System" (IDS)? {
+    =Memantau dan memberikan peringatan atas aktivitas jaringan yang mencurigakan.
+    ~Memperbaiki lubang keamanan pada sistem operasi secara otomatis.
+    ~Mengenkripsi seluruh lalu lintas data yang keluar dari perusahaan.
+    ~Mencegah karyawan mengakses situs media sosial selama jam kerja.
+}
+
+Q9 Manakah yang merupakan perbedaan utama antara IDS dan IPS (Intrusion Prevention System)? {
+    =IDS hanya mendeteksi dan memberi peringatan, sedangkan IPS dapat mengambil tindakan untuk memblokir serangan.
+    ~IDS digunakan untuk perangkat keras, sedangkan IPS digunakan untuk perangkat lunak.
+    ~IDS bekerja di lapisan fisik, sedangkan IPS bekerja di lapisan aplikasi.
+    ~Tidak ada perbedaan; keduanya adalah istilah yang sama.
+}
+
+Q10 "Phishing" adalah jenis serangan yang menggunakan: {
+    =Rekayasa sosial (social engineering) melalui email palsu untuk mencuri informasi.
+    ~Kekuatan fisik untuk merusak server di pusat data.
+    ~Algoritma matematika yang rumit untuk memecahkan enkripsi.
+    ~Kabel jaringan yang rusak untuk menyadap data.
+}
+
+Q11 Apa fungsi utama dari "Firewall" dalam keamanan jaringan? {
+    =Menyaring lalu lintas data berdasarkan aturan keamanan yang ditetapkan.
+    ~Mencegah komputer dari kerusakan fisik akibat panas berlebih.
+    ~Meningkatkan kecepatan koneksi internet bagi pengguna senior.
+    ~Menghapus semua email sampah (spam) sebelum sampai ke kotak masuk.
+}
+
+Q12 Auditor SI menemukan bahwa organisasi tidak memiliki "Data Classification Policy". Risiko utamanya adalah: {
+    =Kontrol keamanan mungkin tidak diterapkan secara memadai sesuai dengan sensitivitas data.
+    ~Sistem operasi akan otomatis berhenti mengolah data rahasia.
+    ~Karyawan akan lupa cara memasukkan data ke dalam sistem.
+    ~Biaya penyimpanan cloud akan meningkat sepuluh kali lipat.
+}
+
+Q13 Dalam konsep "Least Privilege", pengguna diberikan hak akses: {
+    =Hanya pada tingkat minimum yang diperlukan untuk menjalankan tugas mereka.
+    ~Paling luas agar mereka tidak perlu meminta izin lagi di masa depan.
+    ~Sama dengan hak akses yang dimiliki oleh manajer mereka.
+    ~Hanya pada jam kerja saja.
+}
+
+Q14 "Honey Pot" digunakan oleh tim keamanan untuk: {
+    =Menarik penyerang ke sistem palsu untuk mempelajari teknik mereka.
+    ~Memberikan bonus kepada karyawan yang menemukan celah keamanan.
+    ~Menyimpan cadangan data yang paling sensitif secara offline.
+    ~Mendinginkan suhu ruangan server agar tetap stabil.
+}
+
+Q15 Auditor SI sedang mengaudit keamanan nirkabel (Wi-Fi). Protokol enkripsi mana yang paling aman saat ini? {
+    =WPA3.
+    ~WEP.
+    ~WPA.
+    ~WPA2-TKIP.
+}
+
+Q16 Apa tujuan dari "Vulnerability Scanning"? {
+    =Mengidentifikasi kelemahan teknis yang diketahui pada sistem dan jaringan.
+    ~Menghapus semua file yang tidak pernah dibuka selama satu tahun.
+    ~Menentukan siapa karyawan yang paling sering melakukan kesalahan.
+    ~Menghitung total daya listrik yang digunakan oleh perangkat jaringan.
+}
+
+Q17 "Penetration Testing" berbeda dengan vulnerability scanning karena: {
+    =Penetration testing mencoba mengeksploitasi kerentanan untuk menguji kekuatan kontrol.
+    ~Penetration testing hanya dilakukan oleh pihak kepolisian.
+    ~Penetration testing tidak memerlukan izin dari pemilik sistem.
+    ~Penetration testing dilakukan tanpa menggunakan komputer sama sekali.
+}
+
+Q18 Manakah dari berikut ini yang merupakan contoh "Physical Control" di pusat data? {
+    =Mantrap (pintu ganda) dan kamera CCTV.
+    ~Kebijakan rotasi password setiap 30 hari.
+    ~Penggunaan algoritma enkripsi AES-256.
+    ~Pelatihan kesadaran keamanan bagi staf baru.
+}
+
+Q19 "Denial of Service" (DoS) attack bertujuan untuk: {
+    =Membuat layanan atau sistem tidak tersedia bagi pengguna yang sah.
+    ~Mencuri data kartu kredit dari pangkalan data perusahaan.
+    ~Mengubah kode sumber aplikasi secara diam-diam.
+    ~Memata-matai percakapan telepon manajer senior.
+}
+
+Q20 Apa peran "Certificate Authority" (CA) dalam infrastruktur kunci publik (PKI)? {
+    =Memverifikasi identitas dan menerbitkan sertifikat digital.
+    ~Menyimpan semua password pengguna dalam format teks biasa.
+    ~Melakukan audit fisik terhadap gedung kantor pusat perusahaan.
+    ~Mencegah virus masuk ke dalam jaringan area lokal.
+}
+
+Q21 Auditor SI menemukan bahwa tidak ada prosedur "De-provisioning" bagi karyawan yang keluar. Risikonya adalah: {
+    =Mantan karyawan masih dapat mengakses sistem perusahaan secara tidak sah.
+    ~Sistem akan otomatis menghapus semua pekerjaan yang pernah dibuat karyawan tersebut.
+    ~Karyawan tersebut akan tetap mendapatkan gaji meskipun sudah berhenti.
+    ~Komputer yang pernah digunakan karyawan tersebut tidak akan bisa dinyalakan.
+}
+
+Q22 "Social Engineering" paling efektif dicegah melalui: {
+    =Program pelatihan kesadaran keamanan (security awareness) bagi staf.
+    ~Pemasangan firewall yang paling mahal di dunia.
+    ~Penggunaan kabel jaringan berbahan fiber optik.
+    ~Pemisahan tugas antara administrator dan operator.
+}
+
+Q23 Apa risiko utama dari penggunaan "Bring Your Own Device" (BYOD)? {
+    =Kesulitan dalam mengontrol keamanan data perusahaan di perangkat pribadi.
+    ~Karyawan akan meminta perusahaan membayar tagihan telepon mereka.
+    ~Perangkat pribadi akan meledak jika terhubung ke wifi kantor.
+    ~Baterai perangkat akan lebih cepat habis saat digunakan bekerja.
+}
+
+Q24 "Data Loss Prevention" (DLP) digunakan untuk: {
+    =Mendeteksi dan mencegah pemindahan data sensitif ke luar organisasi tanpa izin.
+    ~Memulihkan data yang telah terhapus dari hard disk yang rusak.
+    ~Mencegah komputer kehilangan daya listrik saat terjadi badai.
+    ~Menghapus data sampah agar ruang penyimpanan tetap lega.
+}
+
+Q25 Manakah yang merupakan contoh "Technical Control"? {
+    =Implementasi sistem kontrol akses berbasis peran (RBAC).
+    ~Menulis standar operasional prosedur untuk administrasi sistem.
+    ~Melakukan pemeriksaan latar belakang pada vendor baru.
+    ~Memasang tanda "Dilarang Masuk" di depan ruang server.
+}
+
+Q26 Auditor SI menemukan bahwa "Backup Tapes" dikirim tanpa enkripsi. Risiko utamanya adalah: {
+    =Data dapat dibaca oleh pihak tidak berwenang jika kaset hilang atau dicuri.
+    ~Data di dalam kaset akan rusak karena guncangan selama perjalanan.
+    ~Kaset tidak akan bisa dibaca oleh mesin di lokasi tujuan.
+    ~Biaya pengiriman kaset akan menjadi lebih mahal.
+}
+
+Q27 "Man-in-the-Middle" (MitM) attack melibatkan: {
+    =Penyerang yang menyadap atau mengubah komunikasi antara dua pihak secara diam-diam.
+    ~Seseorang yang berdiri di tengah ruang server untuk menghalangi teknisi.
+    ~Peretas yang mencuri laptop karyawan di tempat umum.
+    ~Virus yang menghapus data di tengah-tengah proses pemrosesan.
+}
+
+Q28 Apa fungsi dari "Log Management"? {
+    =Mengumpulkan, menyimpan, dan menganalisis log aktivitas untuk deteksi insiden.
+    ~Menghitung berapa banyak batang kayu yang digunakan untuk membangun kantor.
+    ~Menentukan jadwal cuti bagi seluruh staf keamanan.
+    ~Menyimpan salinan surat masuk dan keluar departemen IT.
+}
+
+Q29 "Hardening" pada server melibatkan: {
+    =Menonaktifkan layanan dan port yang tidak diperlukan untuk mengurangi area serangan.
+    ~Membungkus server dengan pelat baja agar tahan benturan fisik.
+    ~Meningkatkan kecepatan putaran kipas pendingin server.
+    ~Memberikan password yang sangat panjang.
+}
+
+Q30 Auditor SI menemukan bahwa "Sensitive Data" disimpan dalam format teks biasa di basis data. Rekomendasi utamanya adalah: {
+    =Menerapkan enkripsi pada data saat diam (data-at-rest).
+    ~Menghapus data tersebut agar tidak bisa dicuri orang.
+    ~Membatasi akses ke ruang server hanya untuk satu orang saja.
+    ~Mengganti merek basis data yang digunakan perusahaan.
+}
+
+Q31 "Malware" yang menyandera data dan meminta tebusan disebut: {
+    =Ransomware.
+    ~Spyware.
+    ~Adware.
+    ~Trojan Horse.
+}
+
+Q32 Apa tujuan dari "Network Segmentation"? {
+    =Membagi jaringan menjadi bagian-bagian kecil untuk membatasi penyebaran serangan.
+    ~Mempercepat koneksi internet dengan membagi kabel menjadi dua.
+    ~Memungkinkan semua departemen saling berbagi file tanpa batasan.
+    ~Menghitung jumlah total komputer yang ada di organisasi.
+}
+
+Q33 Manakah dari berikut ini yang merupakan kontrol "Deterrent"? {
+    =Papan tanda peringatan tentang pemantauan kamera CCTV.
+    ~Pintu baja yang terkunci dengan sistem biometrik.
+    ~Sistem pemadam api otomatis di ruang server.
+    ~Enkripsi data pada hard disk eksternal.
+}
+
+Q34 "Audit Logging" harus mencakup informasi berikut untuk mendukung forensik, KECUALI: {
+    =Warna pakaian yang dikenakan pengguna saat melakukan login.
+    ~ID pengguna yang melakukan akses atau perubahan.
+    ~Alamat IP asal dan stempel waktu (timestamp) aktivitas.
+    ~Jenis aktivitas yang dilakukan (sukses atau gagal).
+}
+
+Q35 Apa risiko utama dari penggunaan "Public Wi-Fi" untuk mengakses data perusahaan? {
+    =Data dapat disadap dengan mudah melalui serangan sniffing.
+    ~Baterai laptop akan meledak karena voltase wifi publik tidak stabil.
+    ~Kecepatan internet akan turun drastis setiap kali ada orang lewat.
+    ~Sistem operasi akan otomatis melakukan update tanpa izin.
+}
+
+Q36 "Security Patch" harus diuji di lingkungan non-produksi terlebih dahulu untuk: {
+    =Memastikan patch tidak merusak stabilitas atau fungsi aplikasi yang ada.
+    ~Menghilangkan kebutuhan akan persetujuan dari manajer IT.
+    ~Menghemat penggunaan memori pada server produksi.
+    ~Menghitung berapa lama waktu yang dibutuhkan untuk menginstal patch.
+}
+
+Q37 Auditor SI menemukan bahwa kunci fisik ruang server tidak dikelola dengan baik. Risiko utamanya adalah: {
+    =Akses fisik tidak sah yang dapat menyebabkan pencurian atau sabotase perangkat.
+    ~Kunci tersebut akan berkarat dan merusak lubang kunci pintu.
+    ~Suhu ruangan server akan meningkat jika pintu tidak dikunci.
+    ~Tiket help desk akan meningkat karena banyak staf kehilangan kunci.
+}
+
+Q38 "Zero-day Exploit" merujuk pada serangan yang: {
+    =Mengeksploitasi kerentanan yang belum diketahui oleh vendor perangkat lunak.
+    ~Hanya terjadi pada hari pertama setiap bulan Januari.
+    ~Dilakukan oleh peretas yang tidak memiliki pengalaman sama sekali.
+    ~Gagal dilakukan karena sistem keamanan terlalu kuat.
+}
+
+Q39 Apa fungsi utama dari "Virtual Private Network" (VPN)? {
+    =Menyediakan saluran komunikasi yang aman dan terenkripsi melalui jaringan publik.
+    ~Meningkatkan kecepatan browsing situs web internasional.
+    ~Mencegah komputer dari serangan virus yang berasal dari flashdisk.
+    ~Menyembunyikan lokasi fisik kantor dari peta digital.
+}
+
+Q40 Hasil akhir dari Domain 5 yang sukses adalah: {
+    =Aset informasi organisasi terlindungi secara memadai dari ancaman internal dan eksternal.
+    ~Perusahaan tidak perlu lagi mengeluarkan uang untuk biaya keamanan.
+    ~Semua data perusahaan tersedia secara bebas di internet untuk kemudahan akses.
+    ~Hanya Chief Security Officer yang boleh menyalakan komputer perusahaan.
+}
+
+Q41 Manakah dari berikut ini yang merupakan keuntungan utama dari penggunaan "Air Gap"? {
+    =Memisahkan sistem kritis sepenuhnya dari jaringan publik untuk mencegah serangan jarak jauh.
+    ~Meningkatkan kecepatan aliran udara di dalam ruang server.
+    ~Memungkinkan sinkronisasi data secara real-time antar gedung.
+    ~Mengurangi biaya kabel jaringan dengan menggunakan transmisi nirkabel.
+}
+
+Q42 Dalam konteks keamanan logis, "Biometric False Acceptance Rate" (FAR) merujuk pada: {
+    =Peluang sistem mengizinkan akses kepada pengguna yang tidak sah.
+    ~Peluang sistem menolak akses bagi pengguna yang sah.
+    ~Jumlah total sidik jari yang tersimpan dalam database.
+    ~Waktu yang dibutuhkan sensor untuk memproses data biometrik.
+}
+
+Q43 "Steganography" adalah teknik yang digunakan untuk: {
+    =Menyembunyikan keberadaan pesan rahasia di dalam file lain.
+    ~Menghapus jejak kaki digital dari log sistem.
+    ~Mempercepat enkripsi data menggunakan perangkat keras khusus.
+    ~Menganalisis perilaku pengguna di media sosial secara otomatis.
+}
+
+Q44 Apa risiko utama dari "Privileged Identity Management" (PIM) yang buruk? {
+    =Penyalahgunaan akun administrator yang dapat menyebabkan kerusakan sistem yang luas.
+    ~Karyawan biasa tidak akan bisa mencetak dokumen berwarna.
+    ~Sistem operasi akan meminta pembaruan (update) setiap hari.
+    ~Waktu booting komputer akan menjadi lebih lama.
+}
+
+Q45 Auditor SI menemukan bahwa data sensitif dibuang ke tempat sampah tanpa dihancurkan. Prinsip keamanan yang dilanggar adalah: {
+    =Kerahasiaan (Confidentiality).
+    ~Ketersediaan (Availability).
+    ~Skalabilitas (Scalability).
+    ~Efisiensi (Efficiency).
+}
+
+Q46 Manakah yang merupakan contoh "Social Engineering" berbasis fisik? {
+    =Tailgating (mengikuti orang berwenang masuk ke area terlarang).
+    ~Mengirim email phishing ke ribuan orang sekaligus.
+    ~Melakukan brute force terhadap kata sandi administrator.
+    ~Menginstal malware melalui iklan di situs web.
+}
+
+Q47 "Encryption Key Management" sangat penting karena: {
+    =Keamanan data terenkripsi sangat bergantung pada kerahasiaan dan perlindungan kunci.
+    ~Kunci enkripsi yang panjang dapat mempercepat kinerja CPU.
+    ~Kunci enkripsi harus diganti setiap kali pengguna login.
+    ~Kunci enkripsi dapat digunakan sebagai cadangan data jika hard disk rusak.
+}
+
+Q48 Apa fungsi dari "Security Information and Event Management" (SIEM)? {
+    =Mengumpulkan dan menganalisis data log dari berbagai sumber untuk deteksi ancaman.
+    ~Menulis kebijakan keamanan informasi untuk seluruh organisasi.
+    ~Mengatur suhu dan kelembaban di dalam pusat data.
+    ~Memblokir semua lampiran email yang berbentuk file PDF.
+}
+
+Q49 Auditor SI harus memverifikasi bahwa "Access Reviews" dilakukan secara berkala untuk: {
+    =Memastikan hak akses pengguna masih sesuai dengan peran pekerjaan saat ini.
+    ~Menghitung berapa kali pengguna mengganti foto profil mereka.
+    ~Menentukan siapa karyawan yang paling rajin bekerja lembur.
+    ~Menghapus semua file pribadi pengguna dari drive jaringan.
+}
+
+Q50 "SQL Injection" adalah serangan yang menargetkan: {
+    =Celah keamanan pada input aplikasi untuk memanipulasi pangkalan data.
+    ~Kekuatan fisik kabel fiber optik di bawah tanah.
+    ~Protokol enkripsi pada jaringan wifi publik.
+    ~Kecepatan kipas pendingin pada kartu grafis server.
+}
+
+Q51 Manakah dari berikut ini yang merupakan kontrol terbaik untuk mencegah "Unauthorized Software Installation"? {
+    =Membatasi hak administratif pengguna lokal (Standard User).
+    ~Memasang poster daftar perangkat lunak yang dilarang.
+    ~Meningkatkan kapasitas memori RAM pada setiap komputer.
+    ~Menggunakan monitor yang memiliki fitur filter privasi.
+}
+
+Q52 "Digital Watermarking" digunakan terutama untuk: {
+    =Melindungi hak cipta dan melacak distribusi konten digital ilegal.
+    ~Mencegah komputer dari kerusakan akibat tumpahan air minum.
+    ~Menandai file yang sudah diperiksa oleh auditor SI.
+    ~Mengurangi ukuran file video agar mudah dikirim melalui email.
+}
+
+Q53 Apa risiko utama dari "Shadow IT"? {
+    =Data organisasi mungkin disimpan di platform yang tidak memiliki kontrol keamanan memadai.
+    ~Karyawan akan menjadi terlalu pintar dalam menggunakan teknologi.
+    ~Departemen IT akan kekurangan pekerjaan harian.
+    ~Biaya lisensi perangkat lunak resmi akan menjadi lebih murah.
+}
+
+Q54 "Demilitarized Zone" (DMZ) dalam arsitektur jaringan berfungsi untuk: {
+    =Menempatkan layanan publik secara terpisah dari jaringan internal.
+    ~Menyediakan area bagi staf untuk beristirahat dan bermain game.
+    ~Menyimpan cadangan data yang paling rahasia secara fisik.
+    ~Menghubungkan seluruh kantor cabang melalui satelit luar angkasa.
+}
+
+Q55 Manakah yang merupakan contoh "Logical Access Control"? {
+    =Implementasi sistem kontrol akses berbasis peran (RBAC).
+    ~Pemasangan gembok fisik pada rak server.
+    ~Penjaga keamanan yang memeriksa tanda pengenal di lobi.
+    ~Penggunaan lemari besi tahan api untuk menyimpan kaset backup.
+}
+
+Q56 Auditor SI menemukan bahwa "Sensitive Logs" tidak dilindungi dari modifikasi. Risiko utamanya adalah: {
+    =Penyerang dapat menghapus atau mengubah log untuk menutupi jejak mereka.
+    ~Log akan otomatis terhapus jika kapasitas hard disk penuh.
+    ~Staf administrasi tidak akan bisa mencetak laporan aktivitas harian.
+    ~Sistem operasi akan menjadi tidak stabil dan sering mengalami crash.
+}
+
+Q57 Apa yang dimaksud dengan "Non-repudiation"? {
+    =Ketidakmampuan pengirim untuk menyangkal bahwa mereka mengirim pesan tersebut.
+    ~Kemampuan sistem untuk tetap berjalan meskipun ada kegagalan komponen.
+    ~Kecepatan sistem dalam memulihkan data setelah serangan siber.
+    ~Hak pengguna untuk menolak kebijakan keamanan yang baru.
+}
+
+Q58 "Endpoint Security" berfokus pada perlindungan: {
+    =Perangkat pengguna akhir seperti laptop, ponsel, dan workstation.
+    ~Kabel jaringan utama yang menghubungkan antar gedung.
+    ~Sistem pendingin udara pusat di dalam gedung kantor.
+    ~Hubungan antara perusahaan dengan penyedia layanan internet.
+}
+
+Q59 Manakah yang merupakan risiko dari penggunaan "Public Key Infrastructure" (PKI)? {
+    =Kompromi pada Kunci Peribadi dari Otoritas Sertifikat (CA).
+    ~Pengguna kehilangan kunci publik mereka di internet.
+    ~Sertifikat digital menjadi terlalu berat untuk dikirim melalui email.
+    ~Penggunaan PKI mengharuskan semua karyawan memiliki gelar sarjana IT.
+}
+
+Q60 Auditor SI menemukan bahwa "Remote Access" dilakukan melalui protokol yang tidak terenkripsi. Rekomendasi utamanya adalah: {
+    =Beralih menggunakan protokol yang aman dan terenkripsi seperti SSH.
+    ~Melarang semua bentuk akses jarak jauh secara permanen.
+    ~Meminta pengguna untuk mengetik lebih cepat.
+    ~Mengganti kata sandi setiap satu jam sekali.
+}
+
+Q61 Apa fungsi dari "Address Resolution Protocol" (ARP) Spoofing? {
+    =Mengalihkan lalu lintas data di jaringan lokal ke perangkat penyerang.
+    ~Mengubah alamat rumah karyawan di dalam database HR.
+    ~Mempercepat resolusi nama domain menjadi alamat IP.
+    ~Mencegah virus menyebar dari satu komputer ke komputer lain.
+}
+
+Q62 "Hashing" digunakan dalam keamanan informasi terutama untuk: {
+    =Menjamin integritas data (memastikan data tidak berubah).
+    ~Menyembunyikan isi pesan agar tetap rahasia.
+    ~Memulihkan data yang sudah terhapus secara permanen.
+    ~Mengompres file besar menjadi ukuran yang sangat kecil.
+}
+
+Q63 Manakah dari berikut ini yang merupakan indikator adanya "Advanced Persistent Threat" (APT)? {
+    =Aktivitas jaringan yang tidak biasa dan berlangsung dalam jangka waktu lama.
+    ~Munculnya iklan pop-up yang mengganggu pada browser pengguna.
+    ~Komputer berjalan sedikit lambat saat baru dinyalakan.
+    ~Lampu indikator pada router berkedip dengan warna hijau.
+}
+
+Q64 Apa risiko utama dari "Internet of Things" (IoT) di lingkungan perusahaan? {
+    =Banyak perangkat IoT tidak memiliki fitur keamanan bawaan yang kuat.
+    ~Perangkat IoT akan menghabiskan jatah makanan di kantin perusahaan.
+    ~Setiap perangkat IoT memerlukan satu alamat IP publik yang mahal.
+    ~Perangkat IoT hanya bisa dikendalikan menggunakan suara manusia.
+}
+
+Q65 "War Driving" adalah aktivitas yang bertujuan untuk: {
+    =Mencari jaringan nirkabel yang tidak aman sambil berkendara.
+    ~Menguji kekuatan fisik ban kendaraan operasional perusahaan.
+    ~Mengirimkan bantuan logistik ke daerah bencana menggunakan truk.
+    ~Melakukan balapan komputer antar departemen di perusahaan.
+}
+
+Q66 Auditor SI menemukan bahwa "Security Patches" tidak segera diinstal pada server kritis. Tindakan terbaik adalah: {
+    =Meninjau proses manajemen patch dan melakukan penilaian risiko kerentanan.
+    ~Segera menginstal semua patch secara otomatis tanpa pengujian.
+    ~Mengabaikan hal tersebut jika tidak ada laporan serangan baru-baru ini.
+    ~Mematikan server tersebut sampai patch selesai diunduh.
+}
+
+Q67 Apa tujuan dari "Data Sanitization" sebelum membuang media penyimpanan? {
+    =Memastikan data lama tidak dapat dipulihkan dengan teknik apa pun.
+    ~Membersihkan debu dan kotoran fisik pada permukaan hard disk.
+    ~Mengatur ulang urutan file agar media terlihat seperti baru.
+    ~Memberikan label "Kosong" pada bagian luar media penyimpanan.
+}
+
+Q68 "Cross-Site Scripting" (XSS) terjadi ketika penyerang: {
+    =Menyuntikkan skrip berbahaya ke dalam situs web yang dipercaya oleh pengguna.
+    ~Memutus kabel internet yang menghubungkan dua gedung kantor.
+    ~Mengirim jutaan email sampah ke alamat pribadi manajer.
+    ~Mencuri password melalui rekaman kamera CCTV di lobi.
+}
+
+Q69 Manakah yang merupakan contoh "Environmental Control" yang melindungi aset informasi? {
+    =Sistem pemadam api otomatis dan sensor suhu/kelembaban.
+    ~Kebijakan yang mewajibkan karyawan menanam pohon di kantor.
+    ~Penggunaan tinta printer yang ramah lingkungan.
+    ~Larangan penggunaan plastik sekali pakai di departemen IT.
+}
+
+Q70 Apa risiko utama dari "Full Disk Encryption" (FDE)? {
+    =Jika kunci dekripsi hilang, seluruh data di dalam disk tidak dapat diakses selamanya.
+    ~FDE akan membuat hard disk berputar lebih cepat dan cepat rusak.
+    ~Data yang terenkripsi akan memakan ruang dua kali lebih besar di disk.
+    ~Sistem operasi tidak akan bisa melakukan pembaruan otomatis.
+}
+
+Q71 Auditor SI harus memverifikasi bahwa "Sensitive Information" di layar monitor tidak terlihat oleh orang luar. Kontrol ini disebut: {
+    =Screen Privacy Filters.
+    ~Data Masking.
+    ~Network Segmentation.
+    ~Physical Bollards.
+}
+
+Q72 "Brute Force Attack" adalah metode untuk memecahkan kata sandi dengan cara: {
+    =Mencoba setiap kombinasi karakter yang mungkin sampai berhasil.
+    ~Mengancam admin sistem agar memberikan kata sandi secara paksa.
+    ~Mencuri buku catatan pribadi pengguna di bawah meja.
+    ~Menebak kata sandi berdasarkan tanggal lahir pengguna.
+}
+
+Q73 Apa fungsi dari "Tokenization" dalam perlindungan data kartu kredit? {
+    =Mengganti data sensitif dengan nilai pengganti (token) yang tidak berarti.
+    ~Membagi satu kartu kredit menjadi beberapa bagian kecil untuk keamanan.
+    ~Mengharuskan pengguna membayar menggunakan koin fisik saat bertransaksi.
+    ~Membatasi jumlah transaksi maksimal per hari bagi setiap pengguna.
+}
+
+Q74 Manakah dari berikut ini yang merupakan risiko dari "Anonymity" di internet bagi organisasi? {
+    =Kesulitan dalam melacak identitas pelaku serangan siber.
+    ~Karyawan akan merasa lebih bebas untuk bekerja dari rumah.
+    ~Biaya langganan internet akan menjadi lebih mahal bagi perusahaan.
+    ~Nama perusahaan tidak akan muncul di hasil pencarian Google.
+}
+
+Q75 "Security Awareness Training" harus dilakukan secara rutin karena: {
+    =Ancaman dan teknik serangan terus berkembang, dan manusia adalah titik terlemah.
+    ~Peraturan pemerintah mewajibkan karyawan menghafal 100 pasal keamanan.
+    ~Karyawan cenderung lupa cara login jika tidak dilatih setiap minggu.
+    ~Pelatihan rutin dapat mengurangi biaya listrik di ruang kantor.
+}
+
+Q76 Auditor SI menemukan bahwa "Firewall Rules" tidak ditinjau selama dua tahun. Risiko utamanya adalah: {
+    =Adanya aturan yang sudah tidak relevan atau terlalu longgar yang membuka celah keamanan.
+    ~Perangkat firewall akan otomatis berhenti berfungsi karena debu digital.
+    ~Kecepatan internet akan meningkat secara ilegal di luar kendali.
+    ~Vendor firewall akan berhenti memberikan dukungan teknis selamanya.
+}
+
+Q77 "Zero Trust Architecture" didasarkan pada prinsip: {
+    =Jangan pernah percaya, selalu verifikasi setiap permintaan akses.
+    ~Percaya kepada semua karyawan internal, tetapi curigai orang luar.
+    ~Jangan pernah menggunakan komputer untuk menyimpan data rahasia.
+    ~Berikan kepercayaan penuh kepada vendor pihak ketiga yang sudah lama bekerja sama.
+}
+
+Q78 Apa risiko utama dari "Rooting" atau "Jailbreaking" pada perangkat seluler perusahaan? {
+    =Menghilangkan fitur keamanan bawaan sistem operasi dan meningkatkan risiko malware.
+    ~Membuat baterai perangkat menjadi tahan lama hingga satu bulan.
+    ~Memungkinkan perangkat untuk menelepon tanpa menggunakan pulsa.
+    ~Mengubah warna casing perangkat secara otomatis secara digital.
+}
+
+Q79 "Data Masking" digunakan terutama untuk: {
+    =Melindungi data sensitif saat digunakan untuk pengujian.
+    ~Menyembunyikan kabel-kabel jaringan agar ruang server terlihat rapi.
+    ~Mencegah pengguna melihat layar monitor saat mereka sedang makan.
+    ~Menghapus data yang sudah tidak digunakan lagi dari pangkalan data.
+}
+
+Q80 Manakah yang merupakan indikator terbaik dari "Security Incident Response" yang efektif? {
+    =Waktu rata-rata untuk mendeteksi dan memitigasi dampak insiden (MTTD/MTTR).
+    ~Jumlah total virus yang berhasil dihapus oleh antivirus setiap hari.
+    ~Banyaknya karyawan yang mendapatkan sertifikat keamanan siber.
+    ~Kecepatan manajer keamanan dalam menjawab email dari direksi.
+}
+
+Q81 Manakah dari berikut ini yang merupakan keuntungan utama dari enkripsi asimetris dibandingkan enkripsi simetris? {
+    =Kemudahan dalam distribusi kunci karena tidak memerlukan saluran aman untuk berbagi kunci publik.
+    ~Kecepatan pemrosesan yang jauh lebih tinggi untuk volume data yang besar.
+    ~Penggunaan algoritma yang lebih sederhana.
+    ~Tidak memerlukan daya komputasi yang tinggi pada perangkat seluler.
+}
+
+Q82 Apa yang dimaksud dengan "Cold Site" dalam konteks pemulihan aset informasi? {
+    =Fasilitas fisik yang memiliki listrik dan pendingin, tetapi tanpa perangkat keras komputer yang siap pakai.
+    ~Pusat data cadangan yang suhunya dijaga di bawah titik beku.
+    ~Lokasi yang sudah memiliki data operasional yang tersinkronisasi secara real-time.
+    ~Gedung kantor yang hanya digunakan selama musim hujan atau badai.
+}
+
+Q83 Auditor SI menemukan bahwa organisasi tidak memiliki "Security Baseline". Risiko utamanya adalah: {
+    =Ketidakkonsistenan dalam pengaturan keamanan yang dapat meninggalkan celah pada sistem tertentu.
+    ~Sistem operasi akan otomatis berhenti berfungsi jika tidak ada panduan konfigurasi.
+    ~Biaya lisensi perangkat lunak antivirus akan meningkat secara otomatis setiap tahun.
+    ~Karyawan akan kehilangan motivasi untuk mematuhi kebijakan keamanan informasi.
+}
+
+Q84 "Digital Signature" memberikan jaminan atas hal berikut, KECUALI: {
+    =Kerahasiaan pesan (Confidentiality).
+    ~Integritas pesan (Integrity).
+    ~Keaslian pengirim (Authentication).
+    ~Anti-penyangkalan (Non-repudiation).
+}
+
+Q85 Manakah yang merupakan contoh kontrol akses fisik yang menggunakan karakteristik perilaku manusia? {
+    =Dinamika tanda tangan (Signature dynamics).
+    ~Imbasan sidik jari (Fingerprint scan).
+    ~Pola pembuluh darah (Vein pattern).
+    ~Struktur geometri wajah (Face geometry).
+}
+
+Q86 Apa tujuan utama dari "Security Information and Event Management" (SIEM)? {
+    =Analisis log secara real-time untuk memberikan peringatan dini atas ancaman keamanan.
+    ~Menyimpan semua email karyawan untuk keperluan pengawasan kinerja harian.
+    ~Mengatur jadwal pembersihan fisik di ruang pusat data utama.
+    ~Menghitung total nilai aset perangkat keras organisasi secara otomatis.
+}
+
+Q87 "Honey Pot" adalah alat keamanan yang dirancang untuk: {
+    =Menarik dan menjebak penyerang agar aktivitas mereka dapat dipelajari tanpa risiko pada sistem produksi.
+    ~Memberikan bonus hadiah berupa uang kepada karyawan yang paling patuh pada kebijakan.
+    ~Menyaring seluruh email sampah (spam) sebelum masuk ke kotak masuk pengguna.
+    ~Mempercepat proses enkripsi pangkalan data yang sangat besar.
+}
+
+Q88 Manakah dari berikut ini yang merupakan indikator terbaik dari efektivitas program kesadaran keamanan (Security Awareness)? {
+    =Penurunan jumlah staf yang mengklik tautan dalam simulasi serangan phishing.
+    ~Jumlah total poster keamanan yang ditempelkan di dinding kantor.
+    ~Banyaknya karyawan yang memiliki latar belakang pendidikan di bidang IT.
+    ~Kecepatan manajer keamanan dalam merespons email dari direksi.
+}
+
+Q89 "Steganography" berbeda dengan enkripsi karena steganografi: {
+    =Menyembunyikan keberadaan pesan itu sendiri di dalam media lain.
+    ~Mengubah teks asli menjadi kode yang tidak dapat dibaca (ciphertext).
+    ~Memerlukan kunci publik untuk membuka pesan yang tersembunyi.
+    ~Hanya dapat digunakan untuk file audio dan video berkualitas tinggi.
+}
+
+Q90 Apa risiko utama dari penggunaan protokol "WPA2-PSK" dengan kata sandi yang lemah? {
+    =Mudah ditembus menggunakan serangan Brute Force atau Dictionary Attack.
+    ~Jangkauan sinyal Wi-Fi akan menjadi sangat terbatas hanya dalam satu ruangan.
+    ~Perangkat yang terhubung akan mengalami kerusakan baterai secara permanen.
+    ~Data yang dikirim akan otomatis terhapus jika sinyal terputus mendadak.
+}
+
+Q91 Manakah yang merupakan peran auditor SI dalam peninjauan manajemen identitas (Identity Management)? {
+    =Memastikan proses pembuatan, pengubahan, dan penghapusan akun (lifecycle) terkontrol dengan baik.
+    ~Menulis kode program untuk sistem otentikasi biometrik perusahaan.
+    ~Menentukan siapa yang berhak menjadi admin sistem di departemen pemasaran.
+    ~Menyimpan salinan kata sandi semua pengguna di dalam brankas audit.
+}
+
+Q92 "Data At Rest" mengacu pada data yang: {
+    =Disimpan secara permanen pada media penyimpanan seperti hard disk atau tape.
+    ~Sedang dikirimkan melalui jaringan kabel area lokal (LAN).
+    ~Sedang diproses di dalam memori akses acak (RAM) komputer.
+    ~Sudah tidak digunakan lagi dan siap untuk dihapus secara permanen.
+}
+
+Q93 "Multi-factor Authentication" (MFA) dianggap lebih aman karena: {
+    =Memerlukan lebih dari satu kategori bukti identitas untuk memberikan akses.
+    ~Hanya memerlukan satu kata sandi yang sangat panjang dan rumit.
+    ~Dapat dilakukan tanpa memerlukan koneksi internet atau jaringan seluler.
+    ~Harganya jauh lebih murah daripada sistem otentikasi satu faktor.
+}
+
+Q94 Manakah yang merupakan contoh "Corrective Control" setelah terjadi pelanggaran data? {
+    =Melakukan investigasi forensik untuk mengidentifikasi lubang keamanan yang dieksploitasi.
+    ~Pemasangan kamera CCTV tambahan di koridor menuju ruang server.
+    ~Pewajiban penggunaan kartu identitas bagi setiap tamu yang berkunjung.
+    ~Enkripsi data sensitif yang disimpan di dalam pangkalan data utama.
+}
+
+Q95 "Privileged User Monitoring" sangat penting karena: {
+    =Akun administrator memiliki kekuasaan besar untuk mengubah atau menghapus data dan kontrol.
+    ~Staf IT cenderung malas jika tidak dipantau melalui log aktivitas harian.
+    ~Administrator pangkalan data sering kali lupa cara melakukan tugas harian mereka.
+    ~Biaya lisensi sistem operasi bergantung pada seberapa sering administrator login.
+}
+
+Q96 Apa risiko utama dari "Internet of Things" (IoT) yang terhubung ke jaringan korporat? {
+    =Perangkat IoT sering kali memiliki kerentanan yang tidak dapat diperbaiki (unpatchable).
+    ~Perangkat IoT akan mengonsumsi daya listrik yang sangat besar dari gedung kantor.
+    ~Data yang dikirim oleh perangkat IoT selalu bersifat rahasia dan tidak dapat dienkripsi.
+    ~Setiap perangkat IoT memerlukan satu orang administrator khusus untuk mengawasinya.
+}
+
+Q97 Auditor SI ditemukan bahwa kaset backup tidak disimpan dalam wadah tahan api. Risikonya adalah: {
+    =Data cadangan dapat musnah secara permanen jika terjadi kebakaran di lokasi penyimpanan.
+    ~Data di dalam kaset akan terhapus secara otomatis oleh suhu ruangan yang sejuk.
+    ~Kaset backup tidak akan bisa dimasukkan ke dalam mesin pembaca data.
+    ~Kecepatan pemulihan data akan menjadi sangat lambat saat dibutuhkan.
+}
+
+Q98 "Succession Planning" dalam keamanan informasi bertujuan untuk: {
+    =Memastikan adanya personel yang siap mengganti peran keamanan kritis jika terjadi pengunduran diri mendadak.
+    ~Menentukan siapa yang akan menjadi pemenang dalam lomba inovasi keamanan siber tahunan.
+    ~Mengatur jadwal liburan bagi seluruh staf di departemen keamanan informasi.
+    ~Menghitung total masa kerja karyawan hingga mereka mencapai usia pensiun.
+}
+
+Q99 Manakah dari berikut ini yang merupakan ancaman "Environmental" bagi pusat data? {
+    =Kegagalan sistem pendingin yang menyebabkan server mati karena suhu panas (overheat).
+    ~Serangan virus yang masuk melalui lampiran email yang dikirim oleh penjahat siber.
+    ~Kesalahan pengetikan data identitas pelanggan oleh staf administrasi yang baru direkrut.
+    ~Pencurian laptop milik direktur perusahaan saat ditinggalkan di dalam mobil.
+}
+
+Q100 Hasil akhir dari perlindungan aset informasi yang efektif adalah: {
+    =Risiko terhadap aset informasi berada pada tingkat yang dapat diterima oleh manajemen.
+    ~Hilangnya seluruh risiko keamanan informasi dari lingkungan organisasi secara total.
+    ~Pengalihan seluruh tanggung jawab keamanan kepada vendor asuransi pihak ketiga.
+    ~Tidak diperlukannya lagi pengujian keamanan berkala karena sistem dianggap sudah sempurna.
+}

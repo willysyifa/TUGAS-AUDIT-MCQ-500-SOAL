@@ -1,0 +1,703 @@
+// ==========================================================
+// CISA DOMAIN 3: IS Acquisition, Development, and Implementation (1-100)
+// ==========================================================
+
+Q1 Manakah dari berikut ini yang merupakan keuntungan utama dari metodologi "Agile" dibandingkan "Waterfall"? {
+    =Memungkinkan perubahan persyaratan yang fleksibel selama proses pengembangan.
+    ~Menjamin tanggal penyelesaian proyek yang tetap dan pasti.
+    ~Memerlukan dokumentasi yang sangat tebal sebelum pengkodean dimulai.
+    ~Menghilangkan kebutuhan akan keterlibatan pengguna akhir.
+}
+
+Q2 Kapan Uji Penerimaan Pengguna (User Acceptance Testing - UAT) harus direncanakan dalam SDLC? {
+    =Selama fase analisis persyaratan (requirements analysis).
+    ~Segera setelah sistem diluncurkan ke lingkungan produksi.
+    ~Setelah semua bug ditemukan oleh tim penguji teknis.
+    ~Hanya jika pengembang merasa ragu dengan kode mereka.
+}
+
+Q3 Apa risiko utama dari penggunaan "Prototyping" dalam pengembangan sistem? {
+    =Pengguna mungkin mengira prototipe adalah sistem final dan mengabaikan kontrol internal.
+    ~Proses pengembangan akan memakan waktu jauh lebih lama daripada Waterfall.
+    ~Biaya lisensi perangkat lunak akan menjadi sangat mahal.
+    ~Pengembang tidak akan bisa menggunakan bahasa pemrograman modern.
+}
+
+Q4 Dalam manajemen proyek, teknik "Critical Path Method" (CPM) membantu manajer untuk: {
+    =Mengidentifikasi aktivitas yang jika tertunda akan menunda seluruh proyek.
+    ~Menghitung total biaya makan siang untuk tim proyek.
+    ~Memilih vendor perangkat keras dengan harga termurah.
+    ~Menulis laporan mingguan untuk dewan direksi secara otomatis.
+}
+
+Q5 Apa tujuan utama dari "Feasibility Study" (Studi Kelayakan)? {
+    =Menentukan apakah proyek layak dilanjutkan dari aspek teknis, ekonomi, dan operasional.
+    ~Memperbaiki semua bug yang ditemukan dalam sistem lama.
+    ~Menentukan siapa yang akan menjadi manajer proyek.
+    ~Membeli semua perangkat keras yang diperlukan sebelum analisis dimulai.
+}
+
+Q6 Auditor SI menemukan bahwa tidak ada "Business Case" untuk proyek besar. Risiko utamanya adalah: {
+    =Proyek mungkin tidak memberikan nilai bisnis atau tidak selaras dengan strategi organisasi.
+    ~Pengembang tidak akan tahu cara menulis kode program.
+    ~Server akan mengalami kelebihan beban saat sistem dijalankan.
+    ~Karyawan akan menolak untuk menggunakan komputer baru.
+}
+
+Q7 "Function Point Analysis" (FPA) digunakan untuk: {
+    =Mengestimasi ukuran dan kompleksitas perangkat lunak berdasarkan fungsinya.
+    ~Menghitung jumlah titik koordinat pada peta jaringan.
+    ~Menilai kecepatan mengetik dari pengembang sistem.
+    ~Menentukan berapa banyak printer yang dibutuhkan kantor.
+}
+
+Q8 Manakah dari berikut ini yang merupakan risiko terbesar dari "End-user Computing" (EUC)? {
+    =Kurangnya dokumentasi dan kontrol keamanan yang memadai.
+    ~Pengguna akan meminta kenaikan gaji karena membuat aplikasi sendiri.
+    ~Aplikasi tersebut akan berjalan terlalu cepat di jaringan.
+    ~Perangkat keras komputer akan lebih cepat rusak.
+}
+
+Q9 Dalam pengembangan sistem, "Regression Testing" dilakukan untuk: {
+    =Memastikan bahwa perubahan baru tidak merusak fungsi yang sudah ada sebelumnya.
+    ~Menghitung kembali total biaya proyek dari awal.
+    ~Menguji sistem di bawah beban transaksi yang ekstrem.
+    ~Menghapus semua data lama dari basis data produksi.
+}
+
+Q10 Strategi migrasi sistem di mana sistem lama dihentikan dan sistem baru segera dijalankan disebut: {
+    =Abrupt Changeover (Direct Cutover).
+    ~Parallel Changeover.
+    ~Phased Changeover.
+    ~Pilot Study.
+}
+
+Q11 Apa keuntungan utama dari "Parallel Changeover"? {
+    =Memberikan keamanan karena sistem lama masih tersedia jika sistem baru gagal.
+    ~Merupakan metode yang paling murah dan paling cepat.
+    ~Mengurangi beban kerja karyawan karena hanya satu sistem yang berjalan.
+    ~Menghilangkan kebutuhan akan rekonsiliasi data antar sistem.
+}
+
+Q12 Auditor SI menemukan bahwa pengembang sistem memiliki akses ke data produksi yang sensitif. Rekomendasi terbaik adalah: {
+    =Menerapkan pemisahan lingkungan antara pengembangan, pengujian, dan produksi.
+    ~Meminta pengembang untuk menandatangani janji tidak akan melihat data.
+    ~Mengenkripsi data hanya pada jam kerja saja.
+    ~Menghapus semua data produksi agar pengembang tidak bisa melihatnya.
+}
+
+Q13 "Unit Testing" berfokus pada: {
+    =Pengujian komponen atau modul individu secara terpisah.
+    ~Pengujian alur bisnis dari awal sampai akhir.
+    ~Pengujian integrasi antara dua sistem yang berbeda.
+    ~Pengujian sistem oleh pengguna akhir di lokasi kerja.
+}
+
+Q14 Manakah yang merupakan contoh dari "Object-Oriented Development" (OOD)? {
+    =Penggunaan kembali komponen kode (reusability) melalui kelas dan objek.
+    ~Penulisan kode dalam satu file panjang tanpa struktur.
+    ~Penggunaan mesin ketik listrik untuk mendokumentasikan sistem.
+    ~Penghapusan semua basis data relasional.
+}
+
+Q15 Apa fungsi dari "Post-Implementation Review"? {
+    =Mengevaluasi apakah sistem memenuhi target bisnis dan kebutuhan pengguna.
+    ~Menentukan siapa yang bersalah atas bug yang ditemukan.
+    ~Membayar tagihan terakhir kepada vendor perangkat lunak.
+    ~Menulis panduan pengguna untuk staf administrasi.
+}
+
+Q16 Dalam proyek perangkat lunak, "Scope Creep" merujuk pada: {
+    =Penambahan persyaratan proyek yang tidak terkendali tanpa penyesuaian sumber daya.
+    ~Pengurangan biaya proyek secara mendadak oleh manajemen.
+    ~Penggunaan bahasa pemrograman yang sudah usang.
+    ~Pencurian perangkat keras proyek oleh pihak luar.
+}
+
+Q17 Manakah yang merupakan langkah pertama dalam proses pengadaan perangkat lunak (Software Acquisition)? {
+    =Mendefinisikan kebutuhan bisnis dan persyaratan sistem.
+    ~Menandatangani kontrak dengan vendor termurah.
+    ~Melakukan instalasi perangkat lunak di server produksi.
+    ~Mewawancarai referensi pelanggan dari vendor.
+}
+
+Q18 "Decision Support System" (DSS) dirancang untuk membantu: {
+    =Manajer dalam mengambil keputusan pada masalah yang tidak terstruktur.
+    ~Staf administrasi dalam memasukkan data harian.
+    ~Sistem operasi dalam mengalokasikan memori CPU.
+    ~Petugas keamanan dalam memantau kamera CCTV.
+}
+
+Q19 Manakah yang merupakan risiko utama dari "Software as a Service" (SaaS)? {
+    =Ketergantungan pada konektivitas internet dan keamanan penyedia layanan.
+    ~Biaya listrik di kantor akan meningkat secara drastis.
+    ~Perusahaan harus mempekerjakan lebih banyak administrator database.
+    ~Sistem operasi lokal tidak akan bisa menjalankan browser web.
+}
+
+Q20 "Black Box Testing" dilakukan oleh penguji dengan cara: {
+    =Menguji fungsi aplikasi tanpa mengetahui struktur kode internalnya.
+    ~Membaca setiap baris kode program untuk mencari kesalahan logika.
+    ~Mematikan lampu ruang kerja untuk menguji konsentrasi.
+    ~Menggunakan perangkat keras yang rusak untuk melihat respon sistem.
+}
+
+Q21 Apa tujuan dari "Input Controls" dalam sebuah aplikasi? {
+    =Memastikan data yang dimasukkan akurat, lengkap, dan valid.
+    ~Memastikan printer mencetak laporan dengan warna yang benar.
+    ~Mencegah pengguna mematikan komputer saat sedang bekerja.
+    ~Mengurangi kecepatan pemrosesan data agar sistem tidak panas.
+}
+
+Q22 Manakah dari berikut ini yang merupakan keuntungan dari penggunaan "Commercial Off-the-Shelf" (COTS) software? {
+    =Waktu implementasi yang lebih cepat dibandingkan membangun sendiri.
+    ~Kemampuan untuk mengubah kode sumber sesuai keinginan tanpa batas.
+    ~Biaya yang selalu lebih murah daripada aplikasi open-source.
+    ~Kesesuaian 100% dengan semua proses bisnis organisasi yang unik.
+}
+
+Q23 Dalam SDLC, fase "Design" menghasilkan: {
+    =Arsitektur sistem, desain basis data, dan spesifikasi antarmuka.
+    ~Kode program final yang siap dijalankan di produksi.
+    ~Laporan audit tahunan perusahaan.
+    ~Sertifikat kelulusan bagi tim pengembang.
+}
+
+Q24 Apa risiko utama dari pengkodean sistem yang dilakukan oleh pihak ketiga? {
+    =Potensi adanya "backdoor" atau kerentanan keamanan yang sengaja dimasukkan.
+    ~Pihak ketiga akan bekerja terlalu cepat sehingga sistem menjadi tidak stabil.
+    ~Pengembang internal akan kehilangan kemampuan untuk mengetik.
+    ~Biaya asuransi gedung akan meningkat secara otomatis.
+}
+
+Q25 "Data Mapping" adalah proses penting dalam migrasi data untuk: {
+    =Memastikan elemen data dari sistem lama sesuai dengan field di sistem baru.
+    ~Mencetak peta lokasi fisik pusat data yang baru.
+    ~Menghitung jumlah pengguna yang akan bermigrasi ke kantor baru.
+    ~Menentukan warna latar belakang pada aplikasi baru.
+}
+
+Q26 Manakah yang merupakan indikator keberhasilan suatu proyek pengembangan sistem? {
+    =Sistem diterima oleh pengguna dan memberikan manfaat bisnis yang direncanakan.
+    ~Semua anggota tim proyek mendapatkan promosi jabatan.
+    ~Jumlah baris kode program mencapai lebih dari satu juta baris.
+    ~Sistem tidak pernah memerlukan pembaruan (update) selamanya.
+}
+
+Q27 Dalam audit proyek, auditor SI menemukan bahwa "Project Steering Committee" jarang bertemu. Hal ini menunjukkan: {
+    =Kurangnya pengawasan dan arahan tingkat atas terhadap proyek.
+    ~Bahwa proyek tersebut berjalan sangat lancar sehingga tidak butuh rapat.
+    ~Bahwa manajer proyek memiliki kekuasaan mutlak.
+    ~Bahwa anggaran proyek sudah habis digunakan untuk hal lain.
+}
+
+Q28 "V-Model" dalam pengembangan sistem menekankan pada: {
+    =Hubungan antara setiap fase pengembangan dengan fase pengujian yang sesuai.
+    ~Kecepatan pengembangan yang berbentuk seperti huruf V.
+    ~Penggunaan memori virtual secara maksimal.
+    ~Hanya melakukan pengujian pada akhir proyek saja.
+}
+
+Q29 Apa tujuan dari "Concurrency Controls" dalam basis data? {
+    =Mencegah dua pengguna mengubah data yang sama pada waktu yang bersamaan.
+    ~Memungkinkan semua pengguna melihat data pribadi pengguna lain.
+    ~Mempercepat akses internet bagi pengguna senior.
+    ~Menghapus data yang tidak diakses selama satu jam.
+}
+
+Q30 Manakah yang merupakan peran auditor SI dalam pengembangan sistem? {
+    =Mengevaluasi apakah kontrol internal telah dirancang dan diuji dengan benar.
+    ~Menulis kode program untuk modul keamanan aplikasi.
+    ~Memilih vendor perangkat keras mana yang harus dibeli organisasi.
+    ~Memperbaiki bug yang ditemukan selama fase pengujian unit.
+}
+
+Q31 "White Box Testing" melibatkan: {
+    =Pengujian dengan pengetahuan penuh tentang struktur internal dan kode program.
+    ~Pengujian aplikasi hanya pada layar monitor berwarna putih.
+    ~Pengujian yang dilakukan oleh orang yang tidak tahu apa-apa tentang IT.
+    ~Pengujian yang hanya dilakukan pada perangkat keras yang masih baru.
+}
+
+Q32 Apa risiko utama jika tidak dilakukan "Stress Testing" pada aplikasi web baru? {
+    =Sistem mungkin gagal atau lambat saat diakses oleh banyak pengguna secara bersamaan.
+    ~Pengguna akan merasa stres karena tampilan aplikasi tidak menarik.
+    ~Biaya langganan cloud akan menurun secara drastis.
+    ~Kabel jaringan akan terbakar karena beban data yang terlalu berat.
+}
+
+Q33 Dalam manajemen proyek, "Gantt Chart" digunakan untuk: {
+    =Memvisualisasikan jadwal proyek, tugas, dan durasinya.
+    ~Menghitung total gaji staf proyek setiap bulan.
+    ~Menyimpan semua dokumentasi teknis sistem.
+    ~Mengukur kinerja CPU server selama pengujian.
+}
+
+Q34 Manakah yang merupakan kontrol terbaik untuk memastikan integritas transmisi data? {
+    =Penggunaan "Checksum" atau "Cyclic Redundancy Check" (CRC).
+    ~Meningkatkan kecepatan koneksi internet.
+    ~Menggunakan monitor dengan resolusi lebih tinggi.
+    ~Menyimpan salinan data di atas meja kerja.
+}
+
+Q35 "System Development Life Cycle" (SDLC) yang paling tradisional adalah: {
+    =Waterfall Model.
+    ~Agile Model.
+    ~DevOps.
+    ~Rapid Application Development (RAD).
+}
+
+Q36 Apa yang dimaksud dengan "Integrity Constraint" dalam basis data? {
+    =Aturan yang memastikan data tetap konsisten dan akurat (misal: foreign key).
+    ~Batasan jumlah file yang boleh disimpan di hard disk.
+    ~Larangan bagi pengguna untuk berbicara saat sedang memasukkan data.
+    ~Sistem yang menghapus data secara acak setiap hari minggu.
+}
+
+Q37 Auditor SI menemukan bahwa dokumentasi sistem tidak lengkap. Masalah utama yang timbul adalah: {
+    =Kesulitan dalam pemeliharaan sistem di masa mendatang.
+    ~Sistem akan otomatis berhenti berfungsi dalam satu bulan.
+    ~CPU akan bekerja lebih keras karena tidak ada panduan.
+    ~Harga saham perusahaan akan jatuh seketika.
+}
+
+Q38 Manakah yang merupakan contoh "Post-Implementation Control"? {
+    =Penyelesaian log perubahan (change log) setelah sistem dijalankan.
+    ~Pemeriksaan latar belakang staf sebelum proyek dimulai.
+    ~Pelatihan pengguna sebelum sistem dipasang.
+    ~Persetujuan anggaran oleh dewan direksi.
+}
+
+Q39 Dalam metode "Scrum", peran yang bertanggung jawab memaksimalkan nilai bisnis adalah: {
+    =Product Owner.
+    ~Scrum Master.
+    ~Development Team.
+    ~Database Administrator.
+}
+
+Q40 Apa tujuan dari "User Requirements Specification" (URS)? {
+    =Mendokumentasikan apa yang dibutuhkan pengguna dari sistem baru.
+    ~Menjelaskan cara kerja sirkuit listrik di dalam komputer.
+    ~Memberikan daftar gaji semua pengguna sistem.
+    ~Menentukan lokasi parkir bagi pengguna aplikasi.
+}
+
+Q41 Manakah dari berikut ini yang paling baik mendeteksi kesalahan logika dalam kode program? {
+    =Desk check atau Code Review.
+    ~Pengujian beban (Load testing).
+    ~Pemeriksaan inventaris perangkat keras.
+    ~Pemasangan antivirus di server pengembangan.
+}
+
+Q42 Dalam proyek sistem informasi, "Critical Success Factors" (CSF) adalah: {
+    =Area terbatas yang harus berjalan benar agar tujuan proyek tercapai.
+    ~Daftar semua bug yang ditemukan selama fase pengujian.
+    ~Jumlah baris kode yang ditulis oleh pengembang setiap hari.
+    ~Nama-nama anggota tim yang memiliki sertifikasi teknis.
+}
+
+Q43 Apa risiko utama dari penggunaan "Open Source Software" dalam lingkungan perusahaan? {
+    =Kurangnya dukungan formal (support) dan potensi kerentanan keamanan yang tidak tertangani.
+    ~Biaya lisensi yang terlalu mahal untuk anggaran perusahaan.
+    ~Perangkat lunak tersebut tidak akan bisa berjalan di sistem operasi Windows.
+    ~Pengembang internal akan lupa cara menulis kode sendiri.
+}
+
+Q44 "System Integration Testing" bertujuan untuk: {
+    =Memastikan bahwa berbagai modul atau sistem dapat bekerja sama dengan benar.
+    ~Menguji apakah pengguna merasa nyaman dengan warna antarmuka.
+    ~Menghitung total penggunaan daya listrik oleh pusat data.
+    ~Memverifikasi bahwa semua kabel jaringan telah terhubung.
+}
+
+Q45 Auditor SI menemukan bahwa sistem baru tidak memiliki "Audit Trail". Apa dampak utamanya? {
+    =Kesulitan dalam menelusuri aktivitas transaksi dan mendeteksi kecurangan.
+    ~Sistem akan otomatis menghapus data setiap 24 jam.
+    ~Pengguna tidak akan bisa mencetak laporan bulanan.
+    ~Kecepatan pemrosesan transaksi akan menjadi sangat lambat.
+}
+
+Q46 Apa tujuan dari "Data Conversion Plan"? {
+    =Menjelaskan langkah-langkah untuk memindahkan data dari sistem lama ke sistem baru secara akurat.
+    ~Menghapus semua data lama agar tidak memenuhi memori sistem baru.
+    ~Mengubah semua data angka menjadi format teks biasa.
+    ~Menentukan siapa yang berhak melihat data di masa depan.
+}
+
+Q47 "Modular Programming" memudahkan pemeliharaan sistem karena: {
+    =Perubahan pada satu modul meminimalkan dampak pada modul lainnya.
+    ~Semua kode program disimpan dalam satu file yang sangat besar.
+    ~Menghilangkan kebutuhan akan dokumentasi teknis.
+    ~Memungkinkan sistem berjalan tanpa memerlukan pangkalan data.
+}
+
+Q48 Manakah dari berikut ini yang merupakan contoh "Output Control"? {
+    =Rekonsiliasi total laporan dengan data input yang diproses.
+    ~Penggunaan kata sandi untuk masuk ke aplikasi.
+    ~Validasi format tanggal pada formulir entri data.
+    ~Pemeriksaan latar belakang staf entri data.
+}
+
+Q49 "Rapid Application Development" (RAD) sangat bergantung pada: {
+    =Penggunaan prototipe dan keterlibatan pengguna secara intensif.
+    ~Dokumentasi yang sangat kaku dan fase yang berurutan.
+    ~Penggunaan mesin server fisik yang paling mahal.
+    ~Penghapusan semua kontrol keamanan untuk mempercepat proses.
+}
+
+Q50 Apa risiko terbesar dari "Direct Cutover" (Abrupt Changeover)? {
+    =Tidak ada sistem cadangan jika sistem baru gagal saat dijalankan.
+    ~Biaya operasional yang sangat tinggi karena menjalankan dua sistem.
+    ~Karyawan akan merasa bosan karena tidak ada pekerjaan tambahan.
+    ~Data akan terduplikasi secara otomatis di kedua sistem.
+}
+
+Q51 "Software Configuration Management" (SCM) bertujuan untuk: {
+    =Mengontrol perubahan pada perangkat lunak dan dokumentasi terkait.
+    ~Mengatur kecerahan layar monitor bagi pengembang.
+    ~Menghitung jumlah lisensi Microsoft Office yang digunakan.
+    ~Menentukan lokasi fisik server di rak pusat data.
+}
+
+Q52 Manakah yang merupakan indikator terbaik dari kualitas kode program? {
+    =Jumlah bug yang ditemukan per seribu baris kode (defect density).
+    ~Warna tema yang digunakan dalam editor kode.
+    ~Kecepatan mengetik pengembang saat menulis fungsi.
+    ~Banyaknya komentar yang ditulis dalam bahasa asing.
+}
+
+Q53 Dalam migrasi data, "Data Integrity Check" dilakukan untuk: {
+    =Memastikan data tidak rusak atau hilang selama proses pemindahan.
+    ~Mengubah data rahasia menjadi data publik.
+    ~Menghitung total berat hard disk yang digunakan.
+    ~Menentukan siapa yang paling sering mengakses data.
+}
+
+Q54 Apa kegunaan dari "Testing Environment" yang terpisah? {
+    =Mencegah pengujian yang tidak stabil mengganggu operasional sistem produksi.
+    ~Memberikan ruang bagi staf untuk beristirahat saat lelah menguji.
+    ~Mengurangi biaya sewa gedung kantor.
+    ~Menyimpan cadangan makanan untuk tim proyek.
+}
+
+Q55 "Entity-Relationship Diagram" (ERD) digunakan selama fase desain untuk: {
+    =Memodelkan struktur data dan hubungan antar tabel dalam basis data.
+    ~Menggambarkan alur kerja karyawan di kantor pusat.
+    ~Menjelaskan cara kerja sirkuit elektronik pada CPU.
+    ~Menyusun daftar gaji staf departemen IT.
+}
+
+Q56 Auditor SI menemukan bahwa pengujian hanya dilakukan oleh pengembang sendiri. Risiko utamanya adalah: {
+    =Potensi kurangnya objektivitas dan kegagalan mendeteksi kesalahan desain.
+    ~Pengembang akan meminta tambahan bonus karena bekerja lembur.
+    ~Sistem akan berjalan terlalu cepat untuk dipahami pengguna.
+    ~Bahasa pemrograman yang digunakan akan menjadi usang.
+}
+
+Q57 Apa fungsi dari "Capacity Planning" dalam pengadaan infrastruktur? {
+    =Memastikan infrastruktur dapat menangani beban kerja saat ini dan masa depan.
+    ~Menghitung berapa banyak orang yang bisa masuk ke dalam lift gedung.
+    ~Menentukan jumlah meja dan kursi di ruang rapat.
+    ~Mengukur volume suara yang dihasilkan oleh kipas pendingin server.
+}
+
+Q58 Manakah dari berikut ini yang merupakan keuntungan dari "Pilot Study" sebagai strategi migrasi? {
+    =Sistem diuji di satu lokasi terbatas sebelum diluncurkan ke seluruh organisasi.
+    ~Biaya migrasi menjadi nol karena dilakukan oleh staf magang.
+    ~Tidak memerlukan pelatihan bagi pengguna di lokasi lain.
+    ~Menghilangkan kebutuhan akan dokumentasi sistem baru.
+}
+
+Q59 "Phased Changeover" adalah strategi migrasi di mana: {
+    =Modul sistem baru diperkenalkan secara bertahap.
+    ~Sistem baru dijalankan hanya pada malam hari.
+    ~Seluruh sistem lama dihapus sebelum sistem baru dibeli.
+    ~Pengguna dipaksa menggunakan sistem baru tanpa pemberitahuan.
+}
+
+Q60 Apa risiko utama dari "Hard-coded" nilai di dalam program? {
+    =Kesulitan dalam melakukan perubahan saat nilai tersebut berubah di dunia nyata.
+    ~Sistem akan meledak jika nilai tersebut diganti secara manual.
+    ~Memerlukan lebih banyak ruang penyimpanan pada hard disk.
+    ~Meningkatkan kecepatan pemrosesan data secara ilegal.
+}
+
+Q61 Auditor SI harus memverifikasi bahwa "Requirements Sign-off" telah dilakukan oleh: {
+    =Pemilik bisnis atau pengguna utama (Key Users).
+    ~Petugas keamanan gedung.
+    ~Vendor perangkat keras pihak ketiga.
+    ~Staf administrasi departemen keuangan.
+}
+
+Q62 "Software Escrow" sangat penting jika: {
+    =Vendor perangkat lunak adalah perusahaan kecil dengan risiko bangkrut yang tinggi.
+    ~Perangkat lunak tersebut tersedia secara gratis di internet.
+    ~Perusahaan memiliki tim pengembang internal yang sangat besar.
+    ~Sistem operasi yang digunakan adalah versi terbaru.
+}
+
+Q63 Apa tujuan utama dari "Post-Implementation Review"? {
+    =Menilai apakah tujuan bisnis proyek telah tercapai.
+    ~Menghukum anggota tim yang melakukan kesalahan selama proyek.
+    ~Menulis ulang seluruh kode program agar lebih cantik.
+    ~Menjual perangkat keras lama ke pasar barang bekas.
+}
+
+Q64 Manakah yang merupakan contoh "Processing Control"? {
+    =Run-to-run totals untuk memastikan konsistensi data antar tahap pemrosesan.
+    ~Penggunaan kartu akses untuk masuk ke pusat data.
+    ~Enkripsi data saat disimpan di dalam basis data.
+    ~Pemeriksaan latar belakang pengembang sistem.
+}
+
+Q65 Dalam manajemen proyek, "Resource Leveling" bertujuan untuk: {
+    =Menyeimbangkan beban kerja staf agar tidak ada yang kelebihan beban.
+    ~Memberikan gaji yang sama kepada semua staf proyek.
+    ~Menghapus semua tugas yang dianggap terlalu sulit.
+    ~Mengurangi jumlah komputer yang digunakan oleh tim pengembang.
+}
+
+Q66 "Data Dictionary" bermanfaat bagi auditor karena: {
+    =Menyediakan definisi standar dan struktur untuk semua elemen data.
+    ~Berisi terjemahan istilah IT ke dalam 50 bahasa asing.
+    ~Menyimpan kata sandi semua pengguna pangkalan data.
+    ~Menghitung total nilai aset perusahaan secara otomatis.
+}
+
+Q67 Apa risiko utama dari "In-house Development" (membangun sendiri)? {
+    =Biaya yang lebih tinggi dan risiko kegagalan proyek yang ditanggung sendiri.
+    ~Ketergantungan penuh pada vendor luar untuk perbaikan bug.
+    ~Kurangnya kemampuan untuk menyesuaikan sistem dengan proses bisnis.
+    ~Sistem tidak akan memiliki antarmuka pengguna grafis.
+}
+
+Q68 "Beta Testing" adalah pengujian yang dilakukan oleh: {
+    =Pengguna eksternal atau calon pengguna di lingkungan nyata.
+    ~Tim pengembang internal sebelum kode dikompilasi.
+    ~Auditor sistem informasi sebelum laporan final diterbitkan.
+    ~Robot otomatis untuk menguji kekuatan fisik server.
+}
+
+Q69 Manakah yang merupakan indikator terbaik bahwa "SDLC" diikuti dengan benar? {
+    =Adanya dokumentasi persetujuan (sign-off) pada setiap akhir fase.
+    ~Waktu penyelesaian proyek yang sangat cepat tanpa hambatan.
+    ~Jumlah rapat yang dilakukan setiap minggu oleh tim proyek.
+    ~Penggunaan bahasa pemrograman yang paling populer tahun ini.
+}
+
+Q70 "Static Analysis" dalam pengujian perangkat lunak melibatkan: {
+    =Pemeriksaan kode program tanpa menjalankan aplikasi tersebut.
+    ~Menjalankan aplikasi dengan jutaan data palsu.
+    ~Mengamati layar monitor yang tidak berubah selama 10 jam.
+    ~Menghitung jumlah kabel yang tidak bergerak di ruang server.
+}
+
+Q71 Apa risiko utama dari "Waterfall Model" pada proyek yang kompleks? {
+    =Kesalahan dalam persyaratan mungkin baru ditemukan pada akhir siklus hidup.
+    ~Proses pengembangan menjadi terlalu fleksibel dan tidak terukur.
+    ~Pengembang akan sering mengubah kode mereka setiap hari.
+    ~Memerlukan terlalu banyak keterlibatan pengguna setiap jam.
+}
+
+Q72 "Capability Maturity Model Integration" (CMMI) digunakan untuk: {
+    =Menilai dan meningkatkan kematangan proses pengembangan sistem.
+    ~Menentukan usia pensiun bagi pengembang senior.
+    ~Mengukur kecepatan transfer data pada jaringan fiber optik.
+    ~Menentukan harga jual perangkat lunak ke pasar global.
+}
+
+Q73 Dalam basis data, "Normalization" bertujuan untuk: {
+    =Mengurangi redundansi data dan meningkatkan integritas data.
+    ~Menambah jumlah tabel agar sistem terlihat lebih kompleks.
+    ~Memungkinkan semua staf mengakses data tanpa otentikasi.
+    ~Mempercepat proses pencetakan laporan pada printer dot-matrix.
+}
+
+Q74 Apa peran utama "Project Sponsor"? {
+    =Memberikan dukungan finansial dan kepemimpinan strategis bagi proyek.
+    ~Menulis instruksi kerja untuk staf entri data.
+    ~Memperbaiki perangkat keras yang rusak selama pengujian.
+    ~Mengambil salinan cadangan data setiap malam.
+}
+
+Q75 "User Manual" harus ditinjau oleh auditor SI untuk memastikan: {
+    =Instruksi tersebut akurat dan memadai bagi pengguna untuk mengoperasikan sistem.
+    ~Manual tersebut memiliki desain grafis yang sangat mewah.
+    ~Manual tersebut ditulis dalam ukuran font yang sangat besar.
+    ~Manual tersebut berisi foto-foto seluruh jajaran direksi.
+}
+
+Q76 Manakah yang merupakan risiko dari "Middleware" dalam arsitektur sistem? {
+    =Potensi menjadi titik kegagalan tunggal (single point of failure) bagi integrasi.
+    ~Middleware akan menghapus data di pangkalan data secara otomatis.
+    ~Pengguna akan merasa bingung karena tidak bisa melihat middleware.
+    ~Middleware memerlukan lebih banyak daya listrik daripada server utama.
+}
+
+Q77 "Standard Operating Environment" (SOE) membantu dalam: {
+    =Mengurangi biaya dukungan teknis dengan standarisasi perangkat lunak dan keras.
+    ~Memberikan kebebasan bagi setiap staf untuk menginstal aplikasi apa pun.
+    ~Meningkatkan risiko serangan virus karena semua komputer berbeda.
+    ~Menghapus kebutuhan akan lisensi perangkat lunak asli.
+}
+
+Q78 Apa tujuan dari "Parallel Testing"? {
+    =Membandingkan hasil sistem baru dengan sistem lama menggunakan data yang sama.
+    ~Menguji dua printer sekaligus untuk melihat mana yang lebih cepat.
+    ~Menjalankan dua antivirus pada satu komputer yang sama.
+    ~Mempekerjakan dua tim pengembang untuk menulis kode yang sama.
+}
+
+Q79 Auditor SI menemukan bahwa tidak ada rencana pemeliharaan setelah implementasi. Risiko utamanya adalah: {
+    =Sistem akan menjadi usang dan tidak dapat menangani kebutuhan bisnis baru.
+    ~Sistem akan otomatis meledak jika tidak dirawat selama satu bulan.
+    ~Biaya listrik perusahaan akan menurun secara drastis.
+    ~Karyawan akan berhenti menggunakan sistem karena bosan.
+}
+
+Q80 "Business Process Reengineering" (BPR) sering dilakukan bersamaan dengan implementasi sistem baru untuk: {
+    =Mengoptimalkan proses bisnis agar sesuai dengan kapabilitas sistem baru.
+    ~Menambah jumlah birokrasi di dalam organisasi.
+    ~Menentukan siapa yang akan menjadi manajer pemasaran baru.
+    ~Mencari alasan untuk mengurangi jumlah komputer kantor.
+}
+
+Q81 Manakah dari berikut ini yang merupakan risiko utama dari penggunaan "Web Services" untuk integrasi sistem? {
+    =Eksposur terhadap kerentanan keamanan melalui protokol HTTP/HTTPS.
+    ~Ketidakmampuan untuk mengirim data dalam format teks.
+    ~Biaya langganan internet yang meningkat sepuluh kali lipat.
+    ~Middleware harus diganti setiap kali ada transaksi baru.
+}
+
+Q82 Apa tujuan dari "Check Digit" dalam kontrol aplikasi? {
+    =Mendeteksi kesalahan transposisi atau pengetikan pada data identifikasi.
+    ~Menghitung jumlah total baris dalam sebuah laporan keuangan.
+    ~Memastikan bahwa hanya administrator yang bisa menghapus data.
+    ~Menyandikan data agar tidak bisa dibaca oleh pihak luar.
+}
+
+Q83 Dalam pengembangan sistem, "Agile Manifesto" lebih mengutamakan: {
+    =Perangkat lunak yang bekerja daripada dokumentasi yang komprehensif.
+    ~Kepatuhan ketat pada rencana awal daripada merespons perubahan.
+    ~Penggunaan alat dan proses daripada interaksi antar manusia.
+    ~Negosiasi kontrak daripada kolaborasi dengan pelanggan.
+}
+
+Q84 Auditor SI menemukan bahwa kode sumber tidak disimpan dalam sistem kontrol versi. Risiko utamanya adalah: {
+    =Kesulitan dalam melacak perubahan dan memulihkan versi sebelumnya.
+    ~Sistem operasi akan otomatis berhenti mengompilasi program.
+    ~Pengembang tidak akan bisa menggunakan keyboard mekanik.
+    ~Data di pangkalan data akan hilang secara permanen.
+}
+
+Q85 Manakah yang merupakan keuntungan utama dari "Service-Oriented Architecture" (SOA)? {
+    =Kemampuan untuk menggunakan kembali (reusable) layanan di berbagai aplikasi.
+    ~Menghilangkan kebutuhan akan jaringan area lokal (LAN).
+    ~Mengurangi jumlah memori yang dibutuhkan oleh server pusat.
+    ~Menjamin keamanan data 100% tanpa perlu enkripsi.
+}
+
+Q86 Apa yang dimaksud dengan "Integrity" dalam konteks pengujian sistem? {
+    =Sistem memproses data secara konsisten dan akurat sesuai aturan bisnis.
+    ~Sistem dapat berjalan selama 24 jam tanpa perlu dimatikan.
+    ~Sistem memiliki antarmuka yang sangat mudah dipahami pengguna.
+    ~Sistem dapat menyimpan data dalam jumlah yang tidak terbatas.
+}
+
+Q87 "Software Walkthrough" adalah teknik di mana: {
+    =Pengembang menjelaskan kode kepada rekan sejawat untuk menemukan kesalahan.
+    ~Auditor berjalan mengelilingi ruang kerja tim pengembang.
+    ~Pengguna akhir mencoba menjalankan aplikasi tanpa panduan.
+    ~Sistem dijalankan pada kecepatan rendah untuk melihat prosesnya.
+}
+
+Q88 Manakah dari berikut ini yang merupakan indikator terbaik dari "System Availability"? {
+    =Rasio antara waktu sistem aktif dibandingkan dengan total waktu operasi.
+    ~Jumlah komputer yang terhubung ke dalam jaringan perusahaan.
+    ~Kecepatan rata-rata staf dalam mengetik data ke sistem.
+    ~Banyaknya fitur baru yang ditambahkan setiap bulan.
+}
+
+Q89 "Post-Implementation Review" sebaiknya dilakukan oleh pihak yang: {
+    =Independen dari tim proyek pengembangan sistem.
+    ~Menulis kode program utama untuk sistem tersebut.
+    ~Menjual perangkat keras kepada organisasi.
+    ~Bertanggung jawab atas entri data harian.
+}
+
+Q90 Apa risiko utama dari pengadaan perangkat keras tanpa "Maintenance Contract"? {
+    =Waktu henti (downtime) yang lama jika terjadi kerusakan komponen fisik.
+    ~Perangkat keras tersebut akan otomatis meledak setelah satu tahun.
+    ~Sistem operasi tidak akan bisa diinstal pada perangkat tersebut.
+    ~Monitor akan menampilkan warna yang salah secara permanen.
+}
+
+Q91 "Data Archiving" bertujuan untuk: {
+    =Memindahkan data yang jarang diakses ke penyimpanan jangka panjang yang lebih murah.
+    ~Menghapus data sensitif agar tidak bisa ditemukan oleh auditor.
+    ~Menyalin semua data ke media cetak untuk disimpan di gudang.
+    ~Mengenkripsi data agar tidak bisa dibuka kembali selamanya.
+}
+
+Q92 Manakah yang merupakan peran auditor SI dalam fase pengadaan (Acquisition)? {
+    =Memastikan bahwa proses pemilihan vendor dilakukan secara transparan dan objektif.
+    ~Menentukan vendor mana yang harus dipilih oleh manajemen.
+    ~Menandatangani cek pembayaran untuk vendor perangkat lunak.
+    ~Menginstal perangkat lunak vendor di server perusahaan.
+}
+
+Q93 "Deadlock" dalam sistem pangkalan data terjadi ketika: {
+    =Dua proses saling menunggu sumber daya yang dikunci oleh proses lainnya.
+    ~Kabel jaringan terputus secara fisik di ruang server.
+    ~Pengguna lupa kata sandi administratif mereka.
+    ~Server kehabisan ruang penyimpanan pada hard disk.
+}
+
+Q94 Manakah yang merupakan contoh "Corrective Control" selama implementasi sistem? {
+    =Menjalankan prosedur pemulihan (recovery) setelah kegagalan migrasi data.
+    ~Memasang firewall sebelum sistem terhubung ke internet.
+    ~Melakukan pelatihan pengguna satu minggu sebelum sistem aktif.
+    ~Menandatangani kontrak asuransi untuk perangkat keras baru.
+}
+
+Q95 "User Interface" (UI) yang buruk dapat menyebabkan risiko: {
+    =Kesalahan input data oleh pengguna karena kebingungan atau kelelahan.
+    ~Kerusakan fisik pada layar monitor komputer.
+    ~Peningkatan kecepatan transmisi data di jaringan.
+    ~Pengurangan biaya lisensi perangkat lunak secara otomatis.
+}
+
+Q96 Apa fokus utama dari "Quality Assurance" (QA) dalam pengembangan perangkat lunak? {
+    =Memastikan proses pengembangan diikuti untuk menghasilkan produk berkualitas.
+    ~Memperbaiki semua bug yang ditemukan oleh pengguna akhir.
+    ~Menghitung total baris kode yang dihasilkan setiap jam.
+    ~Menjaga agar ruang kerja pengembang tetap bersih dan rapi.
+}
+
+Q97 "System Documentation" harus mencakup hal berikut, KECUALI: {
+    =Riwayat medis pribadi dari tim pengembang sistem.
+    ~Diagram alur data dan deskripsi desain program.
+    ~Panduan operasional untuk administrator sistem.
+    ~Spesifikasi kebutuhan pengguna yang telah disetujui.
+}
+
+Q98 Manakah dari berikut ini yang merupakan risiko dari "Embedded Audit Modules"? {
+    =Dapat mempengaruhi kinerja sistem produksi jika tidak dirancang dengan baik.
+    ~Akan menghapus log audit secara otomatis setiap jam.
+    ~Memerlukan penggunaan perangkat keras tambahan yang sangat besar.
+    ~Hanya bisa digunakan oleh auditor eksternal dari pemerintah.
+}
+
+Q99 "Acceptance Criteria" harus ditentukan: {
+    =Sebelum fase pengembangan sistem dimulai.
+    ~Setelah sistem selesai dibangun dan siap diluncurkan.
+    ~Hanya jika auditor meminta dokumen tersebut.
+    ~Saat sistem mengalami kegagalan di lingkungan produksi.
+}
+
+Q100 Hasil akhir dari Domain 3 yang sukses adalah sistem yang: {
+    =Memenuhi kebutuhan bisnis, memiliki kontrol yang memadai, dan memberikan nilai.
+    ~Memiliki harga beli yang paling murah di antara semua pilihan vendor.
+    ~Menggunakan bahasa pemrograman yang paling sulit dipelajari.
+    ~Tidak memerlukan dokumentasi karena sangat mudah digunakan.
+}

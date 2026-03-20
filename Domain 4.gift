@@ -1,0 +1,703 @@
+// ==========================================================
+// CISA DOMAIN 4: IS Operations and Business Resilience (1-100)
+// ==========================================================
+
+Q1 Apa tujuan utama dari manajemen insiden (Incident Management)? {
+    =Memulihkan layanan normal secepat mungkin bagi pengguna.
+    ~Menentukan akar penyebab dari kegagalan sistem secara permanen.
+    ~Memastikan semua perangkat keras memiliki garansi yang aktif.
+    ~Menghukum staf yang menyebabkan terjadinya kesalahan sistem.
+}
+
+Q2 Manakah dari berikut ini yang merupakan perbedaan utama antara insiden dan masalah (Problem)? {
+    =Insiden adalah gangguan layanan, sedangkan masalah adalah penyebab yang belum diketahui dari satu atau lebih insiden.
+    ~Insiden ditangani oleh manajer senior, sedangkan masalah ditangani oleh staf help desk.
+    ~Insiden hanya terjadi pada perangkat keras, sedangkan masalah hanya terjadi pada perangkat lunak.
+    ~Tidak ada perbedaan; kedua istilah tersebut dapat digunakan secara bergantian.
+}
+
+Q3 Apa tujuan dari "Business Impact Analysis" (BIA) dalam perencanaan kelangsungan bisnis? {
+    =Mengidentifikasi proses bisnis kritis dan dampak jika terjadi gangguan.
+    ~Menghitung total nilai pasar dari aset fisik perusahaan.
+    ~Memilih vendor cadangan untuk layanan internet di kantor cabang.
+    ~Menentukan siapa yang harus berbicara kepada media saat terjadi bencana.
+}
+
+Q4 "Recovery Time Objective" (RTO) merujuk pada: {
+    =Durasi waktu maksimum yang diizinkan untuk memulihkan sistem setelah gangguan.
+    ~Jumlah data maksimum yang boleh hilang diukur dalam satuan waktu.
+    ~Waktu yang dibutuhkan auditor untuk memeriksa satu rak server.
+    ~Interval waktu antara dua pencadangan data (backup) yang berurutan.
+}
+
+Q5 "Recovery Point Objective" (RPO) menentukan: {
+    =Titik waktu data harus dapat dipulihkan (maksimum kehilangan data yang dapat ditoleransi).
+    ~Lokasi geografis di mana pusat data cadangan harus dibangun.
+    ~Jumlah staf yang diperlukan untuk menjalankan sistem selama bencana.
+    ~Kecepatan CPU yang dibutuhkan untuk memproses data pemulihan.
+}
+
+Q6 Manakah dari berikut ini yang merupakan kontrol terbaik untuk mencegah kegagalan sistem akibat lonjakan listrik? {
+    =Uninterruptible Power Supply (UPS) dan generator cadangan.
+    ~Pemasangan antivirus versi terbaru pada semua server.
+    ~Penggunaan kata sandi yang kompleks untuk administrator sistem.
+    ~Pemasangan karpet anti-statis di seluruh ruang kantor.
+}
+
+Q7 Auditor SI menemukan bahwa pusat data tidak memiliki sistem pendeteksi kebocoran air. Risiko utamanya adalah: {
+    =Kerusakan fisik pada perangkat keras yang menyebabkan penghentian operasional.
+    ~Data di dalam hard disk akan terhapus secara otomatis oleh air.
+    ~Biaya asuransi gedung akan menjadi sangat murah.
+    ~Kabel jaringan akan mengirimkan data lebih lambat.
+}
+
+Q8 Apa fungsi dari "Librarian" dalam operasional TI yang memiliki pemisahan tugas yang baik? {
+    =Mengelola dan mengontrol pergerakan media penyimpanan data (seperti tape backup).
+    ~Menyusun buku-buku referensi di perpustakaan kantor.
+    ~Menulis kode program untuk aplikasi pangkalan data.
+    ~Menentukan anggaran untuk pembelian perangkat lunak tahunan.
+}
+
+Q9 Manakah yang merupakan indikator terbaik dari efektivitas "Batch Processing"? {
+    =Jumlah kesalahan transaksi yang ditemukan dalam laporan rekonsiliasi.
+    ~Kecepatan staf dalam memasukkan data ke dalam sistem.
+    ~Warna lampu indikator pada panel depan server.
+    ~Jumlah printer yang digunakan untuk mencetak hasil proses.
+}
+
+Q10 Dalam manajemen perubahan, "Emergency Changes" harus: {
+    =Didokumentasikan dan ditinjau segera setelah perubahan dilakukan.
+    ~Dilarang sepenuhnya karena risiko keamanannya terlalu tinggi.
+    ~Dilakukan tanpa perlu persetujuan dari manajer mana pun.
+    ~Hanya boleh dilakukan oleh vendor luar.
+}
+
+Q11 Apa tujuan dari penggunaan "Job Scheduling Software"? {
+    =Memastikan proses komputer dijalankan dalam urutan yang benar dan tepat waktu.
+    ~Membantu manajer SDM dalam menjadwalkan wawancara kerja.
+    ~Menghitung berapa lama seorang karyawan bekerja di kantor.
+    ~Menentukan kapan sebuah komputer harus dijual ke pasar barang bekas.
+}
+
+Q12 Auditor SI menemukan bahwa log operasional tidak ditinjau secara berkala. Hal ini meningkatkan risiko: {
+    =Aktivitas tidak sah atau kegagalan sistem tidak terdeteksi tepat waktu.
+    ~Sistem operasi akan otomatis berhenti berfungsi dalam seminggu.
+    ~Kapasitas hard disk akan habis dalam waktu yang sangat singkat.
+    ~Monitor komputer akan menampilkan gambar yang buram.
+}
+
+Q13 "Mirroring" pangkalan data secara real-time adalah solusi terbaik untuk organisasi dengan: {
+    =RPO dan RTO yang mendekati nol (sistem sangat kritis).
+    ~Anggaran TI yang sangat terbatas dan banyak waktu luang.
+    ~Jumlah data yang sangat sedikit dan jarang berubah.
+    ~Kebutuhan untuk menyimpan data dalam bentuk cetak (hardcopy).
+}
+
+Q14 Manakah yang merupakan risiko utama dari penggunaan "Hot Site" sebagai fasilitas pemulihan? {
+    =Biaya pemeliharaan yang sangat mahal karena fasilitas selalu siap digunakan.
+    ~Waktu pemulihan yang sangat lama (bisa memakan waktu berminggu-minggu).
+    ~Kurangnya perangkat keras dan koneksi jaringan di lokasi tersebut.
+    ~Fasilitas tersebut tidak memiliki sistem pendingin udara.
+}
+
+Q15 Sebuah "Cold Site" biasanya hanya menyediakan: {
+    =Ruang fisik, listrik, dan pendingin tanpa perangkat keras komputer yang siap.
+    ~Sistem operasi yang sudah terinstal dan data yang sudah sinkron.
+    ~Staf operasional yang siap bekerja 24 jam sehari.
+    ~Layanan katering untuk seluruh karyawan perusahaan.
+}
+
+Q16 Auditor SI harus memverifikasi bahwa cadangan data (backup) disimpan: {
+    =Di lokasi luar (off-site) yang aman dan memiliki jarak geografis yang cukup.
+    ~Tepat di atas rak server produksi agar mudah diambil saat dibutuhkan.
+    ~Di dalam mobil pribadi manajer TI agar aman dari pencurian di kantor.
+    ~Hanya di dalam memori cloud tanpa salinan fisik sama sekali.
+}
+
+Q17 Apa yang dimaksud dengan "Grandfather-Father-Son" dalam strategi backup? {
+    =Siklus rotasi media penyimpanan harian, mingguan, dan bulanan.
+    ~Struktur organisasi di departemen operasional TI.
+    ~Metode untuk menentukan siapa yang berhak mewarisi aset TI.
+    ~Jenis kabel yang digunakan untuk menghubungkan drive backup.
+}
+
+Q18 Manakah dari berikut ini yang merupakan kontrol detektif di ruang pusat data? {
+    =Sensor asap dan alarm kebakaran.
+    ~Pintu baja yang terkunci dengan sistem biometrik.
+    ~Kebijakan yang melarang membawa makanan ke ruang server.
+    ~Pemasangan sistem pemadam api otomatis (gas halon/FM-200).
+}
+
+Q19 "Service Level Management" bertujuan untuk: {
+    =Menegosiasikan, menyepakati, dan memantau tingkat layanan TI kepada bisnis.
+    ~Mengurangi gaji staf yang gagal mencapai target kecepatan kerja.
+    ~Menghapus semua keluhan pengguna dari sistem help desk.
+    ~Menjamin bahwa sistem tidak akan pernah mengalami downtime.
+}
+
+Q20 Auditor SI menemukan bahwa kapasitas CPU server sering mencapai 100%. Langkah operasional yang tepat adalah: {
+    =Melakukan analisis manajemen kapasitas dan merencanakan upgrade.
+    ~Mematikan setengah dari pengguna agar beban server berkurang.
+    ~Menghapus semua log sistem untuk menghemat siklus prosesor.
+    ~Mendinginkan ruang server dengan suhu ekstrem agar CPU lebih cepat.
+}
+
+Q21 Apa risiko utama dari pengabaian manajemen patch (Patch Management)? {
+    =Kerentanan keamanan yang diketahui dapat dieksploitasi oleh penyerang.
+    ~Sistem akan otomatis menghapus file sistem yang tidak terpakai.
+    ~Biaya lisensi sistem operasi akan meningkat secara otomatis.
+    ~Karyawan tidak akan bisa membuka email pribadi mereka.
+}
+
+Q22 Manakah yang merupakan contoh dari "Redundancy" dalam infrastruktur TI? {
+    =Penggunaan Dual Power Supply dan koneksi internet dari dua ISP berbeda.
+    ~Menyimpan dua salinan kata sandi administrator di bawah keyboard.
+    ~Mempekerjakan dua orang untuk melakukan pekerjaan yang sebenarnya bisa dilakukan satu orang.
+    ~Membeli dua jenis monitor yang berbeda untuk setiap meja.
+}
+
+Q23 "Differential Backup" menyalin data yang: {
+    =Telah berubah sejak backup penuh (full backup) terakhir dilakukan.
+    ~Berada di dalam folder yang berbeda dengan folder sistem.
+    ~Hanya berisi file gambar dan video milik pengguna.
+    ~Memiliki ukuran file lebih dari satu gigabyte.
+}
+
+Q24 Apa keuntungan utama dari "Incremental Backup" dibandingkan "Differential Backup"? {
+    =Memerlukan waktu backup yang lebih singkat karena hanya menyalin perubahan sejak backup terakhir.
+    ~Proses pemulihan data (restore) jauh lebih cepat dan sederhana.
+    ~Tidak memerlukan media penyimpanan tambahan seperti tape atau disk.
+    ~Dapat dilakukan tanpa perlu mematikan aplikasi pangkalan data.
+}
+
+Q25 Auditor SI menemukan bahwa rencana pemulihan bencana (DRP) belum pernah diuji. Tindakan terbaik adalah: {
+    =Merekomendasikan pelaksanaan uji coba DRP secara bertahap (seperti walkthrough).
+    ~Menyimpulkan bahwa DRP tersebut sudah sempurna dan tidak perlu diuji.
+    ~Menyuruh manajer TI untuk mensimulasikan kebakaran sungguhan di kantor.
+    ~Menghapus seluruh DRP karena dianggap tidak berguna jika tidak diuji.
+}
+
+Q26 Apa yang dimaksud dengan "Disaster Recovery Plan" (DRP) yang bersifat "Modular"? {
+    =Rencana yang dibagi menjadi beberapa bagian kecil berdasarkan unit bisnis atau sistem.
+    ~Rencana yang hanya bisa dijalankan pada komputer buatan satu merek saja.
+    ~Rencana yang disusun menggunakan bahasa pemrograman Java.
+    ~Rencana yang disimpan di dalam modul memori USB.
+}
+
+Q27 Dalam pengoperasian jaringan, "Quality of Service" (QoS) digunakan untuk: {
+    =Memprioritaskan lalu lintas data yang kritis (seperti suara/VoIP) di atas data lainnya.
+    ~Menilai kualitas perilaku karyawan saat menggunakan internet.
+    ~Menghitung berapa banyak kabel yang rusak di dalam gedung.
+    ~Menentukan siapa yang boleh memiliki akses wifi paling cepat.
+}
+
+Q28 Apa risiko utama dari operasional TI yang dilakukan sepenuhnya oleh pihak ketiga (Outsourced)? {
+    =Kehilangan pengetahuan internal dan ketergantungan pada stabilitas vendor.
+    ~Server akan meledak jika tidak dirawat oleh karyawan tetap.
+    ~Vendor akan menaikkan harga setiap kali terjadi hujan lebat.
+    ~Karyawan internal akan menjadi terlalu pintar sehingga sulit diatur.
+}
+
+Q29 Manakah yang merupakan bukti terbaik bahwa prosedur backup berjalan efektif? {
+    =Keberhasilan pengujian pemulihan data (restore test) secara berkala.
+    ~Adanya label yang tertempel dengan rapi di setiap kaset backup.
+    ~Jumlah kaset backup yang disimpan di dalam lemari besi.
+    ~Tanda tangan staf operasional pada buku log setiap pagi.
+}
+
+Q30 Auditor SI sedang meninjau "Problem Management". Hal terpenting yang harus dicari adalah: {
+    =Analisis akar penyebab (Root Cause Analysis) dan tindakan pencegahan permanen.
+    ~Kecepatan staf help desk dalam menjawab telepon pelanggan.
+    ~Jumlah komputer yang diperbaiki dalam waktu satu jam.
+    ~Warna seragam yang dikenakan oleh tim teknis operasional.
+}
+
+Q31 "Release Management" bertanggung jawab untuk: {
+    =Menggabungkan perubahan yang telah diuji ke dalam lingkungan produksi secara terkontrol.
+    ~Mengumumkan berita tentang produk baru kepada media massa.
+    ~Melepaskan karyawan yang sudah tidak produktif di departemen TI.
+    ~Menjual versi lama dari perangkat lunak kepada perusahaan lain.
+}
+
+Q32 Apa tujuan dari "Configuration Management"? {
+    =Melacak semua komponen infrastruktur TI (CI) dan hubungan di antaranya.
+    ~Mengatur posisi meja dan kursi di dalam departemen IT.
+    ~Menghitung total daya listrik yang digunakan oleh monitor pengguna.
+    ~Menentukan nama-nama akun pengguna di media sosial perusahaan.
+}
+
+Q33 Manakah dari berikut ini yang merupakan ancaman "Man-made" bagi kelangsungan bisnis? {
+    =Serangan siber atau sabotase oleh karyawan yang tidak puas.
+    ~Gempa bumi dengan skala di atas 7 SR.
+    ~Banjir bandang akibat curah hujan yang ekstrem.
+    ~Letusan gunung berapi yang berada di dekat pusat data.
+}
+
+Q34 Apa fungsi utama dari "Uninterruptible Power Supply" (UPS)? {
+    =Memberikan daya sementara agar sistem dapat dimatikan secara normal atau menunggu generator aktif.
+    ~Mengubah arus listrik AC menjadi DC untuk mendinginkan server.
+    ~Mencegah peretas masuk ke dalam jaringan melalui kabel listrik.
+    ~Mempercepat koneksi internet saat terjadi pemadaman lampu.
+}
+
+Q35 Dalam pemilihan lokasi pusat data, faktor geografis yang paling penting dipertimbangkan adalah: {
+    =Kedekatan dengan garis patahan gempa atau daerah rawan banjir.
+    ~Jarak tempuh dari rumah Chief Information Officer (CIO).
+    ~Kedekatan dengan pusat perbelanjaan atau mall.
+    ~Ketersediaan tempat parkir yang luas bagi pengunjung.
+}
+
+Q36 "Tabletop Exercise" dalam pemulihan bencana melibatkan: {
+    =Diskusi kelompok untuk meninjau langkah-langkah pemulihan berdasarkan skenario tertentu.
+    ~Latihan fisik memindahkan server dari satu meja ke meja lainnya.
+    ~Pertandingan tenis meja antar staf TI untuk membangun kerja sama tim.
+    ~Pembersihan debu di atas meja kerja setiap akhir pekan.
+}
+
+Q37 Apa risiko utama dari "Co-location" (menyewa ruang di pusat data pihak ketiga)? {
+    =Berbagi fasilitas dengan organisasi lain yang mungkin memiliki risiko keamanan berbeda.
+    ~Perangkat keras kita akan otomatis menjadi milik vendor setelah tiga tahun.
+    ~Kita tidak akan bisa mengakses server kita sendiri selamanya.
+    ~Vendor akan menggunakan server kita untuk menambang bitcoin secara diam-diam.
+}
+
+Q38 Auditor SI menemukan bahwa "Media Sanitization" tidak dilakukan pada hard disk bekas. Risikonya adalah: {
+    =Data sensitif dapat dipulihkan dan disalahgunakan oleh pihak yang tidak berwenang.
+    ~Hard disk tersebut tidak akan bisa dijual kembali dengan harga tinggi.
+    ~Sistem operasi baru tidak akan bisa diinstal pada hard disk tersebut.
+    ~Hard disk akan meledak jika dipasang di komputer lain.
+}
+
+Q39 Manakah dari berikut ini yang merupakan peran dari "Business Continuity Manager"? {
+    =Mengoordinasikan pengembangan dan pengujian rencana kelangsungan bisnis.
+    ~Memperbaiki sirkuit listrik yang rusak di ruang server.
+    ~Menandatangani kontrak pembelian perangkat lunak akuntansi.
+    ~Melakukan coding untuk sistem deteksi intrusi jaringan.
+}
+
+Q40 Hasil akhir dari Domain 4 yang sukses adalah operasional TI yang: {
+    =Tangguh, andal, dan mampu pulih dari gangguan sesuai kebutuhan bisnis.
+    ~Memiliki jumlah server terbanyak di antara perusahaan pesaing.
+    ~Mampu berjalan tanpa memerlukan biaya operasional sama sekali.
+    ~Menggunakan teknologi yang paling sulit dipahami oleh orang awam.
+}
+
+Q41 Manakah dari berikut ini yang merupakan keuntungan utama dari penyimpanan data di Cloud bagi pemulihan bencana? {
+    =Data tersimpan di lokasi geografis yang berbeda secara otomatis.
+    ~Biaya penyimpanan cloud selalu lebih murah daripada hard disk fisik.
+    ~Cloud menjamin bahwa data tidak akan pernah bisa diakses oleh peretas.
+    ~Penyedia cloud bertanggung jawab penuh atas semua kesalahan input data.
+}
+
+Q42 "Mean Time Between Failures" (MTBF) adalah ukuran untuk: {
+    =Keandalan (reliability) suatu komponen perangkat keras.
+    ~Kecepatan rata-rata internet di dalam kantor.
+    ~Jumlah total jam kerja staf operasional TI.
+    ~Waktu yang dibutuhkan untuk memperbaiki server yang rusak.
+}
+
+Q43 "Mean Time To Repair" (MTTR) mengukur: {
+    =Waktu rata-rata yang dibutuhkan untuk memperbaiki sistem setelah terjadi kegagalan.
+    ~Jarak waktu antara dua kegagalan sistem yang berurutan.
+    ~Jumlah personil yang dibutuhkan untuk mengganti hard disk.
+    ~Berapa lama sebuah server dapat bertahan tanpa listrik.
+}
+
+Q44 Auditor SI menemukan bahwa baterai UPS tidak pernah diuji beban (load test). Risiko utamanya adalah: {
+    =UPS mungkin gagal memberikan daya saat terjadi pemadaman listrik yang sebenarnya.
+    ~Tagihan listrik perusahaan akan meningkat secara drastis.
+    ~Server akan meledak jika baterai terlalu penuh.
+    ~Kecepatan jaringan akan menurun jika baterai sudah tua.
+}
+
+Q45 Apa tujuan dari "Service Level Agreement" (SLA) dalam operasional TI? {
+    =Mendefinisikan ekspektasi kinerja layanan antara penyedia layanan dan pelanggan.
+    ~Memberikan instruksi teknis cara merakit server kepada pengguna.
+    ~Menentukan hukuman penjara bagi staf yang gagal memperbaiki sistem.
+    ~Menjamin bahwa perangkat lunak tidak akan pernah memiliki bug.
+}
+
+Q46 Manakah yang merupakan contoh "Corrective Control" dalam operasional TI? {
+    =Melakukan pemulihan data dari tape backup setelah kegagalan disk.
+    ~Menggunakan pemindai biometrik untuk akses ke pusat data.
+    ~Menulis kebijakan tentang penggunaan email yang aman.
+    ~Memasang sistem deteksi intrusi (IDS) pada jaringan.
+}
+
+Q47 "Incident Escalation" dilakukan ketika: {
+    =Tim pendukung tingkat pertama tidak dapat menyelesaikan insiden dalam waktu yang ditentukan.
+    ~Pengguna merasa senang dengan layanan yang diberikan.
+    ~Sistem berjalan normal tanpa ada gangguan apa pun.
+    ~Staf help desk ingin pergi makan siang.
+}
+
+Q48 Apa risiko utama dari penggunaan "Shared Infrastructure" di pusat data? {
+    =Potensi kebocoran data antar pengguna atau gangguan kinerja akibat pengguna lain.
+    ~Biaya sewa yang menjadi lebih mahal daripada membangun gedung sendiri.
+    ~Kabel jaringan akan menjadi kusut karena terlalu banyak perangkat.
+    ~Hanya satu perusahaan yang boleh menggunakan pendingin udara.
+}
+
+Q49 Auditor SI harus memverifikasi bahwa "DRP" mencakup: {
+    =Langkah-langkah detail untuk memulihkan operasi TI di lokasi alternatif.
+    ~Daftar semua merek makanan yang disukai oleh staf TI.
+    ~Foto-foto kenangan saat peresmian kantor pusat.
+    ~Prediksi cuaca untuk sepuluh tahun ke depan.
+}
+
+Q50 "Warm Site" adalah lokasi pemulihan bencana yang menyediakan: {
+    =Infrastruktur jaringan dan server yang tersedia, tetapi data perlu dipulihkan dari cadangan.
+    ~Fasilitas lengkap dengan data yang tersinkronisasi secara real-time.
+    ~Hanya ruangan kosong tanpa listrik dan tanpa perangkat keras.
+    ~Layanan hotel berbintang untuk manajer senior selama masa krisis.
+}
+
+Q51 Manakah yang merupakan indikator keberhasilan "Problem Management"? {
+    =Berkurangnya jumlah insiden yang berulang dengan akar penyebab yang sama.
+    ~Meningkatnya jumlah panggilan ke layanan bantuan (help desk).
+    ~Banyaknya jumlah tiket yang ditutup tanpa solusi permanen.
+    ~Kecepatan staf dalam mengganti keyboard pengguna yang rusak.
+}
+
+Q52 Apa fungsi dari "Operations Manager" dalam struktur organisasi TI? {
+    =Mengawasi aktivitas harian pusat data dan infrastruktur TI.
+    ~Menulis kode program untuk aplikasi pemasaran perusahaan.
+    ~Melakukan audit keuangan tahunan terhadap departemen sumber daya manusia.
+    ~Menentukan harga jual produk utama perusahaan.
+}
+
+Q53 Auditor SI menemukan bahwa media cadangan tidak diberi label secara sistematis. Risikonya adalah: {
+    =Kesulitan dan keterlambatan dalam menemukan data yang tepat saat pemulihan diperlukan.
+    ~Data di dalam kaset akan terhapus secara otomatis oleh sinar matahari.
+    ~Kaset backup tidak akan bisa masuk ke dalam mesin pembaca (drive).
+    ~Warna kaset akan memudar jika tidak diberi label.
+}
+
+Q54 "Off-site Storage" untuk data cadangan harus: {
+    =Berjarak cukup jauh agar tidak terkena bencana yang sama dengan lokasi utama.
+    ~Terletak tepat di seberang jalan dari kantor pusat agar mudah dijangkau.
+    ~Berada di rumah pribadi setiap staf TI agar aman dari pencurian.
+    ~Disimpan di dalam lemari plastik biasa agar menghemat biaya.
+}
+
+Q55 Manakah dari berikut ini yang merupakan ancaman "Environmental" bagi operasional TI? {
+    =Kebocoran pipa air di atas ruang server.
+    ~Perubahan kebijakan politik negara tetangga.
+    ~Kenaikan suku bunga bank sentral.
+    ~Kegagalan algoritma pada perangkat lunak akuntansi.
+}
+
+Q56 Tujuan dari "Capacity Management" adalah untuk memastikan bahwa: {
+    =Sumber daya TI memadai untuk memenuhi beban kerja saat ini dan rencana pertumbuhan.
+    ~Jumlah karyawan di kantor tidak melebihi kapasitas kursi yang tersedia.
+    ~Setiap server memiliki memori yang selalu kosong 100%.
+    ~Printer memiliki cukup kertas untuk mencetak satu juta halaman per hari.
+}
+
+Q57 Apa yang dimaksud dengan "Full Testing" dalam pemulihan bencana? {
+    =Menghentikan operasi di lokasi utama dan menjalankan seluruh operasi di lokasi cadangan.
+    ~Membaca dokumen rencana pemulihan bersama seluruh staf di ruang rapat.
+    ~Menghapus seluruh data produksi untuk melihat apakah cadangan bekerja.
+    ~Melakukan uji coba hanya pada sistem pengeras suara di kantor.
+}
+
+Q58 "Business Continuity Planning" (BCP) lebih luas dari "DRP" karena BCP fokus pada: {
+    =Kelangsungan seluruh proses bisnis organisasi, bukan hanya sistem TI.
+    ~Cara mendapatkan pinjaman bank saat perusahaan mengalami kerugian.
+    ~Pelatihan fisik bagi karyawan agar kuat menghadapi bencana alam.
+    ~Penyusunan laporan tahunan untuk pemegang saham.
+}
+
+Q59 Auditor SI menemukan bahwa operasional TI dilakukan tanpa "Standard Operating Procedures" (SOP). Hal ini mengakibatkan: {
+    =Ketidakkonsistenan dalam pelaksanaan tugas dan peningkatan risiko kesalahan manusia.
+    ~Server akan otomatis berhenti beroperasi setiap jam 5 sore.
+    ~Biaya lisensi perangkat keras akan meningkat secara otomatis.
+    ~Koneksi internet akan menjadi lebih lambat secara permanen.
+}
+
+Q60 Apa risiko utama dari penggunaan "Universal Serial Bus" (USB) drive di lingkungan operasional? {
+    =Penyebaran malware dan risiko kebocoran data (data exfiltration).
+    ~USB drive akan menarik petir masuk ke dalam komputer.
+    ~Komputer akan kehabisan daya listrik jika terlalu banyak USB terpasang.
+    ~Layar monitor akan berkedip setiap kali USB dicabut.
+}
+
+Q61 Manakah yang merupakan kontrol terbaik untuk memastikan "High Availability" pada server web? {
+    =Penggunaan Load Balancer dan klaster server (clustering).
+    ~Mematikan server setiap malam agar mesin bisa beristirahat.
+    ~Menggunakan kabel jaringan yang berwarna-warni agar mudah diperbaiki.
+    ~Membatasi jumlah pengguna maksimal hanya 5 orang saja.
+}
+
+Q62 "RAID" (Redundant Array of Independent Disks) digunakan untuk: {
+    =Meningkatkan ketersediaan data dan kinerja melalui redundansi hard disk.
+    ~Menghapus virus dari pangkalan data secara otomatis.
+    ~Mengurangi penggunaan memori pada aplikasi pengolah kata.
+    ~Menjamin keamanan kata sandi administrator sistem.
+}
+
+Q63 Apa peran "Emergency Response Team" (ERT) saat terjadi kebakaran di pusat data? {
+    =Memastikan keselamatan nyawa personel dan meminimalkan kerusakan fisik.
+    ~Menyelamatkan dokumen gaji karyawan terlebih dahulu sebelum keluar.
+    ~Melakukan coding ulang untuk sistem yang terbakar saat itu juga.
+    ~Menghubungi media massa untuk melakukan siaran langsung.
+}
+
+Q64 Auditor SI menemukan bahwa "DRP" disimpan di atas server yang sama dengan data produksi. Risiko utamanya adalah: {
+    =Rencana tersebut tidak dapat diakses jika server produksi mengalami kegagalan.
+    ~Rencana tersebut akan terhapus oleh suhu panas server.
+    ~Karyawan lain akan mencuri strategi pemulihan bencana tersebut.
+    ~Rencana tersebut akan membuat server bekerja lebih lambat.
+}
+
+Q65 "Simulation Test" dalam BCP melibatkan: {
+    =Melatih staf dalam skenario bencana nyata tanpa mengganggu operasional harian.
+    ~Bermain game simulasi komputer untuk mengisi waktu luang.
+    ~Membuat maket gedung dari kertas untuk melihat jalur evakuasi.
+    ~Menghitung probabilitas gempa bumi menggunakan rumus matematika rumit.
+}
+
+Q66 Manakah dari berikut ini yang merupakan indikator dari "Poor Media Management"? {
+    =Media cadangan disimpan di lingkungan yang suhunya tidak terkontrol.
+    ~Setiap kaset cadangan memiliki kode batang (barcode) yang unik.
+    ~Adanya jadwal pembersihan drive kaset secara rutin.
+    ~Media cadangan yang sudah usang dihancurkan secara fisik.
+}
+
+Q67 Apa kegunaan dari "System Performance Monitoring tools"? {
+    =Mengidentifikasi hambatan (bottleneck) dan mengoptimalkan penggunaan sumber daya.
+    ~Mengetahui apa yang sedang diketik oleh pengguna secara real-time.
+    ~Mencari diskon perangkat keras di situs belanja daring.
+    ~Mengatur volume suara pada speaker komputer karyawan.
+}
+
+Q68 "Library Control" pada lingkungan produksi bertujuan untuk: {
+    =Memastikan hanya versi program yang telah disetujui yang dijalankan.
+    ~Memastikan buku-buku di perpustakaan TI dikembalikan tepat waktu.
+    ~Membatasi jumlah salinan cadangan yang boleh dibuat.
+    ~Melarang staf membawa buku pribadi ke dalam ruang server.
+}
+
+Q69 Manakah yang merupakan contoh "Administrative Control" dalam operasional TI? {
+    =Prosedur tertulis untuk manajemen perubahan (Change Management).
+    ~Penggunaan firewall generasi terbaru di perimeter jaringan.
+    ~Pemasangan kamera CCTV di setiap sudut ruangan.
+    ~Enkripsi data pada semua media penyimpanan portabel.
+}
+
+Q70 Apa risiko utama dari pengoperasian pusat data tanpa sistem pemadam api "Clean Agent"? {
+    =Penggunaan air untuk memadamkan api akan merusak perangkat elektronik secara permanen.
+    ~Api tidak akan bisa padam jika hanya menggunakan gas.
+    ~Gas tersebut akan membuat server bekerja lebih lambat setelah digunakan.
+    ~Staf akan kesulitan bernapas karena gas tersebut berbau sangat wangi.
+}
+
+Q71 Auditor SI harus memverifikasi bahwa "Interdependencies" antar sistem telah dipertimbangkan dalam: {
+    =Urutan pemulihan sistem (Recovery Priority) di dalam DRP.
+    ~Daftar gaji karyawan di departemen operasional.
+    ~Desain logo perusahaan pada aplikasi web.
+    ~Pemilihan merek pendingin udara untuk ruang server.
+}
+
+Q72 "Workaround" dalam manajemen insiden adalah: {
+    =Solusi sementara untuk memulihkan layanan tanpa memperbaiki akar masalah.
+    ~Cara bagi staf untuk pulang lebih awal saat pekerjaan selesai.
+    ~Metode untuk menghindari pembayaran pajak lisensi perangkat lunak.
+    ~Teknik untuk memaksa server berjalan lebih cepat dari spesifikasinya.
+}
+
+Q73 Apa tujuan utama dari "Data Center Physical Entry Logs"? {
+    =Menyediakan jejak audit tentang siapa yang masuk dan keluar dari area sensitif.
+    ~Menghitung berapa banyak orang yang menyukai fasilitas pusat data.
+    ~Menentukan biaya makan siang bagi pengunjung pusat data.
+    ~Mencatat merek sepatu yang digunakan oleh teknisi server.
+}
+
+Q74 Manakah dari berikut ini yang merupakan risiko "Supply Chain" bagi operasional TI? {
+    =Keterlambatan pengiriman suku cadang perangkat keras oleh vendor luar.
+    ~Perubahan algoritma pencarian pada mesin pencari internet.
+    ~Kenaikan harga kertas untuk mesin fotokopi kantor.
+    ~Jumlah pengikut akun media sosial vendor yang menurun.
+}
+
+Q75 "Redundant Array of Inexpensive Nodes" (RAIN) mirip dengan RAID tetapi digunakan untuk: {
+    =Ketersediaan data pada tingkat server/node dalam lingkungan komputasi terdistribusi.
+    ~Mengurangi biaya pembelian komputer meja bagi karyawan magang.
+    ~Menghitung jumlah curah hujan di sekitar lokasi pusat data.
+    ~Mengatur kecepatan putaran kipas pada setiap server.
+}
+
+Q76 Auditor SI menemukan bahwa organisasi tidak memiliki "Mutual Aid Agreement". Hal ini berarti: {
+    =Organisasi tidak memiliki kesepakatan dengan pihak lain untuk berbagi fasilitas saat bencana.
+    ~Organisasi tidak memiliki asuransi kesehatan bagi karyawannya.
+    ~Karyawan tidak diperbolehkan saling membantu saat mengerjakan tugas harian.
+    ~Organisasi dilarang memberikan sumbangan kepada lembaga sosial.
+}
+
+Q77 Apa risiko utama dari "Lights-out Data Center"? {
+    =Keterlambatan dalam respon fisik jika terjadi kegagalan perangkat keras yang kritis.
+    ~Lampu di dalam pusat data akan padam selamanya dan merusak server.
+    ~Hantu akan menghuni pusat data karena tidak ada manusia.
+    ~Tagihan listrik akan menjadi nol karena tidak ada lampu yang menyala.
+}
+
+Q78 "Database Commit" dan "Rollback" adalah kontrol untuk memastikan: {
+    =Integritas transaksi pangkalan data (Atomicity).
+    ~Kecepatan pencarian data di dalam tabel besar.
+    ~Ukuran file pangkalan data tidak melebihi kapasitas disk.
+    ~Warna tampilan aplikasi pangkalan data tetap konsisten.
+}
+
+Q79 Manakah yang merupakan bukti terbaik bahwa "DRP" sudah mutakhir? {
+    =Adanya catatan tinjauan dan pembaruan rencana setelah terjadi perubahan infrastruktur signifikan.
+    ~Rencana tersebut dicetak di atas kertas yang sangat mahal dan tebal.
+    ~Rencana tersebut disimpan di dalam brankas milik CEO.
+    ~Terdapat tanda tangan dari seluruh staf pada halaman depan dokumen.
+}
+
+Q80 Apa fungsi dari "Watchdog Timer" dalam sistem operasional? {
+    =Mendeteksi dan memulihkan sistem dari kegagalan perangkat lunak atau hang.
+    ~Menghitung berapa lama staf melihat layar monitor mereka.
+    ~Memberikan peringatan jika ada anjing yang masuk ke ruang server.
+    ~Mengatur waktu istirahat bagi administrator sistem secara otomatis.
+}
+
+Q81 Manakah dari berikut ini yang merupakan keuntungan utama dari "Database Replication" dibandingkan backup konvensional? {
+    =Menyediakan ketersediaan tinggi dengan sinkronisasi data antar server secara cepat.
+    ~Memerlukan biaya penyimpanan yang jauh lebih sedikit daripada backup tape.
+    ~Menghilangkan kebutuhan untuk melakukan pengujian pemulihan (restore testing).
+    ~Dapat dilakukan oleh pengguna akhir tanpa bantuan staf IT.
+}
+
+Q82 Apa yang dimaksud dengan "Cold Site" dalam konteks pemulihan bencana? {
+    =Lokasi yang memiliki infrastruktur dasar tetapi tanpa perangkat keras komputer.
+    ~Pusat data yang suhunya dijaga tetap dingin di bawah nol derajat.
+    ~Lokasi pemulihan yang sudah memiliki data yang tersinkronisasi secara real-time.
+    ~Kantor cadangan yang hanya digunakan saat musim dingin.
+}
+
+Q83 Auditor SI menemukan bahwa organisasi tidak memiliki "Escalation Procedure" untuk insiden TI. Risiko utamanya adalah: {
+    =Insiden kritis mungkin tidak tertangani oleh personel yang tepat dalam waktu yang diizinkan.
+    ~Sistem operasi akan otomatis berhenti berfungsi jika terjadi kesalahan kecil.
+    ~Biaya lisensi perangkat lunak pemantau akan meningkat secara otomatis.
+    ~Karyawan akan kehilangan motivasi untuk bekerja lembur.
+}
+
+Q84 "Business Continuity Plan" (BCP) harus diperbarui ketika: {
+    =Terjadi perubahan signifikan pada infrastruktur atau proses bisnis organisasi.
+    ~Organisasi mengganti merek air minum kemasan di kantor.
+    ~Setiap kali ada karyawan baru yang masuk di departemen pemasaran.
+    ~Hanya satu kali dalam sepuluh tahun sesuai peraturan pemerintah.
+}
+
+Q85 Manakah yang merupakan contoh "Physical Access Control" untuk pusat data? {
+    =Pembaca kartu pintar dan otentikasi biometrik.
+    ~Penggunaan kata sandi yang kuat untuk login ke server pangkalan data.
+    ~Pemasangan perangkat lunak antivirus pada setiap komputer desktop.
+    ~Kebijakan yang melarang staf membawa ponsel ke dalam ruang rapat.
+}
+
+Q86 Apa tujuan utama dari "Post-Incident Review"? {
+    =Mengidentifikasi pelajaran yang dapat dipetik untuk mencegah terulangnya insiden serupa.
+    ~Menentukan siapa yang harus dipecat karena menyebabkan gangguan sistem.
+    ~Menghapus semua catatan tentang insiden agar laporan tahunan terlihat bagus.
+    ~Menghitung total bonus yang akan diberikan kepada tim penanggap insiden.
+}
+
+Q87 "Recovery Point Objective" (RPO) nol berarti: {
+    =Organisasi tidak mentoleransi kehilangan data sama sekali.
+    ~Sistem harus pulih dalam waktu kurang dari satu menit.
+    ~Data tidak perlu dicadangkan karena sistem dianggap sangat aman.
+    ~Biaya pemulihan bencana akan menjadi nol rupiah.
+}
+
+Q88 Manakah dari berikut ini yang merupakan indikator terbaik bahwa DRP akan berhasil? {
+    =Hasil dari pengujian rencana pemulihan yang dilakukan secara berkala dan terdokumentasi.
+    ~Ketebalan dokumen rencana pemulihan yang mencapai ratusan halaman.
+    ~Nama besar vendor yang membantu menyusun rencana tersebut.
+    ~Persetujuan tertulis dari dewan direksi atas dokumen rencana tersebut.
+}
+
+Q89 "Off-site Storage" kaset backup harus memiliki tingkat keamanan yang: {
+    =Setara atau lebih tinggi daripada lokasi penyimpanan utama (on-site).
+    ~Lebih rendah karena lokasi tersebut bersifat rahasia.
+    ~Sama dengan gudang penyimpanan alat tulis kantor.
+    ~Tidak perlu diperhatikan selama lokasinya jauh dari pusat kota.
+}
+
+Q90 Apa risiko utama dari penggunaan "Default Passwords" pada perangkat jaringan? {
+    =Memudahkan penyerang untuk mengambil alih kendali perangkat secara ilegal.
+    ~Perangkat akan bekerja lebih lambat karena password yang terlalu umum.
+    ~Garansi perangkat keras akan otomatis hangus jika password tidak diganti.
+    ~Kabel jaringan akan lebih mudah mengalami kerusakan fisik.
+}
+
+Q91 Manakah yang merupakan peran auditor SI dalam peninjauan BCP? {
+    =Mengevaluasi apakah rencana tersebut realistis dan selaras dengan kebutuhan bisnis.
+    ~Menyusun daftar kontak darurat bagi seluruh karyawan perusahaan.
+    ~Memimpin evakuasi fisik saat terjadi kebakaran di kantor pusat.
+    ~Menyimpan kunci cadangan untuk gedung pusat data alternatif.
+}
+
+Q92 Apa yang dimaksud dengan "Differential Backup"? {
+    =Mencadangkan semua file yang berubah sejak backup penuh terakhir.
+    ~Mencadangkan file yang hanya memiliki ukuran berbeda dari file asli.
+    ~Mencadangkan data ke dua lokasi yang berbeda secara bersamaan.
+    ~Mencadangkan data setiap satu jam sekali secara otomatis.
+}
+
+Q93 "Load Balancing" membantu menjaga ketersediaan sistem dengan: {
+    =Membagi beban kerja ke beberapa server untuk mencegah kelebihan beban pada satu unit.
+    ~Menghitung berat fisik dari setiap rak server yang terpasang.
+    ~Menyeimbangkan jumlah staf pria dan wanita di ruang operasional.
+    ~Mengatur penggunaan daya listrik agar merata di seluruh gedung.
+}
+
+Q94 Manakah yang merupakan contoh "Corrective Control" dalam manajemen operasional? {
+    =Prosedur pemulihan sistem dari kegagalan fungsi.
+    ~Pemasangan kamera CCTV di setiap sudut ruang server.
+    ~Pewajiban pemeriksaan latar belakang bagi semua staf TI baru.
+    ~Enkripsi data sensitif yang disimpan di dalam pangkalan data.
+}
+
+Q95 "Mean Time to Repair" (MTTR) yang rendah menunjukkan: {
+    =Efisiensi yang baik dalam memulihkan sistem setelah terjadi kegagalan.
+    ~Bahwa sistem sangat jarang mengalami kerusakan perangkat keras.
+    ~Bahwa biaya pemeliharaan perangkat keras sangat murah.
+    ~Bahwa staf TI memiliki waktu luang yang sangat banyak.
+}
+
+Q96 Apa risiko utama dari "Capacity Management" yang buruk? {
+    =Penurunan kinerja sistem atau kegagalan saat beban kerja meningkat.
+    ~Karyawan akan kesulitan menemukan tempat duduk di kantor.
+    ~Tagihan internet akan tetap murah meskipun penggunaan meningkat.
+    ~Server akan otomatis mati jika ruangan terlalu dingin.
+}
+
+Q97 Auditor SI menemukan bahwa "System Logs" disimpan di server yang sama dengan aplikasi. Risikonya adalah: {
+    =Penyerang dapat menghapus log untuk menutupi jejak aktivitas mereka.
+    ~Log tersebut akan membuat aplikasi berjalan sepuluh kali lebih cepat.
+    ~Sistem operasi akan otomatis mengenkripsi log tersebut setiap jam.
+    ~Log tidak akan bisa dibaca kecuali menggunakan perangkat keras khusus.
+}
+
+Q98 "Succession Planning" dalam operasional TI bertujuan untuk: {
+    =Memastikan kelangsungan operasional jika personel kunci meninggalkan organisasi.
+    ~Menentukan siapa yang akan menjadi pemenang dalam lomba inovasi TI.
+    ~Mengatur jadwal liburan tahunan bagi seluruh staf operasional.
+    ~Menghitung total masa kerja karyawan hingga usia pensiun.
+}
+
+Q99 Manakah dari berikut ini yang merupakan ancaman "Environmental" bagi pusat data? {
+    =Kegagalan sistem pendingin udara yang menyebabkan overheat.
+    ~Serangan virus yang masuk melalui lampiran email karyawan.
+    ~Kesalahan pengetikan data oleh staf entri data magang.
+    ~Pencurian laptop milik manajer senior saat di bandara.
+}
+
+Q100 Hasil akhir dari manajemen operasional TI yang efektif adalah: {
+    =Layanan TI yang stabil, aman, dan mendukung kebutuhan proses bisnis.
+    ~Penggunaan perangkat keras yang paling mahal dan terbaru di pasar.
+    ~Jumlah staf TI yang lebih banyak daripada staf departemen lainnya.
+    ~Ketiadaan audit internal karena sistem dianggap sudah sempurna.
+}

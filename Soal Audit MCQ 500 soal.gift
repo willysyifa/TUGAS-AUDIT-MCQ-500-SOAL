@@ -1,0 +1,3519 @@
+// ==========================================================
+// CISA DOMAIN 1: Information System Auditing Process (1-100)
+// ==========================================================
+
+::Q1:: Manakah dari berikut ini yang merupakan alasan UTAMA dilakukannya perencanaan audit tahunan? {
+    =Untuk memastikan bahwa area dengan risiko tertinggi diprioritaskan.
+    ~Untuk memenuhi persyaratan peraturan perundang-undangan setempat.
+    ~Untuk mengalokasikan anggaran departemen audit secara merata.
+    ~Untuk memastikan semua sistem diperiksa setidaknya sekali setahun.
+}
+
+::Q2:: Piagam Audit (Audit Charter) harus memberikan kewenangan kepada auditor SI untuk: {
+    =Mengakses catatan, personil, dan aset fisik yang relevan dengan audit.
+    ~Melakukan tindakan disipliner terhadap karyawan yang melanggar prosedur.
+    ~Merancang dan mengimplementasikan kontrol keamanan yang hilang.
+    ~Menetapkan toleransi risiko organisasi secara keseluruhan.
+}
+
+::Q3:: Selama pengumpulan bukti, auditor menemukan bahwa log sistem tertentu telah dihapus. Apa langkah SELANJUTNYA yang harus dilakukan auditor? {
+    =Mendokumentasikan temuan tersebut dan menyelidiki alasan penghapusan.
+    ~Segera melaporkan kejadian tersebut kepada pihak kepolisian.
+    ~Menghentikan audit karena bukti dianggap tidak memadai.
+    ~Mengasumsikan bahwa telah terjadi kecurangan (fraud) oleh administrator.
+}
+
+::Q4:: Dalam pendekatan audit berbasis risiko, auditor SI harus fokus pada: {
+    =Kontrol yang memitigasi risiko bisnis yang signifikan.
+    ~Sistem yang memiliki biaya operasional tertinggi.
+    ~Proses yang paling sering dikeluhkan oleh pengguna.
+    ~Semua kontrol yang ada dalam kerangka kerja COBIT.
+}
+
+::Q5:: Manakah dari berikut ini yang merupakan "Substantive Test"? {
+    =Melakukan penghitungan fisik inventaris perangkat keras.
+    ~Memeriksa apakah ada tanda tangan persetujuan pada formulir permintaan akses.
+    ~Mengamati apakah karyawan menggunakan kartu akses untuk masuk ke pusat data.
+    ~Meninjau kebijakan keamanan informasi organisasi.
+}
+
+::Q6:: Risiko deteksi (Detection Risk) dapat diminimalisir oleh auditor dengan cara: {
+    =Meningkatkan ukuran sampel dan prosedur pengujian.
+    ~Mengandalkan sepenuhnya pada kontrol internal perusahaan.
+    ~Menurunkan tingkat kepercayaan (confidence level) statistik.
+    ~Memilih staf audit yang memiliki hubungan baik dengan auditee.
+}
+
+::Q7:: Seorang auditor SI internal diminta untuk mengaudit sistem yang baru saja ia desain setahun yang lalu. Auditor tersebut harus: {
+    =Menginformasikan manajemen tentang potensi konflik independensi sebelum menerima penugasan.
+    ~Menerima penugasan tersebut karena ia sangat memahami sistem tersebut.
+    ~Menolak penugasan tanpa memberikan alasan apapun kepada atasan.
+    ~Melakukan audit tetapi meminta rekan kerja untuk menandatangani laporan akhir.
+}
+
+::Q8:: Tujuan utama dari rapat penutupan (exit interview) adalah untuk: {
+    =Memastikan bahwa fakta-fakta dalam temuan audit sudah akurat dan dipahami auditee.
+    ~Menentukan hukuman bagi departemen yang gagal dalam audit.
+    ~Memberikan waktu bagi auditee untuk memperbaiki semua masalah sebelum laporan final.
+    ~Menyusun rencana anggaran untuk departemen audit tahun depan.
+}
+
+::Q9:: Manakah yang merupakan bukti audit yang PALING andal? {
+    =Hasil konfirmasi eksternal yang diterima langsung oleh auditor.
+    ~Representasi lisan yang diberikan oleh manajer IT.
+    ~Dokumen internal yang telah difotokopi oleh auditee.
+    ~Analisis yang dilakukan oleh auditor berdasarkan data yang tidak diverifikasi.
+}
+
+::Q10:: Teknik "Statistical Sampling" lebih dipilih daripada "Judgmental Sampling" ketika auditor: {
+    =Perlu menarik kesimpulan tentang seluruh populasi secara objektif.
+    ~Memiliki waktu yang sangat terbatas untuk melakukan pengujian.
+    ~Hanya ingin menguji transaksi yang dicurigai mengandung kesalahan.
+    ~Tidak memiliki akses ke data elektronik.
+}
+
+::Q11:: Risiko inheren (Inherent Risk) adalah: {
+    =Risiko terjadinya kesalahan material tanpa mempertimbangkan kontrol internal terkait.
+    ~Risiko bahwa kontrol internal gagal mencegah atau mendeteksi kesalahan.
+    ~Risiko bahwa auditor akan memberikan pendapat yang salah atas laporan.
+    ~Risiko yang tetap ada setelah kontrol internal diimplementasikan.
+}
+
+::Q12:: Apa fungsi dari Control Self-Assessment (CSA)? {
+    =Memindahkan tanggung jawab pemantauan kontrol kepada pemilik proses bisnis.
+    ~Menggantikan sepenuhnya peran fungsi audit internal tradisional.
+    ~Mengurangi biaya lisensi perangkat lunak keamanan.
+    ~Menghilangkan kebutuhan akan audit eksternal tahunan.
+}
+
+::Q13:: Manakah dari berikut ini yang merupakan contoh dari "Compliance Test"? {
+    =Memeriksa log otorisasi untuk memastikan hanya user tertentu yang bisa akses.
+    ~Memverifikasi saldo kas di pangkalan data keuangan.
+    ~Menghitung ulang depresiasi aset tetap secara manual.
+    ~Menganalisis tren penjualan selama lima tahun terakhir.
+}
+
+::Q14:: Kertas kerja audit (Audit Working Papers) adalah milik dari: {
+    =Organisasi audit/Departemen Audit.
+    ~Auditee (Departemen yang diaudit).
+    ~Dewan Direksi secara pribadi.
+    ~Otoritas hukum atau pemerintah setempat.
+}
+
+::Q15:: Auditor SI menemukan bahwa rencana pemulihan bencana (DRP) belum diperbarui selama tiga tahun. Tindakan terbaik auditor adalah: {
+    =Mengevaluasi dampak dari tidak diperbaruinya DRP terhadap operasional bisnis saat ini.
+    ~Menulis DRP baru untuk organisasi tersebut sebagai bagian dari jasa audit.
+    ~Mengabaikan temuan tersebut jika tidak ada insiden selama tiga tahun terakhir.
+    ~Segera melaporkan kegagalan fatal ini kepada pemegang saham.
+}
+
+::Q16:: Apa tujuan utama dari penggunaan alat Continuous Audit? {
+    =Untuk memungkinkan auditor memantau kontrol secara real-time atau mendekati real-time.
+    ~Untuk menggantikan kebutuhan akan auditor manusia di masa depan.
+    ~Untuk memastikan bahwa semua sistem IT beroperasi pada kecepatan maksimal.
+    ~Untuk menghapus semua risiko inheren dalam organisasi.
+}
+
+::Q17:: Dalam audit berbasis risiko, jika kontrol internal dinilai sangat kuat, maka auditor dapat: {
+    =Mengurangi luas pengujian substantif.
+    ~Menghilangkan semua pengujian kepatuhan.
+    ~Meningkatkan risiko deteksi ke tingkat maksimum.
+    ~Memberikan pendapat audit tanpa melakukan pengujian sampel.
+}
+
+::Q18:: "Materiality" dalam audit SI ditentukan berdasarkan: {
+    =Dampak dari kesalahan atau kekurangan terhadap keputusan manajemen atau operasional.
+    ~Hanya berdasarkan nilai moneter dari aset yang diaudit.
+    ~Jumlah waktu yang dihabiskan auditor untuk memeriksa satu modul.
+    ~Opini dari kepala bagian IT auditee.
+}
+
+::Q19:: Penggunaan teknik CAAT (Computer-Assisted Audit Techniques) sangat bermanfaat ketika: {
+    =Data tersedia dalam volume besar dan dalam format elektronik.
+    ~Organisasi tidak memiliki sistem komputer sama sekali.
+    ~Auditor tidak memiliki pengetahuan tentang SQL atau pangkalan data.
+    ~Semua dokumen audit tersedia dalam bentuk fisik (kertas).
+}
+
+::Q20:: Jika auditee tidak setuju dengan temuan audit karena alasan biaya perbaikan yang tinggi, auditor harus: {
+    =Tetap mencatat temuan dan membiarkan manajemen memutuskan penerimaan risiko.
+    ~Menghapus temuan tersebut dari laporan akhir untuk menjaga hubungan baik.
+    ~Memaksa auditee untuk segera mengalokasikan anggaran perbaikan.
+    ~Mengurangi tingkat risiko temuan agar auditee merasa nyaman.
+}
+
+::Q21:: Manakah dari berikut ini yang paling mencerminkan independensi auditor SI? {
+    =Auditor melapor langsung ke Komite Audit atau Dewan Direksi.
+    ~Auditor bekerja di bawah departemen IT yang diauditnya.
+    ~Auditor sering makan siang bersama dengan manajer sistem yang diaudit.
+    ~Auditor ikut serta dalam memilih vendor perangkat lunak untuk organisasi.
+}
+
+::Q22:: Jenis sampling yang memberikan probabilitas yang sama untuk setiap item dalam populasi disebut: {
+    =Random Sampling.
+    ~Variable Sampling.
+    ~Stratified Sampling.
+    ~Quotas Sampling.
+}
+
+::Q23:: Auditor SI melakukan tinjauan pasca-implementasi (Post-Implementation Review). Apa tujuan utamanya? {
+    =Memastikan sistem memenuhi kebutuhan bisnis dan memberikan nilai yang diharapkan.
+    ~Mencari siapa yang bersalah atas keterlambatan proyek.
+    ~Memastikan pengembang sistem telah dibayar tepat waktu.
+    ~Menghapus kode program yang tidak digunakan lagi.
+}
+
+::Q24:: Apa yang dimaksud dengan "Professional Skepticism"? {
+    =Sikap yang mencakup pikiran yang selalu mempertanyakan dan waspada terhadap kondisi yang mengindikasikan kemungkinan kesalahan.
+    ~Sikap tidak percaya kepada siapapun di dalam organisasi auditee.
+    ~Keinginan auditor untuk menemukan kesalahan sekecil apapun untuk menjatuhkan auditee.
+    ~Kepatuhan buta terhadap semua dokumen yang diberikan oleh auditee.
+}
+
+::Q25:: Manakah dari berikut ini yang merupakan kelemahan utama dari "Attribute Sampling"? {
+    =Hanya digunakan untuk menentukan ada atau tidaknya suatu karakteristik, bukan nilai moneter.
+    ~Memerlukan ukuran sampel yang jauh lebih besar daripada pengujian variabel.
+    ~Tidak dapat digunakan dalam audit sistem informasi.
+    ~Sangat bergantung pada keahlian auditor dalam matematika kompleks.
+}
+
+::Q26:: Sebelum memulai audit lapangan (fieldwork), auditor SI harus memastikan: {
+    =Ruang lingkup audit telah disetujui dan dipahami oleh pihak terkait.
+    ~Semua temuan audit sudah ditulis di draf laporan.
+    ~Auditee telah memperbaiki semua kesalahan sistem.
+    ~Laporan final telah ditandatangani oleh CEO.
+}
+
+::Q27:: Risiko bahwa auditor mengambil sampel yang tidak mewakili populasi disebut: {
+    =Sampling Risk.
+    ~Business Risk.
+    ~Operational Risk.
+    ~Systemic Risk.
+}
+
+::Q28:: Saat mengaudit keamanan fisik, tindakan pertama yang harus dilakukan auditor adalah: {
+    =Melakukan observasi langsung terhadap pintu akses dan kamera CCTV.
+    ~Mewawancarai petugas kebersihan tentang jam kerja mereka.
+    ~Membongkar kunci pintu untuk melihat mekanisme internalnya.
+    ~Menonaktifkan alarm kebakaran untuk menguji respon tim keamanan.
+}
+
+::Q29:: Metodologi audit yang baik harus: {
+    =Dapat diulang (repeatable) dan menghasilkan hasil yang konsisten.
+    ~Dibuat unik untuk setiap auditor agar tidak ada yang meniru.
+    ~Dirahasiakan sepenuhnya dari auditee agar mereka tidak bisa bersiap-siap.
+    ~Hanya terdiri dari daftar periksa sederhana.
+}
+
+::Q30:: Manakah yang merupakan langkah terakhir dalam proses audit SI? {
+    =Melakukan tindak lanjut (follow-up) untuk memastikan rekomendasi dilaksanakan.
+    ~Menyerahkan draf laporan kepada manajer IT.
+    ~Menandatangani piagam audit tahunan.
+    ~Melakukan pengujian substantif pada basis data.
+}
+
+::Q31:: Saat merencanakan audit, faktor manakah yang paling menentukan tingkat presisi yang diperlukan dalam pengujian substantif? {
+    =Tingkat materialitas yang ditetapkan oleh auditor.
+    ~Jumlah jam kerja yang dialokasikan untuk staf audit.
+    ~Lokasi fisik dari pusat data yang akan diaudit.
+    ~Merek perangkat lunak akuntansi yang digunakan auditee.
+}
+
+::Q32:: "Control Risk" (Risiko Kontrol) akan meningkat apabila: {
+    =Kontrol internal tidak dirancang dengan baik atau gagal beroperasi.
+    ~Auditor tidak memiliki keahlian teknis yang memadai.
+    ~Risiko bisnis yang melekat pada industri sangat tinggi.
+    ~Sistem komputer perusahaan tidak terhubung ke internet.
+}
+
+::Q33:: Manakah dari berikut ini yang merupakan keuntungan utama dari penggunaan kuesioner dalam pengumpulan bukti audit? {
+    =Dapat mengumpulkan informasi dari banyak orang dalam waktu singkat.
+    ~Menjamin kejujuran mutlak dari semua responden.
+    ~Menghilangkan kebutuhan akan pengujian observasi lapangan.
+    ~Memberikan bukti yang lebih andal daripada pengujian sistem langsung.
+}
+
+::Q34:: Apa yang harus dilakukan auditor SI jika manajemen senior menolak untuk menandatangani surat representasi audit? {
+    =Mengevaluasi dampaknya terhadap opini audit dan mempertimbangkan pembatasan ruang lingkup.
+    ~Mengabaikan penolakan tersebut dan mengeluarkan laporan audit bersih.
+    ~Segera mengundurkan diri dari perusahaan tersebut.
+    ~Menulis surat representasi atas nama manajemen dan menandatangani sendiri.
+}
+
+::Q35:: Tujuan dari tinjauan "Peer Review" dalam departemen audit adalah untuk: {
+    =Memastikan kepatuhan terhadap standar profesional dan kualitas audit.
+    ~Menentukan siapa auditor yang layak mendapatkan kenaikan gaji.
+    ~Mengurangi beban kerja manajer audit internal.
+    ~Mempersiapkan staf untuk ujian sertifikasi CISA.
+}
+
+::Q36:: Seorang auditor SI menemukan bahwa beberapa kontrol IT General Controls (ITGC) lemah. Apa dampaknya terhadap pengujian aplikasi? {
+    =Auditor harus meningkatkan luas pengujian substantif pada aplikasi.
+    ~Auditor dapat langsung menyimpulkan bahwa aplikasi tersebut aman.
+    ~Pengujian aplikasi tidak perlu dilakukan karena ITGC sudah gagal.
+    ~Auditor harus mengandalkan sepenuhnya pada integritas data input.
+}
+
+::Q37:: Manakah dari berikut ini yang merupakan teknik audit untuk mengidentifikasi transaksi yang tidak biasa dalam populasi besar? {
+    =Data Analytics dan penambangan data (Data Mining).
+    ~Wawancara dengan staf entri data.
+    ~Pemeriksaan fisik terhadap server rak.
+    ~Peninjauan kebijakan manajemen risiko.
+}
+
+::Q38:: "Audit Universe" merujuk pada: {
+    =Daftar semua area atau proses yang mungkin untuk diaudit dalam organisasi.
+    ~Seluruh jaringan komputer yang terhubung ke internet secara global.
+    ~Standar audit internasional yang diterbitkan oleh ISACA.
+    ~Database pusat yang menyimpan semua kertas kerja audit lama.
+}
+
+::Q39:: Saat menggunakan teknik sampling moneter (Monetary Unit Sampling), item dengan nilai yang lebih besar memiliki: {
+    =Peluang yang lebih tinggi untuk dipilih sebagai sampel.
+    ~Peluang yang lebih rendah karena risiko mereka sudah diketahui.
+    ~Peluang yang sama dengan item bernilai kecil.
+    ~Tidak ada peluang untuk dipilih jika sudah diaudit tahun lalu.
+}
+
+::Q40:: Auditor SI menggunakan log sistem untuk memverifikasi siapa yang mengakses database sensitif. Ini adalah contoh dari: {
+    =Pengujian jejak audit (Audit Trail).
+    ~Pengujian stres (Stress Testing).
+    ~Analisis biaya-manfaat.
+    ~Rencana kelangsungan bisnis (BCP).
+}
+
+::Q41:: Standar Profesional ISACA mewajibkan auditor SI untuk menjaga: {
+    =Objektivitas dan kompetensi profesional.
+    ~Hubungan persahabatan yang erat dengan auditee.
+    ~Kerahasiaan data hanya jika diminta oleh manajemen.
+    ~Sertifikat CISA mereka di meja kerja setiap saat.
+}
+
+::Q42:: Manakah dari berikut ini yang paling baik mendeteksi adanya "Shadow IT"? {
+    =Analisis lalu lintas jaringan dan tinjauan pengadaan perangkat lunak.
+    ~Membaca kebijakan penggunaan IT yang sah.
+    ~Mewawancarai Chief Information Officer (CIO).
+    ~Memeriksa daftar aset inventaris resmi.
+}
+
+::Q43:: Jika auditor menemukan risiko yang signifikan namun tidak ada kontrol yang tersedia, auditor harus: {
+    =Merekomendasikan implementasi kontrol yang sesuai dengan biaya-manfaat.
+    ~Mengabaikan risiko tersebut karena tidak ada yang bisa dilakukan.
+    ~Menunggu sampai insiden terjadi sebelum melapor.
+    ~Membuat kontrol tersebut sendiri agar audit bisa selesai.
+}
+
+::Q44:: "Risk-based auditing" sangat bergantung pada: {
+    =Penilaian auditor terhadap efektivitas manajemen risiko organisasi.
+    ~Jumlah komputer yang dimiliki oleh organisasi.
+    ~Opini dari auditor eksternal tahun sebelumnya.
+    ~Lokasi geografis kantor pusat organisasi.
+}
+
+::Q45:: Apa fungsi dari penandaan transaksi (Transaction Tagging) dalam audit? {
+    =Melacak transaksi tertentu melalui sistem secara real-time.
+    ~Memberikan label harga pada aset fisik perusahaan.
+    ~Mencegah transaksi palsu masuk ke dalam sistem.
+    ~Menghapus transaksi yang dianggap tidak valid secara otomatis.
+}
+
+::Q46:: Auditor SI menemukan bahwa manajemen belum menindaklanjuti temuan dari audit sebelumnya. Apa langkah terbaik? {
+    =Menilai alasan keterlambatan dan dampak risiko yang tetap ada.
+    ~Segera memberikan opini "Adverse" pada laporan saat ini.
+    ~Menghapus temuan tersebut dari sejarah audit karena sudah basi.
+    ~Melakukan pekerjaan perbaikan untuk manajemen secara sukarela.
+}
+
+::Q47:: "Variable Sampling" digunakan oleh auditor terutama untuk: {
+    =Mengestimasi nilai numerik atau jumlah moneter dari suatu populasi.
+    ~Menentukan apakah suatu kontrol dipatuhi atau tidak (Ya/Tidak).
+    ~Mengklasifikasikan karyawan berdasarkan tingkat akses mereka.
+    ~Menghitung jumlah serangan siber yang gagal setiap bulan.
+}
+
+::Q48:: Kapan seorang auditor SI boleh menggunakan bukti yang dikumpulkan oleh auditor internal lain? {
+    =Setelah melakukan evaluasi terhadap kompetensi dan objektivitas mereka.
+    ~Kapan saja untuk mempercepat proses audit.
+    ~Hanya jika auditor tersebut memiliki sertifikasi yang sama.
+    ~Tidak pernah, auditor harus mengumpulkan semua bukti sendiri.
+}
+
+::Q49:: Manakah yang merupakan contoh "Detective Control"? {
+    =Tinjauan mingguan terhadap laporan pengecualian (exception reports).
+    ~Penggunaan firewall untuk memblokir port yang tidak sah.
+    ~Kebijakan yang melarang berbagi kata sandi.
+    ~Pemasangan kunci biometrik pada pintu ruang server.
+}
+
+::Q50:: Apa risiko utama dari penggunaan CAAT? {
+    =Integritas data yang dianalisis mungkin terkompromi jika tidak ditangani dengan benar.
+    ~CAAT terlalu murah sehingga tidak memberikan nilai bagi perusahaan.
+    ~CAAT hanya bisa digunakan untuk audit manual saja.
+    ~CAAT selalu menghasilkan temuan yang salah.
+}
+
+::Q51:: "Audit Evidence" dianggap cukup (sufficient) jika: {
+    =Fakta-faktanya meyakinkan dan mendukung temuan serta rekomendasi.
+    ~Dokumennya memiliki berat lebih dari 5 kilogram.
+    ~Auditee setuju dengan semua yang tertulis di dalamnya.
+    ~Bukti tersebut berasal dari internet.
+}
+
+::Q52:: Apa tujuan dari "Integrated Test Facility" (ITF)? {
+    =Memungkinkan auditor menguji sistem selama operasi normal dengan data uji terpisah.
+    ~Mematikan sistem produksi untuk melakukan pengujian keamanan.
+    ~Melatih karyawan baru tentang cara menggunakan aplikasi perusahaan.
+    ~Menghubungkan semua printer kantor ke satu server pusat.
+}
+
+::Q53:: Risiko yang tersisa setelah manajemen merespons risiko disebut: {
+    =Residual Risk.
+    ~Total Risk.
+    ~Inherent Risk.
+    ~Avoided Risk.
+}
+
+::Q54:: Auditor SI harus independen secara mental, yang berarti: {
+    =Mampu memberikan penilaian yang tidak bias dan jujur.
+    ~Tidak memiliki latar belakang pendidikan di bidang IT.
+    ~Selalu melawan pendapat manajemen apapun kondisinya.
+    ~Tidak memerlukan bantuan dari tim IT manapun.
+}
+
+::Q55:: Manakah dari berikut ini yang merupakan indikator terbaik dari efektivitas fungsi audit SI? {
+    =Persentase rekomendasi audit yang diimplementasikan oleh manajemen.
+    ~Jumlah laporan audit yang diterbitkan setiap bulan.
+    ~Jumlah auditor yang memiliki gelar master di departemen tersebut.
+    ~Kecepatan auditor dalam menyelesaikan laporan tanpa temuan.
+}
+
+::Q56:: Dalam statistik, "Confidence Level" 95% berarti: {
+    =Ada peluang 95% bahwa hasil sampel mencerminkan populasi yang sebenarnya.
+    ~95% dari populasi tersebut pasti mengandung kesalahan material.
+    ~Auditor merasa 5% yakin bahwa pekerjaan mereka benar.
+    ~Hanya 5 item dari 100 sampel yang perlu diperiksa.
+}
+
+::Q57:: Apa langkah pertama dalam metodologi audit berbasis risiko? {
+    =Memahami misi, visi, dan proses bisnis organisasi.
+    ~Memilih sampel transaksi untuk pengujian substantif.
+    ~Menulis laporan audit final.
+    ~Melakukan wawancara dengan administrator database.
+}
+
+::Q58:: "Preventive Control" dirancang untuk: {
+    =Menghindari terjadinya kesalahan atau penyimpangan sebelum terjadi.
+    ~Mendeteksi kesalahan setelah transaksi diproses.
+    ~Memulihkan data setelah serangan ransomware.
+    ~Menghukum pelaku kejahatan siber.
+}
+
+::Q59:: Seorang auditor SI menemukan bahwa password sistem tidak pernah diganti. Tindakan auditor adalah: {
+    =Mendokumentasikan temuan dan merekomendasikan kebijakan rotasi password.
+    ~Mengganti password semua user secara paksa saat itu juga.
+    ~Menebak password manajer IT untuk membuktikan kelemahannya.
+    ~Mengabaikan hal tersebut karena password sulit diingat jika sering diganti.
+}
+
+::Q60:: Laporan audit SI harus ditujukan kepada: {
+    =Dewan Direksi atau Komite Audit.
+    ~Administrator sistem yang diaudit.
+    ~Seluruh staf di departemen pemasaran.
+    ~Vendor luar yang menyediakan perangkat keras.
+}
+
+::Q61:: Apa keuntungan utama dari pendekatan "Continuous Audit"? {
+    =Memungkinkan deteksi dini terhadap penyimpangan kontrol dan penipuan.
+    ~Menghilangkan kebutuhan akan dokumentasi kertas kerja audit.
+    ~Mengurangi biaya lisensi perangkat lunak audit secara signifikan.
+    ~Memungkinkan auditor untuk bekerja tanpa perlu memahami proses bisnis.
+}
+
+::Q62:: Dalam audit sistem informasi, "Independence in Appearance" berarti: {
+    =Auditor menghindari situasi yang dapat membuat orang lain meragukan objektivitas mereka.
+    ~Auditor secara mental tidak terpengaruh oleh tekanan dari manajemen.
+    ~Auditor memiliki hubungan keluarga dengan manajer departemen yang diaudit.
+    ~Auditor selalu mengenakan seragam resmi saat melakukan audit lapangan.
+}
+
+::Q63:: Manakah dari berikut ini yang merupakan contoh dari "Correction Control"? {
+    =Prosedur pemulihan data dari cadangan setelah serangan virus.
+    ~Penggunaan firewall untuk menyaring lalu lintas data yang masuk.
+    ~Sistem alarm yang berbunyi saat terjadi kebocoran air di ruang server.
+    ~Pemeriksaan latar belakang sebelum merekrut staf IT.
+}
+
+::Q64:: Apa yang harus dilakukan auditor jika rencana audit asli tidak dapat diselesaikan karena kendala waktu? {
+    =Mengevaluasi risiko dan mendokumentasikan alasan modifikasi ruang lingkup audit.
+    ~Meminta staf auditee untuk menulis laporan audit mereka sendiri.
+    ~Menyelesaikan audit dengan mengabaikan semua prosedur pengujian substantif.
+    ~Memalsukan kertas kerja audit agar terlihat seolah-olah audit telah selesai.
+}
+
+::Q65:: "Risk Ranking" dalam perencanaan audit digunakan untuk: {
+    =Menentukan urutan area yang akan diaudit berdasarkan tingkat risiko.
+    ~Menghitung total bonus yang akan diterima oleh tim audit.
+    ~Memilih vendor perangkat keras terbaik untuk organisasi.
+    ~Menentukan siapa yang harus dipecat di departemen IT.
+}
+
+::Q66:: Auditor SI menemukan bahwa organisasi tidak memiliki kebijakan manajemen risiko secara formal. Apa tindakan terbaik auditor? {
+    =Melaporkan ketiadaan kebijakan tersebut sebagai temuan signifikan dalam laporan audit.
+    ~Membuat kebijakan manajemen risiko untuk organisasi tersebut secara gratis.
+    ~Menghentikan audit karena organisasi dianggap tidak layak untuk diaudit.
+    ~Mengasumsikan bahwa risiko organisasi dikelola dengan baik secara lisan.
+}
+
+::Q67:: Penggunaan "Discovery Sampling" paling tepat digunakan ketika auditor: {
+    =Mencari setidaknya satu contoh kecurangan yang dicurigai.
+    ~Ingin mengetahui nilai rata-rata dari saldo piutang perusahaan.
+    ~Melakukan survei kepuasan pengguna terhadap layanan help desk.
+    ~Menguji kepatuhan terhadap kebijakan berpakaian di kantor.
+}
+
+::Q68:: Dalam pengujian sistem, apa yang dimaksud dengan "False Negative" dalam konteks kontrol deteksi? {
+    =Kontrol gagal mendeteksi adanya pelanggaran atau kesalahan yang sebenarnya terjadi.
+    ~Kontrol melaporkan adanya pelanggaran padahal sebenarnya tidak ada masalah.
+    ~Sistem mati total karena kelebihan beban transaksi.
+    ~Pengguna tidak sengaja menghapus data tanpa adanya peringatan.
+}
+
+::Q69:: Auditor SI sedang mengaudit manajemen perubahan (change management). Bukti mana yang paling valid untuk memastikan perubahan telah disetujui? {
+    =Log persetujuan digital di dalam sistem manajemen perubahan yang terintegrasi.
+    ~Email dari pengembang yang menyatakan bahwa mereka sudah mendapat izin lisan.
+    ~Catatan di buku harian pribadi administrator database.
+    ~Wawancara dengan staf magang di departemen IT.
+}
+
+::Q70:: Apa tujuan dari "Parallel Simulation"? {
+    =Memproses data produksi melalui program audit untuk memverifikasi logika program aplikasi.
+    ~Menjalankan dua pusat data secara bersamaan untuk cadangan bencana.
+    ~Menguji apakah karyawan bisa bekerja dari rumah saat terjadi pandemi.
+    ~Membandingkan kecepatan dua merek server yang berbeda.
+}
+
+::Q71:: Auditor menemukan risiko tinggi pada sistem penggajian, namun kontrol yang ada saat ini sudah memadai. Risiko ini disebut: {
+    =Risiko inheren yang tinggi dengan risiko kontrol yang rendah.
+    ~Risiko residual yang sangat tinggi.
+    ~Kesalahan sampling yang tidak disengaja.
+    ~Risiko deteksi yang tidak dapat diterima.
+}
+
+::Q72:: "Engagement Letter" (Surat Penugasan) biasanya berisi: {
+    =Tujuan, ruang lingkup, tanggung jawab, dan batasan audit.
+    ~Daftar semua kesalahan yang ditemukan tahun lalu.
+    ~Kata sandi administratif untuk semua server produksi.
+    ~Detail gaji dari semua anggota tim audit.
+}
+
+::Q73:: Apa yang dimaksud dengan "Audit Evidence" yang relevan? {
+    =Bukti tersebut memiliki hubungan logis dengan tujuan audit yang sedang diuji.
+    ~Bukti tersebut berasal dari sumber luar negeri yang terkenal.
+    ~Bukti tersebut diserahkan dalam bentuk video beresolusi tinggi.
+    ~Bukti tersebut dikumpulkan dalam waktu kurang dari satu jam.
+}
+
+::Q74:: Jika auditor eksternal ingin menggunakan hasil kerja auditor internal, mereka harus: {
+    =Menilai objektivitas, kompetensi, dan metodologi kerja auditor internal.
+    ~Membayar komisi kepada departemen audit internal tersebut.
+    ~Menyalin seluruh laporan internal dan mengganti logonya.
+    ~Meminta izin kepada pemerintah pusat terlebih dahulu.
+}
+
+::Q75:: Teknik sampling di mana populasi dibagi menjadi beberapa kelompok berdasarkan karakteristik tertentu disebut: {
+    =Stratified Sampling.
+    ~Cluster Sampling.
+    ~Haphazard Sampling.
+    ~Block Sampling.
+}
+
+::Q76:: Auditor SI menemukan log akses yang menunjukkan adanya upaya login ilegal berulang kali. Langkah selanjutnya adalah: {
+    =Meninjau efektivitas kontrol manajemen insiden dan respons organisasi.
+    ~Segera mematikan server tersebut agar tidak diserang lagi.
+    ~Menghapus log tersebut agar tidak memenuhi kapasitas penyimpanan.
+    ~Mengirimkan email peringatan kepada seluruh pengguna internet.
+}
+
+::Q77:: "Standard" dalam kerangka kerja ISACA bersifat: {
+    =Wajib dipatuhi oleh semua profesional audit SI.
+    ~Hanya sekadar saran yang boleh diabaikan.
+    ~Hanya berlaku untuk auditor yang bekerja di instansi pemerintah.
+    ~Berubah setiap minggu tergantung tren teknologi.
+}
+
+::Q78:: Apa yang menjadi fokus utama saat mengaudit "Cloud Service Provider" (CSP)? {
+    =Hak untuk mengaudit (right-to-audit) dan Service Level Agreement (SLA).
+    ~Warna kabel yang digunakan di pusat data vendor.
+    ~Jumlah karyawan yang dimiliki oleh vendor cloud tersebut.
+    ~Merek minuman yang disediakan di kantin vendor.
+}
+
+::Q79:: Auditor SI menemukan bahwa tidak ada pemisahan tugas di unit IT kecil. Apa rekomendasi terbaik? {
+    =Implementasi kontrol kompensasi seperti tinjauan log transaksi secara independen.
+    ~Memaksa perusahaan untuk merekrut 10 staf baru segera.
+    ~Menutup unit IT tersebut dan beralih ke proses manual.
+    ~Meminta satu orang staf untuk bekerja 24 jam sehari.
+}
+
+::Q80:: Apa fungsi utama dari "Audit Planning Memorandum"? {
+    =Mendokumentasikan strategi audit dan memberikan panduan bagi tim audit.
+    ~Memberikan daftar belanja untuk keperluan kantor audit.
+    ~Mengumumkan hasil audit kepada publik melalui media massa.
+    ~Menjelaskan cara menginstal perangkat lunak audit di laptop.
+}
+
+::Q81:: Risiko bahwa auditor mungkin secara tidak sengaja gagal memodifikasi opini pada laporan audit yang salah secara material disebut: {
+    =Audit Risk.
+    ~Business Risk.
+    ~Inherent Risk.
+    ~Residual Risk.
+}
+
+::Q82:: "Generalized Audit Software" (GAS) memungkinkan auditor untuk: {
+    =Melakukan pengujian pada data tanpa bergantung pada sistem aplikasi klien.
+    ~Memperbaiki bug di dalam kode program auditee secara otomatis.
+    ~Mengambil alih kendali pusat data dari jarak jauh.
+    ~Menulis kebijakan keamanan informasi yang baru untuk klien.
+}
+
+::Q83:: Auditor SI melakukan "Walkthrough" bertujuan untuk: {
+    =Memahami alur proses dan mengonfirmasi pemahaman tentang desain kontrol.
+    ~Berolahraga sambil mengelilingi fasilitas fisik perusahaan.
+    ~Mencari barang-barang yang hilang di gudang IT.
+    ~Mengukur jarak antara pintu darurat dan meja kerja staf.
+}
+
+::Q84:: Manakah yang merupakan contoh "Indirect Evidence"? {
+    =Hasil wawancara dengan manajemen tentang efektivitas kontrol.
+    ~Observasi langsung terhadap proses backup data.
+    ~Pemeriksaan fisik terhadap server yang rusak.
+    ~Hasil kalkulasi ulang yang dilakukan sendiri oleh auditor.
+}
+
+::Q85:: Mengapa auditor SI harus meninjau "IT Strategic Plan" organisasi? {
+    =Untuk memastikan tujuan IT selaras dengan tujuan bisnis organisasi.
+    ~Untuk mengetahui berapa banyak komputer yang akan dibeli tahun depan.
+    ~Untuk menghafal nama-nama direksi perusahaan.
+    ~Untuk memastikan semua karyawan menggunakan sistem operasi yang sama.
+}
+
+::Q86:: Apa yang dimaksud dengan "Compliance Audit"? {
+    =Audit yang memverifikasi kepatuhan terhadap kebijakan, prosedur, dan peraturan.
+    ~Audit yang fokus hanya pada nilai moneter dalam laporan keuangan.
+    ~Audit yang dilakukan hanya oleh pihak kepolisian.
+    ~Audit yang menguji kekuatan fisik gedung server terhadap gempa bumi.
+}
+
+::Q87:: Faktor utama yang mempengaruhi "Detection Risk" adalah: {
+    =Efektivitas prosedur audit dan keahlian auditor SI.
+    ~Kompleksitas sistem akuntansi yang digunakan perusahaan.
+    ~Integritas manajemen puncak organisasi.
+    ~Kondisi ekonomi makro negara tempat perusahaan berada.
+}
+
+::Q88:: Auditor SI harus mengomunikasikan temuan audit segera jika: {
+    =Ditemukan adanya ancaman keamanan yang mendesak atau indikasi kecurangan material.
+    ~Auditee terlihat sangat sibuk dan tidak punya waktu bicara.
+    ~Auditor merasa bosan dan ingin segera pulang.
+    ~Ditemukan kesalahan pengetikan kecil pada dokumen prosedur.
+}
+
+::Q89:: "Judgmental Sampling" paling efektif digunakan ketika: {
+    =Auditor memiliki pengetahuan khusus tentang area yang berisiko tinggi.
+    ~Populasi sangat besar dan auditor tidak tahu apa yang harus dicari.
+    ~Auditor ingin memberikan kesempatan yang sama bagi setiap transaksi.
+    ~Peraturan pemerintah mewajibkan penggunaan metode non-statistik.
+}
+
+::Q90:: Tindak lanjut atas rekomendasi audit adalah tanggung jawab: {
+    =Manajemen auditee.
+    ~Auditor SI secara pribadi.
+    ~Vendor perangkat lunak pihak ketiga.
+    ~Pemegang saham minoritas.
+}
+
+::Q91:: Manakah dari berikut ini yang merupakan indikator adanya "Scope Creep" dalam audit? {
+    =Audit melebihi anggaran waktu karena penambahan area pengujian yang tidak direncanakan.
+    ~Auditor menemukan terlalu banyak kesalahan di departemen IT.
+    ~Auditee memberikan semua dokumen yang diminta tepat waktu.
+    ~Manajer audit meminta laporan audit ditulis dalam dua bahasa.
+}
+
+::Q92:: Apa kegunaan dari "Vulnerability Assessment" bagi seorang auditor? {
+    =Mengidentifikasi kelemahan teknis yang dapat dieksploitasi dalam sistem.
+    ~Menghitung total kerugian finansial akibat serangan siber tahun lalu.
+    ~Menentukan siapa yang harus bertanggung jawab atas kegagalan sistem.
+    ~Memperbaiki semua lubang keamanan yang ditemukan di jaringan.
+}
+
+::Q93:: Seorang auditor SI menemukan bahwa password administratif dibagi di antara beberapa orang. Risiko utamanya adalah: {
+    =Kurangnya akuntabilitas atas tindakan yang dilakukan.
+    ~Sistem akan berjalan lebih lambat karena banyak orang login bersamaan.
+    ~Biaya lisensi sistem akan meningkat secara otomatis.
+    ~Layar monitor akan cepat rusak karena terlalu banyak akses.
+}
+
+::Q94:: Dalam pengolahan data elektronik, kontrol "Hash Total" digunakan untuk: {
+    =Memastikan integritas data selama pemrosesan atau transmisi.
+    ~Menyandikan data agar tidak bisa dibaca oleh pihak lain.
+    ~Menghapus data yang sudah tidak digunakan lagi secara permanen.
+    ~Menghitung jumlah total karyawan di departemen IT.
+}
+
+::Q95:: "Quality Assurance" (QA) dalam fungsi audit internal bertujuan untuk: {
+    =Memastikan proses audit dilakukan sesuai dengan standar yang ditetapkan.
+    ~Menjamin bahwa tidak akan ada kesalahan dalam sistem IT auditee.
+    ~Memilih auditor yang paling populer di mata auditee.
+    ~Mengurangi durasi audit menjadi hanya satu hari.
+}
+
+::Q96:: Manakah yang merupakan contoh "Physical Control"? {
+    =Pagar kawat berduri dan penjaga keamanan di pintu masuk.
+    ~Kebijakan penggunaan kata sandi yang kompleks.
+    ~Enkripsi data pada hard disk laptop.
+    ~Pelatihan kesadaran keamanan bagi staf.
+}
+
+::Q97:: "Audit Risk" dapat dikurangi dengan cara: {
+    =Melakukan lebih banyak pengujian substantif dan memperbaiki pengujian kontrol.
+    ~Mengurangi jumlah sampel yang diperiksa agar lebih cepat selesai.
+    ~Meminta auditee untuk menandatangani surat pernyataan bahwa tidak ada kesalahan.
+    ~Menyewa konsultan luar untuk melakukan seluruh pekerjaan audit.
+}
+
+::Q98:: Hasil pengujian atribut (Attribute Sampling) biasanya dinyatakan dalam bentuk: {
+    =Persentase atau tingkat kejadian (occurrence rate).
+    ~Nilai mata uang (rupiah/dolar).
+    ~Jumlah hari keterlambatan proyek.
+    ~Berat fisik dari dokumen yang diperiksa.
+}
+
+::Q99:: Auditor SI mencurigai adanya "Data Leakage" melalui USB drive. Langkah audit terbaik adalah: {
+    =Meninjau log aktivitas port USB dan kebijakan penggunaan media portabel.
+    ~Melarang semua karyawan membawa tas ke dalam kantor.
+    ~Membongkar semua komputer untuk mencari sisa-sisa data.
+    ~Mewawancarai petugas kebersihan tentang apa yang mereka lihat di meja karyawan.
+}
+
+::Q100:: Dokumen yang berisi ringkasan temuan audit, risiko, dan rekomendasi disebut: {
+    =Audit Report (Laporan Audit).
+    ~Project Management Plan.
+    ~Security Policy.
+    ~Business Impact Analysis.
+}
+
+// ==========================================================
+// CISA DOMAIN 2: Governance and Management of IT (101-200)
+// ==========================================================
+
+::Q101:: Tanggung jawab utama untuk menetapkan tata kelola TI dalam suatu organisasi berada pada: {
+    =Dewan Direksi (Board of Directors).
+    ~Chief Information Officer (CIO).
+    ~Manajer Audit Internal.
+    ~Komite Pengarah TI (IT Steering Committee).
+}
+
+::Q102:: Tujuan utama dari keselarasan strategis TI (IT Strategic Alignment) adalah untuk: {
+    =Memastikan investasi TI mendukung tujuan bisnis organisasi.
+    ~Memastikan semua staf menggunakan perangkat lunak versi terbaru.
+    ~Mengurangi ketergantungan organisasi pada vendor pihak ketiga.
+    ~Memusatkan semua pengambilan keputusan TI pada departemen TI.
+}
+
+::Q103:: Manakah dari berikut ini yang paling baik membantu auditor menentukan apakah TI mendukung tujuan organisasi? {
+    =Tinjauan terhadap Balanced Scorecard TI.
+    ~Pemeriksaan terhadap bagan organisasi terbaru.
+    ~Wawancara dengan staf help desk TI.
+    ~Tinjauan terhadap daftar inventaris perangkat keras.
+}
+
+::Q104:: Fungsi utama dari Komite Pengarah TI (IT Steering Committee) adalah: {
+    =Memprioritaskan proyek TI dan menyelaraskan TI dengan kebutuhan bisnis.
+    ~Menulis kode program untuk aplikasi bisnis utama.
+    ~Melakukan audit keamanan tahunan terhadap pusat data.
+    ~Memperbaiki masalah teknis yang tidak bisa diselesaikan help desk.
+}
+
+::Q105:: Apa risiko utama dari penggunaan "Key Performance Indicators" (KPI) yang tidak selaras dengan tujuan bisnis? {
+    =TI mungkin mencapai target teknis tetapi gagal memberikan nilai bisnis.
+    ~Biaya pemeliharaan infrastruktur TI akan meningkat drastis.
+    ~Sistem keamanan akan lebih mudah ditembus oleh peretas.
+    ~Staf TI akan memerlukan pelatihan teknis tambahan.
+}
+
+::Q106:: Kebijakan keamanan informasi harus disetujui oleh: {
+    =Manajemen senior atau Dewan Direksi.
+    ~Administrator jaringan.
+    ~Auditor sistem informasi eksternal.
+    ~Seluruh karyawan melalui pemungutan suara.
+}
+
+::Q107:: Dalam tata kelola TI, "Value Delivery" berfokus pada: {
+    =Memastikan TI memberikan manfaat yang dijanjikan sesuai strategi.
+    ~Menghapus semua risiko yang terkait dengan penggunaan teknologi.
+    ~Mengurangi jumlah karyawan di departemen operasional.
+    ~Membeli teknologi termurah yang tersedia di pasar.
+}
+
+::Q108:: Manakah dari berikut ini yang merupakan indikator terbaik bahwa organisasi memiliki tata kelola TI yang efektif? {
+    =Proyek TI diselesaikan tepat waktu, sesuai anggaran, dan memberikan manfaat yang diharapkan.
+    ~Organisasi menggunakan kerangka kerja COBIT versi terbaru.
+    ~Departemen TI memiliki anggaran terbesar di organisasi.
+    ~CIO melapor langsung kepada manajer operasional IT.
+}
+
+::Q109:: Peran utama dari "Risk Management" dalam tata kelola TI adalah: {
+    =Mengidentifikasi, menilai, dan memitigasi risiko agar sesuai dengan selera risiko organisasi.
+    ~Menjamin bahwa tidak akan pernah terjadi kegagalan sistem.
+    ~Memindahkan semua tanggung jawab risiko kepada asuransi.
+    ~Menghentikan semua proyek TI yang memiliki risiko di atas nol.
+}
+
+::Q110:: Auditor SI menemukan bahwa rencana strategis TI tidak diperbarui selama lima tahun. Langkah pertama yang harus dilakukan adalah: {
+    =Mengevaluasi dampaknya terhadap keselarasan dengan strategi bisnis saat ini.
+    ~Segera menulis laporan temuan kepada regulator pemerintah.
+    ~Meminta departemen TI untuk meniru rencana strategis perusahaan pesaing.
+    ~Menyarankan agar CIO segera mengundurkan diri.
+}
+
+::Q111:: Apa perbedaan utama antara "Governance" (Tata Kelola) dan "Management" (Manajemen)? {
+    =Tata kelola menetapkan arah dan tujuan, sedangkan manajemen merencanakan dan mengeksekusi.
+    ~Tata kelola dilakukan oleh staf teknis, manajemen dilakukan oleh direksi.
+    ~Tata kelola berfokus pada biaya, manajemen berfokus pada keamanan.
+    ~Tidak ada perbedaan; kedua istilah tersebut dapat dipertukarkan.
+}
+
+::Q112:: Manakah dari berikut ini yang paling penting dalam kontrak dengan vendor pihak ketiga (Outsourcing)? {
+    =Hak untuk mengaudit (Right-to-audit) dan SLA yang jelas.
+    ~Lokasi geografis kantor pusat vendor.
+    ~Jumlah pengikut vendor di media sosial.
+    ~Warna logo dan branding vendor.
+}
+
+::Q113:: "Enterprise Architecture" (EA) membantu organisasi dalam: {
+    =Menyediakan kerangka kerja untuk menyelaraskan proses bisnis, data, dan teknologi.
+    ~Menghitung depresiasi aset tetap secara otomatis.
+    ~Mengelola gaji karyawan di departemen sumber daya manusia.
+    ~Mendeteksi serangan malware pada email masuk.
+}
+
+::Q114:: Dalam hal pemisahan tugas (Segregation of Duties), seorang pengembang sistem (Developer) tidak boleh memiliki akses ke: {
+    =Lingkungan produksi (Production environment).
+    ~Dokumentasi persyaratan sistem.
+    ~Perangkat lunak pengolah kata (Word processor).
+    ~Lingkungan pengujian (Testing environment).
+}
+
+::Q115:: Tujuan utama dari "Quality Management System" (QMS) dalam TI adalah: {
+    =Memastikan proses dan hasil kerja memenuhi standar kualitas yang ditetapkan.
+    ~Menghapus kebutuhan akan pengujian pengguna (UAT).
+    ~Mengurangi jumlah lisensi perangkat lunak yang dibeli.
+    ~Memastikan semua server berjalan pada suhu di bawah 20 derajat Celcius.
+}
+
+::Q116:: Apa risiko terbesar jika manajemen senior tidak terlibat dalam pengambilan keputusan TI? {
+    =Investasi TI mungkin tidak mendukung prioritas bisnis utama.
+    ~Kecepatan internet di kantor akan menjadi tidak stabil.
+    ~Karyawan akan menghabiskan lebih banyak waktu di media sosial.
+    ~Perangkat keras server akan lebih cepat mengalami kerusakan fisik.
+}
+
+::Q117:: "Resource Management" dalam tata kelola TI mencakup optimalisasi terhadap: {
+    =Aset data, infrastruktur, aplikasi, dan sumber daya manusia.
+    ~Hanya anggaran uang tunai di bank.
+    ~Jumlah printer dan mesin fotokopi di kantor.
+    ~Daftar kontak telepon vendor perangkat lunak.
+}
+
+::Q118:: Manakah yang merupakan contoh "Compensation Control" jika pemisahan tugas tidak dapat dilakukan karena keterbatasan staf? {
+    =Tinjauan log transaksi secara independen oleh manajer.
+    ~Pemberian bonus gaji kepada staf yang bekerja lembur.
+    ~Menghapus semua kata sandi sistem agar mudah diakses.
+    ~Membiarkan staf melakukan semua tugas tanpa pengawasan.
+}
+
+::Q119:: Apa kegunaan dari "IT Portfolio Management"? {
+    =Mengelola koleksi proyek dan investasi TI secara kolektif untuk hasil maksimal.
+    ~Menyimpan foto-foto kegiatan departemen TI tahunan.
+    ~Melacak lokasi fisik semua laptop yang dibawa pulang karyawan.
+    ~Menentukan jadwal cuti tahunan bagi staf IT.
+}
+
+::Q120:: Auditor SI sedang meninjau bagan organisasi. Hal yang paling mencemarkan independensi adalah jika: {
+    =Auditor SI melapor kepada Chief Information Officer (CIO).
+    ~Auditor SI melapor kepada Komite Audit.
+    ~CIO melapor langsung kepada CEO.
+    ~Manajer keamanan informasi melapor kepada CIO.
+}
+
+::Q121:: "Risk Appetite" adalah: {
+    =Jumlah risiko yang bersedia diterima organisasi untuk mencapai tujuannya.
+    ~Total kerugian finansial yang pernah dialami organisasi.
+    ~Keinginan karyawan untuk bekerja di lingkungan yang berisiko tinggi.
+    ~Risiko yang sudah dihilangkan sepenuhnya oleh kontrol internal.
+}
+
+::Q122:: Manakah dari berikut ini yang merupakan indikator kinerja utama (KPI) untuk manajemen masalah (Problem Management)? {
+    =Penurunan jumlah insiden berulang (recurring incidents).
+    ~Jumlah komputer baru yang dibeli dalam satu bulan.
+    ~Kecepatan mengetik staf di departemen help desk.
+    ~Jumlah email yang dikirim oleh tim keamanan informasi.
+}
+
+::Q123:: Dalam "RACI Chart", huruf 'A' (Accountable) menunjukkan: {
+    =Orang yang memiliki wewenang akhir dan tanggung jawab atas tugas tersebut.
+    ~Orang yang melakukan pekerjaan teknis secara langsung.
+    ~Orang yang hanya perlu diberi informasi setelah tugas selesai.
+    ~Orang yang memberikan konsultasi ahli selama pengerjaan.
+}
+
+::Q124:: Apa fokus utama dari "IT Performance Measurement"? {
+    =Memastikan bahwa strategi TI diimplementasikan sesuai rencana melalui metrik.
+    ~Membandingkan gaji staf TI dengan perusahaan pesaing.
+    ~Menghitung berapa banyak klik mouse yang dilakukan pengguna.
+    ~Mengukur konsumsi daya listrik di ruang server.
+}
+
+::Q125:: Auditor SI menemukan bahwa tidak ada rencana suksesi (succession plan) untuk posisi kunci di TI. Risiko utamanya adalah: {
+    =Gangguan operasional jika personel kunci meninggalkan organisasi secara mendadak.
+    ~Sistem akan otomatis mati jika manajer TI mengundurkan diri.
+    ~Karyawan lain akan berebut jabatan dengan cara yang tidak sehat.
+    ~Biaya asuransi perusahaan akan meningkat drastis.
+}
+
+::Q126:: Apa tujuan dari "Balanced Scorecard" dalam TI? {
+    =Mengukur kinerja TI dari perspektif keuangan, pelanggan, proses internal, dan pembelajaran.
+    ~Memastikan berat beban server seimbang di seluruh pusat data.
+    ~Membagi anggaran TI secara rata ke semua departemen.
+    ~Menghitung rasio antara jumlah pria dan wanita di departemen TI.
+}
+
+::Q127:: Manakah dari berikut ini yang merupakan langkah pertama dalam proses manajemen risiko? {
+    =Identifikasi aset dan ancaman.
+    ~Implementasi kontrol keamanan terbaru.
+    ~Menghitung nilai asuransi yang dibutuhkan.
+    ~Menghapus semua data yang dianggap berisiko.
+}
+
+::Q128:: Dalam kontrak outsourcing, "Right to Audit" memungkinkan organisasi untuk: {
+    =Memeriksa kepatuhan vendor terhadap persyaratan kontrak dan keamanan.
+    ~Mengambil alih kepemilikan saham perusahaan vendor.
+    ~Menentukan siapa yang boleh bekerja di perusahaan vendor.
+    ~Mengakses data pribadi semua karyawan vendor.
+}
+
+::Q129:: "Maturity Model" (seperti CMMI) digunakan untuk: {
+    =Menilai sejauh mana proses organisasi telah terdefinisi dan dikelola dengan baik.
+    ~Menentukan usia rata-rata perangkat keras di pusat data.
+    ~Mengukur tingkat kedewasaan emosional staf TI.
+    ~Menentukan kapan sebuah perangkat lunak harus dipensiunkan.
+}
+
+::Q130:: Manakah yang merupakan peran dari "Chief Risk Officer" (CRO)? {
+    =Mengoordinasikan aktivitas manajemen risiko di seluruh organisasi.
+    ~Menginstal patch keamanan pada server database.
+    ~Menyembunyikan risiko agar investor tidak merasa khawatir.
+    ~Menetapkan siapa yang bersalah saat terjadi pelanggaran data.
+}
+
+::Q131:: Saat mengaudit kebijakan TI, auditor SI harus memastikan bahwa kebijakan tersebut: {
+    =Dikomunikasikan kepada seluruh karyawan dan ditinjau secara berkala.
+    ~Hanya diketahui oleh staf keamanan senior untuk menjaga kerahasiaan.
+    ~Ditulis dalam bahasa teknis yang sangat kompleks agar terlihat profesional.
+    ~Disimpan di dalam lemari besi yang terkunci rapat.
+}
+
+::Q132:: Strategi TI harus bersifat: {
+    =Dinamis dan dapat beradaptasi dengan perubahan kebutuhan bisnis.
+    ~Statis dan tidak boleh diubah selama sepuluh tahun ke depan.
+    ~Hanya fokus pada penghematan biaya operasional.
+    ~Ditentukan sepenuhnya oleh vendor perangkat keras utama.
+}
+
+::Q133:: Apa tujuan utama dari "IT Governance Framework" seperti COBIT? {
+    =Menyediakan struktur tata kelola dan manajemen TI yang komprehensif.
+    ~Menyediakan instruksi langkah-demi-langkah cara menginstal Windows.
+    ~Menggantikan peran Dewan Direksi dalam mengambil keputusan bisnis.
+    ~Menghapus semua ancaman siber dari internet.
+}
+
+::Q134:: Auditor SI menemukan bahwa manajer IT memiliki wewenang untuk menyetujui perubahan sistem dan sekaligus mengeksekusinya. Apa risiko utamanya? {
+    =Perubahan yang tidak sah atau ralat dapat dimasukkan ke sistem tanpa deteksi.
+    ~Proses perubahan akan menjadi terlalu lambat karena satu orang sibuk.
+    ~Sistem akan menjadi lebih stabil karena hanya satu orang yang tahu kodenya.
+    ~Biaya lisensi sistem akan meningkat karena kontrol yang ketat.
+}
+
+::Q135:: "Business Impact Analysis" (BIA) membantu manajemen dalam: {
+    =Menentukan prioritas pemulihan proses bisnis berdasarkan dampak kegagalan.
+    ~Menghitung berapa banyak produk yang terjual dalam setahun.
+    ~Mencari lokasi baru untuk kantor cabang luar negeri.
+    ~Menentukan anggaran untuk promosi pemasaran.
+}
+
+::Q136:: Manakah dari berikut ini yang paling baik mendeteksi pelanggaran kebijakan keamanan oleh karyawan? {
+    =Pemantauan log aktivitas dan audit berkala.
+    ~Menanya secara langsung kepada karyawan setiap pagi.
+    ~Melihat aktivitas karyawan melalui jendela kantor.
+    ~Memasang poster peringatan di seluruh ruang kantor.
+}
+
+::Q137:: Penggunaan "Standard Operating Procedures" (SOP) bertujuan untuk: {
+    =Memastikan konsistensi dan efisiensi dalam pelaksanaan tugas operasional.
+    ~Memberikan kebebasan bagi setiap staf untuk bekerja sesuai cara masing-masing.
+    ~Menambah beban administrasi agar staf terlihat sibuk.
+    ~Menghindari kebutuhan akan pelatihan bagi karyawan baru.
+}
+
+::Q138:: Apa yang dimaksud dengan "IT Investment Appraisal"? {
+    =Proses menilai nilai ekonomi dan manfaat dari investasi TI yang diusulkan.
+    ~Proses menjual perangkat keras bekas ke pihak ketiga.
+    ~Menghitung jumlah pajak yang harus dibayar atas pembelian perangkat lunak.
+    ~Memberikan penghargaan kepada karyawan TI terbaik bulan ini.
+}
+
+::Q139:: Manakah yang merupakan contoh dari "Human Resource Management" yang baik dalam TI? {
+    =Program pelatihan berkelanjutan dan jalur karier yang jelas bagi staf.
+    ~Memaksa staf untuk bekerja 12 jam sehari tanpa istirahat.
+    ~Mengizinkan semua staf mengakses data gaji satu sama lain.
+    ~Menyediakan camilan gratis tetapi melarang staf mengambil cuti.
+}
+
+::Q140:: Auditor SI menemukan bahwa organisasi tidak memiliki "Ethics Policy". Apa dampaknya terhadap tata kelola? {
+    =Meningkatkan risiko perilaku tidak etis atau kecurangan dalam organisasi.
+    ~Sistem komputer akan lebih sering mengalami kegagalan teknis.
+    ~Organisasi akan otomatis dilarang beroperasi oleh pemerintah.
+    ~Karyawan tidak akan tahu cara menggunakan perangkat lunak kantor.
+}
+
+::Q141:: Manakah dari berikut ini yang merupakan keuntungan utama dari struktur organisasi TI yang terdesentralisasi? {
+    =Respons yang lebih cepat terhadap kebutuhan unit bisnis lokal.
+    ~Skala ekonomi yang lebih besar dalam pembelian perangkat lunak.
+    ~Standarisasi kontrol keamanan di seluruh organisasi.
+    ~Kemudahan dalam menegakkan kebijakan TI perusahaan.
+}
+
+::Q142:: "Service Level Agreement" (SLA) paling efektif jika: {
+    =Dapat diukur (measurable) dan disetujui oleh kedua belah pihak.
+    ~Hanya berisi deskripsi layanan secara umum tanpa angka.
+    ~Ditulis oleh pengacara tanpa masukan dari tim teknis.
+    ~Disimpan sebagai rahasia agar pelanggan tidak bisa menuntut.
+}
+
+::Q143:: Apa peran "IT Steering Committee" dalam pengembangan sistem baru? {
+    =Meninjau kemajuan proyek dan memastikan keselarasan dengan strategi bisnis.
+    ~Melakukan coding dan pengujian unit secara mendalam.
+    ~Memilih bahasa pemrograman yang akan digunakan.
+    ~Menginstal sistem operasi pada server baru.
+}
+
+::Q144:: "Risk Treatment" yang melibatkan pemindahan dampak finansial risiko ke pihak lain disebut: {
+    =Risk Transfer (Transfer Risiko).
+    ~Risk Avoidance (Penghindaran Risiko).
+    ~Risk Mitigation (Mitigasi Risiko).
+    ~Risk Acceptance (Penerimaan Risiko).
+}
+
+::Q145:: Auditor SI menemukan bahwa departemen TI sering melampaui anggaran tanpa persetujuan. Masalah utama di sini adalah: {
+    =Kurangnya pengawasan manajemen dan kontrol anggaran.
+    ~Harga perangkat lunak yang terlalu mahal di pasar.
+    ~Kurangnya jumlah staf di bagian akuntansi.
+    ~Sistem ERP yang digunakan sudah terlalu tua.
+}
+
+::Q146:: Manakah dari berikut ini yang paling penting untuk dipantau dalam kontrak "Cloud Computing"? {
+    =Ketersediaan layanan (uptime) dan integritas data.
+    ~Merek server fisik yang digunakan oleh penyedia cloud.
+    ~Lokasi meja kerja administrator cloud vendor.
+    ~Jumlah postingan blog teknis yang diterbitkan vendor.
+}
+
+::Q147:: "IT Risk Register" harus berisi: {
+    =Daftar risiko yang teridentifikasi, dampaknya, dan rencana mitigasi.
+    ~Daftar semua nama karyawan di departemen IT.
+    ~Riwayat hidup (CV) dari Chief Information Officer.
+    ~Daftar inventaris semua mouse dan keyboard di kantor.
+}
+
+::Q148:: Apa fungsi dari "Capacity Management"? {
+    =Memastikan sumber daya TI tersedia untuk memenuhi kebutuhan bisnis saat ini dan masa depan.
+    ~Menentukan berapa banyak orang yang boleh masuk ke ruang server.
+    ~Mengukur kapasitas berat fisik rak server.
+    ~Menghitung total luas gedung kantor pusat.
+}
+
+::Q149:: Auditor SI mencatat bahwa CIO melapor langsung kepada CFO. Apa potensi risikonya? {
+    =Prioritas TI mungkin terlalu fokus pada penghematan biaya daripada inovasi strategis.
+    ~TI akan mendapatkan anggaran yang tidak terbatas setiap tahun.
+    ~CFO akan dipaksa untuk belajar pemrograman komputer.
+    ~Server akan lebih sering mengalami kerusakan memori.
+}
+
+::Q150:: Manakah yang merupakan contoh "Key Risk Indicator" (KRI)? {
+    =Jumlah upaya akses ilegal ke firewall yang meningkat drastis.
+    ~Persentase proyek TI yang selesai tepat waktu.
+    ~Tingkat kepuasan rata-rata pengguna aplikasi.
+    ~Jumlah sertifikasi yang dimiliki oleh staf TI.
+}
+
+::Q151:: Apa tujuan dari "IT Continuity Planning"? {
+    =Memastikan layanan TI dapat dipulihkan dalam jangka waktu yang disepakati setelah gangguan.
+    ~Menjaga agar server tidak pernah mati sama sekali selamanya.
+    ~Mengurangi gaji staf TI untuk menghemat biaya operasional.
+    ~Menjamin bahwa semua data dapat dipulihkan dalam satu detik.
+}
+
+::Q152:: "Organizational Culture" mempengaruhi tata kelola TI karena: {
+    =Menentukan bagaimana kebijakan dipatuhi dan bagaimana risiko dipersepsikan.
+    ~Menentukan jenis sistem operasi yang akan dibeli.
+    ~Menentukan kecepatan koneksi internet di kantor.
+    ~Menghilangkan kebutuhan akan kontrol internal formal.
+}
+
+::Q153:: Auditor SI menemukan bahwa tidak ada "Change Management Committee". Hal ini dapat menyebabkan: {
+    =Perubahan yang bertentangan atau tidak teruji masuk ke lingkungan produksi.
+    ~Komputer akan meledak jika terjadi pembaruan perangkat lunak.
+    ~Karyawan tidak akan pernah bisa mengganti kata sandi mereka.
+    ~Vendor akan berhenti memberikan dukungan teknis.
+}
+
+::Q154:: "Value Delivery" TI diukur melalui: {
+    =Realisasi manfaat bisnis dari investasi TI.
+    ~Jumlah uang yang dihabiskan untuk membeli server terbaru.
+    ~Banyaknya fitur yang ada di dalam sebuah aplikasi.
+    ~Kecepatan CPU pada komputer meja karyawan.
+}
+
+::Q155:: Manakah yang merupakan tugas dari "Security Officer"? {
+    =Memantau kepatuhan terhadap kebijakan keamanan informasi.
+    ~Menulis konten pemasaran untuk produk baru perusahaan.
+    ~Memperbaiki kebocoran air di fasilitas pusat data.
+    ~Menetapkan harga jual layanan TI kepada pelanggan.
+}
+
+::Q156:: Dalam manajemen proyek, "Critical Path" adalah: {
+    =Urutan aktivitas terpanjang yang menentukan durasi minimum proyek.
+    ~Jalan tercepat untuk keluar dari gedung saat terjadi kebakaran.
+    ~Daftar tugas yang paling mudah dikerjakan oleh tim.
+    ~Prosedur untuk melaporkan kesalahan kode kepada manajer.
+}
+
+::Q157:: Apa risiko utama dari "Vendor Lock-in"? {
+    =Kesulitan untuk beralih ke vendor lain karena ketergantungan pada teknologi tertentu.
+    ~Vendor akan mencuri semua data perusahaan secara diam-diam.
+    ~Biaya lisensi akan menjadi gratis setelah lima tahun.
+    ~Karyawan vendor akan bekerja di kantor perusahaan secara permanen.
+}
+
+::Q158:: "Incident Management" berfokus pada: {
+    =Pemulihan layanan secepat mungkin setelah gangguan.
+    ~Pencarian akar penyebab (root cause) masalah secara permanen.
+    ~Perancangan arsitektur sistem yang tahan banting.
+    ~Pembelian asuransi untuk aset TI yang rusak.
+}
+
+::Q159:: Auditor SI harus memverifikasi bahwa program "Security Awareness": {
+    =Dilaksanakan secara berkala untuk seluruh tingkatan staf.
+    ~Hanya diberikan kepada staf yang pernah melakukan kesalahan.
+    ~Terdiri dari setidaknya 500 halaman materi teks.
+    ~Dilakukan hanya sekali seumur hidup saat orientasi karyawan baru.
+}
+
+::Q160:: Apa kegunaan dari "Job Rotation" dalam departemen TI? {
+    =Mengurangi risiko kecurangan dan ketergantungan pada satu orang.
+    ~Membuat staf merasa bingung dengan tugas baru setiap hari.
+    ~Mengurangi total biaya gaji bulanan departemen.
+    ~Menghilangkan kebutuhan akan dokumentasi sistem.
+}
+
+::Q161:: Auditor SI menemukan bahwa akses administrator diberikan kepada terlalu banyak staf. Prinsip yang dilanggar adalah: {
+    =Least Privilege (Hak Akses Minimum).
+    ~Segregation of Duties (Pemisahan Tugas).
+    ~Data Integrity (Integritas Data).
+    ~High Availability (Ketersediaan Tinggi).
+}
+
+::Q162:: Manakah yang merupakan contoh "Strategic Risk"? {
+    =Gagal mengadopsi teknologi baru yang mengubah pasar.
+    ~Satu server web mengalami kegagalan hard disk.
+    ~Karyawan salah memasukkan data alamat pelanggan.
+    ~Terjadi pemadaman listrik selama 10 menit.
+}
+
+::Q163:: "IT Balance Sheet" digunakan untuk: {
+    =Melacak aset dan kewajiban terkait TI di organisasi.
+    ~Menyeimbangkan berat beban antara dua server cadangan.
+    ~Menghitung jumlah cuti yang tersisa bagi staf TI.
+    ~Mengukur tingkat stres manajer TI.
+}
+
+::Q164:: Apa peran manajemen senior dalam "Business Continuity Planning" (BCP)? {
+    =Memberikan dukungan finansial dan menetapkan prioritas pemulihan.
+    ~Melakukan instalasi ulang sistem operasi pada laptop.
+    ~Membawa hard disk cadangan ke rumah setiap malam.
+    ~Menghafal semua prosedur teknis pemulihan basis data.
+}
+
+::Q165:: "Post-Implementation Review" harus dilakukan: {
+    =Setelah sistem beroperasi cukup lama untuk mengukur manfaatnya.
+    ~Satu jam setelah sistem baru saja diluncurkan (go-live).
+    ~Hanya jika sistem tersebut mengalami kegagalan total.
+    ~Sebelum proyek pembangunan sistem dimulai.
+}
+
+::Q166:: Auditor SI menemukan bahwa tidak ada "Log Monitoring" untuk aktivitas admin. Kontrol apa yang lemah? {
+    =Detective Control (Kontrol Detektif).
+    ~Preventive Control (Kontrol Preventif).
+    ~Directive Control (Kontrol Direktif).
+    ~Deterrent Control (Kontrol Pencegah).
+}
+
+::Q167:: "Data Sovereignty" merujuk pada: {
+    =Data tunduk pada hukum negara di mana data tersebut disimpan secara fisik.
+    ~Kepemilikan mutlak data oleh orang yang membuatnya.
+    ~Kemampuan data untuk berubah secara otomatis setiap tahun.
+    ~Larangan menyimpan data di perangkat portabel seperti USB.
+}
+
+::Q168:: Dalam outsourcing TI, tanggung jawab AKHIR atas keamanan data tetap berada pada: {
+    =Organisasi pemberi kerja (Client).
+    ~Vendor pihak ketiga (Service Provider).
+    ~Perusahaan asuransi.
+    ~Instansi kepolisian setempat.
+}
+
+::Q169:: Apa keuntungan menggunakan "Benchmarking"? {
+    =Membandingkan kinerja TI organisasi dengan standar industri atau pesaing.
+    ~Membuktikan bahwa organisasi adalah yang terbaik di dunia tanpa bukti.
+    ~Menghitung total penggunaan listrik oleh setiap komputer.
+    ~Menentukan warna cat yang paling cocok untuk ruang server.
+}
+
+::Q170:: "IT Policy" memberikan: {
+    =Arahan tingkat tinggi tentang apa yang harus dilakukan.
+    ~Instruksi teknis langkah-demi-langkah (step-by-step).
+    ~Daftar semua merek perangkat keras yang disetujui.
+    ~Prediksi harga saham perusahaan di masa depan.
+}
+
+::Q171:: Auditor SI menemukan bahwa tidak ada tinjauan kinerja vendor secara formal. Risiko utamanya adalah: {
+    =Layanan vendor mungkin tidak memenuhi standar SLA tanpa disadari.
+    ~Vendor akan otomatis bangkrut dalam waktu enam bulan.
+    ~Karyawan vendor akan berhenti masuk kerja secara tiba-tiba.
+    ~Harga kontrak vendor akan turun secara drastis secara otomatis.
+}
+
+::Q172:: "Risk Appetite" ditetapkan oleh: {
+    =Dewan Direksi/Manajemen Senior.
+    ~Staf teknis keamanan informasi.
+    ~Auditor eksternal.
+    ~Pelanggan organisasi.
+}
+
+::Q173:: Apa tujuan dari "Configuration Management Database" (CMDB)? {
+    =Menyimpan informasi tentang semua aset TI dan hubungan antar aset tersebut.
+    ~Menyimpan semua kata sandi pengguna dalam bentuk teks biasa.
+    ~Menghitung total pajak dari pembelian perangkat lunak.
+    ~Melacak lokasi parkir mobil untuk staf departemen TI.
+}
+
+::Q174:: Manakah yang merupakan contoh "Technical Control"? {
+    =Penggunaan sistem deteksi intrusi (IDS) pada jaringan.
+    ~Menulis kebijakan penggunaan internet yang adil.
+    ~Melakukan wawancara latar belakang pada staf baru.
+    ~Memasang tanda "Dilarang Masuk" di depan ruang server.
+}
+
+::Q175:: "Total Cost of Ownership" (TCO) mencakup: {
+    =Biaya akuisisi, operasional, pemeliharaan, dan pembuangan aset TI.
+    ~Hanya harga beli perangkat keras pada saat transaksi.
+    ~Jumlah pajak pertambahan nilai (PPN) dari pembelian server.
+    ~Gaji manajer pengadaan yang membeli barang tersebut.
+}
+
+::Q176:: Auditor SI menemukan bahwa staf IT sering berbagi akun "root". Masalah utamanya adalah: {
+    =Hilangnya akuntabilitas individu (non-repudiation).
+    ~Sistem akan mendeteksi dua orang sebagai satu orang dan menjadi bingung.
+    ~Kecepatan akses sistem akan berkurang setengahnya.
+    ~Sistem operasi akan meminta pembayaran lisensi tambahan.
+}
+
+::Q177:: "Gap Analysis" digunakan untuk: {
+    =Mengidentifikasi perbedaan antara kondisi saat ini dan kondisi yang diinginkan.
+    ~Menghitung jarak fisik antara dua pusat data cadangan.
+    ~Menentukan berapa banyak staf yang sedang cuti sakit.
+    ~Menganalisis lubang-lubang kecil pada kabel jaringan.
+}
+
+::Q178:: Apa peran "IT Steering Committee" terkait anggaran? {
+    =Meninjau dan menyetujui alokasi dana untuk inisiatif TI utama.
+    ~Menghitung uang kembalian dari pembelian alat tulis kantor.
+    ~Mengalokasikan dana untuk pesta ulang tahun karyawan TI.
+    ~Menentukan berapa banyak dividen yang dibayar ke pemegang saham.
+}
+
+::Q179:: Manakah yang merupakan indikator efektivitas "Problem Management"? {
+    =Penurunan jumlah insiden yang berulang.
+    ~Peningkatan jumlah panggilan ke help desk.
+    ~Banyaknya patch yang diinstal setiap hari.
+    ~Jumlah printer yang diperbaiki dalam satu bulan.
+}
+
+::Q180:: "Governance" TI yang baik harus memastikan bahwa: {
+    =Risiko TI dikelola pada tingkat yang dapat diterima oleh organisasi.
+    ~Semua karyawan merasa senang dengan perangkat komputer mereka.
+    ~Tidak ada risiko sama sekali yang tersisa di dalam organisasi.
+    ~Departemen TI memiliki kekuasaan mutlak atas semua unit bisnis.
+}
+
+::Q181:: Manakah dari berikut ini yang merupakan keuntungan utama dari pemisahan tugas antara operator TI dan analis sistem? {
+    =Mencegah personil melakukan perubahan yang tidak sah pada program produksi.
+    ~Meningkatkan efisiensi pemrosesan data harian.
+    ~Memastikan bahwa semua perangkat keras tetap dalam kondisi bersih.
+    ~Mengurangi jumlah total staf yang dibutuhkan di pusat data.
+}
+
+::Q182:: Apa peran utama "IT Steering Committee" dalam manajemen risiko? {
+    =Memastikan bahwa profil risiko TI selaras dengan selera risiko organisasi.
+    ~Melakukan pemindaian kerentanan (vulnerability scanning) secara teknis.
+    ~Menulis prosedur operasional standar untuk pemulihan bencana.
+    ~Mengambil keputusan teknis tentang merk firewall yang akan dibeli.
+}
+
+::Q183:: Manakah yang merupakan indikator terbaik dari keberhasilan integrasi TI setelah merger perusahaan? {
+    =Proses bisnis yang digabungkan beroperasi dengan lancar menggunakan sistem yang terintegrasi.
+    ~Semua staf dari kedua perusahaan tetap bekerja di departemen masing-masing.
+    ~Jumlah server meningkat dua kali lipat dari sebelumnya.
+    ~Setiap perusahaan tetap menggunakan kebijakan keamanannya sendiri-sendiri.
+}
+
+::Q184:: Penggunaan "Outsourcing" untuk fungsi TI yang kritis meningkatkan kebutuhan akan: {
+    =Pemantauan kinerja vendor dan kepatuhan terhadap kontrak secara ketat.
+    ~Penghapusan semua fungsi audit internal di dalam organisasi.
+    ~Pemberian akses administratif penuh kepada vendor tanpa batas.
+    ~Pengalihan tanggung jawab hukum sepenuhnya kepada vendor.
+}
+
+::Q185:: Auditor SI menemukan bahwa organisasi memiliki banyak proyek TI yang tumpang tindih. Hal ini menunjukkan kelemahan dalam: {
+    =Manajemen portofolio investasi TI.
+    ~Keterampilan teknis para pengembang perangkat lunak.
+    ~Kecepatan koneksi jaringan area luas (WAN).
+    ~Prosedur backup data mingguan.
+}
+
+::Q186:: "IT Balanced Scorecard" biasanya mencakup perspektif berikut, KECUALI: {
+    =Perspektif Hubungan Masyarakat dan Media Sosial.
+    ~Perspektif Kontribusi Bisnis (Keuangan).
+    ~Perspektif Keunggulan Operasional (Proses Internal).
+    ~Perspektif Orientasi Masa Depan (Pembelajaran dan Pertumbuhan).
+}
+
+::Q187:: Apa tujuan dari "Termination Policy" bagi staf TI? {
+    =Memastikan akses sistem dicabut segera setelah karyawan berhenti.
+    ~Memberikan bonus besar kepada karyawan yang mengundurkan diri.
+    ~Memaksa karyawan untuk tetap bekerja selamanya di organisasi.
+    ~Menghapus semua hasil kerja karyawan dari server perusahaan.
+}
+
+::Q188:: Auditor SI menemukan bahwa strategi TI organisasi hanya berfokus pada teknologi saat ini tanpa melihat tren masa depan. Risiko utamanya adalah: {
+    =Organisasi mungkin kehilangan keunggulan kompetitif karena teknologi yang usang.
+    ~Biaya listrik kantor akan meningkat secara tidak terduga.
+    ~Karyawan akan meminta kenaikan gaji setiap bulan.
+    ~Sistem operasi akan otomatis berhenti berfungsi tahun depan.
+}
+
+::Q189:: "Maturity Level 3" (Defined) dalam model CMMI berarti: {
+    =Proses telah didokumentasikan, distandarisasi, dan diintegrasikan ke tingkat organisasi.
+    ~Proses dilakukan secara ad-hoc dan tidak terorganisir.
+    ~Proses diukur secara statistik dan dikontrol secara ketat.
+    ~Proses terus diperbaiki secara otomatis menggunakan kecerdasan buatan.
+}
+
+::Q190:: Manakah dari berikut ini yang merupakan bukti terbaik dari komitmen manajemen terhadap keamanan informasi? {
+    =Penyediaan sumber daya dan anggaran yang memadai untuk program keamanan.
+    ~Pemasangan poster "Aman Itu Penting" di setiap lantai gedung.
+    ~Pembelian antivirus versi gratis untuk semua komputer karyawan.
+    ~Adanya ruang server yang catnya berwarna cerah.
+}
+
+::Q191:: Apa risiko utama dari "End-user Computing" (EUC) yang tidak terkontrol? {
+    =Kurangnya integritas data dan kontrol keamanan pada aplikasi yang dibuat pengguna.
+    ~Pengguna akan menghabiskan terlalu banyak waktu untuk bermain game.
+    ~Biaya langganan internet akan melonjak tinggi.
+    ~Monitor komputer akan lebih cepat panas.
+}
+
+::Q192:: Tanggung jawab utama untuk menentukan klasifikasi data berada pada: {
+    =Pemilik data (Data Owner).
+    ~Administrator pangkalan data (DBA).
+    ~Manajer keamanan informasi.
+    ~Auditor sistem informasi.
+}
+
+::Q193:: "IT Governance" yang efektif harus mendorong: {
+    =Transparansi dalam pengambilan keputusan dan akuntabilitas.
+    ~Kerahasiaan total semua proyek TI dari manajemen senior.
+    ~Keputusan yang diambil hanya oleh satu orang manajer TI.
+    ~Penggunaan teknologi terbaru terlepas dari biaya dan manfaatnya.
+}
+
+::Q194:: Manakah yang merupakan contoh "Detective Control" dalam manajemen operasional? {
+    =Tinjauan laporan aktivitas pengguna secara harian.
+    ~Pewajiban penggunaan dua faktor otentikasi (2FA).
+    ~Pelatihan pencegahan serangan phishing bagi staf.
+    ~Pembuatan cadangan (backup) data secara otomatis.
+}
+
+::Q195:: Apa kegunaan dari "Escrow Agreement" untuk perangkat lunak pihak ketiga? {
+    =Memastikan akses ke kode sumber (source code) jika vendor bangkrut.
+    ~Mengurangi biaya lisensi perangkat lunak tahunan.
+    ~Mencegah vendor melakukan pembaruan tanpa izin.
+    ~Menjamin bahwa perangkat lunak tersebut tidak mengandung virus.
+}
+
+::Q196:: Auditor SI menemukan bahwa CIO sering mengesampingkan kebijakan keamanan untuk alasan kenyamanan. Hal ini menunjukkan: {
+    =Budaya kepatuhan yang lemah di tingkat atas (Tone at the top).
+    ~CIO memiliki pengetahuan teknis yang sangat superior.
+    ~Kebijakan keamanan tersebut memang sudah usang.
+    ~CIO tidak memiliki anggaran yang cukup untuk keamanan.
+}
+
+::Q197:: "Key Risk Indicator" (KRI) yang melampaui ambang batas harus memicu: {
+    =Tindakan mitigasi atau tinjauan manajemen segera.
+    ~Penghapusan data KRI agar laporan terlihat bagus.
+    ~Pemecatan staf yang bertanggung jawab atas data tersebut.
+    ~Penutupan seluruh operasional TI selama satu minggu.
+}
+
+::Q198:: Manakah dari berikut ini yang paling penting saat melakukan "Risk Assessment" pihak ketiga? {
+    =Mengevaluasi postur keamanan dan kepatuhan vendor.
+    ~Menghitung jumlah pengikut vendor di LinkedIn.
+    ~Mengetahui menu makanan di kantin kantor vendor.
+    ~Mengecek merk kendaraan operasional yang digunakan vendor.
+}
+
+::Q199:: "IT Steering Committee" harus bertemu secara berkala untuk: {
+    =Meninjau status proyek TI utama dan menyelaraskan dengan strategi bisnis.
+    ~Menginstal patch keamanan pada komputer masing-masing.
+    ~Menulis dokumentasi teknis untuk sistem warisan (legacy systems).
+    ~Memperbaiki kabel jaringan yang putus di ruang server.
+}
+
+::Q200:: Manakah yang merupakan hasil akhir dari proses manajemen risiko TI yang sukses? {
+    =Risiko diturunkan ke tingkat yang dapat diterima oleh manajemen.
+    ~Semua risiko dihilangkan 100% dari organisasi.
+    ~Semua tanggung jawab risiko dialihkan ke pihak asuransi.
+    ~Tidak ada lagi kebutuhan untuk melakukan audit di masa depan.
+}
+
+// ==========================================================
+// CISA DOMAIN 3: IS Acquisition, Development, and Implementation (201-300)
+// ==========================================================
+
+::Q201:: Manakah dari berikut ini yang merupakan keuntungan utama dari metodologi "Agile" dibandingkan "Waterfall"? {
+    =Memungkinkan perubahan persyaratan yang fleksibel selama proses pengembangan.
+    ~Menjamin tanggal penyelesaian proyek yang tetap dan pasti.
+    ~Memerlukan dokumentasi yang sangat tebal sebelum pengkodean dimulai.
+    ~Menghilangkan kebutuhan akan keterlibatan pengguna akhir.
+}
+
+::Q202:: Kapan Uji Penerimaan Pengguna (User Acceptance Testing - UAT) harus direncanakan dalam SDLC? {
+    =Selama fase analisis persyaratan (requirements analysis).
+    ~Segera setelah sistem diluncurkan ke lingkungan produksi.
+    ~Setelah semua bug ditemukan oleh tim penguji teknis.
+    ~Hanya jika pengembang merasa ragu dengan kode mereka.
+}
+
+::Q203:: Apa risiko utama dari penggunaan "Prototyping" dalam pengembangan sistem? {
+    =Pengguna mungkin mengira prototipe adalah sistem final dan mengabaikan kontrol internal.
+    ~Proses pengembangan akan memakan waktu jauh lebih lama daripada Waterfall.
+    ~Biaya lisensi perangkat lunak akan menjadi sangat mahal.
+    ~Pengembang tidak akan bisa menggunakan bahasa pemrograman modern.
+}
+
+::Q204:: Dalam manajemen proyek, teknik "Critical Path Method" (CPM) membantu manajer untuk: {
+    =Mengidentifikasi aktivitas yang jika tertunda akan menunda seluruh proyek.
+    ~Menghitung total biaya makan siang untuk tim proyek.
+    ~Memilih vendor perangkat keras dengan harga termurah.
+    ~Menulis laporan mingguan untuk dewan direksi secara otomatis.
+}
+
+::Q205:: Apa tujuan utama dari "Feasibility Study" (Studi Kelayakan)? {
+    =Menentukan apakah proyek layak dilanjutkan dari aspek teknis, ekonomi, dan operasional.
+    ~Memperbaiki semua bug yang ditemukan dalam sistem lama.
+    ~Menentukan siapa yang akan menjadi manajer proyek.
+    ~Membeli semua perangkat keras yang diperlukan sebelum analisis dimulai.
+}
+
+::Q206:: Auditor SI menemukan bahwa tidak ada "Business Case" untuk proyek besar. Risiko utamanya adalah: {
+    =Proyek mungkin tidak memberikan nilai bisnis atau tidak selaras dengan strategi organisasi.
+    ~Pengembang tidak akan tahu cara menulis kode program.
+    ~Server akan mengalami kelebihan beban saat sistem dijalankan.
+    ~Karyawan akan menolak untuk menggunakan komputer baru.
+}
+
+::Q207:: "Function Point Analysis" (FPA) digunakan untuk: {
+    =Mengestimasi ukuran dan kompleksitas perangkat lunak berdasarkan fungsinya.
+    ~Menghitung jumlah titik koordinat pada peta jaringan.
+    ~Menilai kecepatan mengetik dari pengembang sistem.
+    ~Menentukan berapa banyak printer yang dibutuhkan kantor.
+}
+
+::Q208:: Manakah dari berikut ini yang merupakan risiko terbesar dari "End-user Computing" (EUC)? {
+    =Kurangnya dokumentasi dan kontrol keamanan yang memadai.
+    ~Pengguna akan meminta kenaikan gaji karena membuat aplikasi sendiri.
+    ~Aplikasi tersebut akan berjalan terlalu cepat di jaringan.
+    ~Perangkat keras komputer akan lebih cepat rusak.
+}
+
+::Q209:: Dalam pengembangan sistem, "Regression Testing" dilakukan untuk: {
+    =Memastikan bahwa perubahan baru tidak merusak fungsi yang sudah ada sebelumnya.
+    ~Menghitung kembali total biaya proyek dari awal.
+    ~Menguji sistem di bawah beban transaksi yang ekstrem.
+    ~Menghapus semua data lama dari basis data produksi.
+}
+
+::Q210:: Strategi migrasi sistem di mana sistem lama dihentikan dan sistem baru segera dijalankan disebut: {
+    =Abrupt Changeover (Direct Cutover).
+    ~Parallel Changeover.
+    ~Phased Changeover.
+    ~Pilot Study.
+}
+
+::Q211:: Apa keuntungan utama dari "Parallel Changeover"? {
+    =Memberikan keamanan karena sistem lama masih tersedia jika sistem baru gagal.
+    ~Merupakan metode yang paling murah dan paling cepat.
+    ~Mengurangi beban kerja karyawan karena hanya satu sistem yang berjalan.
+    ~Menghilangkan kebutuhan akan rekonsiliasi data antar sistem.
+}
+
+::Q212:: Auditor SI menemukan bahwa pengembang sistem memiliki akses ke data produksi yang sensitif. Rekomendasi terbaik adalah: {
+    =Menerapkan pemisahan lingkungan antara pengembangan, pengujian, dan produksi.
+    ~Meminta pengembang untuk menandatangani janji tidak akan melihat data.
+    ~Mengenkripsi data hanya pada jam kerja saja.
+    ~Menghapus semua data produksi agar pengembang tidak bisa melihatnya.
+}
+
+::Q213:: "Unit Testing" berfokus pada: {
+    =Pengujian komponen atau modul individu secara terpisah.
+    ~Pengujian alur bisnis dari awal sampai akhir.
+    ~Pengujian integrasi antara dua sistem yang berbeda.
+    ~Pengujian sistem oleh pengguna akhir di lokasi kerja.
+}
+
+::Q214:: Manakah yang merupakan contoh dari "Object-Oriented Development" (OOD)? {
+    =Penggunaan kembali komponen kode (reusability) melalui kelas dan objek.
+    ~Penulisan kode dalam satu file panjang tanpa struktur.
+    ~Penggunaan mesin ketik listrik untuk mendokumentasikan sistem.
+    ~Penghapusan semua basis data relasional.
+}
+
+::Q215:: Apa fungsi dari "Post-Implementation Review"? {
+    =Mengevaluasi apakah sistem memenuhi target bisnis dan kebutuhan pengguna.
+    ~Menentukan siapa yang bersalah atas bug yang ditemukan.
+    ~Membayar tagihan terakhir kepada vendor perangkat lunak.
+    ~Menulis panduan pengguna untuk staf administrasi.
+}
+
+::Q216:: Dalam proyek perangkat lunak, "Scope Creep" merujuk pada: {
+    =Penambahan persyaratan proyek yang tidak terkendali tanpa penyesuaian sumber daya.
+    ~Pengurangan biaya proyek secara mendadak oleh manajemen.
+    ~Penggunaan bahasa pemrograman yang sudah usang.
+    ~Pencurian perangkat keras proyek oleh pihak luar.
+}
+
+::Q217:: Manakah yang merupakan langkah pertama dalam proses pengadaan perangkat lunak (Software Acquisition)? {
+    =Mendefinisikan kebutuhan bisnis dan persyaratan sistem.
+    ~Menandatangani kontrak dengan vendor termurah.
+    ~Melakukan instalasi perangkat lunak di server produksi.
+    ~Mewawancarai referensi pelanggan dari vendor.
+}
+
+::Q218:: "Decision Support System" (DSS) dirancang untuk membantu: {
+    =Manajer dalam mengambil keputusan pada masalah yang tidak terstruktur.
+    ~Staf administrasi dalam memasukkan data harian.
+    ~Sistem operasi dalam mengalokasikan memori CPU.
+    ~Petugas keamanan dalam memantau kamera CCTV.
+}
+
+::Q219:: Manakah yang merupakan risiko utama dari "Software as a Service" (SaaS)? {
+    =Ketergantungan pada konektivitas internet dan keamanan penyedia layanan.
+    ~Biaya listrik di kantor akan meningkat secara drastis.
+    ~Perusahaan harus mempekerjakan lebih banyak administrator database.
+    ~Sistem operasi lokal tidak akan bisa menjalankan browser web.
+}
+
+::Q220:: "Black Box Testing" dilakukan oleh penguji dengan cara: {
+    =Menguji fungsi aplikasi tanpa mengetahui struktur kode internalnya.
+    ~Membaca setiap baris kode program untuk mencari kesalahan logika.
+    ~Mematikan lampu ruang kerja untuk menguji konsentrasi.
+    ~Menggunakan perangkat keras yang rusak untuk melihat respon sistem.
+}
+
+::Q221:: Apa tujuan dari "Input Controls" dalam sebuah aplikasi? {
+    =Memastikan data yang dimasukkan akurat, lengkap, dan valid.
+    ~Memastikan printer mencetak laporan dengan warna yang benar.
+    ~Mencegah pengguna mematikan komputer saat sedang bekerja.
+    ~Mengurangi kecepatan pemrosesan data agar sistem tidak panas.
+}
+
+::Q222:: Manakah dari berikut ini yang merupakan keuntungan dari penggunaan "Commercial Off-the-Shelf" (COTS) software? {
+    =Waktu implementasi yang lebih cepat dibandingkan membangun sendiri.
+    ~Kemampuan untuk mengubah kode sumber sesuai keinginan tanpa batas.
+    ~Biaya yang selalu lebih murah daripada aplikasi open-source.
+    ~Kesesuaian 100% dengan semua proses bisnis organisasi yang unik.
+}
+
+::Q223:: Dalam SDLC, fase "Design" menghasilkan: {
+    =Arsitektur sistem, desain basis data, dan spesifikasi antarmuka.
+    ~Kode program final yang siap dijalankan di produksi.
+    ~Laporan audit tahunan perusahaan.
+    ~Sertifikat kelulusan bagi tim pengembang.
+}
+
+::Q224:: Apa risiko utama dari pengkodean sistem yang dilakukan oleh pihak ketiga? {
+    =Potensi adanya "backdoor" atau kerentanan keamanan yang sengaja dimasukkan.
+    ~Pihak ketiga akan bekerja terlalu cepat sehingga sistem menjadi tidak stabil.
+    ~Pengembang internal akan kehilangan kemampuan untuk mengetik.
+    ~Biaya asuransi gedung akan meningkat secara otomatis.
+}
+
+::Q225:: "Data Mapping" adalah proses penting dalam migrasi data untuk: {
+    =Memastikan elemen data dari sistem lama sesuai dengan field di sistem baru.
+    ~Mencetak peta lokasi fisik pusat data yang baru.
+    ~Menghitung jumlah pengguna yang akan bermigrasi ke kantor baru.
+    ~Menentukan warna latar belakang pada aplikasi baru.
+}
+
+::Q226:: Manakah yang merupakan indikator keberhasilan suatu proyek pengembangan sistem? {
+    =Sistem diterima oleh pengguna dan memberikan manfaat bisnis yang direncanakan.
+    ~Semua anggota tim proyek mendapatkan promosi jabatan.
+    ~Jumlah baris kode program mencapai lebih dari satu juta baris.
+    ~Sistem tidak pernah memerlukan pembaruan (update) selamanya.
+}
+
+::Q227:: Dalam audit proyek, auditor SI menemukan bahwa "Project Steering Committee" jarang bertemu. Hal ini menunjukkan: {
+    =Kurangnya pengawasan dan arahan tingkat atas terhadap proyek.
+    ~Bahwa proyek tersebut berjalan sangat lancar sehingga tidak butuh rapat.
+    ~Bahwa manajer proyek memiliki kekuasaan mutlak.
+    ~Bahwa anggaran proyek sudah habis digunakan untuk hal lain.
+}
+
+::Q228:: "V-Model" dalam pengembangan sistem menekankan pada: {
+    =Hubungan antara setiap fase pengembangan dengan fase pengujian yang sesuai.
+    ~Kecepatan pengembangan yang berbentuk seperti huruf V.
+    ~Penggunaan memori virtual secara maksimal.
+    ~Hanya melakukan pengujian pada akhir proyek saja.
+}
+
+::Q229:: Apa tujuan dari "Concurrency Controls" dalam basis data? {
+    =Mencegah dua pengguna mengubah data yang sama pada waktu yang bersamaan.
+    ~Memungkinkan semua pengguna melihat data pribadi pengguna lain.
+    ~Mempercepat akses internet bagi pengguna senior.
+    ~Menghapus data yang tidak diakses selama satu jam.
+}
+
+::Q230:: Manakah yang merupakan peran auditor SI dalam pengembangan sistem? {
+    =Mengevaluasi apakah kontrol internal telah dirancang dan diuji dengan benar.
+    ~Menulis kode program untuk modul keamanan aplikasi.
+    ~Memilih vendor perangkat keras mana yang harus dibeli organisasi.
+    ~Memperbaiki bug yang ditemukan selama fase pengujian unit.
+}
+
+::Q231:: "White Box Testing" melibatkan: {
+    =Pengujian dengan pengetahuan penuh tentang struktur internal dan kode program.
+    ~Pengujian aplikasi hanya pada layar monitor berwarna putih.
+    ~Pengujian yang dilakukan oleh orang yang tidak tahu apa-apa tentang IT.
+    ~Pengujian yang hanya dilakukan pada perangkat keras yang masih baru.
+}
+
+::Q232:: Apa risiko utama jika tidak dilakukan "Stress Testing" pada aplikasi web baru? {
+    =Sistem mungkin gagal atau lambat saat diakses oleh banyak pengguna secara bersamaan.
+    ~Pengguna akan merasa stres karena tampilan aplikasi tidak menarik.
+    ~Biaya langganan cloud akan menurun secara drastis.
+    ~Kabel jaringan akan terbakar karena beban data yang terlalu berat.
+}
+
+::Q233:: Dalam manajemen proyek, "Gantt Chart" digunakan untuk: {
+    =Memvisualisasikan jadwal proyek, tugas, dan durasinya.
+    ~Menghitung total gaji staf proyek setiap bulan.
+    ~Menyimpan semua dokumentasi teknis sistem.
+    ~Mengukur kinerja CPU server selama pengujian.
+}
+
+::Q234:: Manakah yang merupakan kontrol terbaik untuk memastikan integritas transmisi data? {
+    =Penggunaan "Checksum" atau "Cyclic Redundancy Check" (CRC).
+    ~Meningkatkan kecepatan koneksi internet.
+    ~Menggunakan monitor dengan resolusi lebih tinggi.
+    ~Menyimpan salinan data di atas meja kerja.
+}
+
+::Q235:: "System Development Life Cycle" (SDLC) yang paling tradisional adalah: {
+    =Waterfall Model.
+    ~Agile Model.
+    ~DevOps.
+    ~Rapid Application Development (RAD).
+}
+
+::Q236:: Apa yang dimaksud dengan "Integrity Constraint" dalam basis data? {
+    =Aturan yang memastikan data tetap konsisten dan akurat (misal: foreign key).
+    ~Batasan jumlah file yang boleh disimpan di hard disk.
+    ~Larangan bagi pengguna untuk berbicara saat sedang memasukkan data.
+    ~Sistem yang menghapus data secara acak setiap hari minggu.
+}
+
+::Q237:: Auditor SI menemukan bahwa dokumentasi sistem tidak lengkap. Masalah utama yang timbul adalah: {
+    =Kesulitan dalam pemeliharaan sistem di masa mendatang.
+    ~Sistem akan otomatis berhenti berfungsi dalam satu bulan.
+    ~CPU akan bekerja lebih keras karena tidak ada panduan.
+    ~Harga saham perusahaan akan jatuh seketika.
+}
+
+::Q238:: Manakah yang merupakan contoh "Post-Implementation Control"? {
+    =Penyelesaian log perubahan (change log) setelah sistem dijalankan.
+    ~Pemeriksaan latar belakang staf sebelum proyek dimulai.
+    ~Pelatihan pengguna sebelum sistem dipasang.
+    ~Persetujuan anggaran oleh dewan direksi.
+}
+
+::Q239:: Dalam metode "Scrum", peran yang bertanggung jawab memaksimalkan nilai bisnis adalah: {
+    =Product Owner.
+    ~Scrum Master.
+    ~Development Team.
+    ~Database Administrator.
+}
+
+::Q240:: Apa tujuan dari "User Requirements Specification" (URS)? {
+    =Mendokumentasikan apa yang dibutuhkan pengguna dari sistem baru.
+    ~Menjelaskan cara kerja sirkuit listrik di dalam komputer.
+    ~Memberikan daftar gaji semua pengguna sistem.
+    ~Menentukan lokasi parkir bagi pengguna aplikasi.
+}
+
+::Q241:: Manakah dari berikut ini yang paling baik mendeteksi kesalahan logika dalam kode program? {
+    =Desk check atau Code Review.
+    ~Pengujian beban (Load testing).
+    ~Pemeriksaan inventaris perangkat keras.
+    ~Pemasangan antivirus di server pengembangan.
+}
+
+::Q242:: Dalam proyek sistem informasi, "Critical Success Factors" (CSF) adalah: {
+    =Area terbatas yang harus berjalan benar agar tujuan proyek tercapai.
+    ~Daftar semua bug yang ditemukan selama fase pengujian.
+    ~Jumlah baris kode yang ditulis oleh pengembang setiap hari.
+    ~Nama-nama anggota tim yang memiliki sertifikasi teknis.
+}
+
+::Q243:: Apa risiko utama dari penggunaan "Open Source Software" dalam lingkungan perusahaan? {
+    =Kurangnya dukungan formal (support) dan potensi kerentanan keamanan yang tidak tertangani.
+    ~Biaya lisensi yang terlalu mahal untuk anggaran perusahaan.
+    ~Perangkat lunak tersebut tidak akan bisa berjalan di sistem operasi Windows.
+    ~Pengembang internal akan lupa cara menulis kode sendiri.
+}
+
+::Q244:: "System Integration Testing" bertujuan untuk: {
+    =Memastikan bahwa berbagai modul atau sistem dapat bekerja sama dengan benar.
+    ~Menguji apakah pengguna merasa nyaman dengan warna antarmuka.
+    ~Menghitung total penggunaan daya listrik oleh pusat data.
+    ~Memverifikasi bahwa semua kabel jaringan telah terhubung.
+}
+
+::Q245:: Auditor SI menemukan bahwa sistem baru tidak memiliki "Audit Trail". Apa dampak utamanya? {
+    =Kesulitan dalam menelusuri aktivitas transaksi dan mendeteksi kecurangan.
+    ~Sistem akan otomatis menghapus data setiap 24 jam.
+    ~Pengguna tidak akan bisa mencetak laporan bulanan.
+    ~Kecepatan pemrosesan transaksi akan menjadi sangat lambat.
+}
+
+::Q246:: Apa tujuan dari "Data Conversion Plan"? {
+    =Menjelaskan langkah-langkah untuk memindahkan data dari sistem lama ke sistem baru secara akurat.
+    ~Menghapus semua data lama agar tidak memenuhi memori sistem baru.
+    ~Mengubah semua data angka menjadi format teks biasa.
+    ~Menentukan siapa yang berhak melihat data di masa depan.
+}
+
+::Q247:: "Modular Programming" memudahkan pemeliharaan sistem karena: {
+    =Perubahan pada satu modul meminimalkan dampak pada modul lainnya.
+    ~Semua kode program disimpan dalam satu file yang sangat besar.
+    ~Menghilangkan kebutuhan akan dokumentasi teknis.
+    ~Memungkinkan sistem berjalan tanpa memerlukan pangkalan data.
+}
+
+::Q248:: Manakah dari berikut ini yang merupakan contoh "Output Control"? {
+    =Rekonsiliasi total laporan dengan data input yang diproses.
+    ~Penggunaan kata sandi untuk masuk ke aplikasi.
+    ~Validasi format tanggal pada formulir entri data.
+    ~Pemeriksaan latar belakang staf entri data.
+}
+
+::Q249:: "Rapid Application Development" (RAD) sangat bergantung pada: {
+    =Penggunaan prototipe dan keterlibatan pengguna secara intensif.
+    ~Dokumentasi yang sangat kaku dan fase yang berurutan.
+    ~Penggunaan mesin server fisik yang paling mahal.
+    ~Penghapusan semua kontrol keamanan untuk mempercepat proses.
+}
+
+::Q250:: Apa risiko terbesar dari "Direct Cutover" (Abrupt Changeover)? {
+    =Tidak ada sistem cadangan jika sistem baru gagal saat dijalankan.
+    ~Biaya operasional yang sangat tinggi karena menjalankan dua sistem.
+    ~Karyawan akan merasa bosan karena tidak ada pekerjaan tambahan.
+    ~Data akan terduplikasi secara otomatis di kedua sistem.
+}
+
+::Q251:: "Software Configuration Management" (SCM) bertujuan untuk: {
+    =Mengontrol perubahan pada perangkat lunak dan dokumentasi terkait.
+    ~Mengatur kecerahan layar monitor bagi pengembang.
+    ~Menghitung jumlah lisensi Microsoft Office yang digunakan.
+    ~Menentukan lokasi fisik server di rak pusat data.
+}
+
+::Q252:: Manakah yang merupakan indikator terbaik dari kualitas kode program? {
+    =Jumlah bug yang ditemukan per seribu baris kode (defect density).
+    ~Warna tema yang digunakan dalam editor kode.
+    ~Kecepatan mengetik pengembang saat menulis fungsi.
+    ~Banyaknya komentar yang ditulis dalam bahasa asing.
+}
+
+::Q253:: Dalam migrasi data, "Data Integrity Check" dilakukan untuk: {
+    =Memastikan data tidak rusak atau hilang selama proses pemindahan.
+    ~Mengubah data rahasia menjadi data publik.
+    ~Menghitung total berat hard disk yang digunakan.
+    ~Menentukan siapa yang paling sering mengakses data.
+}
+
+::Q254:: Apa kegunaan dari "Testing Environment" yang terpisah? {
+    =Mencegah pengujian yang tidak stabil mengganggu operasional sistem produksi.
+    ~Memberikan ruang bagi staf untuk beristirahat saat lelah menguji.
+    ~Mengurangi biaya sewa gedung kantor.
+    ~Menyimpan cadangan makanan untuk tim proyek.
+}
+
+::Q255:: "Entity-Relationship Diagram" (ERD) digunakan selama fase desain untuk: {
+    =Memodelkan struktur data dan hubungan antar tabel dalam basis data.
+    ~Menggambarkan alur kerja karyawan di kantor pusat.
+    ~Menjelaskan cara kerja sirkuit elektronik pada CPU.
+    ~Menyusun daftar gaji staf departemen IT.
+}
+
+::Q256:: Auditor SI menemukan bahwa pengujian hanya dilakukan oleh pengembang sendiri. Risiko utamanya adalah: {
+    =Potensi kurangnya objektivitas dan kegagalan mendeteksi kesalahan desain.
+    ~Pengembang akan meminta tambahan bonus karena bekerja lembur.
+    ~Sistem akan berjalan terlalu cepat untuk dipahami pengguna.
+    ~Bahasa pemrograman yang digunakan akan menjadi usang.
+}
+
+::Q257:: Apa fungsi dari "Capacity Planning" dalam pengadaan infrastruktur? {
+    =Memastikan infrastruktur dapat menangani beban kerja saat ini dan masa depan.
+    ~Menghitung berapa banyak orang yang bisa masuk ke dalam lift gedung.
+    ~Menentukan jumlah meja dan kursi di ruang rapat.
+    ~Mengukur volume suara yang dihasilkan oleh kipas pendingin server.
+}
+
+::Q258:: Manakah dari berikut ini yang merupakan keuntungan dari "Pilot Study" sebagai strategi migrasi? {
+    =Sistem diuji di satu lokasi terbatas sebelum diluncurkan ke seluruh organisasi.
+    ~Biaya migrasi menjadi nol karena dilakukan oleh staf magang.
+    ~Tidak memerlukan pelatihan bagi pengguna di lokasi lain.
+    ~Menghilangkan kebutuhan akan dokumentasi sistem baru.
+}
+
+::Q259:: "Phased Changeover" adalah strategi migrasi di mana: {
+    =Modul sistem baru diperkenalkan secara bertahap.
+    ~Sistem baru dijalankan hanya pada malam hari.
+    ~Seluruh sistem lama dihapus sebelum sistem baru dibeli.
+    ~Pengguna dipaksa menggunakan sistem baru tanpa pemberitahuan.
+}
+
+::Q260:: Apa risiko utama dari "Hard-coded" nilai di dalam program? {
+    =Kesulitan dalam melakukan perubahan saat nilai tersebut berubah di dunia nyata.
+    ~Sistem akan meledak jika nilai tersebut diganti secara manual.
+    ~Memerlukan lebih banyak ruang penyimpanan pada hard disk.
+    ~Meningkatkan kecepatan pemrosesan data secara ilegal.
+}
+
+::Q261:: Auditor SI harus memverifikasi bahwa "Requirements Sign-off" telah dilakukan oleh: {
+    =Pemilik bisnis atau pengguna utama (Key Users).
+    ~Petugas keamanan gedung.
+    ~Vendor perangkat keras pihak ketiga.
+    ~Staf administrasi departemen keuangan.
+}
+
+::Q262:: "Software Escrow" sangat penting jika: {
+    =Vendor perangkat lunak adalah perusahaan kecil dengan risiko bangkrut yang tinggi.
+    ~Perangkat lunak tersebut tersedia secara gratis di internet.
+    ~Perusahaan memiliki tim pengembang internal yang sangat besar.
+    ~Sistem operasi yang digunakan adalah versi terbaru.
+}
+
+::Q263:: Apa tujuan utama dari "Post-Implementation Review"? {
+    =Menilai apakah tujuan bisnis proyek telah tercapai.
+    ~Menghukum anggota tim yang melakukan kesalahan selama proyek.
+    ~Menulis ulang seluruh kode program agar lebih cantik.
+    ~Menjual perangkat keras lama ke pasar barang bekas.
+}
+
+::Q264:: Manakah yang merupakan contoh "Processing Control"? {
+    =Run-to-run totals untuk memastikan konsistensi data antar tahap pemrosesan.
+    ~Penggunaan kartu akses untuk masuk ke pusat data.
+    ~Enkripsi data saat disimpan di dalam basis data.
+    ~Pemeriksaan latar belakang pengembang sistem.
+}
+
+::Q265:: Dalam manajemen proyek, "Resource Leveling" bertujuan untuk: {
+    =Menyeimbangkan beban kerja staf agar tidak ada yang kelebihan beban.
+    ~Memberikan gaji yang sama kepada semua staf proyek.
+    ~Menghapus semua tugas yang dianggap terlalu sulit.
+    ~Mengurangi jumlah komputer yang digunakan oleh tim pengembang.
+}
+
+::Q266:: "Data Dictionary" bermanfaat bagi auditor karena: {
+    =Menyediakan definisi standar dan struktur untuk semua elemen data.
+    ~Berisi terjemahan istilah IT ke dalam 50 bahasa asing.
+    ~Menyimpan kata sandi semua pengguna pangkalan data.
+    ~Menghitung total nilai aset perusahaan secara otomatis.
+}
+
+::Q267:: Apa risiko utama dari "In-house Development" (membangun sendiri)? {
+    =Biaya yang lebih tinggi dan risiko kegagalan proyek yang ditanggung sendiri.
+    ~Ketergantungan penuh pada vendor luar untuk perbaikan bug.
+    ~Kurangnya kemampuan untuk menyesuaikan sistem dengan proses bisnis.
+    ~Sistem tidak akan memiliki antarmuka pengguna grafis.
+}
+
+::Q268:: "Beta Testing" adalah pengujian yang dilakukan oleh: {
+    =Pengguna eksternal atau calon pengguna di lingkungan nyata.
+    ~Tim pengembang internal sebelum kode dikompilasi.
+    ~Auditor sistem informasi sebelum laporan final diterbitkan.
+    ~Robot otomatis untuk menguji kekuatan fisik server.
+}
+
+::Q269:: Manakah yang merupakan indikator terbaik bahwa "SDLC" diikuti dengan benar? {
+    =Adanya dokumentasi persetujuan (sign-off) pada setiap akhir fase.
+    ~Waktu penyelesaian proyek yang sangat cepat tanpa hambatan.
+    ~Jumlah rapat yang dilakukan setiap minggu oleh tim proyek.
+    ~Penggunaan bahasa pemrograman yang paling populer tahun ini.
+}
+
+::Q270:: "Static Analysis" dalam pengujian perangkat lunak melibatkan: {
+    =Pemeriksaan kode program tanpa menjalankan aplikasi tersebut.
+    ~Menjalankan aplikasi dengan jutaan data palsu.
+    ~Mengamati layar monitor yang tidak berubah selama 10 jam.
+    ~Menghitung jumlah kabel yang tidak bergerak di ruang server.
+}
+
+::Q271:: Apa risiko utama dari "Waterfall Model" pada proyek yang kompleks? {
+    =Kesalahan dalam persyaratan mungkin baru ditemukan pada akhir siklus hidup.
+    ~Proses pengembangan menjadi terlalu fleksibel dan tidak terukur.
+    ~Pengembang akan sering mengubah kode mereka setiap hari.
+    ~Memerlukan terlalu banyak keterlibatan pengguna setiap jam.
+}
+
+::Q272:: "Capability Maturity Model Integration" (CMMI) digunakan untuk: {
+    =Menilai dan meningkatkan kematangan proses pengembangan sistem.
+    ~Menentukan usia pensiun bagi pengembang senior.
+    ~Mengukur kecepatan transfer data pada jaringan fiber optik.
+    ~Menentukan harga jual perangkat lunak ke pasar global.
+}
+
+::Q273:: Dalam basis data, "Normalization" bertujuan untuk: {
+    =Mengurangi redundansi data dan meningkatkan integritas data.
+    ~Menambah jumlah tabel agar sistem terlihat lebih kompleks.
+    ~Memungkinkan semua staf mengakses data tanpa otentikasi.
+    ~Mempercepat proses pencetakan laporan pada printer dot-matrix.
+}
+
+::Q274:: Apa peran utama "Project Sponsor"? {
+    =Memberikan dukungan finansial dan kepemimpinan strategis bagi proyek.
+    ~Menulis instruksi kerja untuk staf entri data.
+    ~Memperbaiki perangkat keras yang rusak selama pengujian.
+    ~Mengambil salinan cadangan data setiap malam.
+}
+
+::Q275:: "User Manual" harus ditinjau oleh auditor SI untuk memastikan: {
+    =Instruksi tersebut akurat dan memadai bagi pengguna untuk mengoperasikan sistem.
+    ~Manual tersebut memiliki desain grafis yang sangat mewah.
+    ~Manual tersebut ditulis dalam ukuran font yang sangat besar.
+    ~Manual tersebut berisi foto-foto seluruh jajaran direksi.
+}
+
+::Q276:: Manakah yang merupakan risiko dari "Middleware" dalam arsitektur sistem? {
+    =Potensi menjadi titik kegagalan tunggal (single point of failure) bagi integrasi.
+    ~Middleware akan menghapus data di pangkalan data secara otomatis.
+    ~Pengguna akan merasa bingung karena tidak bisa melihat middleware.
+    ~Middleware memerlukan lebih banyak daya listrik daripada server utama.
+}
+
+::Q277:: "Standard Operating Environment" (SOE) membantu dalam: {
+    =Mengurangi biaya dukungan teknis dengan standarisasi perangkat lunak dan keras.
+    ~Memberikan kebebasan bagi setiap staf untuk menginstal aplikasi apa pun.
+    ~Meningkatkan risiko serangan virus karena semua komputer berbeda.
+    ~Menghapus kebutuhan akan lisensi perangkat lunak asli.
+}
+
+::Q278:: Apa tujuan dari "Parallel Testing"? {
+    =Membandingkan hasil sistem baru dengan sistem lama menggunakan data yang sama.
+    ~Menguji dua printer sekaligus untuk melihat mana yang lebih cepat.
+    ~Menjalankan dua antivirus pada satu komputer yang sama.
+    ~Mempekerjakan dua tim pengembang untuk menulis kode yang sama.
+}
+
+::Q279:: Auditor SI menemukan bahwa tidak ada rencana pemeliharaan setelah implementasi. Risiko utamanya adalah: {
+    =Sistem akan menjadi usang dan tidak dapat menangani kebutuhan bisnis baru.
+    ~Sistem akan otomatis meledak jika tidak dirawat selama satu bulan.
+    ~Biaya listrik perusahaan akan menurun secara drastis.
+    ~Karyawan akan berhenti menggunakan sistem karena bosan.
+}
+
+::Q280:: "Business Process Reengineering" (BPR) sering dilakukan bersamaan dengan implementasi sistem baru untuk: {
+    =Mengoptimalkan proses bisnis agar sesuai dengan kapabilitas sistem baru.
+    ~Menambah jumlah birokrasi di dalam organisasi.
+    ~Menentukan siapa yang akan menjadi manajer pemasaran baru.
+    ~Mencari alasan untuk mengurangi jumlah komputer kantor.
+}
+
+::Q281:: Manakah dari berikut ini yang merupakan risiko utama dari penggunaan "Web Services" untuk integrasi sistem? {
+    =Eksposur terhadap kerentanan keamanan melalui protokol HTTP/HTTPS.
+    ~Ketidakmampuan untuk mengirim data dalam format teks.
+    ~Biaya langganan internet yang meningkat sepuluh kali lipat.
+    ~Middleware harus diganti setiap kali ada transaksi baru.
+}
+
+::Q282:: Apa tujuan dari "Check Digit" dalam kontrol aplikasi? {
+    =Mendeteksi kesalahan transposisi atau pengetikan pada data identifikasi.
+    ~Menghitung jumlah total baris dalam sebuah laporan keuangan.
+    ~Memastikan bahwa hanya administrator yang bisa menghapus data.
+    ~Menyandikan data agar tidak bisa dibaca oleh pihak luar.
+}
+
+::Q283:: Dalam pengembangan sistem, "Agile Manifesto" lebih mengutamakan: {
+    =Perangkat lunak yang bekerja daripada dokumentasi yang komprehensif.
+    ~Kepatuhan ketat pada rencana awal daripada merespons perubahan.
+    ~Penggunaan alat dan proses daripada interaksi antar manusia.
+    ~Negosiasi kontrak daripada kolaborasi dengan pelanggan.
+}
+
+::Q284:: Auditor SI menemukan bahwa kode sumber tidak disimpan dalam sistem kontrol versi. Risiko utamanya adalah: {
+    =Kesulitan dalam melacak perubahan dan memulihkan versi sebelumnya.
+    ~Sistem operasi akan otomatis berhenti mengompilasi program.
+    ~Pengembang tidak akan bisa menggunakan keyboard mekanik.
+    ~Data di pangkalan data akan hilang secara permanen.
+}
+
+::Q285:: Manakah yang merupakan keuntungan utama dari "Service-Oriented Architecture" (SOA)? {
+    =Kemampuan untuk menggunakan kembali (reusable) layanan di berbagai aplikasi.
+    ~Menghilangkan kebutuhan akan jaringan area lokal (LAN).
+    ~Mengurangi jumlah memori yang dibutuhkan oleh server pusat.
+    ~Menjamin keamanan data 100% tanpa perlu enkripsi.
+}
+
+::Q286:: Apa yang dimaksud dengan "Integrity" dalam konteks pengujian sistem? {
+    =Sistem memproses data secara konsisten dan akurat sesuai aturan bisnis.
+    ~Sistem dapat berjalan selama 24 jam tanpa perlu dimatikan.
+    ~Sistem memiliki antarmuka yang sangat mudah dipahami pengguna.
+    ~Sistem dapat menyimpan data dalam jumlah yang tidak terbatas.
+}
+
+::Q287:: "Software Walkthrough" adalah teknik di mana: {
+    =Pengembang menjelaskan kode kepada rekan sejawat untuk menemukan kesalahan.
+    ~Auditor berjalan mengelilingi ruang kerja tim pengembang.
+    ~Pengguna akhir mencoba menjalankan aplikasi tanpa panduan.
+    ~Sistem dijalankan pada kecepatan rendah untuk melihat prosesnya.
+}
+
+::Q288:: Manakah dari berikut ini yang merupakan indikator terbaik dari "System Availability"? {
+    =Rasio antara waktu sistem aktif dibandingkan dengan total waktu operasi.
+    ~Jumlah komputer yang terhubung ke dalam jaringan perusahaan.
+    ~Kecepatan rata-rata staf dalam mengetik data ke sistem.
+    ~Banyaknya fitur baru yang ditambahkan setiap bulan.
+}
+
+::Q289:: "Post-Implementation Review" sebaiknya dilakukan oleh pihak yang: {
+    =Independen dari tim proyek pengembangan sistem.
+    ~Menulis kode program utama untuk sistem tersebut.
+    ~Menjual perangkat keras kepada organisasi.
+    ~Bertanggung jawab atas entri data harian.
+}
+
+::Q290:: Apa risiko utama dari pengadaan perangkat keras tanpa "Maintenance Contract"? {
+    =Waktu henti (downtime) yang lama jika terjadi kerusakan komponen fisik.
+    ~Perangkat keras tersebut akan otomatis meledak setelah satu tahun.
+    ~Sistem operasi tidak akan bisa diinstal pada perangkat tersebut.
+    ~Monitor akan menampilkan warna yang salah secara permanen.
+}
+
+::Q291:: "Data Archiving" bertujuan untuk: {
+    =Memindahkan data yang jarang diakses ke penyimpanan jangka panjang yang lebih murah.
+    ~Menghapus data sensitif agar tidak bisa ditemukan oleh auditor.
+    ~Menyalin semua data ke media cetak untuk disimpan di gudang.
+    ~Mengenkripsi data agar tidak bisa dibuka kembali selamanya.
+}
+
+::Q292:: Manakah yang merupakan peran auditor SI dalam fase pengadaan (Acquisition)? {
+    =Memastikan bahwa proses pemilihan vendor dilakukan secara transparan dan objektif.
+    ~Menentukan vendor mana yang harus dipilih oleh manajemen.
+    ~Menandatangani cek pembayaran untuk vendor perangkat lunak.
+    ~Menginstal perangkat lunak vendor di server perusahaan.
+}
+
+::Q293:: "Deadlock" dalam sistem pangkalan data terjadi ketika: {
+    =Dua proses saling menunggu sumber daya yang dikunci oleh proses lainnya.
+    ~Kabel jaringan terputus secara fisik di ruang server.
+    ~Pengguna lupa kata sandi administratif mereka.
+    ~Server kehabisan ruang penyimpanan pada hard disk.
+}
+
+::Q294:: Manakah yang merupakan contoh "Corrective Control" selama implementasi sistem? {
+    =Menjalankan prosedur pemulihan (recovery) setelah kegagalan migrasi data.
+    ~Memasang firewall sebelum sistem terhubung ke internet.
+    ~Melakukan pelatihan pengguna satu minggu sebelum sistem aktif.
+    ~Menandatangani kontrak asuransi untuk perangkat keras baru.
+}
+
+::Q295:: "User Interface" (UI) yang buruk dapat menyebabkan risiko: {
+    =Kesalahan input data oleh pengguna karena kebingungan atau kelelahan.
+    ~Kerusakan fisik pada layar monitor komputer.
+    ~Peningkatan kecepatan transmisi data di jaringan.
+    ~Pengurangan biaya lisensi perangkat lunak secara otomatis.
+}
+
+::Q296:: Apa fokus utama dari "Quality Assurance" (QA) dalam pengembangan perangkat lunak? {
+    =Memastikan proses pengembangan diikuti untuk menghasilkan produk berkualitas.
+    ~Memperbaiki semua bug yang ditemukan oleh pengguna akhir.
+    ~Menghitung total baris kode yang dihasilkan setiap jam.
+    ~Menjaga agar ruang kerja pengembang tetap bersih dan rapi.
+}
+
+::Q297:: "System Documentation" harus mencakup hal berikut, KECUALI: {
+    =Riwayat medis pribadi dari tim pengembang sistem.
+    ~Diagram alur data dan deskripsi desain program.
+    ~Panduan operasional untuk administrator sistem.
+    ~Spesifikasi kebutuhan pengguna yang telah disetujui.
+}
+
+::Q298:: Manakah dari berikut ini yang merupakan risiko dari "Embedded Audit Modules"? {
+    =Dapat mempengaruhi kinerja sistem produksi jika tidak dirancang dengan baik.
+    ~Akan menghapus log audit secara otomatis setiap jam.
+    ~Memerlukan penggunaan perangkat keras tambahan yang sangat besar.
+    ~Hanya bisa digunakan oleh auditor eksternal dari pemerintah.
+}
+
+::Q299:: "Acceptance Criteria" harus ditentukan: {
+    =Sebelum fase pengembangan sistem dimulai.
+    ~Setelah sistem selesai dibangun dan siap diluncurkan.
+    ~Hanya jika auditor meminta dokumen tersebut.
+    ~Saat sistem mengalami kegagalan di lingkungan produksi.
+}
+
+::Q300:: Hasil akhir dari Domain 3 yang sukses adalah sistem yang: {
+    =Memenuhi kebutuhan bisnis, memiliki kontrol yang memadai, dan memberikan nilai.
+    ~Memiliki harga beli yang paling murah di antara semua pilihan vendor.
+    ~Menggunakan bahasa pemrograman yang paling sulit dipelajari.
+    ~Tidak memerlukan dokumentasi karena sangat mudah digunakan.
+}
+
+// ==========================================================
+// CISA DOMAIN 4: IS Operations and Business Resilience (301-400)
+// ==========================================================
+
+::Q301:: Apa tujuan utama dari manajemen insiden (Incident Management)? {
+    =Memulihkan layanan normal secepat mungkin bagi pengguna.
+    ~Menentukan akar penyebab dari kegagalan sistem secara permanen.
+    ~Memastikan semua perangkat keras memiliki garansi yang aktif.
+    ~Menghukum staf yang menyebabkan terjadinya kesalahan sistem.
+}
+
+::Q302:: Manakah dari berikut ini yang merupakan perbedaan utama antara insiden dan masalah (Problem)? {
+    =Insiden adalah gangguan layanan, sedangkan masalah adalah penyebab yang belum diketahui dari satu atau lebih insiden.
+    ~Insiden ditangani oleh manajer senior, sedangkan masalah ditangani oleh staf help desk.
+    ~Insiden hanya terjadi pada perangkat keras, sedangkan masalah hanya terjadi pada perangkat lunak.
+    ~Tidak ada perbedaan; kedua istilah tersebut dapat digunakan secara bergantian.
+}
+
+::Q303:: Apa tujuan dari "Business Impact Analysis" (BIA) dalam perencanaan kelangsungan bisnis? {
+    =Mengidentifikasi proses bisnis kritis dan dampak jika terjadi gangguan.
+    ~Menghitung total nilai pasar dari aset fisik perusahaan.
+    ~Memilih vendor cadangan untuk layanan internet di kantor cabang.
+    ~Menentukan siapa yang harus berbicara kepada media saat terjadi bencana.
+}
+
+::Q304:: "Recovery Time Objective" (RTO) merujuk pada: {
+    =Durasi waktu maksimum yang diizinkan untuk memulihkan sistem setelah gangguan.
+    ~Jumlah data maksimum yang boleh hilang diukur dalam satuan waktu.
+    ~Waktu yang dibutuhkan auditor untuk memeriksa satu rak server.
+    ~Interval waktu antara dua pencadangan data (backup) yang berurutan.
+}
+
+::Q305:: "Recovery Point Objective" (RPO) menentukan: {
+    =Titik waktu data harus dapat dipulihkan (maksimum kehilangan data yang dapat ditoleransi).
+    ~Lokasi geografis di mana pusat data cadangan harus dibangun.
+    ~Jumlah staf yang diperlukan untuk menjalankan sistem selama bencana.
+    ~Kecepatan CPU yang dibutuhkan untuk memproses data pemulihan.
+}
+
+::Q306:: Manakah dari berikut ini yang merupakan kontrol terbaik untuk mencegah kegagalan sistem akibat lonjakan listrik? {
+    =Uninterruptible Power Supply (UPS) dan generator cadangan.
+    ~Pemasangan antivirus versi terbaru pada semua server.
+    ~Penggunaan kata sandi yang kompleks untuk administrator sistem.
+    ~Pemasangan karpet anti-statis di seluruh ruang kantor.
+}
+
+::Q307:: Auditor SI menemukan bahwa pusat data tidak memiliki sistem pendeteksi kebocoran air. Risiko utamanya adalah: {
+    =Kerusakan fisik pada perangkat keras yang menyebabkan penghentian operasional.
+    ~Data di dalam hard disk akan terhapus secara otomatis oleh air.
+    ~Biaya asuransi gedung akan menjadi sangat murah.
+    ~Kabel jaringan akan mengirimkan data lebih lambat.
+}
+
+::Q308:: Apa fungsi dari "Librarian" dalam operasional TI yang memiliki pemisahan tugas yang baik? {
+    =Mengelola dan mengontrol pergerakan media penyimpanan data (seperti tape backup).
+    ~Menyusun buku-buku referensi di perpustakaan kantor.
+    ~Menulis kode program untuk aplikasi pangkalan data.
+    ~Menentukan anggaran untuk pembelian perangkat lunak tahunan.
+}
+
+::Q309:: Manakah yang merupakan indikator terbaik dari efektivitas "Batch Processing"? {
+    =Jumlah kesalahan transaksi yang ditemukan dalam laporan rekonsiliasi.
+    ~Kecepatan staf dalam memasukkan data ke dalam sistem.
+    ~Warna lampu indikator pada panel depan server.
+    ~Jumlah printer yang digunakan untuk mencetak hasil proses.
+}
+
+::Q310:: Dalam manajemen perubahan, "Emergency Changes" harus: {
+    =Didokumentasikan dan ditinjau segera setelah perubahan dilakukan.
+    ~Dilarang sepenuhnya karena risiko keamanannya terlalu tinggi.
+    ~Dilakukan tanpa perlu persetujuan dari manajer mana pun.
+    ~Hanya boleh dilakukan oleh vendor luar.
+}
+
+::Q311:: Apa tujuan dari penggunaan "Job Scheduling Software"? {
+    =Memastikan proses komputer dijalankan dalam urutan yang benar dan tepat waktu.
+    ~Membantu manajer SDM dalam menjadwalkan wawancara kerja.
+    ~Menghitung berapa lama seorang karyawan bekerja di kantor.
+    ~Menentukan kapan sebuah komputer harus dijual ke pasar barang bekas.
+}
+
+::Q312:: Auditor SI menemukan bahwa log operasional tidak ditinjau secara berkala. Hal ini meningkatkan risiko: {
+    =Aktivitas tidak sah atau kegagalan sistem tidak terdeteksi tepat waktu.
+    ~Sistem operasi akan otomatis berhenti berfungsi dalam seminggu.
+    ~Kapasitas hard disk akan habis dalam waktu yang sangat singkat.
+    ~Monitor komputer akan menampilkan gambar yang buram.
+}
+
+::Q313:: "Mirroring" pangkalan data secara real-time adalah solusi terbaik untuk organisasi dengan: {
+    =RPO dan RTO yang mendekati nol (sistem sangat kritis).
+    ~Anggaran TI yang sangat terbatas dan banyak waktu luang.
+    ~Jumlah data yang sangat sedikit dan jarang berubah.
+    ~Kebutuhan untuk menyimpan data dalam bentuk cetak (hardcopy).
+}
+
+::Q314:: Manakah yang merupakan risiko utama dari penggunaan "Hot Site" sebagai fasilitas pemulihan? {
+    =Biaya pemeliharaan yang sangat mahal karena fasilitas selalu siap digunakan.
+    ~Waktu pemulihan yang sangat lama (bisa memakan waktu berminggu-minggu).
+    ~Kurangnya perangkat keras dan koneksi jaringan di lokasi tersebut.
+    ~Fasilitas tersebut tidak memiliki sistem pendingin udara.
+}
+
+::Q315:: Sebuah "Cold Site" biasanya hanya menyediakan: {
+    =Ruang fisik, listrik, dan pendingin tanpa perangkat keras komputer yang siap.
+    ~Sistem operasi yang sudah terinstal dan data yang sudah sinkron.
+    ~Staf operasional yang siap bekerja 24 jam sehari.
+    ~Layanan katering untuk seluruh karyawan perusahaan.
+}
+
+::Q316:: Auditor SI harus memverifikasi bahwa cadangan data (backup) disimpan: {
+    =Di lokasi luar (off-site) yang aman dan memiliki jarak geografis yang cukup.
+    ~Tepat di atas rak server produksi agar mudah diambil saat dibutuhkan.
+    ~Di dalam mobil pribadi manajer TI agar aman dari pencurian di kantor.
+    ~Hanya di dalam memori cloud tanpa salinan fisik sama sekali.
+}
+
+::Q317:: Apa yang dimaksud dengan "Grandfather-Father-Son" dalam strategi backup? {
+    =Siklus rotasi media penyimpanan harian, mingguan, dan bulanan.
+    ~Struktur organisasi di departemen operasional TI.
+    ~Metode untuk menentukan siapa yang berhak mewarisi aset TI.
+    ~Jenis kabel yang digunakan untuk menghubungkan drive backup.
+}
+
+::Q318:: Manakah dari berikut ini yang merupakan kontrol detektif di ruang pusat data? {
+    =Sensor asap dan alarm kebakaran.
+    ~Pintu baja dengan kunci biometrik.
+    ~Kebijakan yang melarang membawa makanan ke ruang server.
+    ~Pemasangan sistem pemadam api otomatis (gas halon/FM-200).
+}
+
+::Q319:: "Service Level Management" bertujuan untuk: {
+    =Menegosiasikan, menyepakati, dan memantau tingkat layanan TI kepada bisnis.
+    ~Mengurangi gaji staf yang gagal mencapai target kecepatan kerja.
+    ~Menghapus semua keluhan pengguna dari sistem help desk.
+    ~Menjamin bahwa sistem tidak akan pernah mengalami downtime.
+}
+
+::Q320:: Auditor SI menemukan bahwa kapasitas CPU server sering mencapai 100%. Langkah operasional yang tepat adalah: {
+    =Melakukan analisis manajemen kapasitas dan merencanakan upgrade.
+    ~Mematikan setengah dari pengguna agar beban server berkurang.
+    ~Menghapus semua log sistem untuk menghemat siklus prosesor.
+    ~Mendinginkan ruang server dengan suhu ekstrem agar CPU lebih cepat.
+}
+
+::Q321:: Apa risiko utama dari pengabaian manajemen patch (Patch Management)? {
+    =Kerentanan keamanan yang diketahui dapat dieksploitasi oleh penyerang.
+    ~Sistem akan otomatis menghapus file sistem yang tidak terpakai.
+    ~Biaya lisensi sistem operasi akan meningkat secara otomatis.
+    ~Karyawan tidak akan bisa membuka email pribadi mereka.
+}
+
+::Q322:: Manakah yang merupakan contoh dari "Redundancy" dalam infrastruktur TI? {
+    =Penggunaan Dual Power Supply dan koneksi internet dari dua ISP berbeda.
+    ~Menyimpan dua salinan kata sandi administrator di bawah keyboard.
+    ~Mempekerjakan dua orang untuk melakukan pekerjaan yang sebenarnya bisa dilakukan satu orang.
+    ~Membeli dua jenis monitor yang berbeda untuk setiap meja.
+}
+
+::Q323:: "Differential Backup" menyalin data yang: {
+    =Telah berubah sejak backup penuh (full backup) terakhir dilakukan.
+    ~Berada di dalam folder yang berbeda dengan folder sistem.
+    ~Hanya berisi file gambar dan video milik pengguna.
+    ~Memiliki ukuran file lebih dari satu gigabyte.
+}
+
+::Q324:: Apa keuntungan utama dari "Incremental Backup" dibandingkan "Differential Backup"? {
+    =Memerlukan waktu backup yang lebih singkat karena hanya menyalin perubahan sejak backup terakhir.
+    ~Proses pemulihan data (restore) jauh lebih cepat dan sederhana.
+    ~Tidak memerlukan media penyimpanan tambahan seperti tape atau disk.
+    ~Dapat dilakukan tanpa perlu mematikan aplikasi pangkalan data.
+}
+
+::Q325:: Auditor SI menemukan bahwa rencana pemulihan bencana (DRP) belum pernah diuji. Tindakan terbaik adalah: {
+    =Merekomendasikan pelaksanaan uji coba DRP secara bertahap (seperti walkthrough).
+    ~Menyimpulkan bahwa DRP tersebut sudah sempurna dan tidak perlu diuji.
+    ~Menyuruh manajer TI untuk mensimulasikan kebakaran sungguhan di kantor.
+    ~Menghapus seluruh DRP karena dianggap tidak berguna jika tidak diuji.
+}
+
+::Q326:: Apa yang dimaksud dengan "Disaster Recovery Plan" (DRP) yang bersifat "Modular"? {
+    =Rencana yang dibagi menjadi beberapa bagian kecil berdasarkan unit bisnis atau sistem.
+    ~Rencana yang hanya bisa dijalankan pada komputer buatan satu merek saja.
+    ~Rencana yang disusun menggunakan bahasa pemrograman Java.
+    ~Rencana yang disimpan di dalam modul memori USB.
+}
+
+::Q327:: Dalam pengoperasian jaringan, "Quality of Service" (QoS) digunakan untuk: {
+    =Memprioritaskan lalu lintas data yang kritis (seperti suara/VoIP) di atas data lainnya.
+    ~Menilai kualitas perilaku karyawan saat menggunakan internet.
+    ~Menghitung berapa banyak kabel yang rusak di dalam gedung.
+    ~Menentukan siapa yang boleh memiliki akses wifi paling cepat.
+}
+
+::Q328:: Apa risiko utama dari operasional TI yang dilakukan sepenuhnya oleh pihak ketiga (Outsourced)? {
+    =Kehilangan pengetahuan internal dan ketergantungan pada stabilitas vendor.
+    ~Server akan meledak jika tidak dirawat oleh karyawan tetap.
+    ~Vendor akan menaikkan harga setiap kali terjadi hujan lebat.
+    ~Karyawan internal akan menjadi terlalu pintar sehingga sulit diatur.
+}
+
+::Q329:: Manakah yang merupakan bukti terbaik bahwa prosedur backup berjalan efektif? {
+    =Keberhasilan pengujian pemulihan data (restore test) secara berkala.
+    ~Adanya label yang tertempel dengan rapi di setiap kaset backup.
+    ~Jumlah kaset backup yang disimpan di dalam lemari besi.
+    ~Tanda tangan staf operasional pada buku log setiap pagi.
+}
+
+::Q330:: Auditor SI sedang meninjau "Problem Management". Hal terpenting yang harus dicari adalah: {
+    =Analisis akar penyebab (Root Cause Analysis) dan tindakan pencegahan permanen.
+    ~Kecepatan staf help desk dalam menjawab telepon pelanggan.
+    ~Jumlah komputer yang diperbaiki dalam waktu satu jam.
+    ~Warna seragam yang dikenakan oleh tim teknis operasional.
+}
+
+::Q331:: "Release Management" bertanggung jawab untuk: {
+    =Menggabungkan perubahan yang telah diuji ke dalam lingkungan produksi secara terkontrol.
+    ~Mengumumkan berita tentang produk baru kepada media massa.
+    ~Melepaskan karyawan yang sudah tidak produktif di departemen TI.
+    ~Menjual versi lama dari perangkat lunak kepada perusahaan lain.
+}
+
+::Q332:: Apa tujuan dari "Configuration Management"? {
+    =Melacak semua komponen infrastruktur TI (CI) dan hubungan di antaranya.
+    ~Mengatur posisi meja dan kursi di dalam departemen IT.
+    ~Menghitung total daya listrik yang digunakan oleh monitor pengguna.
+    ~Menentukan nama-nama akun pengguna di media sosial perusahaan.
+}
+
+::Q333:: Manakah dari berikut ini yang merupakan ancaman "Man-made" bagi kelangsungan bisnis? {
+    =Serangan siber atau sabotase oleh karyawan yang tidak puas.
+    ~Gempa bumi dengan skala di atas 7 SR.
+    ~Banjir bandang akibat curah hujan yang ekstrem.
+    ~Letusan gunung berapi yang berada di dekat pusat data.
+}
+
+::Q334:: Apa fungsi utama dari "Uninterruptible Power Supply" (UPS)? {
+    =Memberikan daya sementara agar sistem dapat dimatikan secara normal atau menunggu generator aktif.
+    ~Mengubah arus listrik AC menjadi DC untuk mendinginkan server.
+    ~Mencegah peretas masuk ke dalam jaringan melalui kabel listrik.
+    ~Mempercepat koneksi internet saat terjadi pemadaman lampu.
+}
+
+::Q335:: Dalam pemilihan lokasi pusat data, faktor geografis yang paling penting dipertimbangkan adalah: {
+    =Kedekatan dengan garis patahan gempa atau daerah rawan banjir.
+    ~Jarak tempuh dari rumah Chief Information Officer (CIO).
+    ~Kedekatan dengan pusat perbelanjaan atau mall.
+    ~Ketersediaan tempat parkir yang luas bagi pengunjung.
+}
+
+::Q336:: "Tabletop Exercise" dalam pemulihan bencana melibatkan: {
+    =Diskusi kelompok untuk meninjau langkah-langkah pemulihan berdasarkan skenario tertentu.
+    ~Latihan fisik memindahkan server dari satu meja ke meja lainnya.
+    ~Pertandingan tenis meja antar staf TI untuk membangun kerja sama tim.
+    ~Pembersihan debu di atas meja kerja setiap akhir pekan.
+}
+
+::Q337:: Apa risiko utama dari "Co-location" (menyewa ruang di pusat data pihak ketiga)? {
+    =Berbagi fasilitas dengan organisasi lain yang mungkin memiliki risiko keamanan berbeda.
+    ~Perangkat keras kita akan otomatis menjadi milik vendor setelah tiga tahun.
+    ~Kita tidak akan bisa mengakses server kita sendiri selamanya.
+    ~Vendor akan menggunakan server kita untuk menambang bitcoin secara diam-diam.
+}
+
+::Q338:: Auditor SI menemukan bahwa "Media Sanitization" tidak dilakukan pada hard disk bekas. Risikonya adalah: {
+    =Data sensitif dapat dipulihkan dan disalahgunakan oleh pihak yang tidak berwenang.
+    ~Hard disk tersebut tidak akan bisa dijual kembali dengan harga tinggi.
+    ~Sistem operasi baru tidak akan bisa diinstal pada hard disk tersebut.
+    ~Hard disk akan meledak jika dipasang di komputer lain.
+}
+
+::Q339:: Manakah dari berikut ini yang merupakan peran dari "Business Continuity Manager"? {
+    =Mengoordinasikan pengembangan dan pengujian rencana kelangsungan bisnis.
+    ~Memperbaiki sirkuit listrik yang rusak di ruang server.
+    ~Menandatangani kontrak pembelian perangkat lunak akuntansi.
+    ~Melakukan coding untuk sistem deteksi intrusi jaringan.
+}
+
+::Q340:: Hasil akhir dari Domain 4 yang sukses adalah operasional TI yang: {
+    =Tangguh, andal, dan mampu pulih dari gangguan sesuai kebutuhan bisnis.
+    ~Memiliki jumlah server terbanyak di antara perusahaan pesaing.
+    ~Mampu berjalan tanpa memerlukan biaya operasional sama sekali.
+    ~Menggunakan teknologi yang paling sulit dipahami oleh orang awam.
+}
+
+::Q341:: Manakah dari berikut ini yang merupakan keuntungan utama dari penyimpanan data di Cloud bagi pemulihan bencana? {
+    =Data tersimpan di lokasi geografis yang berbeda secara otomatis.
+    ~Biaya penyimpanan cloud selalu lebih murah daripada hard disk fisik.
+    ~Cloud menjamin bahwa data tidak akan pernah bisa diakses oleh peretas.
+    ~Penyedia cloud bertanggung jawab penuh atas semua kesalahan input data.
+}
+
+::Q342:: "Mean Time Between Failures" (MTBF) adalah ukuran untuk: {
+    =Keandalan (reliability) suatu komponen perangkat keras.
+    ~Kecepatan rata-rata internet di dalam kantor.
+    ~Jumlah total jam kerja staf operasional TI.
+    ~Waktu yang dibutuhkan untuk memperbaiki server yang rusak.
+}
+
+::Q343:: "Mean Time To Repair" (MTTR) mengukur: {
+    =Waktu rata-rata yang dibutuhkan untuk memperbaiki sistem setelah terjadi kegagalan.
+    ~Jarak waktu antara dua kegagalan sistem yang berurutan.
+    ~Jumlah personil yang dibutuhkan untuk mengganti hard disk.
+    ~Berapa lama sebuah server dapat bertahan tanpa listrik.
+}
+
+::Q344:: Auditor SI menemukan bahwa baterai UPS tidak pernah diuji beban (load test). Risiko utamanya adalah: {
+    =UPS mungkin gagal memberikan daya saat terjadi pemadaman listrik yang sebenarnya.
+    ~Tagihan listrik perusahaan akan meningkat secara drastis.
+    ~Server akan meledak jika baterai terlalu penuh.
+    ~Kecepatan jaringan akan menurun jika baterai sudah tua.
+}
+
+::Q345:: Apa tujuan dari "Service Level Agreement" (SLA) dalam operasional TI? {
+    =Mendefinisikan ekspektasi kinerja layanan antara penyedia layanan dan pelanggan.
+    ~Memberikan instruksi teknis cara merakit server kepada pengguna.
+    ~Menentukan hukuman penjara bagi staf yang gagal memperbaiki sistem.
+    ~Menjamin bahwa perangkat lunak tidak akan pernah memiliki bug.
+}
+
+::Q346:: Manakah yang merupakan contoh "Corrective Control" dalam operasional TI? {
+    =Melakukan pemulihan data dari tape backup setelah kegagalan disk.
+    ~Menggunakan pemindai biometrik untuk akses ke pusat data.
+    ~Menulis kebijakan tentang penggunaan email yang aman.
+    ~Memasang sistem deteksi intrusi (IDS) pada jaringan.
+}
+
+::Q347:: "Incident Escalation" dilakukan ketika: {
+    =Tim pendukung tingkat pertama tidak dapat menyelesaikan insiden dalam waktu yang ditentukan.
+    ~Pengguna merasa senang dengan layanan yang diberikan.
+    ~Sistem berjalan normal tanpa ada gangguan apa pun.
+    ~Staf help desk ingin pergi makan siang.
+}
+
+::Q348:: Apa risiko utama dari penggunaan "Shared Infrastructure" di pusat data? {
+    =Potensi kebocoran data antar pengguna atau gangguan kinerja akibat pengguna lain.
+    ~Biaya sewa yang menjadi lebih mahal daripada membangun gedung sendiri.
+    ~Kabel jaringan akan menjadi kusut karena terlalu banyak perangkat.
+    ~Hanya satu perusahaan yang boleh menggunakan pendingin udara.
+}
+
+::Q349:: Auditor SI harus memverifikasi bahwa "DRP" mencakup: {
+    =Langkah-langkah detail untuk memulihkan operasi TI di lokasi alternatif.
+    ~Daftar semua merek makanan yang disukai oleh staf TI.
+    ~Foto-foto kenangan saat peresmian kantor pusat.
+    ~Prediksi cuaca untuk sepuluh tahun ke depan.
+}
+
+::Q350:: "Warm Site" adalah lokasi pemulihan bencana yang menyediakan: {
+    =Infrastruktur jaringan dan server yang tersedia, tetapi data perlu dipulihkan dari cadangan.
+    ~Fasilitas lengkap dengan data yang tersinkronisasi secara real-time.
+    ~Hanya ruangan kosong tanpa listrik dan tanpa perangkat keras.
+    ~Layanan hotel berbintang untuk manajer senior selama masa krisis.
+}
+
+::Q351:: Manakah yang merupakan indikator keberhasilan "Problem Management"? {
+    =Berkurangnya jumlah insiden yang berulang dengan akar penyebab yang sama.
+    ~Meningkatnya jumlah panggilan ke layanan bantuan (help desk).
+    ~Banyaknya jumlah tiket yang ditutup tanpa solusi permanen.
+    ~Kecepatan staf dalam mengganti keyboard pengguna yang rusak.
+}
+
+::Q352:: Apa fungsi dari "Operations Manager" dalam struktur organisasi TI? {
+    =Mengawasi aktivitas harian pusat data dan infrastruktur TI.
+    ~Menulis kode program untuk aplikasi pemasaran perusahaan.
+    ~Melakukan audit keuangan tahunan terhadap departemen sumber daya manusia.
+    ~Menentukan harga jual produk utama perusahaan.
+}
+
+::Q353:: Auditor SI menemukan bahwa media cadangan tidak diberi label secara sistematis. Risikonya adalah: {
+    =Kesulitan dan keterlambatan dalam menemukan data yang tepat saat pemulihan diperlukan.
+    ~Data di dalam kaset akan terhapus secara otomatis oleh sinar matahari.
+    ~Kaset backup tidak akan bisa masuk ke dalam mesin pembaca (drive).
+    ~Warna kaset akan memudar jika tidak diberi label.
+}
+
+::Q354:: "Off-site Storage" untuk data cadangan harus: {
+    =Berjarak cukup jauh agar tidak terkena bencana yang sama dengan lokasi utama.
+    ~Terletak tepat di seberang jalan dari kantor pusat agar mudah dijangkau.
+    ~Berada di rumah pribadi setiap staf TI agar aman dari pencurian.
+    ~Disimpan di dalam lemari plastik biasa agar menghemat biaya.
+}
+
+::Q355:: Manakah dari berikut ini yang merupakan ancaman "Environmental" bagi operasional TI? {
+    =Kebocoran pipa air di atas ruang server.
+    ~Perubahan kebijakan politik negara tetangga.
+    ~Kenaikan suku bunga bank sentral.
+    ~Kegagalan algoritma pada perangkat lunak akuntansi.
+}
+
+::Q356:: Tujuan dari "Capacity Management" adalah untuk memastikan bahwa: {
+    =Sumber daya TI memadai untuk memenuhi beban kerja saat ini dan rencana pertumbuhan.
+    ~Jumlah karyawan di kantor tidak melebihi kapasitas kursi yang tersedia.
+    ~Setiap server memiliki memori yang selalu kosong 100%.
+    ~Printer memiliki cukup kertas untuk mencetak satu juta halaman per hari.
+}
+
+::Q357:: Apa yang dimaksud dengan "Full Testing" dalam pemulihan bencana? {
+    =Menghentikan operasi di lokasi utama dan menjalankan seluruh operasi di lokasi cadangan.
+    ~Membaca dokumen rencana pemulihan bersama seluruh staf di ruang rapat.
+    ~Menghapus seluruh data produksi untuk melihat apakah cadangan bekerja.
+    ~Melakukan uji coba hanya pada sistem pengeras suara di kantor.
+}
+
+::Q358:: "Business Continuity Planning" (BCP) lebih luas dari "DRP" karena BCP fokus pada: {
+    =Kelangsungan seluruh proses bisnis organisasi, bukan hanya sistem TI.
+    ~Cara mendapatkan pinjaman bank saat perusahaan mengalami kerugian.
+    ~Pelatihan fisik bagi karyawan agar kuat menghadapi bencana alam.
+    ~Penyusunan laporan tahunan untuk pemegang saham.
+}
+
+::Q359:: Auditor SI menemukan bahwa operasional TI dilakukan tanpa "Standard Operating Procedures" (SOP). Hal ini mengakibatkan: {
+    =Ketidakkonsistenan dalam pelaksanaan tugas dan peningkatan risiko kesalahan manusia.
+    ~Server akan otomatis berhenti beroperasi setiap jam 5 sore.
+    ~Biaya lisensi perangkat keras akan meningkat secara otomatis.
+    ~Koneksi internet akan menjadi lebih lambat secara permanen.
+}
+
+::Q360:: Apa risiko utama dari penggunaan "Universal Serial Bus" (USB) drive di lingkungan operasional? {
+    =Penyebaran malware dan risiko kebocoran data (data exfiltration).
+    ~USB drive akan menarik petir masuk ke dalam komputer.
+    ~Komputer akan kehabisan daya listrik jika terlalu banyak USB terpasang.
+    ~Layar monitor akan berkedip setiap kali USB dicabut.
+}
+
+::Q361:: Manakah yang merupakan kontrol terbaik untuk memastikan "High Availability" pada server web? {
+    =Penggunaan Load Balancer dan klaster server (clustering).
+    ~Mematikan server setiap malam agar mesin bisa beristirahat.
+    ~Menggunakan kabel jaringan yang berwarna-warni agar mudah diperbaiki.
+    ~Membatasi jumlah pengguna maksimal hanya 5 orang saja.
+}
+
+::Q362:: "RAID" (Redundant Array of Independent Disks) digunakan untuk: {
+    =Meningkatkan ketersediaan data dan kinerja melalui redundansi hard disk.
+    ~Menghapus virus dari pangkalan data secara otomatis.
+    ~Mengurangi penggunaan memori pada aplikasi pengolah kata.
+    ~Menjamin keamanan kata sandi administrator sistem.
+}
+
+::Q363:: Apa peran "Emergency Response Team" (ERT) saat terjadi kebakaran di pusat data? {
+    =Memastikan keselamatan nyawa personel dan meminimalkan kerusakan fisik.
+    ~Menyelamatkan dokumen gaji karyawan terlebih dahulu sebelum keluar.
+    ~Melakukan coding ulang untuk sistem yang terbakar saat itu juga.
+    ~Menghubungi media massa untuk melakukan siaran langsung.
+}
+
+::Q364:: Auditor SI menemukan bahwa "DRP" disimpan di atas server yang sama dengan data produksi. Risiko utamanya adalah: {
+    =Rencana tersebut tidak dapat diakses jika server produksi mengalami kegagalan.
+    ~Rencana tersebut akan terhapus oleh suhu panas server.
+    ~Karyawan lain akan mencuri strategi pemulihan bencana tersebut.
+    ~Rencana tersebut akan membuat server bekerja lebih lambat.
+}
+
+::Q365:: "Simulation Test" dalam BCP melibatkan: {
+    =Melatih staf dalam skenario bencana nyata tanpa mengganggu operasional harian.
+    ~Bermain game simulasi komputer untuk mengisi waktu luang.
+    ~Membuat maket gedung dari kertas untuk melihat jalur evakuasi.
+    ~Menghitung probabilitas gempa bumi menggunakan rumus matematika rumit.
+}
+
+::Q366:: Manakah dari berikut ini yang merupakan indikator dari "Poor Media Management"? {
+    =Media cadangan disimpan di lingkungan yang suhunya tidak terkontrol.
+    ~Setiap kaset cadangan memiliki kode batang (barcode) yang unik.
+    ~Adanya jadwal pembersihan drive kaset secara rutin.
+    ~Media cadangan yang sudah usang dihancurkan secara fisik.
+}
+
+::Q367:: Apa kegunaan dari "System Performance Monitoring tools"? {
+    =Mengidentifikasi hambatan (bottleneck) dan mengoptimalkan penggunaan sumber daya.
+    ~Mengetahui apa yang sedang diketik oleh pengguna secara real-time.
+    ~Mencari diskon perangkat keras di situs belanja daring.
+    ~Mengatur volume suara pada speaker komputer karyawan.
+}
+
+::Q368:: "Library Control" pada lingkungan produksi bertujuan untuk: {
+    =Memastikan hanya versi program yang telah disetujui yang dijalankan.
+    ~Memastikan buku-buku di perpustakaan TI dikembalikan tepat waktu.
+    ~Membatasi jumlah salinan cadangan yang boleh dibuat.
+    ~Melarang staf membawa buku pribadi ke dalam ruang server.
+}
+
+::Q369:: Manakah yang merupakan contoh "Administrative Control" dalam operasional TI? {
+    =Prosedur tertulis untuk manajemen perubahan (Change Management).
+    ~Penggunaan firewall generasi terbaru di perimeter jaringan.
+    ~Pemasangan kamera CCTV di setiap sudut ruangan.
+    ~Enkripsi data pada semua media penyimpanan portabel.
+}
+
+::Q370:: Apa risiko utama dari pengoperasian pusat data tanpa sistem pemadam api "Clean Agent"? {
+    =Penggunaan air untuk memadamkan api akan merusak perangkat elektronik secara permanen.
+    ~Api tidak akan bisa padam jika hanya menggunakan gas.
+    ~Gas tersebut akan membuat server bekerja lebih lambat setelah digunakan.
+    ~Staf akan kesulitan bernapas karena gas tersebut berbau sangat wangi.
+}
+
+::Q371:: Auditor SI harus memverifikasi bahwa "Interdependencies" antar sistem telah dipertimbangkan dalam: {
+    =Urutan pemulihan sistem (Recovery Priority) di dalam DRP.
+    ~Daftar gaji karyawan di departemen operasional.
+    ~Desain logo perusahaan pada aplikasi web.
+    ~Pemilihan merek pendingin udara untuk ruang server.
+}
+
+::Q372:: "Workaround" dalam manajemen insiden adalah: {
+    =Solusi sementara untuk memulihkan layanan tanpa memperbaiki akar masalah.
+    ~Cara bagi staf untuk pulang lebih awal saat pekerjaan selesai.
+    ~Metode untuk menghindari pembayaran pajak lisensi perangkat lunak.
+    ~Teknik untuk memaksa server berjalan lebih cepat dari spesifikasinya.
+}
+
+::Q373:: Apa tujuan utama dari "Data Center Physical Entry Logs"? {
+    =Menyediakan jejak audit tentang siapa yang masuk dan keluar dari area sensitif.
+    ~Menghitung berapa banyak orang yang menyukai fasilitas pusat data.
+    ~Menentukan biaya makan siang bagi pengunjung pusat data.
+    ~Mencatat merek sepatu yang digunakan oleh teknisi server.
+}
+
+::Q374:: Manakah dari berikut ini yang merupakan risiko "Supply Chain" bagi operasional TI? {
+    =Keterlambatan pengiriman suku cadang perangkat keras oleh vendor luar.
+    ~Perubahan algoritma pencarian pada mesin pencari internet.
+    ~Kenaikan harga kertas untuk mesin fotokopi kantor.
+    ~Jumlah pengikut akun media sosial vendor yang menurun.
+}
+
+::Q375:: "Redundant Array of Inexpensive Nodes" (RAIN) mirip dengan RAID tetapi digunakan untuk: {
+    =Ketersediaan data pada tingkat server/node dalam lingkungan komputasi terdistribusi.
+    ~Mengurangi biaya pembelian komputer meja bagi karyawan magang.
+    ~Menghitung jumlah curah hujan di sekitar lokasi pusat data.
+    ~Mengatur kecepatan putaran kipas pada setiap server.
+}
+
+::Q376:: Auditor SI menemukan bahwa organisasi tidak memiliki "Mutual Aid Agreement". Hal ini berarti: {
+    =Organisasi tidak memiliki kesepakatan dengan pihak lain untuk berbagi fasilitas saat bencana.
+    ~Organisasi tidak memiliki asuransi kesehatan bagi karyawannya.
+    ~Karyawan tidak diperbolehkan saling membantu saat mengerjakan tugas harian.
+    ~Organisasi dilarang memberikan sumbangan kepada lembaga sosial.
+}
+
+::Q377:: Apa risiko utama dari "Lights-out Data Center"? {
+    =Keterlambatan dalam respon fisik jika terjadi kegagalan perangkat keras yang kritis.
+    ~Lampu di dalam pusat data akan padam selamanya dan merusak server.
+    ~Hantu akan menghuni pusat data karena tidak ada manusia.
+    ~Tagihan listrik akan menjadi nol karena tidak ada lampu yang menyala.
+}
+
+::Q378:: "Database Commit" dan "Rollback" adalah kontrol untuk memastikan: {
+    =Integritas transaksi pangkalan data (Atomicity).
+    ~Kecepatan pencarian data di dalam tabel besar.
+    ~Ukuran file pangkalan data tidak melebihi kapasitas disk.
+    ~Warna tampilan aplikasi pangkalan data tetap konsisten.
+}
+
+::Q379:: Manakah yang merupakan bukti terbaik bahwa "DRP" sudah mutakhir? {
+    =Adanya catatan tinjauan dan pembaruan rencana setelah terjadi perubahan infrastruktur signifikan.
+    ~Rencana tersebut dicetak di atas kertas yang sangat mahal dan tebal.
+    ~Rencana tersebut disimpan di dalam brankas milik CEO.
+    ~Terdapat tanda tangan dari seluruh staf pada halaman depan dokumen.
+}
+
+::Q380:: Apa fungsi dari "Watchdog Timer" dalam sistem operasional? {
+    =Mendeteksi dan memulihkan sistem dari kegagalan perangkat lunak atau hang.
+    ~Menghitung berapa lama staf melihat layar monitor mereka.
+    ~Memberikan peringatan jika ada anjing yang masuk ke ruang server.
+    ~Mengatur waktu istirahat bagi administrator sistem secara otomatis.
+}
+
+::Q381:: Manakah dari berikut ini yang merupakan keuntungan utama dari "Database Replication" dibandingkan backup konvensional? {
+    =Menyediakan ketersediaan tinggi dengan sinkronisasi data antar server secara cepat.
+    ~Memerlukan biaya penyimpanan yang jauh lebih sedikit daripada backup tape.
+    ~Menghilangkan kebutuhan untuk melakukan pengujian pemulihan (restore testing).
+    ~Dapat dilakukan oleh pengguna akhir tanpa bantuan staf IT.
+}
+
+::Q382:: Apa yang dimaksud dengan "Cold Site" dalam konteks pemulihan bencana? {
+    =Lokasi yang memiliki infrastruktur dasar tetapi tanpa perangkat keras komputer.
+    ~Pusat data yang suhunya dijaga tetap dingin di bawah nol derajat.
+    ~Lokasi pemulihan yang sudah memiliki data yang tersinkronisasi secara real-time.
+    ~Kantor cadangan yang hanya digunakan saat musim dingin.
+}
+
+::Q383:: Auditor SI menemukan bahwa organisasi tidak memiliki "Escalation Procedure" untuk insiden TI. Risiko utamanya adalah: {
+    =Insiden kritis mungkin tidak tertangani oleh personel yang tepat dalam waktu yang diizinkan.
+    ~Sistem operasi akan otomatis berhenti berfungsi jika terjadi kesalahan kecil.
+    ~Biaya lisensi perangkat lunak pemantau akan meningkat secara otomatis.
+    ~Karyawan akan kehilangan motivasi untuk bekerja lembur.
+}
+
+::Q384:: "Business Continuity Plan" (BCP) harus diperbarui ketika: {
+    =Terjadi perubahan signifikan pada infrastruktur atau proses bisnis organisasi.
+    ~Organisasi mengganti merek air minum kemasan di kantor.
+    ~Setiap kali ada karyawan baru yang masuk di departemen pemasaran.
+    ~Hanya satu kali dalam sepuluh tahun sesuai peraturan pemerintah.
+}
+
+::Q385:: Manakah yang merupakan contoh "Physical Access Control" untuk pusat data? {
+    =Pembaca kartu pintar dan otentikasi biometrik.
+    ~Penggunaan kata sandi yang kuat untuk login ke server pangkalan data.
+    ~Pemasangan perangkat lunak antivirus pada setiap komputer desktop.
+    ~Kebijakan yang melarang staf membawa ponsel ke dalam ruang rapat.
+}
+
+::Q386:: Apa tujuan utama dari "Post-Incident Review"? {
+    =Mengidentifikasi pelajaran yang dapat dipetik untuk mencegah terulangnya insiden serupa.
+    ~Menentukan siapa yang harus dipecat karena menyebabkan gangguan sistem.
+    ~Menghapus semua catatan tentang insiden agar laporan tahunan terlihat bagus.
+    ~Menghitung total bonus yang akan diberikan kepada tim penanggap insiden.
+}
+
+::Q387:: "Recovery Point Objective" (RPO) nol berarti: {
+    =Organisasi tidak mentoleransi kehilangan data sama sekali.
+    ~Sistem harus pulih dalam waktu kurang dari satu menit.
+    ~Data tidak perlu dicadangkan karena sistem dianggap sangat aman.
+    ~Biaya pemulihan bencana akan menjadi nol rupiah.
+}
+
+::Q388:: Manakah dari berikut ini yang merupakan indikator terbaik bahwa DRP akan berhasil? {
+    =Hasil dari pengujian rencana pemulihan yang dilakukan secara berkala dan terdokumentasi.
+    ~Ketebalan dokumen rencana pemulihan yang mencapai ratusan halaman.
+    ~Nama besar vendor yang membantu menyusun rencana tersebut.
+    ~Persetujuan tertulis dari dewan direksi atas dokumen rencana tersebut.
+}
+
+::Q389:: "Off-site Storage" kaset backup harus memiliki tingkat keamanan yang: {
+    =Setara atau lebih tinggi daripada lokasi penyimpanan utama (on-site).
+    ~Lebih rendah karena lokasi tersebut bersifat rahasia.
+    ~Sama dengan gudang penyimpanan alat tulis kantor.
+    ~Tidak perlu diperhatikan selama lokasinya jauh dari pusat kota.
+}
+
+::Q390:: Apa risiko utama dari penggunaan "Default Passwords" pada perangkat jaringan? {
+    =Memudahkan penyerang untuk mengambil alih kendali perangkat secara ilegal.
+    ~Perangkat akan bekerja lebih lambat karena password yang terlalu umum.
+    ~Garansi perangkat keras akan otomatis hangus jika password tidak diganti.
+    ~Kabel jaringan akan lebih mudah mengalami kerusakan fisik.
+}
+
+::Q391:: Manakah yang merupakan peran auditor SI dalam peninjauan BCP? {
+    =Mengevaluasi apakah rencana tersebut realistis dan selaras dengan kebutuhan bisnis.
+    ~Menyusun daftar kontak darurat bagi seluruh karyawan perusahaan.
+    ~Memimpin evakuasi fisik saat terjadi kebakaran di kantor pusat.
+    ~Menyimpan kunci cadangan untuk gedung pusat data alternatif.
+}
+
+::Q392:: Apa yang dimaksud dengan "Differential Backup"? {
+    =Mencadangkan semua file yang berubah sejak backup penuh terakhir.
+    ~Mencadangkan file yang hanya memiliki ukuran berbeda dari file asli.
+    ~Mencadangkan data ke dua lokasi yang berbeda secara bersamaan.
+    ~Mencadangkan data setiap satu jam sekali secara otomatis.
+}
+
+::Q393:: "Load Balancing" membantu menjaga ketersediaan sistem dengan: {
+    =Membagi beban kerja ke beberapa server untuk mencegah kelebihan beban pada satu unit.
+    ~Menghitung berat fisik dari setiap rak server yang terpasang.
+    ~Menyeimbangkan jumlah staf pria dan wanita di ruang operasional.
+    ~Mengatur penggunaan daya listrik agar merata di seluruh gedung.
+}
+
+::Q394:: Manakah yang merupakan contoh "Corrective Control" dalam manajemen operasional? {
+    =Prosedur pemulihan sistem dari kegagalan fungsi.
+    ~Pemasangan kamera CCTV di setiap sudut ruang server.
+    ~Pewajiban pemeriksaan latar belakang bagi semua staf TI baru.
+    ~Enkripsi data sensitif yang disimpan di dalam pangkalan data.
+}
+
+::Q395:: "Mean Time to Repair" (MTTR) yang rendah menunjukkan: {
+    =Efisiensi yang baik dalam memulihkan sistem setelah terjadi kegagalan.
+    ~Bahwa sistem sangat jarang mengalami kerusakan perangkat keras.
+    ~Bahwa biaya pemeliharaan perangkat keras sangat murah.
+    ~Bahwa staf TI memiliki waktu luang yang sangat banyak.
+}
+
+::Q396:: Apa risiko utama dari "Capacity Management" yang buruk? {
+    =Penurunan kinerja sistem atau kegagalan saat beban kerja meningkat.
+    ~Karyawan akan kesulitan menemukan tempat duduk di kantor.
+    ~Tagihan internet akan tetap murah meskipun penggunaan meningkat.
+    ~Server akan otomatis mati jika ruangan terlalu dingin.
+}
+
+::Q397:: Auditor SI menemukan bahwa "System Logs" disimpan di server yang sama dengan aplikasi. Risikonya adalah: {
+    =Penyerang dapat menghapus log untuk menutupi jejak aktivitas mereka.
+    ~Log tersebut akan membuat aplikasi berjalan sepuluh kali lebih cepat.
+    ~Sistem operasi akan otomatis mengenkripsi log tersebut setiap jam.
+    ~Log tidak akan bisa dibaca kecuali menggunakan perangkat keras khusus.
+}
+
+::Q398:: "Succession Planning" dalam operasional TI bertujuan untuk: {
+    =Memastikan kelangsungan operasional jika personel kunci meninggalkan organisasi.
+    ~Menentukan siapa yang akan menjadi pemenang dalam lomba inovasi TI.
+    ~Mengatur jadwal liburan tahunan bagi seluruh staf operasional.
+    ~Menghitung total masa kerja karyawan hingga usia pensiun.
+}
+
+::Q399:: Manakah dari berikut ini yang merupakan ancaman "Environmental" bagi pusat data? {
+    =Kegagalan sistem pendingin udara yang menyebabkan overheat.
+    ~Serangan virus yang masuk melalui lampiran email karyawan.
+    ~Kesalahan pengetikan data oleh staf entri data magang.
+    ~Pencurian laptop milik manajer senior saat di bandara.
+}
+
+::Q400:: Hasil akhir dari manajemen operasional TI yang efektif adalah: {
+    =Layanan TI yang stabil, aman, dan mendukung kebutuhan proses bisnis.
+    ~Penggunaan perangkat keras yang paling mahal dan terbaru di pasar.
+    ~Jumlah staf TI yang lebih banyak daripada staf departemen lainnya.
+    ~Ketiadaan audit internal karena sistem dianggap sudah sempurna.
+}
+
+// ==========================================================
+// CISA DOMAIN 5: Protection of Information Assets (401-500)
+// ==========================================================
+
+::Q401:: Manakah dari berikut ini yang merupakan tujuan utama dari keamanan informasi? {
+    =Menjaga kerahasiaan (confidentiality), integritas (integrity), dan ketersediaan (availability).
+    ~Memastikan semua karyawan memiliki akses ke semua data perusahaan.
+    ~Menghilangkan kebutuhan akan audit sistem informasi di masa depan.
+    ~Mengurangi biaya pembelian perangkat keras komputer setiap tahun.
+}
+
+::Q402:: Dalam enkripsi asimetris (Public Key), jika Budi ingin mengirim pesan rahasia kepada Ani, Budi harus mengenkripsi pesan tersebut menggunakan: {
+    =Kunci publik Ani.
+    ~Kunci peribadi Budi.
+    ~Kunci publik Budi.
+    ~Kunci peribadi Ani.
+}
+
+::Q403:: Apa fungsi utama dari "Digital Signature" (Tanda Tangan Digital)? {
+    =Menjamin integritas pesan dan keaslian pengirim (non-repudiation).
+    ~Menyembunyikan isi pesan agar tidak bisa dibaca oleh orang lain.
+    ~Mempercepat pengiriman email melalui jaringan internet.
+    ~Menghapus virus dari lampiran email secara otomatis.
+}
+
+::Q404:: Manakah dari berikut ini yang merupakan contoh kontrol akses biometrik yang paling sulit dipalsukan? {
+    =Imbasan iris mata.
+    ~Pengecaman suara.
+    ~Tanda tangan dinamis.
+    ~Geometri telapak tangan.
+}
+
+::Q405:: Apa risiko utama dari penggunaan "Shared Accounts" (akun yang digunakan bersama)? {
+    =Kehilangan akuntabilitas individu (non-repudiation).
+    ~Sistem akan berjalan lebih lambat karena banyak orang login bersamaan.
+    ~Biaya lisensi perangkat lunak akan menjadi lebih mahal.
+    ~Monitor komputer akan lebih cepat mengalami kerusakan fisik.
+}
+
+::Q406:: "Two-Factor Authentication" (2FA) yang paling kuat melibatkan kombinasi dari: {
+    =Sesuatu yang Anda ketahui (password) dan sesuatu yang Anda miliki (token).
+    ~Dua password yang berbeda untuk satu akun yang sama.
+    ~Password dan nama ibu kandung sebagai pertanyaan keamanan.
+    ~Alamat email dan nomor telepon kantor.
+}
+
+::Q407:: Auditor SI menemukan bahwa staf IT sering menggunakan "Default Passwords". Langkah pertama yang harus dilakukan adalah: {
+    =Menilai risiko dan merekomendasikan perubahan password segera pada semua perangkat.
+    ~Membiarkan hal tersebut selama perangkat berada di dalam firewall.
+    ~Menghapus semua akun yang menggunakan password default tanpa pemberitahuan.
+    ~Mengasumsikan vendor telah memberikan password yang paling aman.
+}
+
+::Q408:: Apa tujuan dari "Intrusion Detection System" (IDS)? {
+    =Memantau dan memberikan peringatan atas aktivitas jaringan yang mencurigakan.
+    ~Memperbaiki lubang keamanan pada sistem operasi secara otomatis.
+    ~Mengenkripsi seluruh lalu lintas data yang keluar dari perusahaan.
+    ~Mencegah karyawan mengakses situs media sosial selama jam kerja.
+}
+
+::Q409:: Manakah yang merupakan perbedaan utama antara IDS dan IPS (Intrusion Prevention System)? {
+    =IDS hanya mendeteksi dan memberi peringatan, sedangkan IPS dapat mengambil tindakan untuk memblokir serangan.
+    ~IDS digunakan untuk perangkat keras, sedangkan IPS digunakan untuk perangkat lunak.
+    ~IDS bekerja di lapisan fisik, sedangkan IPS bekerja di lapisan aplikasi.
+    ~Tidak ada perbedaan; keduanya adalah istilah yang sama.
+}
+
+::Q410:: "Phishing" adalah jenis serangan yang menggunakan: {
+    =Rekayasa sosial (social engineering) melalui email palsu untuk mencuri informasi.
+    ~Kekuatan fisik untuk merusak server di pusat data.
+    ~Algoritma matematika yang rumit untuk memecahkan enkripsi.
+    ~Kabel jaringan yang rusak untuk menyadap data.
+}
+
+::Q411:: Apa fungsi utama dari "Firewall" dalam keamanan jaringan? {
+    =Menyaring lalu lintas data berdasarkan aturan keamanan yang ditetapkan.
+    ~Mencegah komputer dari kerusakan fisik akibat panas berlebih.
+    ~Meningkatkan kecepatan koneksi internet bagi pengguna senior.
+    ~Menghapus semua email sampah (spam) sebelum sampai ke kotak masuk.
+}
+
+::Q412:: Auditor SI menemukan bahwa organisasi tidak memiliki "Data Classification Policy". Risiko utamanya adalah: {
+    =Kontrol keamanan mungkin tidak diterapkan secara memadai sesuai dengan sensitivitas data.
+    ~Sistem operasi akan otomatis berhenti mengolah data rahasia.
+    ~Karyawan akan lupa cara memasukkan data ke dalam sistem.
+    ~Biaya penyimpanan cloud akan meningkat sepuluh kali lipat.
+}
+
+::Q413:: Dalam konsep "Least Privilege", pengguna diberikan hak akses: {
+    =Hanya pada tingkat minimum yang diperlukan untuk menjalankan tugas mereka.
+    ~Paling luas agar mereka tidak perlu meminta izin lagi di masa depan.
+    ~Sama dengan hak akses yang dimiliki oleh manajer mereka.
+    ~Hanya pada jam kerja saja.
+}
+
+::Q414:: "Honey Pot" digunakan oleh tim keamanan untuk: {
+    =Menarik penyerang ke sistem palsu untuk mempelajari teknik mereka.
+    ~Memberikan bonus kepada karyawan yang menemukan celah keamanan.
+    ~Menyimpan cadangan data yang paling sensitif secara offline.
+    ~Mendinginkan suhu ruangan server agar tetap stabil.
+}
+
+::Q415:: Auditor SI sedang mengaudit keamanan nirkabel (Wi-Fi). Protokol enkripsi mana yang paling aman saat ini? {
+    =WPA3.
+    ~WEP.
+    ~WPA.
+    ~WPA2-TKIP.
+}
+
+::Q416:: Apa tujuan dari "Vulnerability Scanning"? {
+    =Mengidentifikasi kelemahan teknis yang diketahui pada sistem dan jaringan.
+    ~Menghapus semua file yang tidak pernah dibuka selama satu tahun.
+    ~Menentukan siapa karyawan yang paling sering melakukan kesalahan.
+    ~Menghitung total daya listrik yang digunakan oleh perangkat jaringan.
+}
+
+::Q417:: "Penetration Testing" berbeda dengan vulnerability scanning karena: {
+    =Penetration testing mencoba mengeksploitasi kerentanan untuk menguji kekuatan kontrol.
+    ~Penetration testing hanya dilakukan oleh pihak kepolisian.
+    ~Penetration testing tidak memerlukan izin dari pemilik sistem.
+    ~Penetration testing dilakukan tanpa menggunakan komputer sama sekali.
+}
+
+::Q418:: Manakah dari berikut ini yang merupakan contoh "Physical Control" di pusat data? {
+    =Mantrap (pintu ganda) dan kamera CCTV.
+    ~Kebijakan rotasi password setiap 30 hari.
+    ~Penggunaan algoritma enkripsi AES-256.
+    ~Pelatihan kesadaran keamanan bagi staf baru.
+}
+
+::Q419:: "Denial of Service" (DoS) attack bertujuan untuk: {
+    =Membuat layanan atau sistem tidak tersedia bagi pengguna yang sah.
+    ~Mencuri data kartu kredit dari pangkalan data perusahaan.
+    ~Mengubah kode sumber aplikasi secara diam-diam.
+    ~Memata-matai percakapan telepon manajer senior.
+}
+
+::Q420:: Apa peran "Certificate Authority" (CA) dalam infrastruktur kunci publik (PKI)? {
+    =Memverifikasi identitas dan menerbitkan sertifikat digital.
+    ~Menyimpan semua password pengguna dalam format teks biasa.
+    ~Melakukan audit fisik terhadap gedung kantor pusat perusahaan.
+    ~Mencegah virus masuk ke dalam jaringan area lokal.
+}
+
+::Q421:: Auditor SI menemukan bahwa tidak ada prosedur "De-provisioning" bagi karyawan yang keluar. Risikonya adalah: {
+    =Mantan karyawan masih dapat mengakses sistem perusahaan secara tidak sah.
+    ~Sistem akan otomatis menghapus semua pekerjaan yang pernah dibuat karyawan tersebut.
+    ~Karyawan tersebut akan tetap mendapatkan gaji meskipun sudah berhenti.
+    ~Komputer yang pernah digunakan karyawan tersebut tidak akan bisa dinyalakan.
+}
+
+::Q422:: "Social Engineering" paling efektif dicegah melalui: {
+    =Program pelatihan kesadaran keamanan (security awareness) bagi staf.
+    ~Pemasangan firewall yang paling mahal di dunia.
+    ~Penggunaan kabel jaringan berbahan fiber optik.
+    ~Pemisahan tugas antara administrator dan operator.
+}
+
+::Q423:: Apa risiko utama dari penggunaan "Bring Your Own Device" (BYOD)? {
+    =Kesulitan dalam mengontrol keamanan data perusahaan di perangkat pribadi.
+    ~Karyawan akan meminta perusahaan membayar tagihan telepon mereka.
+    ~Perangkat pribadi akan meledak jika terhubung ke wifi kantor.
+    ~Baterai perangkat akan lebih cepat habis saat digunakan bekerja.
+}
+
+::Q424:: "Data Loss Prevention" (DLP) digunakan untuk: {
+    =Mendeteksi dan mencegah pemindahan data sensitif ke luar organisasi tanpa izin.
+    ~Memulihkan data yang telah terhapus dari hard disk yang rusak.
+    ~Mencegah komputer kehilangan daya listrik saat terjadi badai.
+    ~Menghapus data sampah agar ruang penyimpanan tetap lega.
+}
+
+::Q425:: Manakah yang merupakan contoh "Technical Control"? {
+    =Implementasi sistem kontrol akses berbasis peran (RBAC).
+    ~Menulis standar operasional prosedur untuk administrasi sistem.
+    ~Melakukan pemeriksaan latar belakang pada vendor baru.
+    ~Memasang tanda "Dilarang Masuk" di depan ruang server.
+}
+
+::Q426:: Auditor SI menemukan bahwa "Backup Tapes" dikirim tanpa enkripsi. Risiko utamanya adalah: {
+    =Data dapat dibaca oleh pihak tidak berwenang jika kaset hilang atau dicuri.
+    ~Data di dalam kaset akan rusak karena guncangan selama perjalanan.
+    ~Kaset tidak akan bisa dibaca oleh mesin di lokasi tujuan.
+    ~Biaya pengiriman kaset akan menjadi lebih mahal.
+}
+
+::Q427:: "Man-in-the-Middle" (MitM) attack melibatkan: {
+    =Penyerang yang menyadap atau mengubah komunikasi antara dua pihak secara diam-diam.
+    ~Seseorang yang berdiri di tengah ruang server untuk menghalangi teknisi.
+    ~Peretas yang mencuri laptop karyawan di tempat umum.
+    ~Virus yang menghapus data di tengah-tengah proses pemrosesan.
+}
+
+::Q428:: Apa fungsi dari "Log Management"? {
+    =Mengumpulkan, menyimpan, dan menganalisis log aktivitas untuk deteksi insiden.
+    ~Menghitung berapa banyak batang kayu yang digunakan untuk membangun kantor.
+    ~Menentukan jadwal cuti bagi seluruh staf keamanan.
+    ~Menyimpan salinan surat masuk dan keluar departemen IT.
+}
+
+::Q429:: "Hardening" pada server melibatkan: {
+    =Menonaktifkan layanan dan port yang tidak diperlukan untuk mengurangi area serangan.
+    ~Membungkus server dengan pelat baja agar tahan benturan fisik.
+    ~Meningkatkan kecepatan putaran kipas pendingin server.
+    ~Memberikan password yang sangat panjang.
+}
+
+::Q430:: Auditor SI menemukan bahwa "Sensitive Data" disimpan dalam format teks biasa di basis data. Rekomendasi utamanya adalah: {
+    =Menerapkan enkripsi pada data saat diam (data-at-rest).
+    ~Menghapus data tersebut agar tidak bisa dicuri orang.
+    ~Membatasi akses ke ruang server hanya untuk satu orang saja.
+    ~Mengganti merek basis data yang digunakan perusahaan.
+}
+
+::Q431:: "Malware" yang menyandera data dan meminta tebusan disebut: {
+    =Ransomware.
+    ~Spyware.
+    ~Adware.
+    ~Trojan Horse.
+}
+
+::Q432:: Apa tujuan dari "Network Segmentation"? {
+    =Membagi jaringan menjadi bagian-bagian kecil untuk membatasi penyebaran serangan.
+    ~Mempercepat koneksi internet dengan membagi kabel menjadi dua.
+    ~Memungkinkan semua departemen saling berbagi file tanpa batasan.
+    ~Menghitung jumlah total komputer yang ada di organisasi.
+}
+
+::Q433:: Manakah dari berikut ini yang merupakan kontrol "Deterrent"? {
+    =Papan tanda peringatan tentang pemantauan kamera CCTV.
+    ~Pintu baja yang terkunci dengan sistem biometrik.
+    ~Sistem pemadam api otomatis di ruang server.
+    ~Enkripsi data pada hard disk eksternal.
+}
+
+::Q434:: "Audit Logging" harus mencakup informasi berikut untuk mendukung forensik, KECUALI: {
+    =Warna pakaian yang dikenakan pengguna saat melakukan login.
+    ~ID pengguna yang melakukan akses atau perubahan.
+    ~Alamat IP asal dan stempel waktu (timestamp) aktivitas.
+    ~Jenis aktivitas yang dilakukan (sukses atau gagal).
+}
+
+::Q435:: Apa risiko utama dari penggunaan "Public Wi-Fi" untuk mengakses data perusahaan? {
+    =Data dapat disadap dengan mudah melalui serangan sniffing.
+    ~Baterai laptop akan meledak karena voltase wifi publik tidak stabil.
+    ~Kecepatan internet akan turun drastis setiap kali ada orang lewat.
+    ~Sistem operasi akan otomatis melakukan update tanpa izin.
+}
+
+::Q436:: "Security Patch" harus diuji di lingkungan non-produksi terlebih dahulu untuk: {
+    =Memastikan patch tidak merusak stabilitas atau fungsi aplikasi yang ada.
+    ~Menghilangkan kebutuhan akan persetujuan dari manajer IT.
+    ~Menghemat penggunaan memori pada server produksi.
+    ~Menghitung berapa lama waktu yang dibutuhkan untuk menginstal patch.
+}
+
+::Q437:: Auditor SI menemukan bahwa kunci fisik ruang server tidak dikelola dengan baik. Risiko utamanya adalah: {
+    =Akses fisik tidak sah yang dapat menyebabkan pencurian atau sabotase perangkat.
+    ~Kunci tersebut akan berkarat dan merusak lubang kunci pintu.
+    ~Suhu ruangan server akan meningkat jika pintu tidak dikunci.
+    ~Tiket help desk akan meningkat karena banyak staf kehilangan kunci.
+}
+
+::Q438:: "Zero-day Exploit" merujuk pada serangan yang: {
+    =Mengeksploitasi kerentanan yang belum diketahui oleh vendor perangkat lunak.
+    ~Hanya terjadi pada hari pertama setiap bulan Januari.
+    ~Dilakukan oleh peretas yang tidak memiliki pengalaman sama sekali.
+    ~Gagal dilakukan karena sistem keamanan terlalu kuat.
+}
+
+::Q439:: Apa fungsi utama dari "Virtual Private Network" (VPN)? {
+    =Menyediakan saluran komunikasi yang aman dan terenkripsi melalui jaringan publik.
+    ~Meningkatkan kecepatan browsing situs web internasional.
+    ~Mencegah komputer dari serangan virus yang berasal dari flashdisk.
+    ~Menyembunyikan lokasi fisik kantor dari peta digital.
+}
+
+::Q440:: Hasil akhir dari Domain 5 yang sukses adalah: {
+    =Aset informasi organisasi terlindungi secara memadai dari ancaman internal dan eksternal.
+    ~Perusahaan tidak perlu lagi mengeluarkan uang untuk biaya keamanan.
+    ~Semua data perusahaan tersedia secara bebas di internet untuk kemudahan akses.
+    ~Hanya Chief Security Officer yang boleh menyalakan komputer perusahaan.
+}
+
+::Q441:: Manakah dari berikut ini yang merupakan keuntungan utama dari penggunaan "Air Gap"? {
+    =Memisahkan sistem kritis sepenuhnya dari jaringan publik untuk mencegah serangan jarak jauh.
+    ~Meningkatkan kecepatan aliran udara di dalam ruang server.
+    ~Memungkinkan sinkronisasi data secara real-time antar gedung.
+    ~Mengurangi biaya kabel jaringan dengan menggunakan transmisi nirkabel.
+}
+
+::Q442:: Dalam konteks keamanan logis, "Biometric False Acceptance Rate" (FAR) merujuk pada: {
+    =Peluang sistem mengizinkan akses kepada pengguna yang tidak sah.
+    ~Peluang sistem menolak akses bagi pengguna yang sah.
+    ~Jumlah total sidik jari yang tersimpan dalam database.
+    ~Waktu yang dibutuhkan sensor untuk memproses data biometrik.
+}
+
+::Q443:: "Steganography" adalah teknik yang digunakan untuk: {
+    =Menyembunyikan keberadaan pesan rahasia di dalam file lain.
+    ~Menghapus jejak kaki digital dari log sistem.
+    ~Mempercepat enkripsi data menggunakan perangkat keras khusus.
+    ~Menganalisis perilaku pengguna di media sosial secara otomatis.
+}
+
+::Q444:: Apa risiko utama dari "Privileged Identity Management" (PIM) yang buruk? {
+    =Penyalahgunaan akun administrator yang dapat menyebabkan kerusakan sistem yang luas.
+    ~Karyawan biasa tidak akan bisa mencetak dokumen berwarna.
+    ~Sistem operasi akan meminta pembaruan (update) setiap hari.
+    ~Waktu booting komputer akan menjadi lebih lama.
+}
+
+::Q445:: Auditor SI menemukan bahwa data sensitif dibuang ke tempat sampah tanpa dihancurkan. Prinsip keamanan yang dilanggar adalah: {
+    =Kerahasiaan (Confidentiality).
+    ~Ketersediaan (Availability).
+    ~Skalabilitas (Scalability).
+    ~Efisiensi (Efficiency).
+}
+
+::Q446:: Manakah yang merupakan contoh "Social Engineering" berbasis fisik? {
+    =Tailgating (mengikuti orang berwenang masuk ke area terlarang).
+    ~Mengirim email phishing ke ribuan orang sekaligus.
+    ~Melakukan brute force terhadap kata sandi administrator.
+    ~Menginstal malware melalui iklan di situs web.
+}
+
+::Q447:: "Encryption Key Management" sangat penting karena: {
+    =Keamanan data terenkripsi sangat bergantung pada kerahasiaan dan perlindungan kunci.
+    ~Kunci enkripsi yang panjang dapat mempercepat kinerja CPU.
+    ~Kunci enkripsi harus diganti setiap kali pengguna login.
+    ~Kunci enkripsi dapat digunakan sebagai cadangan data jika hard disk rusak.
+}
+
+::Q448:: Apa fungsi dari "Security Information and Event Management" (SIEM)? {
+    =Mengumpulkan dan menganalisis data log dari berbagai sumber untuk deteksi ancaman.
+    ~Menulis kebijakan keamanan informasi untuk seluruh organisasi.
+    ~Mengatur suhu dan kelembaban di dalam pusat data.
+    ~Memblokir semua lampiran email yang berbentuk file PDF.
+}
+
+::Q449:: Auditor SI harus memverifikasi bahwa "Access Reviews" dilakukan secara berkala untuk: {
+    =Memastikan hak akses pengguna masih sesuai dengan peran pekerjaan saat ini.
+    ~Menghitung berapa kali pengguna mengganti foto profil mereka.
+    ~Menentukan siapa karyawan yang paling rajin bekerja lembur.
+    ~Menghapus semua file pribadi pengguna dari drive jaringan.
+}
+
+::Q450:: "SQL Injection" adalah serangan yang menargetkan: {
+    =Celah keamanan pada input aplikasi untuk memanipulasi pangkalan data.
+    ~Kekuatan fisik kabel fiber optik di bawah tanah.
+    ~Protokol enkripsi pada jaringan wifi publik.
+    ~Kecepatan kipas pendingin pada kartu grafis server.
+}
+
+::Q451:: Manakah dari berikut ini yang merupakan kontrol terbaik untuk mencegah "Unauthorized Software Installation"? {
+    =Membatasi hak administratif pengguna lokal (Standard User).
+    ~Memasang poster daftar perangkat lunak yang dilarang.
+    ~Meningkatkan kapasitas memori RAM pada setiap komputer.
+    ~Menggunakan monitor yang memiliki fitur filter privasi.
+}
+
+::Q452:: "Digital Watermarking" digunakan terutama untuk: {
+    =Melindungi hak cipta dan melacak distribusi konten digital ilegal.
+    ~Mencegah komputer dari kerusakan akibat tumpahan air minum.
+    ~Menandai file yang sudah diperiksa oleh auditor SI.
+    ~Mengurangi ukuran file video agar mudah dikirim melalui email.
+}
+
+::Q453:: Apa risiko utama dari "Shadow IT"? {
+    =Data organisasi mungkin disimpan di platform yang tidak memiliki kontrol keamanan memadai.
+    ~Karyawan akan menjadi terlalu pintar dalam menggunakan teknologi.
+    ~Departemen IT akan kekurangan pekerjaan harian.
+    ~Biaya lisensi perangkat lunak resmi akan menjadi lebih murah.
+}
+
+::Q454:: "Demilitarized Zone" (DMZ) dalam arsitektur jaringan berfungsi untuk: {
+    =Menempatkan layanan publik secara terpisah dari jaringan internal.
+    ~Menyediakan area bagi staf untuk beristirahat dan bermain game.
+    ~Menyimpan cadangan data yang paling rahasia secara fisik.
+    ~Menghubungkan seluruh kantor cabang melalui satelit luar angkasa.
+}
+
+::Q455:: Manakah yang merupakan contoh "Logical Access Control"? {
+    =Implementasi sistem kontrol akses berbasis peran (RBAC).
+    ~Pemasangan gembok fisik pada rak server.
+    ~Penjaga keamanan yang memeriksa tanda pengenal di lobi.
+    ~Penggunaan lemari besi tahan api untuk menyimpan kaset backup.
+}
+
+::Q456:: Auditor SI menemukan bahwa "Sensitive Logs" tidak dilindungi dari modifikasi. Risiko utamanya adalah: {
+    =Penyerang dapat menghapus atau mengubah log untuk menutupi jejak mereka.
+    ~Log akan otomatis terhapus jika kapasitas hard disk penuh.
+    ~Staf administrasi tidak akan bisa mencetak laporan aktivitas harian.
+    ~Sistem operasi akan menjadi tidak stabil dan sering mengalami crash.
+}
+
+::Q457:: Apa yang dimaksud dengan "Non-repudiation"? {
+    =Ketidakmampuan pengirim untuk menyangkal bahwa mereka mengirim pesan tersebut.
+    ~Kemampuan sistem untuk tetap berjalan meskipun ada kegagalan komponen.
+    ~Kecepatan sistem dalam memulihkan data setelah serangan siber.
+    ~Hak pengguna untuk menolak kebijakan keamanan yang baru.
+}
+
+::Q458:: "Endpoint Security" berfokus pada perlindungan: {
+    =Perangkat pengguna akhir seperti laptop, ponsel, dan workstation.
+    ~Kabel jaringan utama yang menghubungkan antar gedung.
+    ~Sistem pendingin udara pusat di dalam gedung kantor.
+    ~Hubungan antara perusahaan dengan penyedia layanan internet.
+}
+
+::Q459:: Manakah yang merupakan risiko dari penggunaan "Public Key Infrastructure" (PKI)? {
+    =Kompromi pada Kunci Peribadi dari Otoritas Sertifikat (CA).
+    ~Pengguna kehilangan kunci publik mereka di internet.
+    ~Sertifikat digital menjadi terlalu berat untuk dikirim melalui email.
+    ~Penggunaan PKI mengharuskan semua karyawan memiliki gelar sarjana IT.
+}
+
+::Q460:: Auditor SI menemukan bahwa "Remote Access" dilakukan melalui protokol yang tidak terenkripsi. Rekomendasi utamanya adalah: {
+    =Beralih menggunakan protokol yang aman dan terenkripsi seperti SSH.
+    ~Melarang semua bentuk akses jarak jauh secara permanen.
+    ~Meminta pengguna untuk mengetik lebih cepat.
+    ~Mengganti kata sandi setiap satu jam sekali.
+}
+
+::Q461:: Apa fungsi dari "Address Resolution Protocol" (ARP) Spoofing? {
+    =Mengalihkan lalu lintas data di jaringan lokal ke perangkat penyerang.
+    ~Mengubah alamat rumah karyawan di dalam database HR.
+    ~Mempercepat resolusi nama domain menjadi alamat IP.
+    ~Mencegah virus menyebar dari satu komputer ke komputer lain.
+}
+
+::Q462:: "Hashing" digunakan dalam keamanan informasi terutama untuk: {
+    =Menjamin integritas data (memastikan data tidak berubah).
+    ~Menyembunyikan isi pesan agar tetap rahasia.
+    ~Memulihkan data yang sudah terhapus secara permanen.
+    ~Mengompres file besar menjadi ukuran yang sangat kecil.
+}
+
+::Q463:: Manakah dari berikut ini yang merupakan indikator adanya "Advanced Persistent Threat" (APT)? {
+    =Aktivitas jaringan yang tidak biasa dan berlangsung dalam jangka waktu lama.
+    ~Munculnya iklan pop-up yang mengganggu pada browser pengguna.
+    ~Komputer berjalan sedikit lambat saat baru dinyalakan.
+    ~Lampu indikator pada router berkedip dengan warna hijau.
+}
+
+::Q464:: Apa risiko utama dari "Internet of Things" (IoT) di lingkungan perusahaan? {
+    =Banyak perangkat IoT tidak memiliki fitur keamanan bawaan yang kuat.
+    ~Perangkat IoT akan menghabiskan jatah makanan di kantin perusahaan.
+    ~Setiap perangkat IoT memerlukan satu alamat IP publik yang mahal.
+    ~Perangkat IoT hanya bisa dikendalikan menggunakan suara manusia.
+}
+
+::Q465:: "War Driving" adalah aktivitas yang bertujuan untuk: {
+    =Mencari jaringan nirkabel yang tidak aman sambil berkendara.
+    ~Menguji kekuatan fisik ban kendaraan operasional perusahaan.
+    ~Mengirimkan bantuan logistik ke daerah bencana menggunakan truk.
+    ~Melakukan balapan komputer antar departemen di perusahaan.
+}
+
+::Q466:: Auditor SI menemukan bahwa "Security Patches" tidak segera diinstal pada server kritis. Tindakan terbaik adalah: {
+    =Meninjau proses manajemen patch dan melakukan penilaian risiko kerentanan.
+    ~Segera menginstal semua patch secara otomatis tanpa pengujian.
+    ~Mengabaikan hal tersebut jika tidak ada laporan serangan baru-baru ini.
+    ~Mematikan server tersebut sampai patch selesai diunduh.
+}
+
+::Q467:: Apa tujuan dari "Data Sanitization" sebelum membuang media penyimpanan? {
+    =Memastikan data lama tidak dapat dipulihkan dengan teknik apa pun.
+    ~Membersihkan debu dan kotoran fisik pada permukaan hard disk.
+    ~Mengatur ulang urutan file agar media terlihat seperti baru.
+    ~Memberikan label "Kosong" pada bagian luar media penyimpanan.
+}
+
+::Q468:: "Cross-Site Scripting" (XSS) terjadi ketika penyerang: {
+    =Menyuntikkan skrip berbahaya ke dalam situs web yang dipercaya oleh pengguna.
+    ~Memutus kabel internet yang menghubungkan dua gedung kantor.
+    ~Mengirim jutaan email sampah ke alamat pribadi manajer.
+    ~Mencuri password melalui rekaman kamera CCTV di lobi.
+}
+
+::Q469:: Manakah yang merupakan contoh "Environmental Control" yang melindungi aset informasi? {
+    =Sistem pemadam api otomatis dan sensor suhu/kelembaban.
+    ~Kebijakan yang mewajibkan karyawan menanam pohon di kantor.
+    ~Penggunaan tinta printer yang ramah lingkungan.
+    ~Larangan penggunaan plastik sekali pakai di departemen IT.
+}
+
+::Q470:: Apa risiko utama dari "Full Disk Encryption" (FDE)? {
+    =Jika kunci dekripsi hilang, seluruh data di dalam disk tidak dapat diakses selamanya.
+    ~FDE akan membuat hard disk berputar lebih cepat dan cepat rusak.
+    ~Data yang terenkripsi akan memakan ruang dua kali lebih besar di disk.
+    ~Sistem operasi tidak akan bisa melakukan pembaruan otomatis.
+}
+
+::Q471:: Auditor SI harus memverifikasi bahwa "Sensitive Information" di layar monitor tidak terlihat oleh orang luar. Kontrol ini disebut: {
+    =Screen Privacy Filters.
+    ~Data Masking.
+    ~Network Segmentation.
+    ~Physical Bollards.
+}
+
+::Q472:: "Brute Force Attack" adalah metode untuk memecahkan kata sandi dengan cara: {
+    =Mencoba setiap kombinasi karakter yang mungkin sampai berhasil.
+    ~Mengancam admin sistem agar memberikan kata sandi secara paksa.
+    ~Mencuri buku catatan pribadi pengguna di bawah meja.
+    ~Menebak kata sandi berdasarkan tanggal lahir pengguna.
+}
+
+::Q473:: Apa fungsi dari "Tokenization" dalam perlindungan data kartu kredit? {
+    =Mengganti data sensitif dengan nilai pengganti (token) yang tidak berarti.
+    ~Membagi satu kartu kredit menjadi beberapa bagian kecil untuk keamanan.
+    ~Mengharuskan pengguna membayar menggunakan koin fisik saat bertransaksi.
+    ~Membatasi jumlah transaksi maksimal per hari bagi setiap pengguna.
+}
+
+::Q474:: Manakah dari berikut ini yang merupakan risiko dari "Anonymity" di internet bagi organisasi? {
+    =Kesulitan dalam melacak identitas pelaku serangan siber.
+    ~Karyawan akan merasa lebih bebas untuk bekerja dari rumah.
+    ~Biaya langganan internet akan menjadi lebih mahal bagi perusahaan.
+    ~Nama perusahaan tidak akan muncul di hasil pencarian Google.
+}
+
+::Q475:: "Security Awareness Training" harus dilakukan secara rutin karena: {
+    =Ancaman dan teknik serangan terus berkembang, dan manusia adalah titik terlemah.
+    ~Peraturan pemerintah mewajibkan karyawan menghafal 100 pasal keamanan.
+    ~Karyawan cenderung lupa cara login jika tidak dilatih setiap minggu.
+    ~Pelatihan rutin dapat mengurangi biaya listrik di ruang kantor.
+}
+
+::Q476:: Auditor SI menemukan bahwa "Firewall Rules" tidak ditinjau selama dua tahun. Risiko utamanya adalah: {
+    =Adanya aturan yang sudah tidak relevan atau terlalu longgar yang membuka celah keamanan.
+    ~Perangkat firewall akan otomatis berhenti berfungsi karena debu digital.
+    ~Kecepatan internet akan meningkat secara ilegal di luar kendali.
+    ~Vendor firewall akan berhenti memberikan dukungan teknis selamanya.
+}
+
+::Q477:: "Zero Trust Architecture" didasarkan pada prinsip: {
+    =Jangan pernah percaya, selalu verifikasi setiap permintaan akses.
+    ~Percaya kepada semua karyawan internal, tetapi curigai orang luar.
+    ~Jangan pernah menggunakan komputer untuk menyimpan data rahasia.
+    ~Berikan kepercayaan penuh kepada vendor pihak ketiga yang sudah lama bekerja sama.
+}
+
+::Q478:: Apa risiko utama dari "Rooting" atau "Jailbreaking" pada perangkat seluler perusahaan? {
+    =Menghilangkan fitur keamanan bawaan sistem operasi dan meningkatkan risiko malware.
+    ~Membuat baterai perangkat menjadi tahan lama hingga satu bulan.
+    ~Memungkinkan perangkat untuk menelepon tanpa menggunakan pulsa.
+    ~Mengubah warna casing perangkat secara otomatis secara digital.
+}
+
+::Q479:: "Data Masking" digunakan terutama untuk: {
+    =Melindungi data sensitif saat digunakan untuk pengujian.
+    ~Menyembunyikan kabel-kabel jaringan agar ruang server terlihat rapi.
+    ~Mencegah pengguna melihat layar monitor saat mereka sedang makan.
+    ~Menghapus data yang sudah tidak digunakan lagi dari pangkalan data.
+}
+
+::Q480:: Manakah yang merupakan indikator terbaik dari "Security Incident Response" yang efektif? {
+    =Waktu rata-rata untuk mendeteksi dan memitigasi dampak insiden (MTTD/MTTR).
+    ~Jumlah total virus yang berhasil dihapus oleh antivirus setiap hari.
+    ~Banyaknya karyawan yang mendapatkan sertifikat keamanan siber.
+    ~Kecepatan manajer keamanan dalam menjawab email dari direksi.
+}
+
+::Q481:: Manakah dari berikut ini yang merupakan keuntungan utama dari enkripsi asimetris dibandingkan enkripsi simetris? {
+    =Kemudahan dalam distribusi kunci karena tidak memerlukan saluran aman untuk berbagi kunci publik.
+    ~Kecepatan pemrosesan yang jauh lebih tinggi untuk volume data yang besar.
+    ~Penggunaan algoritma yang lebih sederhana.
+    ~Tidak memerlukan daya komputasi yang tinggi pada perangkat seluler.
+}
+
+::Q482:: Apa yang dimaksud dengan "Cold Site" dalam konteks pemulihan aset informasi? {
+    =Fasilitas fisik yang memiliki listrik dan pendingin, tetapi tanpa perangkat keras komputer yang siap pakai.
+    ~Pusat data cadangan yang suhunya dijaga di bawah titik beku.
+    ~Lokasi yang sudah memiliki data operasional yang tersinkronisasi secara real-time.
+    ~Gedung kantor yang hanya digunakan selama musim hujan atau badai.
+}
+
+::Q483:: Auditor SI menemukan bahwa organisasi tidak memiliki "Security Baseline". Risiko utamanya adalah: {
+    =Ketidakkonsistenan dalam pengaturan keamanan yang dapat meninggalkan celah pada sistem tertentu.
+    ~Sistem operasi akan otomatis berhenti berfungsi jika tidak ada panduan konfigurasi.
+    ~Biaya lisensi perangkat lunak antivirus akan meningkat secara otomatis setiap tahun.
+    ~Karyawan akan kehilangan motivasi untuk mematuhi kebijakan keamanan informasi.
+}
+
+::Q484:: "Digital Signature" memberikan jaminan atas hal berikut, KECUALI: {
+    =Kerahasiaan pesan (Confidentiality).
+    ~Integritas pesan (Integrity).
+    ~Keaslian pengirim (Authentication).
+    ~Anti-penyangkalan (Non-repudiation).
+}
+
+::Q485:: Manakah yang merupakan contoh kontrol akses fisik yang menggunakan karakteristik perilaku manusia? {
+    =Dinamika tanda tangan (Signature dynamics).
+    ~Imbasan sidik jari (Fingerprint scan).
+    ~Pola pembuluh darah (Vein pattern).
+    ~Struktur geometri wajah (Face geometry).
+}
+
+::Q486:: Apa tujuan utama dari "Security Information and Event Management" (SIEM)? {
+    =Analisis log secara real-time untuk memberikan peringatan dini atas ancaman keamanan.
+    ~Menyimpan semua email karyawan untuk keperluan pengawasan kinerja harian.
+    ~Mengatur jadwal pembersihan fisik di ruang pusat data utama.
+    ~Menghitung total nilai aset perangkat keras organisasi secara otomatis.
+}
+
+::Q487:: "Honey Pot" adalah alat keamanan yang dirancang untuk: {
+    =Menarik dan menjebak penyerang agar aktivitas mereka dapat dipelajari tanpa risiko pada sistem produksi.
+    ~Memberikan bonus hadiah berupa uang kepada karyawan yang paling patuh pada kebijakan.
+    ~Menyaring seluruh email sampah (spam) sebelum masuk ke kotak masuk pengguna.
+    ~Mempercepat proses enkripsi pangkalan data yang sangat besar.
+}
+
+::Q488:: Manakah dari berikut ini yang merupakan indikator terbaik dari efektivitas program kesadaran keamanan (Security Awareness)? {
+    =Penurunan jumlah staf yang mengklik tautan dalam simulasi serangan phishing.
+    ~Jumlah total poster keamanan yang ditempelkan di dinding kantor.
+    ~Banyaknya karyawan yang memiliki latar belakang pendidikan di bidang IT.
+    ~Kecepatan manajer keamanan dalam merespons email dari direksi.
+}
+
+::Q489:: "Steganography" berbeda dengan enkripsi karena steganografi: {
+    =Menyembunyikan keberadaan pesan itu sendiri di dalam media lain.
+    ~Mengubah teks asli menjadi kode yang tidak dapat dibaca (ciphertext).
+    ~Memerlukan kunci publik untuk membuka pesan yang tersembunyi.
+    ~Hanya dapat digunakan untuk file audio dan video berkualitas tinggi.
+}
+
+::Q490:: Apa risiko utama dari penggunaan protokol "WPA2-PSK" dengan kata sandi yang lemah? {
+    =Mudah ditembus menggunakan serangan Brute Force atau Dictionary Attack.
+    ~Jangkauan sinyal Wi-Fi akan menjadi sangat terbatas hanya dalam satu ruangan.
+    ~Perangkat yang terhubung akan mengalami kerusakan baterai secara permanen.
+    ~Data yang dikirim akan otomatis terhapus jika sinyal terputus mendadak.
+}
+
+::Q491:: Manakah yang merupakan peran auditor SI dalam peninjauan manajemen identitas (Identity Management)? {
+    =Memastikan proses pembuatan, pengubahan, dan penghapusan akun (lifecycle) terkontrol dengan baik.
+    ~Menulis kode program untuk sistem otentikasi biometrik perusahaan.
+    ~Menentukan siapa yang berhak menjadi admin sistem di departemen pemasaran.
+    ~Menyimpan salinan kata sandi semua pengguna di dalam brankas audit.
+}
+
+::Q492:: "Data At Rest" mengacu pada data yang: {
+    =Disimpan secara permanen pada media penyimpanan seperti hard disk atau tape.
+    ~Sedang dikirimkan melalui jaringan kabel area lokal (LAN).
+    ~Sedang diproses di dalam memori akses acak (RAM) komputer.
+    ~Sudah tidak digunakan lagi dan siap untuk dihapus secara permanen.
+}
+
+::Q493:: "Multi-factor Authentication" (MFA) dianggap lebih aman karena: {
+    =Memerlukan lebih dari satu kategori bukti identitas untuk memberikan akses.
+    ~Hanya memerlukan satu kata sandi yang sangat panjang dan rumit.
+    ~Dapat dilakukan tanpa memerlukan koneksi internet atau jaringan seluler.
+    ~Harganya jauh lebih murah daripada sistem otentikasi satu faktor.
+}
+
+::Q494:: Manakah yang merupakan contoh "Corrective Control" setelah terjadi pelanggaran data? {
+    =Melakukan investigasi forensik untuk mengidentifikasi lubang keamanan yang dieksploitasi.
+    ~Pemasangan kamera CCTV tambahan di koridor menuju ruang server.
+    ~Pewajiban penggunaan kartu identitas bagi setiap tamu yang berkunjung.
+    ~Enkripsi data sensitif yang disimpan di dalam pangkalan data utama.
+}
+
+::Q495:: "Privileged User Monitoring" sangat penting karena: {
+    =Akun administrator memiliki kekuasaan besar untuk mengubah atau menghapus data dan kontrol.
+    ~Staf IT cenderung malas jika tidak dipantau melalui log aktivitas harian.
+    ~Administrator pangkalan data sering kali lupa cara melakukan tugas harian mereka.
+    ~Biaya lisensi sistem operasi bergantung pada seberapa sering administrator login.
+}
+
+::Q496:: Apa risiko utama dari "Internet of Things" (IoT) yang terhubung ke jaringan korporat? {
+    =Perangkat IoT sering kali memiliki kerentanan yang tidak dapat diperbaiki (unpatchable).
+    ~Perangkat IoT akan mengonsumsi daya listrik yang sangat besar dari gedung kantor.
+    ~Data yang dikirim oleh perangkat IoT selalu bersifat rahasia dan tidak dapat dienkripsi.
+    ~Setiap perangkat IoT memerlukan satu orang administrator khusus untuk mengawasinya.
+}
+
+::Q497:: Auditor SI ditemukan bahwa kaset backup tidak disimpan dalam wadah tahan api. Risikonya adalah: {
+    =Data cadangan dapat musnah secara permanen jika terjadi kebakaran di lokasi penyimpanan.
+    ~Data di dalam kaset akan terhapus secara otomatis oleh suhu ruangan yang sejuk.
+    ~Kaset backup tidak akan bisa dimasukkan ke dalam mesin pembaca data.
+    ~Kecepatan pemulihan data akan menjadi sangat lambat saat dibutuhkan.
+}
+
+::Q498:: "Succession Planning" dalam keamanan informasi bertujuan untuk: {
+    =Memastikan adanya personel yang siap mengganti peran keamanan kritis jika terjadi pengunduran diri mendadak.
+    ~Menentukan siapa yang akan menjadi pemenang dalam lomba inovasi keamanan siber tahunan.
+    ~Mengatur jadwal liburan bagi seluruh staf di departemen keamanan informasi.
+    ~Menghitung total masa kerja karyawan hingga mereka mencapai usia pensiun.
+}
+
+::Q499:: Manakah dari berikut ini yang merupakan ancaman "Environmental" bagi pusat data? {
+    =Kegagalan sistem pendingin yang menyebabkan server mati karena suhu panas (overheat).
+    ~Serangan virus yang masuk melalui lampiran email yang dikirim oleh penjahat siber.
+    ~Kesalahan pengetikan data identitas pelanggan oleh staf administrasi yang baru direkrut.
+    ~Pencurian laptop milik direktur perusahaan saat ditinggalkan di dalam mobil.
+}
+
+::Q500:: Hasil akhir dari perlindungan aset informasi yang efektif adalah: {
+    =Risiko terhadap aset informasi berada pada tingkat yang dapat diterima oleh manajemen.
+    ~Hilangnya seluruh risiko keamanan informasi dari lingkungan organisasi secara total.
+    ~Pengalihan seluruh tanggung jawab keamanan kepada vendor asuransi pihak ketiga.
+    ~Tidak diperlukannya lagi pengujian keamanan berkala karena sistem dianggap sudah sempurna.
+}
